@@ -22,8 +22,23 @@ def hisse_verilerini_cek():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    # remote debugging port opsiyonel, eklenebilir
 
-    driver = webdriver.Chrome(options=chrome_options)
+    from selenium.webdriver.chrome.service import Service
+    import os
+    driver_path = os.environ.get("CHROME_DRIVER_PATH", "/usr/bin/chromedriver")
+    service = Service(driver_path)
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    # ... geri kalan aynı
+
+    from selenium.webdriver.chrome.service import Service
+import os
+
+    # ChromeDriver yolunu ortam değişkeninden al, yoksa varsayılanı kullan
+    driver_path = os.environ.get("CHROME_DRIVER_PATH", "/usr/bin/chromedriver")
+    service = Service(driver_path)
+    driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
     time.sleep(5)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
