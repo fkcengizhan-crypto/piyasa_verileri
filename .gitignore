@@ -1,0 +1,19 @@
+# Gereksiz Python dosyaları
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# Çıktı dosyaları (isteğe bağlı, yüklemek istemezseniz)
+piyasa_verileri.xlsx
+piyasa_verileri.json
+hisse_fiyat.xlsx
+hisse_fiyat.json
+tefas_fon_fiyat.xlsx
+tefas_fon_fiyat.json
+
+# IDE ayarları
+.vscode/
+.idea/
