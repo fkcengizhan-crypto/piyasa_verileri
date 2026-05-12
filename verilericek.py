@@ -1,11 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import time
 from datetime import datetime
 import json
+import os
 
 # ----------------------------- HİSSE VERİLERİ -----------------------------
 def turkce_sayi_cevir(deger):
@@ -23,22 +25,12 @@ def hisse_verilerini_cek():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
-    # remote debugging port opsiyonel, eklenebilir
 
-    from selenium.webdriver.chrome.service import Service
-    import os
+    # GitHub Actions ortamında Chromium driver'ı kullan
     driver_path = os.environ.get("CHROME_DRIVER_PATH", "/usr/bin/chromedriver")
     service = Service(driver_path)
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    # ... geri kalan aynı
 
-    from selenium.webdriver.chrome.service import Service
-import os
-
-    # ChromeDriver yolunu ortam değişkeninden al, yoksa varsayılanı kullan
-    driver_path = os.environ.get("CHROME_DRIVER_PATH", "/usr/bin/chromedriver")
-    service = Service(driver_path)
-    driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
     time.sleep(5)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -112,9 +104,7 @@ if __name__ == "__main__":
     print(f"{len(df_fon)} fon bulundu.")
 
     # Excel: Hisse | boş sütun | Fon şeklinde yan yana birleştirme
-    # Araya boş bir sütun ekleyelim
     bos_sutun = pd.DataFrame({"" : [""] * max(len(df_hisse), len(df_fon))})
-    # İki DataFrame'i sıfırlayıp index'i eşitleyelim
     df_hisse = df_hisse.reset_index(drop=True)
     df_fon = df_fon.reset_index(drop=True)
     bos_sutun = bos_sutun.reset_index(drop=True)
@@ -124,7 +114,7 @@ if __name__ == "__main__":
         birlesik_df.to_excel(writer, sheet_name="Piyasa Verileri", index=False)
     print("Veriler 'piyasa_verileri.xlsx' dosyasına kaydedildi (tek sayfa, yan yana).")
 
-    # JSON çıktısı aynı
+    # JSON çıktısı
     json_data = {
         "hisseler": df_hisse.to_dict(orient="records"),
         "fonlar": df_fon.to_dict(orient="records")
