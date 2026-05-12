@@ -28,7 +28,7 @@ jobs:
           sudo apt-get install -y chromium-browser chromium-chromedriver
 
       - name: Scripti çalıştır
-        run: python piyasa_verileri.py
+        run: python verilericek.py
 
       - name: Çıktıları sakla (artifact)
         uses: actions/upload-artifact@v4
