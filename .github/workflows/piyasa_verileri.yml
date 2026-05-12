@@ -5,6 +5,9 @@ on:
     - cron: '0 15 * * 1-5'
   workflow_dispatch:
 
+permissions:
+  contents: write  # ✅ Push yetkisi için gerekli
+
 jobs:
   build:
     runs-on: ubuntu-latest
