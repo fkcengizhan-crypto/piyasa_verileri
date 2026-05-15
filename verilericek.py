@@ -26,10 +26,13 @@ def hisse_verilerini_cek():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
 
-    # GitHub Actions ortamında Chromium driver'ı kullan
-    driver_path = os.environ.get("CHROME_DRIVER_PATH", "/usr/bin/chromedriver")
-    service = Service(driver_path)
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    # Selenium 4+ chromedriver'ı otomatik yönetir (Windows/Linux/Mac uyumlu)
+    driver_path = os.environ.get("CHROME_DRIVER_PATH")
+    if driver_path:
+        service = Service(driver_path)
+        driver = webdriver.Chrome(service=service, options=chrome_options)
+    else:
+        driver = webdriver.Chrome(options=chrome_options)
 
     driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
     time.sleep(5)
