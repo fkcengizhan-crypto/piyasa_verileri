@@ -103,16 +103,11 @@ if __name__ == "__main__":
     df_fon = fon_verilerini_cek()
     print(f"{len(df_fon)} fon bulundu.")
 
-    # Excel: Hisse | boş sütun | Fon şeklinde yan yana birleştirme
-    bos_sutun = pd.DataFrame({"" : [""] * max(len(df_hisse), len(df_fon))})
-    df_hisse = df_hisse.reset_index(drop=True)
-    df_fon = df_fon.reset_index(drop=True)
-    bos_sutun = bos_sutun.reset_index(drop=True)
-    birlesik_df = pd.concat([df_hisse, bos_sutun, df_fon], axis=1)
-
-    with pd.ExcelWriter("piyasa_verileri.xlsx") as writer:
-        birlesik_df.to_excel(writer, sheet_name="Piyasa Verileri", index=False)
-    print("Veriler 'piyasa_verileri.xlsx' dosyasına kaydedildi (tek sayfa, yan yana).")
+    # Excel: Aynı sayfada A1'den fon tablosu, boş sütun, ardından hisse tablosu
+    with pd.ExcelWriter("piyasa_verileri.xlsx", engine="openpyxl") as writer:
+        df_fon.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=0)
+        df_hisse.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=len(df_fon.columns) + 1)
+    print("Veriler 'piyasa_verileri.xlsx' dosyasına kaydedildi (tek sayfa: A1'den fon, boş sütun, ardından hisse).")
 
     # JSON çıktısı
     json_data = {
