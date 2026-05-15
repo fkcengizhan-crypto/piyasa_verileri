@@ -29,6 +29,9 @@ jobs:
           sudo apt-get install -y chromium-browser chromium-chromedriver
 
       - name: Scripti çalıştır
+        env:
+          CHROME_DRIVER_PATH: /usr/bin/chromedriver
+          CHROME_BINARY_PATH: /usr/bin/chromium-browser
         run: python verilericek.py
 
       - name: Dosyaları depoya ekle ve commit et

@@ -26,7 +26,12 @@ def hisse_verilerini_cek():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
 
-    # Selenium 4+ chromedriver'ı otomatik yönetir (Windows/Linux/Mac uyumlu)
+    # Chrome/Chromium binary konumu (GitHub Actions için)
+    chrome_binary = os.environ.get("CHROME_BINARY_PATH")
+    if chrome_binary:
+        chrome_options.binary_location = chrome_binary
+
+    # ChromeDriver konumu (ortam değişkeni varsa kullan, yoksa Selenium otomatik yönetir)
     driver_path = os.environ.get("CHROME_DRIVER_PATH")
     if driver_path:
         service = Service(driver_path)
