@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # ✅ Push yetkisi için gerekli
+  contents: write
 
 jobs:
   build:
@@ -21,17 +21,20 @@ jobs:
           python-version: '3.12'
 
       - name: Bağımlılıkları yükle
-        run: pip install -r requirements.txt
+        run: pip install selenium beautifulsoup4 pandas requests openpyxl
 
-      - name: Chrome ve ChromeDriver kurulumu
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
+      # ⚡ apt-get yerine saniyelik cache'li kurulum
+      - name: Chrome kurulumu (cache'li)
+        uses: browser-actions/setup-chrome@v1
+
+      - name: ChromeDriver kurulumu (cache'li)
+        uses: browser-actions/setup-chromedriver@v1
 
       - name: Scripti çalıştır
         env:
-          CHROME_DRIVER_PATH: /usr/bin/chromedriver
-          CHROME_BINARY_PATH: /usr/bin/chromium-browser
+          # Bu action'ların sağladığı ortam değişkenlerini betiğinizin beklediği isimlere eşitliyoruz
+          CHROME_DRIVER_PATH: ${{ env.CHROMEDRIVER_PATH }}
+          CHROME_BINARY_PATH: ${{ env.CHROME_PATH }}
         run: python verilericek.py
 
       - name: Dosyaları depoya ekle ve commit et
