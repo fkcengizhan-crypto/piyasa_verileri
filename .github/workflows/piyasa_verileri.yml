@@ -2,13 +2,12 @@ name: Piyasa Verilerini Güncelle
 
 on:
   schedule:
-    - cron: '0 15 * * 1-5'   # Hafta içi her gün saat 15:00'te
-  workflow_dispatch:          # Manuel tetikleme
+    - cron: '0 15 * * 1-5'
+  workflow_dispatch:
 
 permissions:
-  contents: write             # Depoya yazma yetkisi
+  contents: write
 
-# Aynı anda sadece bir iş akışı çalışsın
 concurrency:
   group: piyasa-guncelleme
   cancel-in-progress: true
@@ -29,19 +28,38 @@ jobs:
       - name: Bağımlılıkları yükle
         run: pip install selenium beautifulsoup4 pandas requests openpyxl
 
-      # Hızlı Chrome ve ChromeDriver kurulumu (cache destekli)
-      - name: Chrome kurulumu (cache'li)
-        uses: browser-actions/setup-chrome@v1
+      # Chrome ve ChromeDriver için APT paketlerini cache'le
+      - name: Chrome ve ChromeDriver paketlerini cache'le
+        id: cache-chrome
+        uses: actions/cache@v4
+        with:
+          path: |
+            /var/cache/apt/archives/*.deb
+            /usr/bin/chromium-browser
+            /usr/bin/chromedriver
+          key: chrome-apt-${{ runner.os }}-${{ hashFiles('.github/workflows/*.yml') }}
 
-      - name: ChromeDriver kurulumu (cache'li)
-        uses: browser-actions/setup-chromedriver@v1
+      - name: Chrome ve ChromeDriver'ı kur (cache yoksa indir)
+        if: steps.cache-chrome.outputs.cache-hit != 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+
+      # Cache varsa, chromedriver'ı PATH'e ekle (zaten /usr/bin altında)
+      - name: Cache varsa kurulumu doğrula
+        if: steps.cache-chrome.outputs.cache-hit == 'true'
+        run: |
+          if [ ! -f /usr/bin/chromium-browser ]; then
+            echo "Cache'ten yüklenemedi, yeniden kuruluyor..."
+            sudo apt-get update
+            sudo apt-get install -y chromium-browser chromium-chromedriver
+          fi
+          sudo ln -sf /usr/bin/chromium-browser /usr/bin/google-chrome  # bazı scriptler google-chrome arar
 
       - name: Scripti çalıştır
         env:
-          # Bu action'lar CHROME_PATH ve CHROMEDRIVER_PATH ortam değişkenlerini otomatik ayarlar.
-          # Betiğinizin beklediği isimlerle eşleştiriyoruz.
-          CHROME_DRIVER_PATH: ${{ env.CHROMEDRIVER_PATH }}
-          CHROME_BINARY_PATH: ${{ env.CHROME_PATH }}
+          CHROME_DRIVER_PATH: /usr/bin/chromedriver
+          CHROME_BINARY_PATH: /usr/bin/chromium-browser
         run: python verilericek.py
 
       - name: Dosyaları depoya ekle ve commit et
@@ -50,7 +68,6 @@ jobs:
           git config user.email "actions@github.com"
           git add -f piyasa_verileri.xlsx piyasa_verileri.json
           git commit -m "Veriler güncellendi (otomatik)" || echo "Değişiklik yok"
-          # Önce uzaktaki yeni commit'leri al, sonra push et
           git pull --rebase origin main
           git push
 
