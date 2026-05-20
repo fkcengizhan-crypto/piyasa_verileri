@@ -8,43 +8,38 @@ on:
 permissions:
   contents: write
 
+concurrency:                     # ← eklendi
+  group: piyasa-guncelleme
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - name: Python kurulumu
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Bağımlılıkları yükle
         run: pip install selenium beautifulsoup4 pandas requests openpyxl
-
-      # ⚡ apt-get yerine saniyelik cache'li kurulum
       - name: Chrome kurulumu (cache'li)
         uses: browser-actions/setup-chrome@v1
-
       - name: ChromeDriver kurulumu (cache'li)
         uses: browser-actions/setup-chromedriver@v1
-
       - name: Scripti çalıştır
         env:
-          # Bu action'ların sağladığı ortam değişkenlerini betiğinizin beklediği isimlere eşitliyoruz
           CHROME_DRIVER_PATH: ${{ env.CHROMEDRIVER_PATH }}
           CHROME_BINARY_PATH: ${{ env.CHROME_PATH }}
         run: python verilericek.py
-
       - name: Dosyaları depoya ekle ve commit et
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -f piyasa_verileri.xlsx piyasa_verileri.json
           git commit -m "Veriler güncellendi (otomatik)" || echo "Değişiklik yok"
+          git pull --rebase origin main   # ← eklenen satır
           git push
-
       - name: Çıktıları sakla (artifact)
         uses: actions/upload-artifact@v4
         with:
