@@ -2,44 +2,58 @@ name: Piyasa Verilerini Güncelle
 
 on:
   schedule:
-    - cron: '0 15 * * 1-5'
-  workflow_dispatch:
+    - cron: '0 15 * * 1-5'   # Hafta içi her gün saat 15:00'te
+  workflow_dispatch:          # Manuel tetikleme
 
 permissions:
-  contents: write
+  contents: write             # Depoya yazma yetkisi
 
-concurrency:                     # ← eklendi
+# Aynı anda sadece bir iş akışı çalışsın
+concurrency:
   group: piyasa-guncelleme
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Depoyu klonla
+        uses: actions/checkout@v4
+
       - name: Python kurulumu
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Bağımlılıkları yükle
         run: pip install selenium beautifulsoup4 pandas requests openpyxl
+
+      # Hızlı Chrome ve ChromeDriver kurulumu (cache destekli)
       - name: Chrome kurulumu (cache'li)
         uses: browser-actions/setup-chrome@v1
+
       - name: ChromeDriver kurulumu (cache'li)
         uses: browser-actions/setup-chromedriver@v1
+
       - name: Scripti çalıştır
         env:
+          # Bu action'lar CHROME_PATH ve CHROMEDRIVER_PATH ortam değişkenlerini otomatik ayarlar.
+          # Betiğinizin beklediği isimlerle eşleştiriyoruz.
           CHROME_DRIVER_PATH: ${{ env.CHROMEDRIVER_PATH }}
           CHROME_BINARY_PATH: ${{ env.CHROME_PATH }}
         run: python verilericek.py
+
       - name: Dosyaları depoya ekle ve commit et
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -f piyasa_verileri.xlsx piyasa_verileri.json
           git commit -m "Veriler güncellendi (otomatik)" || echo "Değişiklik yok"
-          git pull --rebase origin main   # ← eklenen satır
+          # Önce uzaktaki yeni commit'leri al, sonra push et
+          git pull --rebase origin main
           git push
+
       - name: Çıktıları sakla (artifact)
         uses: actions/upload-artifact@v4
         with:
