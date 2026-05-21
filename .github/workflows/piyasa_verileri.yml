@@ -2,10 +2,9 @@ name: Piyasa Verilerini Çek
 
 on:
   schedule:
-    # Her iş günü 09:15 ve 18:45 UTC+3 → UTC cinsinden 06:15 ve 15:45
-    - cron: "15 6 * * 1-5"
-    - cron: "45 15 * * 1-5"
-  workflow_dispatch: # Manuel tetikleme
+    - cron: "15 6 * * 1-5"   # 09:15 TR (UTC+3)
+    - cron: "45 15 * * 1-5"  # 18:45 TR (UTC+3)
+  workflow_dispatch:
 
 jobs:
   veri-cek:
@@ -17,30 +16,19 @@ jobs:
       CHROME_DRIVER_PATH: /usr/local/bin/chromedriver
 
     steps:
-      # ── 1. Kaynak kodu al ──────────────────────────────────────────────
       - name: Kodu al (checkout)
         uses: actions/checkout@v4
 
-      # ── 2. Python kur ─────────────────────────────────────────────────
       - name: Python 3.11 kur
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
+          cache-dependency-path: requirements.txt   # ← eksik olan satır buydu
 
-      # ── 3. Bağımlılıkları yükle ───────────────────────────────────────
       - name: Bağımlılıkları yükle
-        run: |
-          pip install --upgrade pip
-          pip install \
-            selenium \
-            beautifulsoup4 \
-            pandas \
-            requests \
-            openpyxl \
-            lxml
+        run: pip install --upgrade pip -r selenium beautifulsoup4 pandas requests openpyxl lxml
 
-      # ── 4. Google Chrome kur ──────────────────────────────────────────
       - name: Google Chrome kur
         run: |
           wget -q -O - https://dl.google.com/linux/linux_signing_key.pub \
@@ -51,50 +39,35 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y google-chrome-stable
 
-      # ── 5. ChromeDriver kur ───────────────────────────────────────────
+      - name: Chrome major sürümünü belirle
+        run: |
+          echo "CHROME_MAJOR=$(google-chrome-stable --version | grep -oP '\d+' | head -1)" \
+            >> $GITHUB_ENV
+
       - name: ChromeDriver kur
         run: |
-          CHROME_VER=$(google-chrome-stable --version | grep -oP '\d+\.\d+\.\d+\.\d+')
-          CHROME_MAJOR=$(echo "$CHROME_VER" | cut -d. -f1)
-          echo "Chrome sürümü: $CHROME_VER (major: $CHROME_MAJOR)"
-
-          # Chrome 115+ → Chrome for Testing endpoint
           DRIVER_URL=$(curl -s \
             "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json" \
-            | python3 - <<'EOF'
-          import sys, json
+            | python3 -c "
+          import sys, json, os
           data = json.load(sys.stdin)
-          import os
-          major = os.environ.get("CHROME_MAJOR", "")
-          versions = [v for v in data["versions"] if v["version"].split(".")[0] == major]
-          if not versions:
-              sys.exit(1)
+          major = os.environ['CHROME_MAJOR']
+          versions = [v for v in data['versions'] if v['version'].split('.')[0] == major]
           latest = versions[-1]
-          downloads = latest["downloads"].get("chromedriver", [])
-          url = next((d["url"] for d in downloads if d["platform"] == "linux64"), "")
+          downloads = latest['downloads'].get('chromedriver', [])
+          url = next((d['url'] for d in downloads if d['platform'] == 'linux64'), '')
           print(url)
-          EOF
-          )
+          ")
           echo "Driver URL: $DRIVER_URL"
           wget -q "$DRIVER_URL" -O chromedriver-linux64.zip
           unzip -q chromedriver-linux64.zip
           sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
           chromedriver --version
-        env:
-          CHROME_MAJOR: ${{ env.CHROME_MAJOR }}
 
-      # ── 5b. Chrome major env değişkenini aktar ────────────────────────
-      - name: Chrome major sürümünü belirle
-        run: |
-          echo "CHROME_MAJOR=$(google-chrome-stable --version | grep -oP '\d+' | head -1)" \
-            >> $GITHUB_ENV
-
-      # ── 6. Scripti çalıştır ───────────────────────────────────────────
       - name: Piyasa verilerini çek
         run: python verilericek.py
 
-      # ── 7. Çıktı dosyalarını artifact olarak sakla ────────────────────
       - name: Çıktıları artifact olarak yükle
         uses: actions/upload-artifact@v4
         if: always()
@@ -105,9 +78,8 @@ jobs:
             piyasa_verileri.json
           retention-days: 30
 
-      # ── 8. (Opsiyonel) Dosyaları repoya commit et ─────────────────────
-      # Bu adımı aktif etmek istiyorsanız aşağıdaki bloğun başındaki '#' işaretlerini kaldırın.
-      # Repo → Settings → Actions → Workflow permissions → "Read and write" seçili olmalı.
+      # Verileri repoya commit etmek için '#' işaretlerini kaldırın.
+      # Repo → Settings → Actions → Workflow permissions → "Read and write" olmalı.
       #
       # - name: Verileri repoya kaydet
       #   run: |
