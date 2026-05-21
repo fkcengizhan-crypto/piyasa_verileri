@@ -1,80 +1,118 @@
-name: Piyasa Verilerini Güncelle
+name: Piyasa Verilerini Çek
 
 on:
   schedule:
-    - cron: '0 15 * * 1-5'
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: piyasa-guncelleme
-  cancel-in-progress: true
+    # Her iş günü 09:15 ve 18:45 UTC+3 → UTC cinsinden 06:15 ve 15:45
+    - cron: "15 6 * * 1-5"
+    - cron: "45 15 * * 1-5"
+  workflow_dispatch: # Manuel tetikleme
 
 jobs:
-  build:
+  veri-cek:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      CHROME_BINARY_PATH: /usr/bin/google-chrome-stable
+      CHROME_DRIVER_PATH: /usr/local/bin/chromedriver
 
     steps:
-      - name: Depoyu klonla
+      # ── 1. Kaynak kodu al ──────────────────────────────────────────────
+      - name: Kodu al (checkout)
         uses: actions/checkout@v4
 
-      - name: Python kurulumu
+      # ── 2. Python kur ─────────────────────────────────────────────────
+      - name: Python 3.11 kur
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.11"
+          cache: pip
 
+      # ── 3. Bağımlılıkları yükle ───────────────────────────────────────
       - name: Bağımlılıkları yükle
-        run: pip install selenium beautifulsoup4 pandas requests openpyxl
-
-      # Chrome ve ChromeDriver için APT paketlerini cache'le
-      - name: Chrome ve ChromeDriver paketlerini cache'le
-        id: cache-chrome
-        uses: actions/cache@v4
-        with:
-          path: |
-            /var/cache/apt/archives/*.deb
-            /usr/bin/chromium-browser
-            /usr/bin/chromedriver
-          key: chrome-apt-${{ runner.os }}-${{ hashFiles('.github/workflows/*.yml') }}
-
-      - name: Chrome ve ChromeDriver'ı kur (cache yoksa indir)
-        if: steps.cache-chrome.outputs.cache-hit != 'true'
         run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
+          pip install --upgrade pip
+          pip install \
+            selenium \
+            beautifulsoup4 \
+            pandas \
+            requests \
+            openpyxl \
+            lxml
 
-      # Cache varsa, chromedriver'ı PATH'e ekle (zaten /usr/bin altında)
-      - name: Cache varsa kurulumu doğrula
-        if: steps.cache-chrome.outputs.cache-hit == 'true'
+      # ── 4. Google Chrome kur ──────────────────────────────────────────
+      - name: Google Chrome kur
         run: |
-          if [ ! -f /usr/bin/chromium-browser ]; then
-            echo "Cache'ten yüklenemedi, yeniden kuruluyor..."
-            sudo apt-get update
-            sudo apt-get install -y chromium-browser chromium-chromedriver
-          fi
-          sudo ln -sf /usr/bin/chromium-browser /usr/bin/google-chrome  # bazı scriptler google-chrome arar
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub \
+            | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] \
+            http://dl.google.com/linux/chrome/deb/ stable main" \
+            | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -qq
+          sudo apt-get install -y google-chrome-stable
 
-      - name: Scripti çalıştır
+      # ── 5. ChromeDriver kur ───────────────────────────────────────────
+      - name: ChromeDriver kur
+        run: |
+          CHROME_VER=$(google-chrome-stable --version | grep -oP '\d+\.\d+\.\d+\.\d+')
+          CHROME_MAJOR=$(echo "$CHROME_VER" | cut -d. -f1)
+          echo "Chrome sürümü: $CHROME_VER (major: $CHROME_MAJOR)"
+
+          # Chrome 115+ → Chrome for Testing endpoint
+          DRIVER_URL=$(curl -s \
+            "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json" \
+            | python3 - <<'EOF'
+          import sys, json
+          data = json.load(sys.stdin)
+          import os
+          major = os.environ.get("CHROME_MAJOR", "")
+          versions = [v for v in data["versions"] if v["version"].split(".")[0] == major]
+          if not versions:
+              sys.exit(1)
+          latest = versions[-1]
+          downloads = latest["downloads"].get("chromedriver", [])
+          url = next((d["url"] for d in downloads if d["platform"] == "linux64"), "")
+          print(url)
+          EOF
+          )
+          echo "Driver URL: $DRIVER_URL"
+          wget -q "$DRIVER_URL" -O chromedriver-linux64.zip
+          unzip -q chromedriver-linux64.zip
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+          sudo chmod +x /usr/local/bin/chromedriver
+          chromedriver --version
         env:
-          CHROME_DRIVER_PATH: /usr/bin/chromedriver
-          CHROME_BINARY_PATH: /usr/bin/chromium-browser
+          CHROME_MAJOR: ${{ env.CHROME_MAJOR }}
+
+      # ── 5b. Chrome major env değişkenini aktar ────────────────────────
+      - name: Chrome major sürümünü belirle
+        run: |
+          echo "CHROME_MAJOR=$(google-chrome-stable --version | grep -oP '\d+' | head -1)" \
+            >> $GITHUB_ENV
+
+      # ── 6. Scripti çalıştır ───────────────────────────────────────────
+      - name: Piyasa verilerini çek
         run: python verilericek.py
 
-      - name: Dosyaları depoya ekle ve commit et
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add -f piyasa_verileri.xlsx piyasa_verileri.json
-          git commit -m "Veriler güncellendi (otomatik)" || echo "Değişiklik yok"
-          git pull --rebase origin main
-          git push
-
-      - name: Çıktıları sakla (artifact)
+      # ── 7. Çıktı dosyalarını artifact olarak sakla ────────────────────
+      - name: Çıktıları artifact olarak yükle
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: piyasa-verileri
+          name: piyasa-verileri-${{ github.run_number }}
           path: |
             piyasa_verileri.xlsx
             piyasa_verileri.json
+          retention-days: 30
+
+      # ── 8. (Opsiyonel) Dosyaları repoya commit et ─────────────────────
+      # Bu adımı aktif etmek istiyorsanız aşağıdaki bloğun başındaki '#' işaretlerini kaldırın.
+      # Repo → Settings → Actions → Workflow permissions → "Read and write" seçili olmalı.
+      #
+      # - name: Verileri repoya kaydet
+      #   run: |
+      #     git config user.name  "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #     git add piyasa_verileri.xlsx piyasa_verileri.json
+      #     git diff --cached --quiet || git commit -m "chore: piyasa verileri güncellendi [$(date +'%Y-%m-%d %H:%M')]"
+      #     git push
