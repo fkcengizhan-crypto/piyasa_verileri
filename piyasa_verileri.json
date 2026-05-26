@@ -8288,7 +8288,7 @@
         },
         {
             "Fon Kodu": "PSG",
-            "Fiyat": 17.256373
+            "Fiyat": 8.583218
         },
         {
             "Fon Kodu": "PSH",
@@ -10487,23 +10487,23 @@
         },
         {
             "Sembol": "USD/TRY",
-            "Fiyat": 45.9052,
-            "Değişim%": 0.45
+            "Fiyat": 45.8942,
+            "Değişim%": 0.42
         },
         {
             "Sembol": "EUR/TRY",
-            "Fiyat": 53.4592,
-            "Değişim%": 0.25
+            "Fiyat": 53.3705,
+            "Değişim%": 0.08
         },
         {
             "Sembol": "ALTIN/ONS",
-            "Fiyat": 4534.78,
-            "Değişim%": -0.78
+            "Fiyat": 4522.91,
+            "Değişim%": -1.04
         },
         {
             "Sembol": "EUR/USD",
-            "Fiyat": 1.1644,
-            "Değişim%": 0.0
+            "Fiyat": 1.1627,
+            "Değişim%": -0.15
         },
         {
             "Sembol": "FAİZ",
@@ -10512,8 +10512,8 @@
         },
         {
             "Sembol": "BRENT",
-            "Fiyat": 98.66,
-            "Değişim%": 2.62
+            "Fiyat": 99.22,
+            "Değişim%": 3.2
         },
         {
             "Sembol": "BALTIK KURU YÜK",
