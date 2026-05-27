@@ -27,29 +27,22 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      # ubuntu-latest'te Chrome pre-installed ama ChromeDriver eşleşmeyebilir.
-      # browser-actions/setup-chrome eşleşen Chrome + ChromeDriver çiftini kurar.
-      - name: Chrome ve ChromeDriver kurulumu
+      - name: Chrome kurulumu
         uses: browser-actions/setup-chrome@v1
         id: setup-chrome
+
+      - name: Chrome sürümünü doğrula
+        run: "${{ steps.setup-chrome.outputs.chrome-path }}" --version
 
       - name: Bağımlılıkları yükle
         run: pip install -r requirements.txt
 
-      - name: Chrome sürümünü doğrula
-        run: |
-          echo "Chrome : ${{ steps.setup-chrome.outputs.chrome-path }}"
-          echo "Driver : ${{ steps.setup-chrome.outputs.chromedriver-path }}"
-          "${{ steps.setup-chrome.outputs.chrome-path }}" --version
-          "${{ steps.setup-chrome.outputs.chromedriver-path }}" --version
-
       - name: Scripti çalıştır
         env:
-          # setup-chrome'un kurduğu eşleşen Chrome + ChromeDriver path'lerini kullan
+          # webdriver-manager bu path'teki Chromium'a uygun driver'ı otomatik indirir
           CHROME_BINARY_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
-          CHROME_DRIVER_PATH: ${{ steps.setup-chrome.outputs.chromedriver-path }}
           PYTHONUNBUFFERED: "1"
-        run: python verilericek.py 2>&1
+        run: python verilericek.py
 
       - name: Dosyaları depoya ekle ve commit et
         run: |
