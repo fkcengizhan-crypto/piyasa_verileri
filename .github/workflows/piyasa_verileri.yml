@@ -1,0 +1,61 @@
+name: Piyasa Verilerini Güncelle
+
+on:
+  schedule:
+    - cron: '15 15 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: piyasa-guncelleme
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Depoyu klonla
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Bağımlılıkları yükle
+        run: pip install -r requirements.txt
+
+      - name: Chrome sürümünü doğrula
+        run: |
+          google-chrome --version
+          chromedriver --version
+
+      - name: Scripti çalıştır
+        env:
+          CHROME_DRIVER_PATH: /usr/bin/chromedriver
+          CHROME_BINARY_PATH: /usr/bin/google-chrome
+        run: python verilericek.py
+
+      - name: Dosyaları depoya ekle ve commit et
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add piyasa_verileri.xlsx piyasa_verileri.json
+          git diff --staged --quiet && echo "Değişiklik yok, atlanıyor." && exit 0
+          git commit -m "Veriler güncellendi (otomatik)"
+          git pull --rebase origin main
+          git push
+
+      - name: Çıktıları sakla (artifact)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: piyasa-verileri
+          path: |
+            piyasa_verileri.xlsx
+            piyasa_verileri.json
