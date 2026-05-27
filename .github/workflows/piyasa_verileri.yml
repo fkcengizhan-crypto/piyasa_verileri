@@ -13,11 +13,17 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # timeout-minutes: 30   # İstersen tamamen kaldırabilirsin
+    timeout-minutes: 15   # Daha kısa sürede hata verip tekrar deneyebilirsin
 
     steps:
       - name: Depoyu klonla
         uses: actions/checkout@v4
+
+      - name: Chrome ve chromedriver kur
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+      - uses: browser-actions/setup-chromedriver@v1
 
       - name: Python kurulumu
         uses: actions/setup-python@v5
@@ -28,16 +34,10 @@ jobs:
       - name: Bağımlılıkları yükle
         run: pip install -r requirements.txt
 
-      - name: Chrome sürümünü doğrula
-        run: |
-          google-chrome --version
-          chromedriver --version
-
       - name: Scripti çalıştır
-        env:
-          CHROME_DRIVER_PATH: /usr/bin/chromedriver
-          CHROME_BINARY_PATH: /usr/bin/google-chrome
         run: python verilericek.py
+        # Ortam değişkenlerini manuel tanımlamaya gerek yok,
+        # browser-actions zaten CHROME_BINARY_PATH ve CHROME_DRIVER_PATH'i ayarlar.
 
       - name: Dosyaları depoya ekle ve commit et
         run: |
