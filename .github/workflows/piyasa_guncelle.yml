@@ -1,0 +1,71 @@
+name: Piyasa Verilerini Güncelle
+
+on:
+  schedule:
+    - cron: '15 15 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: piyasa-guncelleme
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Depoyu klonla
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      # ubuntu-latest'te Chrome pre-installed ama ChromeDriver eşleşmeyebilir.
+      # browser-actions/setup-chrome eşleşen Chrome + ChromeDriver çiftini kurar.
+      - name: Chrome ve ChromeDriver kurulumu
+        uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
+
+      - name: Chrome sürümünü doğrula
+        run: |
+          google-chrome --version
+          chromedriver --version
+
+      - name: Bağımlılıkları yükle
+        run: pip install -r requirements.txt
+
+      - name: Scripti çalıştır
+        env:
+          # setup-chrome'un kurduğu binary path'ini kullan
+          CHROME_BINARY_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+          # CHROME_DRIVER_PATH ayarlanmıyor → Selenium Manager PATH'ten otomatik bulur
+        run: python verilericek.py
+
+      - name: Dosyaları depoya ekle ve commit et
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add piyasa_verileri.xlsx piyasa_verileri.json
+          if git diff --staged --quiet; then
+            echo "Değişiklik yok, atlanıyor."
+            exit 0
+          fi
+          git commit -m "Veriler güncellendi (otomatik)"
+          git pull --rebase origin main
+          git push
+
+      - name: Çıktıları sakla (artifact)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: piyasa-verileri
+          path: |
+            piyasa_verileri.xlsx
+            piyasa_verileri.json
