@@ -1,4 +1,5 @@
-selenium 
+selenium
+webdriver-manager
 beautifulsoup4
 pandas
 requests

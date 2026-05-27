@@ -1,6 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import ChromeType
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
@@ -12,7 +14,11 @@ import os
 
 # ----------------------------- SELENIUM DRIVER -----------------------------
 def selenium_driver_olustur():
-    """Hem Windows hem GitHub Actions için ortak Selenium driver."""
+    """
+    Hem Windows hem GitHub Actions için ortak Selenium driver.
+    webdriver-manager kurulu Chrome sürümüne uygun ChromeDriver'ı
+    otomatik indirir; path ayarı gerekmez.
+    """
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
@@ -22,13 +28,13 @@ def selenium_driver_olustur():
     chrome_binary = os.environ.get("CHROME_BINARY_PATH")
     if chrome_binary:
         chrome_options.binary_location = chrome_binary
-
-    driver_path = os.environ.get("CHROME_DRIVER_PATH")
-    if driver_path:
-        service = Service(driver_path)
-        return webdriver.Chrome(service=service, options=chrome_options)
+        # setup-chrome Chromium kurduğunda ChromeType.CHROMIUM kullan
+        service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
     else:
-        return webdriver.Chrome(options=chrome_options)
+        # Yerel geliştirme: standart Google Chrome
+        service = Service(ChromeDriverManager().install())
+
+    return webdriver.Chrome(service=service, options=chrome_options)
 
 
 # ----------------------------- HİSSE VERİLERİ -----------------------------
@@ -70,7 +76,6 @@ def hisse_verilerini_cek():
 def _tefas_token_al(session: requests.Session, user_agent: str) -> str | None:
     """
     TEFAS ana sayfasını ziyaret ederek dinamik Bearer token'ı bulmaya çalışır.
-    Token JavaScript içinde veya meta tag'de gömülü olabilir.
     Bulunamazsa None döner.
     """
     try:
@@ -79,7 +84,6 @@ def _tefas_token_al(session: requests.Session, user_agent: str) -> str | None:
             headers={"User-Agent": user_agent},
             timeout=30,
         )
-        # Sayfada "ST-..." formatındaki token'ı ara
         m = re.search(r'["\']?(ST-[A-Za-z0-9]+)["\']?', resp.text)
         if m:
             token = m.group(1)
@@ -126,7 +130,7 @@ def fon_verilerini_cek():
     TEFAS'tan fon verilerini çeker.
     - Önce dinamik olarak Bearer token almaya çalışır.
     - Token bulunamazsa token'sız dener.
-    - Bugünün verisi yoksa (tatil/hafta sonu) geriye doğru en fazla 5 iş günü dener.
+    - Bugünün verisi yoksa geriye doğru en fazla 5 iş günü dener.
     """
     user_agent = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -136,7 +140,6 @@ def fon_verilerini_cek():
     session = requests.Session()
     session.headers.update({"User-Agent": user_agent})
 
-    # Dinamik token almayı dene
     token = _tefas_token_al(session, user_agent)
 
     api_headers = {
@@ -151,7 +154,6 @@ def fon_verilerini_cek():
     else:
         print("  Token bulunamadı, token'sız deneniyor...")
 
-    # Bugünden geriye 5 güne kadar dene (hafta sonu / tatil durumu)
     fonlar = None
     for gun_geriye in range(6):
         hedef_tarih = (datetime.now() - timedelta(days=gun_geriye)).strftime("%Y%m%d")
@@ -164,8 +166,7 @@ def fon_verilerini_cek():
     if not fonlar:
         raise Exception(
             "TEFAS'tan fon verisi alınamadı. "
-            "Son 5 gün için API yanıtı boş geldi. "
-            "Endpoint veya token formatı değişmiş olabilir."
+            "Son 5 gün için API yanıtı boş geldi."
         )
 
     kayitlar = [
@@ -222,7 +223,6 @@ if __name__ == "__main__":
     df_bloomberg = bloomberg_verilerini_cek()
     print(f"{len(df_bloomberg)} Bloomberg verisi bulundu.")
 
-    # Excel: Fon (A) | boş (C) | Hisse (D) | boş (F) | Bloomberg (G)
     col_fon       = 0
     col_hisse     = len(df_fon.columns) + 1
     col_bloomberg = col_hisse + len(df_hisse.columns) + 1
@@ -232,7 +232,6 @@ if __name__ == "__main__":
         df_bloomberg.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_bloomberg)
     print("Veriler 'piyasa_verileri.xlsx' dosyasına kaydedildi.")
 
-    # JSON çıktısı
     json_data = {
         "hisseler":  df_hisse.to_dict(orient="records"),
         "fonlar":    df_fon.to_dict(orient="records"),
