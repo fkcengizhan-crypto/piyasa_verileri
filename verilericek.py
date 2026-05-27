@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import os
 
@@ -64,6 +64,7 @@ def hisse_verilerini_cek():
     df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
     return df
 
+
 # ----------------------------- FON VERİLERİ -----------------------------
 def fon_verilerini_cek():
     url = "https://www.tefas.gov.tr/api/funds/fonGnlBlgSiraliGetirDosya"
@@ -76,33 +77,69 @@ def fon_verilerini_cek():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
     }
 
-    bugun = datetime.now().strftime("%Y%m%d")
-    payload = {
-        "dil": "TR",
-        "fonTipi": "YAT",
-        "fonKod": None,
-        "fonGrup": None,
-        "basTarih": bugun,
-        "bitTarih": bugun,
-        "fonTurKod": None,
-        "fonUnvanTip": None,
-        "kurucuKod": None,
-        "fonTurAciklama": None,
-        "sfonTurKod": None
-    }
+    # Bugünden başla, 15 gün geriye git
+    for i in range(15):
+        tarih = (datetime.now() - timedelta(days=i)).strftime("%Y%m%d")
+        print(f"Tarih deneniyor: {tarih}")
 
-    response = requests.post(url, headers=headers, json=payload, timeout=30)
-    response.raise_for_status()
-    data = response.json()
+        payload = {
+            "dil": "TR",
+            "fonTipi": "YAT",
+            "fonKod": None,
+            "fonGrup": None,
+            "basTarih": tarih,
+            "bitTarih": tarih,
+            "fonTurKod": None,
+            "fonUnvanTip": None,
+            "kurucuKod": None,
+            "fonTurAciklama": None,
+            "sfonTurKod": None
+        }
 
-    if "resultList" not in data or not data["resultList"]:
-        raise Exception("Fon verisi alınamadı.")
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=30)
+            print(f"HTTP Durum Kodu: {response.status_code}")
 
-    fonlar = data["resultList"]
-    kayitlar = [[fon["fonKodu"], fon["fiyat"]] for fon in fonlar if fon.get("fiyat") is not None]
-    df = pd.DataFrame(kayitlar, columns=["Fon Kodu", "Fiyat"])
-    df["Fiyat"] = pd.to_numeric(df["Fiyat"], errors="coerce")
-    return df
+            # HTTP hatası varsa log'la ve sonraki güne geç
+            if response.status_code != 200:
+                print(f"HTTP hatası, yanıt: {response.text[:300]}")
+                continue
+
+            data = response.json()
+
+            # API iç hata mesajı varsa log'la
+            if isinstance(data, dict) and ("error" in data or "message" in data):
+                print(f"API mesajı: {data}")
+                if "resultList" not in data or not data["resultList"]:
+                    continue
+
+            # resultList kontrolü
+            if "resultList" not in data or not data["resultList"]:
+                print(f"{tarih} için fon verisi bulunamadı.")
+                continue
+
+            # Veri bulundu, işle
+            fonlar = data["resultList"]
+            kayitlar = [[fon["fonKodu"], fon["fiyat"]] for fon in fonlar if fon.get("fiyat") is not None]
+            df = pd.DataFrame(kayitlar, columns=["Fon Kodu", "Fiyat"])
+            df["Fiyat"] = pd.to_numeric(df["Fiyat"], errors="coerce")
+            print(f"{tarih} tarihine ait {len(df)} fon verisi alındı.")
+            return df
+
+        except requests.exceptions.RequestException as e:
+            print(f"İstek hatası ({tarih}): {e}")
+            continue
+        except json.JSONDecodeError as e:
+            print(f"JSON ayrıştırma hatası ({tarih}): {e}")
+            print(f"Ham yanıt: {response.text[:300]}")
+            continue
+        except Exception as e:
+            print(f"Beklenmeyen hata ({tarih}): {e}")
+            continue
+
+    # 15 günde hiç veri bulunamadıysa boş DataFrame döndür
+    print("UYARI: Son 15 günde fon verisi bulunamadı. Lütfen token'ı ve bağlantıyı kontrol edin.")
+    return pd.DataFrame(columns=["Fon Kodu", "Fiyat"])
 
 
 def bloomberg_verilerini_cek():
