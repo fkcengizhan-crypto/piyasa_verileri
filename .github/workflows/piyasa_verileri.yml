@@ -1,4 +1,4 @@
-name: Piyasa Verilerini Güncelle
+name: Piyasa Verilerini GĂ¼ncelle
 
 on:
   schedule:
@@ -27,31 +27,41 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Bağımlılıkları yükle
-        run: pip install -r requirements.txt
+      # ubuntu-latest'te Chrome pre-installed ama ChromeDriver eÅŸleÅŸmeyebilir.
+      # browser-actions/setup-chrome eÅŸleÅŸen Chrome + ChromeDriver Ă§iftini kurar.
+      - name: Chrome ve ChromeDriver kurulumu
+        uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
 
-      - name: Chrome sürümünü doğrula
+      - name: Chrome sĂ¼rĂ¼mĂ¼nĂ¼ doÄŸrula
         run: |
           google-chrome --version
           chromedriver --version
 
-      - name: Scripti çalıştır
+      - name: BaÄŸÄ±mlÄ±lÄ±klarÄ± yĂ¼kle
+        run: pip install -r requirements.txt
+
+      - name: Scripti Ă§alÄ±ÅŸtÄ±r
         env:
-          CHROME_DRIVER_PATH: /usr/bin/chromedriver
-          CHROME_BINARY_PATH: /usr/bin/google-chrome
+          # setup-chrome'un kurduÄŸu binary path'ini kullan
+          CHROME_BINARY_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+          # CHROME_DRIVER_PATH ayarlanmÄ±yor â†’ Selenium Manager PATH'ten otomatik bulur
         run: python verilericek.py
 
-      - name: Dosyaları depoya ekle ve commit et
+      - name: DosyalarÄ± depoya ekle ve commit et
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add piyasa_verileri.xlsx piyasa_verileri.json
-          git diff --staged --quiet && echo "Değişiklik yok, atlanıyor." && exit 0
-          git commit -m "Veriler güncellendi (otomatik)"
+          if git diff --staged --quiet; then
+            echo "DeÄŸiÅŸiklik yok, atlanÄ±yor."
+            exit 0
+          fi
+          git commit -m "Veriler gĂ¼ncellendi (otomatik)"
           git pull --rebase origin main
           git push
 
-      - name: Çıktıları sakla (artifact)
+      - name: Ă‡Ä±ktÄ±larÄ± sakla (artifact)
         uses: actions/upload-artifact@v4
         if: always()
         with:
