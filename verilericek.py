@@ -1,6 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
@@ -17,6 +20,10 @@ def selenium_driver_olustur():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-background-networking")
+    chrome_options.add_argument("--remote-debugging-port=0")
+    chrome_options.page_load_strategy = 'eager'   # Tam sayfa yüklemesini beklemez, hızlandırır
 
     chrome_binary = os.environ.get("CHROME_BINARY_PATH")
     if chrome_binary:
@@ -42,10 +49,15 @@ def turkce_sayi_cevir(deger):
 
 def hisse_verilerini_cek():
     driver = selenium_driver_olustur()
-    driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
-    time.sleep(5)
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    driver.quit()
+    try:
+        driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
+        # Tablo yüklenene kadar akıllıca bekle (en fazla 30 saniye)
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.ID, "DataTables_Table_0"))
+        )
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+    finally:
+        driver.quit()
 
     table = soup.find('table', id='DataTables_Table_0')
     if not table:
@@ -100,25 +112,21 @@ def fon_verilerini_cek():
             response = requests.post(url, headers=headers, json=payload, timeout=30)
             print(f"HTTP Durum Kodu: {response.status_code}")
 
-            # HTTP hatası varsa log'la ve sonraki güne geç
             if response.status_code != 200:
                 print(f"HTTP hatası, yanıt: {response.text[:300]}")
                 continue
 
             data = response.json()
 
-            # API iç hata mesajı varsa log'la
             if isinstance(data, dict) and ("error" in data or "message" in data):
                 print(f"API mesajı: {data}")
                 if "resultList" not in data or not data["resultList"]:
                     continue
 
-            # resultList kontrolü
             if "resultList" not in data or not data["resultList"]:
                 print(f"{tarih} için fon verisi bulunamadı.")
                 continue
 
-            # Veri bulundu, işle
             fonlar = data["resultList"]
             kayitlar = [[fon["fonKodu"], fon["fiyat"]] for fon in fonlar if fon.get("fiyat") is not None]
             df = pd.DataFrame(kayitlar, columns=["Fon Kodu", "Fiyat"])
@@ -137,17 +145,20 @@ def fon_verilerini_cek():
             print(f"Beklenmeyen hata ({tarih}): {e}")
             continue
 
-    # 15 günde hiç veri bulunamadıysa boş DataFrame döndür
     print("UYARI: Son 15 günde fon verisi bulunamadı. Lütfen token'ı ve bağlantıyı kontrol edin.")
     return pd.DataFrame(columns=["Fon Kodu", "Fiyat"])
 
 
 def bloomberg_verilerini_cek():
     driver = selenium_driver_olustur()
-    driver.get("https://www.bloomberght.com/piyasalar")
-    time.sleep(5)
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    driver.quit()
+    try:
+        driver.get("https://www.bloomberght.com/piyasalar")
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-slide[data-swiper-slide-index]"))
+        )
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+    finally:
+        driver.quit()
 
     slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
     gorulmus = set()
