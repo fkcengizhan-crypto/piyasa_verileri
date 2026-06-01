@@ -2,23 +2,23 @@
     "hisseler": [
         {
             "Hisse": "A1CAP",
-            "Son Fiyat (TL)": 10.03
+            "Son Fiyat (TL)": 10.08
         },
         {
             "Hisse": "A1YEN",
-            "Son Fiyat (TL)": 3.55
+            "Son Fiyat (TL)": 3.57
         },
         {
             "Hisse": "AAGYO",
-            "Son Fiyat (TL)": 17.86
+            "Son Fiyat (TL)": 17.9
         },
         {
             "Hisse": "ACSEL",
-            "Son Fiyat (TL)": 166.9
+            "Son Fiyat (TL)": 169.8
         },
         {
             "Hisse": "ADEL",
-            "Son Fiyat (TL)": 33.66
+            "Son Fiyat (TL)": 33.72
         },
         {
             "Hisse": "ADESE",
@@ -26,47 +26,47 @@
         },
         {
             "Hisse": "ADGYO",
-            "Son Fiyat (TL)": 57.65
+            "Son Fiyat (TL)": 57.3
         },
         {
             "Hisse": "AEFES",
-            "Son Fiyat (TL)": 19.32
+            "Son Fiyat (TL)": 19.29
         },
         {
             "Hisse": "AFYON",
-            "Son Fiyat (TL)": 12.97
+            "Son Fiyat (TL)": 13.12
         },
         {
             "Hisse": "AGESA",
-            "Son Fiyat (TL)": 229.0
+            "Son Fiyat (TL)": 229.3
         },
         {
             "Hisse": "AGHOL",
-            "Son Fiyat (TL)": 34.12
+            "Son Fiyat (TL)": 33.68
         },
         {
             "Hisse": "AGROT",
-            "Son Fiyat (TL)": 3.0
+            "Son Fiyat (TL)": 2.98
         },
         {
             "Hisse": "AGYO",
-            "Son Fiyat (TL)": 9.01
+            "Son Fiyat (TL)": 9.1
         },
         {
             "Hisse": "AHGAZ",
-            "Son Fiyat (TL)": 33.2
+            "Son Fiyat (TL)": 33.34
         },
         {
             "Hisse": "AHSGY",
-            "Son Fiyat (TL)": 21.56
+            "Son Fiyat (TL)": 21.52
         },
         {
             "Hisse": "AKBNK",
-            "Son Fiyat (TL)": 64.7
+            "Son Fiyat (TL)": 64.4
         },
         {
             "Hisse": "AKCNS",
-            "Son Fiyat (TL)": 219.9
+            "Son Fiyat (TL)": 220.4
         },
         {
             "Hisse": "AKENR",
@@ -74,11 +74,11 @@
         },
         {
             "Hisse": "AKFGY",
-            "Son Fiyat (TL)": 2.82
+            "Son Fiyat (TL)": 2.8
         },
         {
             "Hisse": "AKFIS",
-            "Son Fiyat (TL)": 65.35
+            "Son Fiyat (TL)": 65.55
         },
         {
             "Hisse": "AKFYE",
@@ -86,79 +86,79 @@
         },
         {
             "Hisse": "AKGRT",
-            "Son Fiyat (TL)": 7.3
+            "Son Fiyat (TL)": 7.29
         },
         {
             "Hisse": "AKHAN",
-            "Son Fiyat (TL)": 30.1
+            "Son Fiyat (TL)": 30.06
         },
         {
             "Hisse": "AKMGY",
-            "Son Fiyat (TL)": 257.25
+            "Son Fiyat (TL)": 257.75
         },
         {
             "Hisse": "AKSA",
-            "Son Fiyat (TL)": 10.6
+            "Son Fiyat (TL)": 10.54
         },
         {
             "Hisse": "AKSEN",
-            "Son Fiyat (TL)": 79.95
-        },
-        {
-            "Hisse": "AKSGY",
-            "Son Fiyat (TL)": 9.13
-        },
-        {
-            "Hisse": "AKSUE",
-            "Son Fiyat (TL)": 37.46
-        },
-        {
-            "Hisse": "AKYHO",
-            "Son Fiyat (TL)": 2.7
-        },
-        {
-            "Hisse": "ALARK",
-            "Son Fiyat (TL)": 94.85
-        },
-        {
-            "Hisse": "ALBRK",
-            "Son Fiyat (TL)": 8.03
-        },
-        {
-            "Hisse": "ALCAR",
-            "Son Fiyat (TL)": 759.5
-        },
-        {
-            "Hisse": "ALCTL",
-            "Son Fiyat (TL)": 134.6
-        },
-        {
-            "Hisse": "ALFAS",
-            "Son Fiyat (TL)": 55.55
-        },
-        {
-            "Hisse": "ALGYO",
-            "Son Fiyat (TL)": 7.15
-        },
-        {
-            "Hisse": "ALKA",
-            "Son Fiyat (TL)": 10.67
-        },
-        {
-            "Hisse": "ALKIM",
-            "Son Fiyat (TL)": 18.03
-        },
-        {
-            "Hisse": "ALKLC",
-            "Son Fiyat (TL)": 352.25
-        },
-        {
-            "Hisse": "ALTINS1",
             "Son Fiyat (TL)": 79.5
         },
         {
+            "Hisse": "AKSGY",
+            "Son Fiyat (TL)": 9.15
+        },
+        {
+            "Hisse": "AKSUE",
+            "Son Fiyat (TL)": 37.26
+        },
+        {
+            "Hisse": "AKYHO",
+            "Son Fiyat (TL)": 2.69
+        },
+        {
+            "Hisse": "ALARK",
+            "Son Fiyat (TL)": 95.85
+        },
+        {
+            "Hisse": "ALBRK",
+            "Son Fiyat (TL)": 8.0
+        },
+        {
+            "Hisse": "ALCAR",
+            "Son Fiyat (TL)": 753.0
+        },
+        {
+            "Hisse": "ALCTL",
+            "Son Fiyat (TL)": 135.8
+        },
+        {
+            "Hisse": "ALFAS",
+            "Son Fiyat (TL)": 54.7
+        },
+        {
+            "Hisse": "ALGYO",
+            "Son Fiyat (TL)": 7.13
+        },
+        {
+            "Hisse": "ALKA",
+            "Son Fiyat (TL)": 10.7
+        },
+        {
+            "Hisse": "ALKIM",
+            "Son Fiyat (TL)": 17.99
+        },
+        {
+            "Hisse": "ALKLC",
+            "Son Fiyat (TL)": 350.25
+        },
+        {
+            "Hisse": "ALTINS1",
+            "Son Fiyat (TL)": 79.49
+        },
+        {
             "Hisse": "ALTNY",
-            "Son Fiyat (TL)": 17.31
+            "Son Fiyat (TL)": 17.09
         },
         {
             "Hisse": "ALVES",
@@ -166,23 +166,23 @@
         },
         {
             "Hisse": "ANELE",
-            "Son Fiyat (TL)": 86.0
+            "Son Fiyat (TL)": 85.6
         },
         {
             "Hisse": "ANGEN",
-            "Son Fiyat (TL)": 11.28
+            "Son Fiyat (TL)": 11.33
         },
         {
             "Hisse": "ANHYT",
-            "Son Fiyat (TL)": 103.9
+            "Son Fiyat (TL)": 103.5
         },
         {
             "Hisse": "ANSGR",
-            "Son Fiyat (TL)": 27.56
+            "Son Fiyat (TL)": 27.42
         },
         {
             "Hisse": "ARASE",
-            "Son Fiyat (TL)": 122.0
+            "Son Fiyat (TL)": 123.3
         },
         {
             "Hisse": "ARCLK",
@@ -190,59 +190,59 @@
         },
         {
             "Hisse": "ARDYZ",
-            "Son Fiyat (TL)": 65.1
+            "Son Fiyat (TL)": 64.0
         },
         {
             "Hisse": "ARENA",
-            "Son Fiyat (TL)": 28.66
+            "Son Fiyat (TL)": 28.6
         },
         {
             "Hisse": "ARFYE",
-            "Son Fiyat (TL)": 30.98
+            "Son Fiyat (TL)": 30.9
         },
         {
             "Hisse": "ARMGD",
-            "Son Fiyat (TL)": 135.6
+            "Son Fiyat (TL)": 131.7
         },
         {
             "Hisse": "ARSAN",
-            "Son Fiyat (TL)": 3.48
+            "Son Fiyat (TL)": 3.49
         },
         {
             "Hisse": "ARTMS",
-            "Son Fiyat (TL)": 43.52
+            "Son Fiyat (TL)": 43.28
         },
         {
             "Hisse": "ARZUM",
-            "Son Fiyat (TL)": 2.45
+            "Son Fiyat (TL)": 2.44
         },
         {
             "Hisse": "ASELS",
-            "Son Fiyat (TL)": 393.0
+            "Son Fiyat (TL)": 388.0
         },
         {
             "Hisse": "ASGYO",
-            "Son Fiyat (TL)": 12.05
+            "Son Fiyat (TL)": 12.09
         },
         {
             "Hisse": "ASTOR",
-            "Son Fiyat (TL)": 334.0
+            "Son Fiyat (TL)": 330.5
         },
         {
             "Hisse": "ASUZU",
-            "Son Fiyat (TL)": 61.35
+            "Son Fiyat (TL)": 61.4
         },
         {
             "Hisse": "ATAGY",
-            "Son Fiyat (TL)": 12.87
+            "Son Fiyat (TL)": 12.89
         },
         {
             "Hisse": "ATAKP",
-            "Son Fiyat (TL)": 55.05
+            "Son Fiyat (TL)": 55.1
         },
         {
             "Hisse": "ATATP",
-            "Son Fiyat (TL)": 231.1
+            "Son Fiyat (TL)": 233.0
         },
         {
             "Hisse": "ATATR",
@@ -254,7 +254,7 @@
         },
         {
             "Hisse": "ATLAS",
-            "Son Fiyat (TL)": 8.29
+            "Son Fiyat (TL)": 8.32
         },
         {
             "Hisse": "ATSYH",
@@ -266,31 +266,31 @@
         },
         {
             "Hisse": "AVHOL",
-            "Son Fiyat (TL)": 42.38
+            "Son Fiyat (TL)": 42.7
         },
         {
             "Hisse": "AVOD",
-            "Son Fiyat (TL)": 4.52
+            "Son Fiyat (TL)": 4.54
         },
         {
             "Hisse": "AVPGY",
-            "Son Fiyat (TL)": 63.0
+            "Son Fiyat (TL)": 62.9
         },
         {
             "Hisse": "AVTUR",
-            "Son Fiyat (TL)": 16.51
+            "Son Fiyat (TL)": 16.5
         },
         {
             "Hisse": "AYCES",
-            "Son Fiyat (TL)": 520.0
+            "Son Fiyat (TL)": 519.0
         },
         {
             "Hisse": "AYDEM",
-            "Son Fiyat (TL)": 25.26
+            "Son Fiyat (TL)": 25.28
         },
         {
             "Hisse": "AYEN",
-            "Son Fiyat (TL)": 34.28
+            "Son Fiyat (TL)": 34.52
         },
         {
             "Hisse": "AYES",
@@ -298,23 +298,23 @@
         },
         {
             "Hisse": "AYGAZ",
-            "Son Fiyat (TL)": 239.8
+            "Son Fiyat (TL)": 239.2
         },
         {
             "Hisse": "AZTEK",
-            "Son Fiyat (TL)": 5.54
+            "Son Fiyat (TL)": 5.56
         },
         {
             "Hisse": "BAGFS",
-            "Son Fiyat (TL)": 28.58
+            "Son Fiyat (TL)": 28.64
         },
         {
             "Hisse": "BAHKM",
-            "Son Fiyat (TL)": 111.0
+            "Son Fiyat (TL)": 110.6
         },
         {
             "Hisse": "BAKAB",
-            "Son Fiyat (TL)": 48.14
+            "Son Fiyat (TL)": 48.46
         },
         {
             "Hisse": "BALAT",
@@ -322,11 +322,11 @@
         },
         {
             "Hisse": "BALSU",
-            "Son Fiyat (TL)": 13.74
+            "Son Fiyat (TL)": 13.82
         },
         {
             "Hisse": "BANVT",
-            "Son Fiyat (TL)": 152.7
+            "Son Fiyat (TL)": 152.5
         },
         {
             "Hisse": "BARMA",
@@ -338,11 +338,11 @@
         },
         {
             "Hisse": "BASGZ",
-            "Son Fiyat (TL)": 49.48
+            "Son Fiyat (TL)": 49.42
         },
         {
             "Hisse": "BAYRK",
-            "Son Fiyat (TL)": 5.58
+            "Son Fiyat (TL)": 5.57
         },
         {
             "Hisse": "BEGYO",
@@ -350,63 +350,63 @@
         },
         {
             "Hisse": "BERA",
-            "Son Fiyat (TL)": 17.2
+            "Son Fiyat (TL)": 17.21
         },
         {
             "Hisse": "BESLR",
-            "Son Fiyat (TL)": 14.88
+            "Son Fiyat (TL)": 14.89
         },
         {
             "Hisse": "BESTE",
-            "Son Fiyat (TL)": 34.6
+            "Son Fiyat (TL)": 34.78
         },
         {
             "Hisse": "BEYAZ",
-            "Son Fiyat (TL)": 29.22
+            "Son Fiyat (TL)": 29.28
         },
         {
             "Hisse": "BFREN",
-            "Son Fiyat (TL)": 142.8
+            "Son Fiyat (TL)": 142.4
         },
         {
             "Hisse": "BIENY",
-            "Son Fiyat (TL)": 25.5
+            "Son Fiyat (TL)": 26.28
         },
         {
             "Hisse": "BIGCH",
-            "Son Fiyat (TL)": 6.57
+            "Son Fiyat (TL)": 6.59
         },
         {
             "Hisse": "BIGEN",
-            "Son Fiyat (TL)": 39.92
+            "Son Fiyat (TL)": 39.2
         },
         {
             "Hisse": "BIGTK",
-            "Son Fiyat (TL)": 231.9
+            "Son Fiyat (TL)": 236.8
         },
         {
             "Hisse": "BIMAS",
-            "Son Fiyat (TL)": 377.0
+            "Son Fiyat (TL)": 375.25
         },
         {
             "Hisse": "BINBN",
-            "Son Fiyat (TL)": 175.4
+            "Son Fiyat (TL)": 175.9
         },
         {
             "Hisse": "BINHO",
-            "Son Fiyat (TL)": 9.33
+            "Son Fiyat (TL)": 9.45
         },
         {
             "Hisse": "BIOEN",
-            "Son Fiyat (TL)": 17.35
+            "Son Fiyat (TL)": 17.22
         },
         {
             "Hisse": "BIZIM",
-            "Son Fiyat (TL)": 27.96
+            "Son Fiyat (TL)": 27.86
         },
         {
             "Hisse": "BJKAS",
-            "Son Fiyat (TL)": 1.6
+            "Son Fiyat (TL)": 1.61
         },
         {
             "Hisse": "BLCYT",
@@ -414,31 +414,31 @@
         },
         {
             "Hisse": "BLUME",
-            "Son Fiyat (TL)": 37.72
+            "Son Fiyat (TL)": 37.78
         },
         {
             "Hisse": "BMSCH",
-            "Son Fiyat (TL)": 17.53
+            "Son Fiyat (TL)": 17.56
         },
         {
             "Hisse": "BMSTL",
-            "Son Fiyat (TL)": 81.9
+            "Son Fiyat (TL)": 82.35
         },
         {
             "Hisse": "BNTAS",
-            "Son Fiyat (TL)": 7.02
+            "Son Fiyat (TL)": 7.04
         },
         {
             "Hisse": "BOBET",
-            "Son Fiyat (TL)": 18.88
+            "Son Fiyat (TL)": 18.9
         },
         {
             "Hisse": "BORLS",
-            "Son Fiyat (TL)": 5.71
+            "Son Fiyat (TL)": 5.67
         },
         {
             "Hisse": "BORSK",
-            "Son Fiyat (TL)": 6.7
+            "Son Fiyat (TL)": 6.65
         },
         {
             "Hisse": "BOSSA",
@@ -446,7 +446,7 @@
         },
         {
             "Hisse": "BRISA",
-            "Son Fiyat (TL)": 95.3
+            "Son Fiyat (TL)": 95.65
         },
         {
             "Hisse": "BRKO",
@@ -454,15 +454,15 @@
         },
         {
             "Hisse": "BRKSN",
-            "Son Fiyat (TL)": 8.57
+            "Son Fiyat (TL)": 8.56
         },
         {
             "Hisse": "BRKVY",
-            "Son Fiyat (TL)": 96.3
+            "Son Fiyat (TL)": 95.9
         },
         {
             "Hisse": "BRLSM",
-            "Son Fiyat (TL)": 20.02
+            "Son Fiyat (TL)": 20.14
         },
         {
             "Hisse": "BRMEN",
@@ -474,11 +474,11 @@
         },
         {
             "Hisse": "BRYAT",
-            "Son Fiyat (TL)": 2079.0
+            "Son Fiyat (TL)": 2065.0
         },
         {
             "Hisse": "BSOKE",
-            "Son Fiyat (TL)": 38.5
+            "Son Fiyat (TL)": 38.6
         },
         {
             "Hisse": "BTCIM",
@@ -486,27 +486,27 @@
         },
         {
             "Hisse": "BUCIM",
-            "Son Fiyat (TL)": 6.08
+            "Son Fiyat (TL)": 6.06
         },
         {
             "Hisse": "BULGS",
-            "Son Fiyat (TL)": 41.42
+            "Son Fiyat (TL)": 41.46
         },
         {
             "Hisse": "BURCE",
-            "Son Fiyat (TL)": 48.92
+            "Son Fiyat (TL)": 48.62
         },
         {
             "Hisse": "BURVA",
-            "Son Fiyat (TL)": 1226.0
+            "Son Fiyat (TL)": 1200.0
         },
         {
             "Hisse": "BVSAN",
-            "Son Fiyat (TL)": 128.2
+            "Son Fiyat (TL)": 129.0
         },
         {
             "Hisse": "BYDNR",
-            "Son Fiyat (TL)": 40.16
+            "Son Fiyat (TL)": 40.46
         },
         {
             "Hisse": "CANTE",
@@ -518,47 +518,47 @@
         },
         {
             "Hisse": "CATES",
-            "Son Fiyat (TL)": 40.12
+            "Son Fiyat (TL)": 40.14
         },
         {
             "Hisse": "CCOLA",
-            "Son Fiyat (TL)": 82.15
+            "Son Fiyat (TL)": 81.9
         },
         {
             "Hisse": "CELHA",
-            "Son Fiyat (TL)": 17.01
+            "Son Fiyat (TL)": 17.46
         },
         {
             "Hisse": "CEMAS",
-            "Son Fiyat (TL)": 5.02
+            "Son Fiyat (TL)": 5.0
         },
         {
             "Hisse": "CEMTS",
-            "Son Fiyat (TL)": 10.71
+            "Son Fiyat (TL)": 10.73
         },
         {
             "Hisse": "CEMZY",
-            "Son Fiyat (TL)": 13.7
+            "Son Fiyat (TL)": 13.69
         },
         {
             "Hisse": "CEOEM",
-            "Son Fiyat (TL)": 28.34
+            "Son Fiyat (TL)": 28.7
         },
         {
             "Hisse": "CGCAM",
-            "Son Fiyat (TL)": 43.06
+            "Son Fiyat (TL)": 43.24
         },
         {
             "Hisse": "CIMSA",
-            "Son Fiyat (TL)": 51.4
+            "Son Fiyat (TL)": 51.15
         },
         {
             "Hisse": "CLEBI",
-            "Son Fiyat (TL)": 1679.0
+            "Son Fiyat (TL)": 1681.0
         },
         {
             "Hisse": "CMBTN",
-            "Son Fiyat (TL)": 1640.0
+            "Son Fiyat (TL)": 1645.0
         },
         {
             "Hisse": "CMENT",
@@ -570,35 +570,35 @@
         },
         {
             "Hisse": "COSMO",
-            "Son Fiyat (TL)": 183.9
+            "Son Fiyat (TL)": 183.5
         },
         {
             "Hisse": "CRDFA",
-            "Son Fiyat (TL)": 36.68
+            "Son Fiyat (TL)": 36.9
         },
         {
             "Hisse": "CRFSA",
-            "Son Fiyat (TL)": 132.9
+            "Son Fiyat (TL)": 133.8
         },
         {
             "Hisse": "CUSAN",
-            "Son Fiyat (TL)": 26.0
+            "Son Fiyat (TL)": 25.9
         },
         {
             "Hisse": "CVKMD",
-            "Son Fiyat (TL)": 46.26
+            "Son Fiyat (TL)": 46.16
         },
         {
             "Hisse": "CWENE",
-            "Son Fiyat (TL)": 40.18
+            "Son Fiyat (TL)": 40.38
         },
         {
             "Hisse": "DAGI",
-            "Son Fiyat (TL)": 6.83
+            "Son Fiyat (TL)": 6.82
         },
         {
             "Hisse": "DAPGM",
-            "Son Fiyat (TL)": 9.68
+            "Son Fiyat (TL)": 9.67
         },
         {
             "Hisse": "DARDL",
@@ -606,7 +606,7 @@
         },
         {
             "Hisse": "DCTTR",
-            "Son Fiyat (TL)": 12.71
+            "Son Fiyat (TL)": 12.63
         },
         {
             "Hisse": "DENGE",
@@ -614,35 +614,35 @@
         },
         {
             "Hisse": "DERHL",
-            "Son Fiyat (TL)": 14.85
+            "Son Fiyat (TL)": 15.03
         },
         {
             "Hisse": "DERIM",
-            "Son Fiyat (TL)": 36.52
+            "Son Fiyat (TL)": 36.5
         },
         {
             "Hisse": "DESA",
-            "Son Fiyat (TL)": 12.58
+            "Son Fiyat (TL)": 12.6
         },
         {
             "Hisse": "DESPC",
-            "Son Fiyat (TL)": 46.2
+            "Son Fiyat (TL)": 46.28
         },
         {
             "Hisse": "DEVA",
-            "Son Fiyat (TL)": 65.65
+            "Son Fiyat (TL)": 65.85
         },
         {
             "Hisse": "DGATE",
-            "Son Fiyat (TL)": 113.5
+            "Son Fiyat (TL)": 112.0
         },
         {
             "Hisse": "DGGYO",
-            "Son Fiyat (TL)": 33.56
+            "Son Fiyat (TL)": 33.54
         },
         {
             "Hisse": "DGNMO",
-            "Son Fiyat (TL)": 9.04
+            "Son Fiyat (TL)": 9.02
         },
         {
             "Hisse": "DIRIT",
@@ -650,127 +650,127 @@
         },
         {
             "Hisse": "DITAS",
-            "Son Fiyat (TL)": 37.36
+            "Son Fiyat (TL)": 36.92
         },
         {
             "Hisse": "DMLKTG",
-            "Son Fiyat (TL)": 6.2
+            "Son Fiyat (TL)": 6.23
         },
         {
             "Hisse": "DMRGD",
-            "Son Fiyat (TL)": 9.86
+            "Son Fiyat (TL)": 9.93
         },
         {
             "Hisse": "DMSAS",
-            "Son Fiyat (TL)": 8.79
+            "Son Fiyat (TL)": 8.83
         },
         {
             "Hisse": "DNISI",
-            "Son Fiyat (TL)": 19.91
+            "Son Fiyat (TL)": 19.99
         },
         {
             "Hisse": "DOAS",
-            "Son Fiyat (TL)": 184.5
+            "Son Fiyat (TL)": 184.3
         },
         {
             "Hisse": "DOCO",
-            "Son Fiyat (TL)": 10202.5
+            "Son Fiyat (TL)": 10277.5
         },
         {
             "Hisse": "DOFER",
-            "Son Fiyat (TL)": 36.74
+            "Son Fiyat (TL)": 36.9
         },
         {
             "Hisse": "DOFRB",
-            "Son Fiyat (TL)": 166.4
+            "Son Fiyat (TL)": 167.3
         },
         {
             "Hisse": "DOGUB",
-            "Son Fiyat (TL)": 113.5
+            "Son Fiyat (TL)": 112.7
         },
         {
             "Hisse": "DOHOL",
-            "Son Fiyat (TL)": 23.08
+            "Son Fiyat (TL)": 23.04
         },
         {
             "Hisse": "DOKTA",
-            "Son Fiyat (TL)": 28.52
+            "Son Fiyat (TL)": 28.64
         },
         {
             "Hisse": "DSTKF",
-            "Son Fiyat (TL)": 2003.0
+            "Son Fiyat (TL)": 1947.0
         },
         {
             "Hisse": "DUNYH",
-            "Son Fiyat (TL)": 118.0
+            "Son Fiyat (TL)": 117.2
         },
         {
             "Hisse": "DURDO",
-            "Son Fiyat (TL)": 5.16
+            "Son Fiyat (TL)": 5.23
         },
         {
             "Hisse": "DURKN",
-            "Son Fiyat (TL)": 21.58
+            "Son Fiyat (TL)": 21.76
         },
         {
             "Hisse": "DYOBY",
-            "Son Fiyat (TL)": 16.33
+            "Son Fiyat (TL)": 16.32
         },
         {
             "Hisse": "DZGYO",
-            "Son Fiyat (TL)": 8.37
+            "Son Fiyat (TL)": 8.42
         },
         {
             "Hisse": "EBEBK",
-            "Son Fiyat (TL)": 80.85
+            "Son Fiyat (TL)": 81.2
         },
         {
             "Hisse": "ECILC",
-            "Son Fiyat (TL)": 89.1
+            "Son Fiyat (TL)": 89.65
         },
         {
             "Hisse": "ECOGR",
-            "Son Fiyat (TL)": 39.16
+            "Son Fiyat (TL)": 38.94
         },
         {
             "Hisse": "ECZYT",
-            "Son Fiyat (TL)": 365.5
+            "Son Fiyat (TL)": 368.0
         },
         {
             "Hisse": "EDATA",
-            "Son Fiyat (TL)": 16.94
+            "Son Fiyat (TL)": 16.8
         },
         {
             "Hisse": "EDIP",
-            "Son Fiyat (TL)": 36.54
+            "Son Fiyat (TL)": 36.46
         },
         {
             "Hisse": "EFOR",
-            "Son Fiyat (TL)": 11.94
+            "Son Fiyat (TL)": 11.68
         },
         {
             "Hisse": "EGEEN",
-            "Son Fiyat (TL)": 5827.5
+            "Son Fiyat (TL)": 5820.0
         },
         {
             "Hisse": "EGEGY",
-            "Son Fiyat (TL)": 30.3
+            "Son Fiyat (TL)": 30.18
         },
         {
             "Hisse": "EGEPO",
-            "Son Fiyat (TL)": 19.64
+            "Son Fiyat (TL)": 19.87
         },
         {
             "Hisse": "EGGUB",
-            "Son Fiyat (TL)": 106.2
+            "Son Fiyat (TL)": 106.0
         },
         {
             "Hisse": "EGPRO",
-            "Son Fiyat (TL)": 40.54
+            "Son Fiyat (TL)": 41.48
         },
         {
             "Hisse": "EGSER",
-            "Son Fiyat (TL)": 3.65
+            "Son Fiyat (TL)": 3.67
         },
         {
             "Hisse": "EKDMR",
@@ -786,7 +786,7 @@
         },
         {
             "Hisse": "EKOS",
-            "Son Fiyat (TL)": 8.24
+            "Son Fiyat (TL)": 8.23
         },
         {
             "Hisse": "EKSUN",
@@ -794,11 +794,11 @@
         },
         {
             "Hisse": "ELITE",
-            "Son Fiyat (TL)": 41.18
+            "Son Fiyat (TL)": 41.34
         },
         {
             "Hisse": "EMKEL",
-            "Son Fiyat (TL)": 22.68
+            "Son Fiyat (TL)": 22.92
         },
         {
             "Hisse": "EMNIS",
@@ -806,23 +806,23 @@
         },
         {
             "Hisse": "EMPAE",
-            "Son Fiyat (TL)": 76.3
+            "Son Fiyat (TL)": 76.5
         },
         {
             "Hisse": "ENDAE",
-            "Son Fiyat (TL)": 17.46
+            "Son Fiyat (TL)": 17.51
         },
         {
             "Hisse": "ENERY",
-            "Son Fiyat (TL)": 8.87
+            "Son Fiyat (TL)": 8.9
         },
         {
             "Hisse": "ENJSA",
-            "Son Fiyat (TL)": 112.5
+            "Son Fiyat (TL)": 111.9
         },
         {
             "Hisse": "ENKAI",
-            "Son Fiyat (TL)": 100.5
+            "Son Fiyat (TL)": 100.7
         },
         {
             "Hisse": "ENPRA",
@@ -830,51 +830,51 @@
         },
         {
             "Hisse": "ENSRI",
-            "Son Fiyat (TL)": 10.26
+            "Son Fiyat (TL)": 10.28
         },
         {
             "Hisse": "ENTRA",
-            "Son Fiyat (TL)": 4.82
+            "Son Fiyat (TL)": 4.88
         },
         {
             "Hisse": "EPLAS",
-            "Son Fiyat (TL)": 6.09
+            "Son Fiyat (TL)": 6.06
         },
         {
             "Hisse": "ERBOS",
-            "Son Fiyat (TL)": 194.3
+            "Son Fiyat (TL)": 193.0
         },
         {
             "Hisse": "ERCB",
-            "Son Fiyat (TL)": 63.7
+            "Son Fiyat (TL)": 63.2
         },
         {
             "Hisse": "EREGL",
-            "Son Fiyat (TL)": 39.88
+            "Son Fiyat (TL)": 39.56
         },
         {
             "Hisse": "ERSU",
-            "Son Fiyat (TL)": 25.78
+            "Son Fiyat (TL)": 25.72
         },
         {
             "Hisse": "ESCAR",
-            "Son Fiyat (TL)": 47.56
+            "Son Fiyat (TL)": 47.4
         },
         {
             "Hisse": "ESCOM",
-            "Son Fiyat (TL)": 5.46
+            "Son Fiyat (TL)": 5.44
         },
         {
             "Hisse": "ESEN",
-            "Son Fiyat (TL)": 4.07
+            "Son Fiyat (TL)": 4.08
         },
         {
             "Hisse": "ETILR",
-            "Son Fiyat (TL)": 5.89
+            "Son Fiyat (TL)": 5.81
         },
         {
             "Hisse": "ETYAT",
-            "Son Fiyat (TL)": 9.7
+            "Son Fiyat (TL)": 10.04
         },
         {
             "Hisse": "EUHOL",
@@ -882,19 +882,19 @@
         },
         {
             "Hisse": "EUKYO",
-            "Son Fiyat (TL)": 8.99
+            "Son Fiyat (TL)": 8.98
         },
         {
             "Hisse": "EUPWR",
-            "Son Fiyat (TL)": 75.1
+            "Son Fiyat (TL)": 73.15
         },
         {
             "Hisse": "EUREN",
-            "Son Fiyat (TL)": 4.96
+            "Son Fiyat (TL)": 4.97
         },
         {
             "Hisse": "EUYO",
-            "Son Fiyat (TL)": 5.77
+            "Son Fiyat (TL)": 5.76
         },
         {
             "Hisse": "EYGYO",
@@ -902,31 +902,31 @@
         },
         {
             "Hisse": "FADE",
-            "Son Fiyat (TL)": 17.17
+            "Son Fiyat (TL)": 17.24
         },
         {
             "Hisse": "FENER",
-            "Son Fiyat (TL)": 4.21
+            "Son Fiyat (TL)": 4.2
         },
         {
             "Hisse": "FLAP",
-            "Son Fiyat (TL)": 15.45
+            "Son Fiyat (TL)": 15.19
         },
         {
             "Hisse": "FMIZP",
-            "Son Fiyat (TL)": 297.0
+            "Son Fiyat (TL)": 300.0
         },
         {
             "Hisse": "FONET",
-            "Son Fiyat (TL)": 5.66
+            "Son Fiyat (TL)": 5.6
         },
         {
             "Hisse": "FORMT",
-            "Son Fiyat (TL)": 2.3
+            "Son Fiyat (TL)": 2.31
         },
         {
             "Hisse": "FORTE",
-            "Son Fiyat (TL)": 94.95
+            "Son Fiyat (TL)": 94.6
         },
         {
             "Hisse": "FRIGO",
@@ -934,23 +934,23 @@
         },
         {
             "Hisse": "FRMPL",
-            "Son Fiyat (TL)": 40.24
+            "Son Fiyat (TL)": 40.16
         },
         {
             "Hisse": "FROTO",
-            "Son Fiyat (TL)": 83.75
+            "Son Fiyat (TL)": 84.25
         },
         {
             "Hisse": "FZLGY",
-            "Son Fiyat (TL)": 13.85
+            "Son Fiyat (TL)": 13.84
         },
         {
             "Hisse": "GARAN",
-            "Son Fiyat (TL)": 125.9
+            "Son Fiyat (TL)": 124.5
         },
         {
             "Hisse": "GARFA",
-            "Son Fiyat (TL)": 30.74
+            "Son Fiyat (TL)": 31.06
         },
         {
             "Hisse": "GATEG",
@@ -958,71 +958,71 @@
         },
         {
             "Hisse": "GEDIK",
-            "Son Fiyat (TL)": 6.26
+            "Son Fiyat (TL)": 6.25
         },
         {
             "Hisse": "GEDZA",
-            "Son Fiyat (TL)": 34.94
+            "Son Fiyat (TL)": 35.04
         },
         {
             "Hisse": "GENIL",
-            "Son Fiyat (TL)": 9.03
+            "Son Fiyat (TL)": 9.01
         },
         {
             "Hisse": "GENKM",
-            "Son Fiyat (TL)": 14.26
+            "Son Fiyat (TL)": 14.28
         },
         {
             "Hisse": "GENTS",
-            "Son Fiyat (TL)": 7.46
+            "Son Fiyat (TL)": 7.43
         },
         {
             "Hisse": "GEREL",
-            "Son Fiyat (TL)": 40.12
+            "Son Fiyat (TL)": 39.8
         },
         {
             "Hisse": "GESAN",
-            "Son Fiyat (TL)": 73.55
+            "Son Fiyat (TL)": 70.55
         },
         {
             "Hisse": "GIPTA",
-            "Son Fiyat (TL)": 78.85
+            "Son Fiyat (TL)": 78.05
         },
         {
             "Hisse": "GLBMD",
-            "Son Fiyat (TL)": 12.36
+            "Son Fiyat (TL)": 12.43
         },
         {
             "Hisse": "GLCVY",
-            "Son Fiyat (TL)": 59.75
+            "Son Fiyat (TL)": 59.5
         },
         {
             "Hisse": "GLRMK",
-            "Son Fiyat (TL)": 173.8
+            "Son Fiyat (TL)": 175.5
         },
         {
             "Hisse": "GLRYH",
-            "Son Fiyat (TL)": 3.51
+            "Son Fiyat (TL)": 3.55
         },
         {
             "Hisse": "GLYHO",
-            "Son Fiyat (TL)": 15.69
+            "Son Fiyat (TL)": 15.72
         },
         {
             "Hisse": "GMTAS",
-            "Son Fiyat (TL)": 46.08
+            "Son Fiyat (TL)": 45.84
         },
         {
             "Hisse": "GOKNR",
-            "Son Fiyat (TL)": 24.88
+            "Son Fiyat (TL)": 25.14
         },
         {
             "Hisse": "GOLTS",
-            "Son Fiyat (TL)": 346.25
+            "Son Fiyat (TL)": 346.75
         },
         {
             "Hisse": "GOODY",
-            "Son Fiyat (TL)": 16.69
+            "Son Fiyat (TL)": 16.71
         },
         {
             "Hisse": "GOZDE",
@@ -1030,19 +1030,19 @@
         },
         {
             "Hisse": "GRNYO",
-            "Son Fiyat (TL)": 19.32
+            "Son Fiyat (TL)": 19.18
         },
         {
             "Hisse": "GRSEL",
-            "Son Fiyat (TL)": 319.0
+            "Son Fiyat (TL)": 323.75
         },
         {
             "Hisse": "GRTHO",
-            "Son Fiyat (TL)": 217.1
+            "Son Fiyat (TL)": 216.4
         },
         {
             "Hisse": "GSDDE",
-            "Son Fiyat (TL)": 12.56
+            "Son Fiyat (TL)": 12.57
         },
         {
             "Hisse": "GSDHO",
@@ -1054,27 +1054,27 @@
         },
         {
             "Hisse": "GUBRF",
-            "Son Fiyat (TL)": 562.5
+            "Son Fiyat (TL)": 559.0
         },
         {
             "Hisse": "GUNDG",
-            "Son Fiyat (TL)": 1051.0
+            "Son Fiyat (TL)": 1041.0
         },
         {
             "Hisse": "GWIND",
-            "Son Fiyat (TL)": 27.5
+            "Son Fiyat (TL)": 27.48
         },
         {
             "Hisse": "GZNMI",
-            "Son Fiyat (TL)": 69.8
+            "Son Fiyat (TL)": 72.2
         },
         {
             "Hisse": "HALKB",
-            "Son Fiyat (TL)": 42.94
+            "Son Fiyat (TL)": 42.96
         },
         {
             "Hisse": "HATEK",
-            "Son Fiyat (TL)": 16.57
+            "Son Fiyat (TL)": 16.66
         },
         {
             "Hisse": "HATSN",
@@ -1082,27 +1082,27 @@
         },
         {
             "Hisse": "HDFGS",
-            "Son Fiyat (TL)": 2.87
+            "Son Fiyat (TL)": 2.9
         },
         {
             "Hisse": "HEDEF",
-            "Son Fiyat (TL)": 138.8
+            "Son Fiyat (TL)": 139.0
         },
         {
             "Hisse": "HEKTS",
-            "Son Fiyat (TL)": 4.07
+            "Son Fiyat (TL)": 4.08
         },
         {
             "Hisse": "HKTM",
-            "Son Fiyat (TL)": 14.96
+            "Son Fiyat (TL)": 14.82
         },
         {
             "Hisse": "HLGYO",
-            "Son Fiyat (TL)": 6.11
+            "Son Fiyat (TL)": 6.09
         },
         {
             "Hisse": "HOROZ",
-            "Son Fiyat (TL)": 73.2
+            "Son Fiyat (TL)": 73.85
         },
         {
             "Hisse": "HRKET",
@@ -1110,27 +1110,27 @@
         },
         {
             "Hisse": "HTTBT",
-            "Son Fiyat (TL)": 41.12
+            "Son Fiyat (TL)": 41.14
         },
         {
             "Hisse": "HUBVC",
-            "Son Fiyat (TL)": 3.63
+            "Son Fiyat (TL)": 3.62
         },
         {
             "Hisse": "HUNER",
-            "Son Fiyat (TL)": 4.0
+            "Son Fiyat (TL)": 3.94
         },
         {
             "Hisse": "HURGZ",
-            "Son Fiyat (TL)": 8.01
+            "Son Fiyat (TL)": 8.0
         },
         {
             "Hisse": "ICBCT",
-            "Son Fiyat (TL)": 24.78
+            "Son Fiyat (TL)": 24.88
         },
         {
             "Hisse": "ICUGS",
-            "Son Fiyat (TL)": 6.38
+            "Son Fiyat (TL)": 6.3
         },
         {
             "Hisse": "IDGYO",
@@ -1138,11 +1138,11 @@
         },
         {
             "Hisse": "IEYHO",
-            "Son Fiyat (TL)": 116.6
+            "Son Fiyat (TL)": 117.3
         },
         {
             "Hisse": "IHAAS",
-            "Son Fiyat (TL)": 87.1
+            "Son Fiyat (TL)": 88.75
         },
         {
             "Hisse": "IHEVA",
@@ -1150,7 +1150,7 @@
         },
         {
             "Hisse": "IHGZT",
-            "Son Fiyat (TL)": 1.48
+            "Son Fiyat (TL)": 1.47
         },
         {
             "Hisse": "IHLAS",
@@ -1158,7 +1158,7 @@
         },
         {
             "Hisse": "IHLGM",
-            "Son Fiyat (TL)": 2.05
+            "Son Fiyat (TL)": 2.06
         },
         {
             "Hisse": "IHYAY",
@@ -1166,19 +1166,19 @@
         },
         {
             "Hisse": "IMASM",
-            "Son Fiyat (TL)": 3.39
+            "Son Fiyat (TL)": 3.42
         },
         {
             "Hisse": "INDES",
-            "Son Fiyat (TL)": 11.87
+            "Son Fiyat (TL)": 11.92
         },
         {
             "Hisse": "INFO",
-            "Son Fiyat (TL)": 3.71
+            "Son Fiyat (TL)": 3.75
         },
         {
             "Hisse": "INGRM",
-            "Son Fiyat (TL)": 459.5
+            "Son Fiyat (TL)": 457.0
         },
         {
             "Hisse": "INTEK",
@@ -1186,15 +1186,15 @@
         },
         {
             "Hisse": "INTEM",
-            "Son Fiyat (TL)": 287.5
+            "Son Fiyat (TL)": 287.0
         },
         {
             "Hisse": "INVEO",
-            "Son Fiyat (TL)": 8.26
+            "Son Fiyat (TL)": 8.3
         },
         {
             "Hisse": "INVES",
-            "Son Fiyat (TL)": 615.0
+            "Son Fiyat (TL)": 622.0
         },
         {
             "Hisse": "ISATR",
@@ -1210,19 +1210,19 @@
         },
         {
             "Hisse": "ISCTR",
-            "Son Fiyat (TL)": 13.4
+            "Son Fiyat (TL)": 13.27
         },
         {
             "Hisse": "ISDMR",
-            "Son Fiyat (TL)": 62.1
+            "Son Fiyat (TL)": 61.45
         },
         {
             "Hisse": "ISFIN",
-            "Son Fiyat (TL)": 19.91
+            "Son Fiyat (TL)": 19.92
         },
         {
             "Hisse": "ISGSY",
-            "Son Fiyat (TL)": 108.8
+            "Son Fiyat (TL)": 109.3
         },
         {
             "Hisse": "ISGYO",
@@ -1230,7 +1230,7 @@
         },
         {
             "Hisse": "ISKPL",
-            "Son Fiyat (TL)": 13.08
+            "Son Fiyat (TL)": 13.55
         },
         {
             "Hisse": "ISKUR",
@@ -1242,43 +1242,43 @@
         },
         {
             "Hisse": "ISSEN",
-            "Son Fiyat (TL)": 9.12
+            "Son Fiyat (TL)": 9.05
         },
         {
             "Hisse": "ISYAT",
-            "Son Fiyat (TL)": 8.19
+            "Son Fiyat (TL)": 8.17
         },
         {
             "Hisse": "IZENR",
-            "Son Fiyat (TL)": 11.89
+            "Son Fiyat (TL)": 11.74
         },
         {
             "Hisse": "IZFAS",
-            "Son Fiyat (TL)": 65.1
+            "Son Fiyat (TL)": 65.15
         },
         {
             "Hisse": "IZINV",
-            "Son Fiyat (TL)": 69.65
+            "Son Fiyat (TL)": 69.05
         },
         {
             "Hisse": "IZMDC",
-            "Son Fiyat (TL)": 7.68
+            "Son Fiyat (TL)": 7.65
         },
         {
             "Hisse": "JANTS",
-            "Son Fiyat (TL)": 17.76
+            "Son Fiyat (TL)": 17.8
         },
         {
             "Hisse": "KAPLM",
-            "Son Fiyat (TL)": 624.0
+            "Son Fiyat (TL)": 632.5
         },
         {
             "Hisse": "KAREL",
-            "Son Fiyat (TL)": 13.35
+            "Son Fiyat (TL)": 13.47
         },
         {
             "Hisse": "KARSN",
-            "Son Fiyat (TL)": 13.25
+            "Son Fiyat (TL)": 13.16
         },
         {
             "Hisse": "KARTN",
@@ -1286,23 +1286,23 @@
         },
         {
             "Hisse": "KATMR",
-            "Son Fiyat (TL)": 2.86
+            "Son Fiyat (TL)": 2.84
         },
         {
             "Hisse": "KAYSE",
-            "Son Fiyat (TL)": 4.78
+            "Son Fiyat (TL)": 4.79
         },
         {
             "Hisse": "KBORU",
-            "Son Fiyat (TL)": 25.36
+            "Son Fiyat (TL)": 25.34
         },
         {
             "Hisse": "KCAER",
-            "Son Fiyat (TL)": 13.55
+            "Son Fiyat (TL)": 13.53
         },
         {
             "Hisse": "KCHOL",
-            "Son Fiyat (TL)": 191.6
+            "Son Fiyat (TL)": 190.5
         },
         {
             "Hisse": "KENT",
@@ -1318,23 +1318,23 @@
         },
         {
             "Hisse": "KGYO",
-            "Son Fiyat (TL)": 12.56
+            "Son Fiyat (TL)": 12.62
         },
         {
             "Hisse": "KIMMR",
-            "Son Fiyat (TL)": 17.36
+            "Son Fiyat (TL)": 17.41
         },
         {
             "Hisse": "KLGYO",
-            "Son Fiyat (TL)": 4.93
+            "Son Fiyat (TL)": 4.95
         },
         {
             "Hisse": "KLKIM",
-            "Son Fiyat (TL)": 32.44
+            "Son Fiyat (TL)": 32.26
         },
         {
             "Hisse": "KLMSN",
-            "Son Fiyat (TL)": 33.76
+            "Son Fiyat (TL)": 33.94
         },
         {
             "Hisse": "KLNMA",
@@ -1342,35 +1342,35 @@
         },
         {
             "Hisse": "KLRHO",
-            "Son Fiyat (TL)": 92.45
+            "Son Fiyat (TL)": 95.15
         },
         {
             "Hisse": "KLSER",
-            "Son Fiyat (TL)": 30.1
+            "Son Fiyat (TL)": 29.98
         },
         {
             "Hisse": "KLSYN",
-            "Son Fiyat (TL)": 11.59
+            "Son Fiyat (TL)": 11.79
         },
         {
             "Hisse": "KLYPV",
-            "Son Fiyat (TL)": 62.95
+            "Son Fiyat (TL)": 62.75
         },
         {
             "Hisse": "KMPUR",
-            "Son Fiyat (TL)": 23.34
+            "Son Fiyat (TL)": 23.22
         },
         {
             "Hisse": "KNFRT",
-            "Son Fiyat (TL)": 13.07
+            "Son Fiyat (TL)": 13.18
         },
         {
             "Hisse": "KOCMT",
-            "Son Fiyat (TL)": 2.66
+            "Son Fiyat (TL)": 2.67
         },
         {
             "Hisse": "KONKA",
-            "Son Fiyat (TL)": 14.82
+            "Son Fiyat (TL)": 14.74
         },
         {
             "Hisse": "KONTR",
@@ -1378,39 +1378,39 @@
         },
         {
             "Hisse": "KONYA",
-            "Son Fiyat (TL)": 3890.0
+            "Son Fiyat (TL)": 3892.5
         },
         {
             "Hisse": "KOPOL",
-            "Son Fiyat (TL)": 6.21
+            "Son Fiyat (TL)": 6.23
         },
         {
             "Hisse": "KORDS",
-            "Son Fiyat (TL)": 85.95
+            "Son Fiyat (TL)": 85.55
         },
         {
             "Hisse": "KOTON",
-            "Son Fiyat (TL)": 15.13
+            "Son Fiyat (TL)": 15.18
         },
         {
             "Hisse": "KRDMA",
-            "Son Fiyat (TL)": 40.46
+            "Son Fiyat (TL)": 39.8
         },
         {
             "Hisse": "KRDMB",
-            "Son Fiyat (TL)": 106.0
+            "Son Fiyat (TL)": 105.6
         },
         {
             "Hisse": "KRDMD",
-            "Son Fiyat (TL)": 40.52
+            "Son Fiyat (TL)": 39.92
         },
         {
             "Hisse": "KRGYO",
-            "Son Fiyat (TL)": 2.76
+            "Son Fiyat (TL)": 2.77
         },
         {
             "Hisse": "KRONT",
-            "Son Fiyat (TL)": 19.09
+            "Son Fiyat (TL)": 19.15
         },
         {
             "Hisse": "KRPLS",
@@ -1418,15 +1418,15 @@
         },
         {
             "Hisse": "KRSTL",
-            "Son Fiyat (TL)": 11.8
+            "Son Fiyat (TL)": 11.86
         },
         {
             "Hisse": "KRTEK",
-            "Son Fiyat (TL)": 24.52
+            "Son Fiyat (TL)": 24.54
         },
         {
             "Hisse": "KRVGD",
-            "Son Fiyat (TL)": 3.14
+            "Son Fiyat (TL)": 3.18
         },
         {
             "Hisse": "KSTUR",
@@ -1434,7 +1434,7 @@
         },
         {
             "Hisse": "KTLEV",
-            "Son Fiyat (TL)": 123.6
+            "Son Fiyat (TL)": 123.3
         },
         {
             "Hisse": "KTSKR",
@@ -1442,43 +1442,43 @@
         },
         {
             "Hisse": "KUTPO",
-            "Son Fiyat (TL)": 93.45
+            "Son Fiyat (TL)": 93.95
         },
         {
             "Hisse": "KUVVA",
-            "Son Fiyat (TL)": 163.4
+            "Son Fiyat (TL)": 161.0
         },
         {
             "Hisse": "KUYAS",
-            "Son Fiyat (TL)": 78.1
+            "Son Fiyat (TL)": 77.6
         },
         {
             "Hisse": "KZBGY",
-            "Son Fiyat (TL)": 3.19
+            "Son Fiyat (TL)": 3.21
         },
         {
             "Hisse": "KZGYO",
-            "Son Fiyat (TL)": 25.02
+            "Son Fiyat (TL)": 25.08
         },
         {
             "Hisse": "LIDER",
-            "Son Fiyat (TL)": 111.7
+            "Son Fiyat (TL)": 112.6
         },
         {
             "Hisse": "LIDFA",
-            "Son Fiyat (TL)": 3.01
+            "Son Fiyat (TL)": 3.0
         },
         {
             "Hisse": "LILAK",
-            "Son Fiyat (TL)": 35.78
+            "Son Fiyat (TL)": 35.9
         },
         {
             "Hisse": "LINK",
-            "Son Fiyat (TL)": 8.08
+            "Son Fiyat (TL)": 8.03
         },
         {
             "Hisse": "LKMNH",
-            "Son Fiyat (TL)": 17.16
+            "Son Fiyat (TL)": 17.22
         },
         {
             "Hisse": "LMKDC",
@@ -1486,79 +1486,79 @@
         },
         {
             "Hisse": "LOGO",
-            "Son Fiyat (TL)": 161.5
+            "Son Fiyat (TL)": 151.2
         },
         {
             "Hisse": "LRSHO",
-            "Son Fiyat (TL)": 3.63
+            "Son Fiyat (TL)": 3.66
         },
         {
             "Hisse": "LUKSK",
-            "Son Fiyat (TL)": 102.9
+            "Son Fiyat (TL)": 102.5
         },
         {
             "Hisse": "LXGYO",
-            "Son Fiyat (TL)": 17.04
+            "Son Fiyat (TL)": 17.13
         },
         {
             "Hisse": "LYDHO",
-            "Son Fiyat (TL)": 202.6
+            "Son Fiyat (TL)": 203.7
         },
         {
             "Hisse": "LYDYE",
-            "Son Fiyat (TL)": 16175.0
+            "Son Fiyat (TL)": 16120.0
         },
         {
             "Hisse": "MAALT",
-            "Son Fiyat (TL)": 1323.0
+            "Son Fiyat (TL)": 1284.0
         },
         {
             "Hisse": "MACKO",
-            "Son Fiyat (TL)": 42.14
+            "Son Fiyat (TL)": 41.94
         },
         {
             "Hisse": "MAGEN",
-            "Son Fiyat (TL)": 62.5
+            "Son Fiyat (TL)": 62.2
         },
         {
             "Hisse": "MAKIM",
-            "Son Fiyat (TL)": 17.46
+            "Son Fiyat (TL)": 17.43
         },
         {
             "Hisse": "MAKTK",
-            "Son Fiyat (TL)": 13.41
+            "Son Fiyat (TL)": 13.39
         },
         {
             "Hisse": "MANAS",
-            "Son Fiyat (TL)": 24.58
+            "Son Fiyat (TL)": 24.5
         },
         {
             "Hisse": "MARBL",
-            "Son Fiyat (TL)": 13.43
+            "Son Fiyat (TL)": 13.5
         },
         {
             "Hisse": "MARKA",
-            "Son Fiyat (TL)": 58.6
+            "Son Fiyat (TL)": 59.4
         },
         {
             "Hisse": "MARMR",
-            "Son Fiyat (TL)": 2.69
+            "Son Fiyat (TL)": 2.68
         },
         {
             "Hisse": "MARTI",
-            "Son Fiyat (TL)": 1.82
+            "Son Fiyat (TL)": 1.83
         },
         {
             "Hisse": "MAVI",
-            "Son Fiyat (TL)": 41.5
+            "Son Fiyat (TL)": 41.54
         },
         {
             "Hisse": "MCARD",
-            "Son Fiyat (TL)": 200.9
+            "Son Fiyat (TL)": 205.8
         },
         {
             "Hisse": "MEDTR",
-            "Son Fiyat (TL)": 30.52
+            "Son Fiyat (TL)": 30.26
         },
         {
             "Hisse": "MEGAP",
@@ -1566,23 +1566,23 @@
         },
         {
             "Hisse": "MEGMT",
-            "Son Fiyat (TL)": 77.85
+            "Son Fiyat (TL)": 76.85
         },
         {
             "Hisse": "MEKAG",
-            "Son Fiyat (TL)": 4.38
+            "Son Fiyat (TL)": 4.39
         },
         {
             "Hisse": "MEPET",
-            "Son Fiyat (TL)": 21.82
+            "Son Fiyat (TL)": 21.84
         },
         {
             "Hisse": "MERCN",
-            "Son Fiyat (TL)": 22.22
+            "Son Fiyat (TL)": 22.28
         },
         {
             "Hisse": "MERIT",
-            "Son Fiyat (TL)": 16.29
+            "Son Fiyat (TL)": 16.31
         },
         {
             "Hisse": "MERKO",
@@ -1590,23 +1590,23 @@
         },
         {
             "Hisse": "METRO",
-            "Son Fiyat (TL)": 7.49
+            "Son Fiyat (TL)": 7.5
         },
         {
             "Hisse": "MEYSU",
-            "Son Fiyat (TL)": 18.39
+            "Son Fiyat (TL)": 18.31
         },
         {
             "Hisse": "MGROS",
-            "Son Fiyat (TL)": 660.0
+            "Son Fiyat (TL)": 664.0
         },
         {
             "Hisse": "MHRGY",
-            "Son Fiyat (TL)": 4.63
+            "Son Fiyat (TL)": 4.68
         },
         {
             "Hisse": "MIATK",
-            "Son Fiyat (TL)": 54.5
+            "Son Fiyat (TL)": 54.3
         },
         {
             "Hisse": "MMCAS",
@@ -1614,119 +1614,119 @@
         },
         {
             "Hisse": "MNDRS",
-            "Son Fiyat (TL)": 11.66
+            "Son Fiyat (TL)": 11.68
         },
         {
             "Hisse": "MNDTR",
-            "Son Fiyat (TL)": 5.91
+            "Son Fiyat (TL)": 5.9
         },
         {
             "Hisse": "MOBTL",
-            "Son Fiyat (TL)": 15.59
+            "Son Fiyat (TL)": 15.49
         },
         {
             "Hisse": "MOGAN",
-            "Son Fiyat (TL)": 12.98
+            "Son Fiyat (TL)": 12.91
         },
         {
             "Hisse": "MOPAS",
-            "Son Fiyat (TL)": 41.7
+            "Son Fiyat (TL)": 41.76
         },
         {
             "Hisse": "MPARK",
-            "Son Fiyat (TL)": 457.5
+            "Son Fiyat (TL)": 457.75
         },
         {
             "Hisse": "MRGYO",
-            "Son Fiyat (TL)": 1.59
+            "Son Fiyat (TL)": 1.6
         },
         {
             "Hisse": "MRSHL",
-            "Son Fiyat (TL)": 1546.0
+            "Son Fiyat (TL)": 1549.0
         },
         {
             "Hisse": "MSGYO",
-            "Son Fiyat (TL)": 6.02
+            "Son Fiyat (TL)": 6.05
         },
         {
             "Hisse": "MTRKS",
-            "Son Fiyat (TL)": 26.6
+            "Son Fiyat (TL)": 26.2
         },
         {
             "Hisse": "MTRYO",
-            "Son Fiyat (TL)": 9.94
+            "Son Fiyat (TL)": 10.0
         },
         {
             "Hisse": "MZHLD",
-            "Son Fiyat (TL)": 6.28
+            "Son Fiyat (TL)": 6.25
         },
         {
             "Hisse": "NATEN",
-            "Son Fiyat (TL)": 7.23
+            "Son Fiyat (TL)": 7.22
         },
         {
             "Hisse": "NETAS",
-            "Son Fiyat (TL)": 70.75
+            "Son Fiyat (TL)": 70.45
         },
         {
             "Hisse": "NETCD",
-            "Son Fiyat (TL)": 167.4
+            "Son Fiyat (TL)": 168.0
         },
         {
             "Hisse": "NIBAS",
-            "Son Fiyat (TL)": 5.11
+            "Son Fiyat (TL)": 5.1
         },
         {
             "Hisse": "NTGAZ",
-            "Son Fiyat (TL)": 12.86
+            "Son Fiyat (TL)": 13.0
         },
         {
             "Hisse": "NTHOL",
-            "Son Fiyat (TL)": 37.9
+            "Son Fiyat (TL)": 37.98
         },
         {
             "Hisse": "NUGYO",
-            "Son Fiyat (TL)": 10.24
+            "Son Fiyat (TL)": 10.35
         },
         {
             "Hisse": "NUHCM",
-            "Son Fiyat (TL)": 223.2
+            "Son Fiyat (TL)": 222.9
         },
         {
             "Hisse": "OBAMS",
-            "Son Fiyat (TL)": 8.11
+            "Son Fiyat (TL)": 8.13
         },
         {
             "Hisse": "OBASE",
-            "Son Fiyat (TL)": 40.74
+            "Son Fiyat (TL)": 40.48
         },
         {
             "Hisse": "ODAS",
-            "Son Fiyat (TL)": 7.62
+            "Son Fiyat (TL)": 7.55
         },
         {
             "Hisse": "ODINE",
-            "Son Fiyat (TL)": 1214.0
+            "Son Fiyat (TL)": 1223.0
         },
         {
             "Hisse": "OFSYM",
-            "Son Fiyat (TL)": 60.05
+            "Son Fiyat (TL)": 60.0
         },
         {
             "Hisse": "ONCSM",
-            "Son Fiyat (TL)": 300.5
+            "Son Fiyat (TL)": 296.5
         },
         {
             "Hisse": "ONRYT",
-            "Son Fiyat (TL)": 80.45
+            "Son Fiyat (TL)": 81.6
         },
         {
             "Hisse": "ORCAY",
-            "Son Fiyat (TL)": 5.12
+            "Son Fiyat (TL)": 5.1
         },
         {
             "Hisse": "ORGE",
-            "Son Fiyat (TL)": 102.1
+            "Son Fiyat (TL)": 102.2
         },
         {
             "Hisse": "ORMA",
@@ -1734,15 +1734,15 @@
         },
         {
             "Hisse": "OSMEN",
-            "Son Fiyat (TL)": 7.78
+            "Son Fiyat (TL)": 7.77
         },
         {
             "Hisse": "OSTIM",
-            "Son Fiyat (TL)": 2.78
+            "Son Fiyat (TL)": 2.77
         },
         {
             "Hisse": "OTKAR",
-            "Son Fiyat (TL)": 370.75
+            "Son Fiyat (TL)": 369.25
         },
         {
             "Hisse": "OTTO",
@@ -1750,47 +1750,47 @@
         },
         {
             "Hisse": "OYAKC",
-            "Son Fiyat (TL)": 21.0
+            "Son Fiyat (TL)": 20.92
         },
         {
             "Hisse": "OYAYO",
-            "Son Fiyat (TL)": 52.95
+            "Son Fiyat (TL)": 52.75
         },
         {
             "Hisse": "OYLUM",
-            "Son Fiyat (TL)": 8.76
+            "Son Fiyat (TL)": 8.85
         },
         {
             "Hisse": "OYYAT",
-            "Son Fiyat (TL)": 48.94
+            "Son Fiyat (TL)": 49.1
         },
         {
             "Hisse": "OZATD",
-            "Son Fiyat (TL)": 1300.0
+            "Son Fiyat (TL)": 1316.0
         },
         {
             "Hisse": "OZGYO",
-            "Son Fiyat (TL)": 2.17
+            "Son Fiyat (TL)": 2.18
         },
         {
             "Hisse": "OZKGY",
-            "Son Fiyat (TL)": 12.59
+            "Son Fiyat (TL)": 12.66
         },
         {
             "Hisse": "OZRDN",
-            "Son Fiyat (TL)": 35.84
+            "Son Fiyat (TL)": 35.8
         },
         {
             "Hisse": "OZSUB",
-            "Son Fiyat (TL)": 29.98
+            "Son Fiyat (TL)": 29.68
         },
         {
             "Hisse": "OZYSR",
-            "Son Fiyat (TL)": 12.96
+            "Son Fiyat (TL)": 12.4
         },
         {
             "Hisse": "PAGYO",
-            "Son Fiyat (TL)": 131.1
+            "Son Fiyat (TL)": 131.2
         },
         {
             "Hisse": "PAHOL",
@@ -1798,59 +1798,59 @@
         },
         {
             "Hisse": "PAMEL",
-            "Son Fiyat (TL)": 88.05
+            "Son Fiyat (TL)": 91.0
         },
         {
             "Hisse": "PAPIL",
-            "Son Fiyat (TL)": 15.81
+            "Son Fiyat (TL)": 15.9
         },
         {
             "Hisse": "PARSN",
-            "Son Fiyat (TL)": 85.25
+            "Son Fiyat (TL)": 84.9
         },
         {
             "Hisse": "PASEU",
-            "Son Fiyat (TL)": 111.5
+            "Son Fiyat (TL)": 111.3
         },
         {
             "Hisse": "PATEK",
-            "Son Fiyat (TL)": 24.64
+            "Son Fiyat (TL)": 24.66
         },
         {
             "Hisse": "PCILT",
-            "Son Fiyat (TL)": 36.14
+            "Son Fiyat (TL)": 36.66
         },
         {
             "Hisse": "PEKGY",
-            "Son Fiyat (TL)": 13.43
+            "Son Fiyat (TL)": 13.42
         },
         {
             "Hisse": "PENGD",
-            "Son Fiyat (TL)": 14.54
+            "Son Fiyat (TL)": 14.65
         },
         {
             "Hisse": "PENTA",
-            "Son Fiyat (TL)": 16.91
+            "Son Fiyat (TL)": 16.85
         },
         {
             "Hisse": "PETKM",
-            "Son Fiyat (TL)": 22.5
+            "Son Fiyat (TL)": 22.54
         },
         {
             "Hisse": "PETUN",
-            "Son Fiyat (TL)": 13.56
+            "Son Fiyat (TL)": 13.6
         },
         {
             "Hisse": "PGSUS",
-            "Son Fiyat (TL)": 171.7
+            "Son Fiyat (TL)": 171.4
         },
         {
             "Hisse": "PINSU",
-            "Son Fiyat (TL)": 11.6
+            "Son Fiyat (TL)": 11.61
         },
         {
             "Hisse": "PKART",
-            "Son Fiyat (TL)": 143.4
+            "Son Fiyat (TL)": 143.9
         },
         {
             "Hisse": "PKENT",
@@ -1858,47 +1858,47 @@
         },
         {
             "Hisse": "PLTUR",
-            "Son Fiyat (TL)": 24.14
+            "Son Fiyat (TL)": 24.18
         },
         {
             "Hisse": "PNLSN",
-            "Son Fiyat (TL)": 49.14
+            "Son Fiyat (TL)": 49.22
         },
         {
             "Hisse": "PNSUT",
-            "Son Fiyat (TL)": 14.36
+            "Son Fiyat (TL)": 14.5
         },
         {
             "Hisse": "POLHO",
-            "Son Fiyat (TL)": 20.06
+            "Son Fiyat (TL)": 20.1
         },
         {
             "Hisse": "POLTK",
-            "Son Fiyat (TL)": 5270.0
+            "Son Fiyat (TL)": 5242.5
         },
         {
             "Hisse": "PRDGS",
-            "Son Fiyat (TL)": 8.14
+            "Son Fiyat (TL)": 8.23
         },
         {
             "Hisse": "PRKAB",
-            "Son Fiyat (TL)": 40.8
+            "Son Fiyat (TL)": 40.9
         },
         {
             "Hisse": "PRKME",
-            "Son Fiyat (TL)": 17.92
+            "Son Fiyat (TL)": 17.83
         },
         {
             "Hisse": "PRZMA",
-            "Son Fiyat (TL)": 54.5
+            "Son Fiyat (TL)": 54.6
         },
         {
             "Hisse": "PSDTC",
-            "Son Fiyat (TL)": 123.5
+            "Son Fiyat (TL)": 124.2
         },
         {
             "Hisse": "PSGYO",
-            "Son Fiyat (TL)": 3.25
+            "Son Fiyat (TL)": 3.24
         },
         {
             "Hisse": "QNBFK",
@@ -1910,51 +1910,51 @@
         },
         {
             "Hisse": "QUAGR",
-            "Son Fiyat (TL)": 4.0
+            "Son Fiyat (TL)": 4.07
         },
         {
             "Hisse": "RALYH",
-            "Son Fiyat (TL)": 242.4
+            "Son Fiyat (TL)": 239.8
         },
         {
             "Hisse": "RAYSG",
-            "Son Fiyat (TL)": 190.1
+            "Son Fiyat (TL)": 189.4
         },
         {
             "Hisse": "REEDR",
-            "Son Fiyat (TL)": 7.26
+            "Son Fiyat (TL)": 7.27
         },
         {
             "Hisse": "RGYAS",
-            "Son Fiyat (TL)": 191.9
+            "Son Fiyat (TL)": 192.3
         },
         {
             "Hisse": "RNPOL",
-            "Son Fiyat (TL)": 2.48
+            "Son Fiyat (TL)": 2.47
         },
         {
             "Hisse": "RODRG",
-            "Son Fiyat (TL)": 30.0
+            "Son Fiyat (TL)": 29.92
         },
         {
             "Hisse": "RTALB",
-            "Son Fiyat (TL)": 3.84
+            "Son Fiyat (TL)": 3.88
         },
         {
             "Hisse": "RUBNS",
-            "Son Fiyat (TL)": 32.24
+            "Son Fiyat (TL)": 32.1
         },
         {
             "Hisse": "RUZYE",
-            "Son Fiyat (TL)": 12.14
+            "Son Fiyat (TL)": 12.2
         },
         {
             "Hisse": "RYGYO",
-            "Son Fiyat (TL)": 33.06
+            "Son Fiyat (TL)": 33.5
         },
         {
             "Hisse": "RYSAS",
-            "Son Fiyat (TL)": 22.4
+            "Son Fiyat (TL)": 23.02
         },
         {
             "Hisse": "SAFKR",
@@ -1962,59 +1962,59 @@
         },
         {
             "Hisse": "SAHOL",
-            "Son Fiyat (TL)": 91.15
+            "Son Fiyat (TL)": 90.85
         },
         {
             "Hisse": "SAMAT",
-            "Son Fiyat (TL)": 7.47
+            "Son Fiyat (TL)": 7.25
         },
         {
             "Hisse": "SANEL",
-            "Son Fiyat (TL)": 43.5
+            "Son Fiyat (TL)": 44.08
         },
         {
             "Hisse": "SANFM",
-            "Son Fiyat (TL)": 8.71
+            "Son Fiyat (TL)": 8.77
         },
         {
             "Hisse": "SANKO",
-            "Son Fiyat (TL)": 22.98
+            "Son Fiyat (TL)": 23.12
         },
         {
             "Hisse": "SARKY",
-            "Son Fiyat (TL)": 29.0
+            "Son Fiyat (TL)": 28.92
         },
         {
             "Hisse": "SASA",
-            "Son Fiyat (TL)": 2.71
+            "Son Fiyat (TL)": 2.72
         },
         {
             "Hisse": "SAYAS",
-            "Son Fiyat (TL)": 57.45
+            "Son Fiyat (TL)": 56.8
         },
         {
             "Hisse": "SDTTR",
-            "Son Fiyat (TL)": 258.25
+            "Son Fiyat (TL)": 257.5
         },
         {
             "Hisse": "SEGMN",
-            "Son Fiyat (TL)": 56.7
+            "Son Fiyat (TL)": 59.4
         },
         {
             "Hisse": "SEGYO",
-            "Son Fiyat (TL)": 4.75
+            "Son Fiyat (TL)": 4.78
         },
         {
             "Hisse": "SEKFK",
-            "Son Fiyat (TL)": 10.31
+            "Son Fiyat (TL)": 10.29
         },
         {
             "Hisse": "SEKUR",
-            "Son Fiyat (TL)": 7.88
+            "Son Fiyat (TL)": 7.9
         },
         {
             "Hisse": "SELEC",
-            "Son Fiyat (TL)": 102.9
+            "Son Fiyat (TL)": 101.3
         },
         {
             "Hisse": "SELVA",
@@ -2022,35 +2022,35 @@
         },
         {
             "Hisse": "SERNT",
-            "Son Fiyat (TL)": 10.36
+            "Son Fiyat (TL)": 10.51
         },
         {
             "Hisse": "SEYKM",
-            "Son Fiyat (TL)": 5.55
+            "Son Fiyat (TL)": 5.45
         },
         {
             "Hisse": "SILVR",
-            "Son Fiyat (TL)": 2.69
+            "Son Fiyat (TL)": 2.68
         },
         {
             "Hisse": "SISE",
-            "Son Fiyat (TL)": 45.8
+            "Son Fiyat (TL)": 45.76
         },
         {
             "Hisse": "SKBNK",
-            "Son Fiyat (TL)": 13.43
+            "Son Fiyat (TL)": 13.38
         },
         {
             "Hisse": "SKTAS",
-            "Son Fiyat (TL)": 3.61
+            "Son Fiyat (TL)": 3.62
         },
         {
             "Hisse": "SKYLP",
-            "Son Fiyat (TL)": 328.5
+            "Son Fiyat (TL)": 329.25
         },
         {
             "Hisse": "SKYMD",
-            "Son Fiyat (TL)": 14.39
+            "Son Fiyat (TL)": 14.38
         },
         {
             "Hisse": "SMART",
@@ -2058,11 +2058,11 @@
         },
         {
             "Hisse": "SMRTG",
-            "Son Fiyat (TL)": 12.19
+            "Son Fiyat (TL)": 12.2
         },
         {
             "Hisse": "SMRVA",
-            "Son Fiyat (TL)": 16.73
+            "Son Fiyat (TL)": 16.68
         },
         {
             "Hisse": "SNGYO",
@@ -2082,19 +2082,19 @@
         },
         {
             "Hisse": "SOKE",
-            "Son Fiyat (TL)": 18.68
+            "Son Fiyat (TL)": 18.64
         },
         {
             "Hisse": "SOKM",
-            "Son Fiyat (TL)": 48.02
+            "Son Fiyat (TL)": 48.04
         },
         {
             "Hisse": "SONME",
-            "Son Fiyat (TL)": 137.0
+            "Son Fiyat (TL)": 135.9
         },
         {
             "Hisse": "SRVGY",
-            "Son Fiyat (TL)": 3.08
+            "Son Fiyat (TL)": 3.09
         },
         {
             "Hisse": "SUMAS",
@@ -2102,115 +2102,115 @@
         },
         {
             "Hisse": "SUNTK",
-            "Son Fiyat (TL)": 34.16
+            "Son Fiyat (TL)": 33.9
         },
         {
             "Hisse": "SURGY",
-            "Son Fiyat (TL)": 71.15
+            "Son Fiyat (TL)": 71.45
         },
         {
             "Hisse": "SUWEN",
-            "Son Fiyat (TL)": 7.89
+            "Son Fiyat (TL)": 7.88
         },
         {
             "Hisse": "SVGYO",
-            "Son Fiyat (TL)": 19.32
+            "Son Fiyat (TL)": 19.05
         },
         {
             "Hisse": "TABGD",
-            "Son Fiyat (TL)": 269.5
+            "Son Fiyat (TL)": 267.5
         },
         {
             "Hisse": "TARKM",
-            "Son Fiyat (TL)": 588.5
+            "Son Fiyat (TL)": 585.5
         },
         {
             "Hisse": "TATEN",
-            "Son Fiyat (TL)": 15.0
+            "Son Fiyat (TL)": 15.05
         },
         {
             "Hisse": "TATGD",
-            "Son Fiyat (TL)": 21.06
+            "Son Fiyat (TL)": 20.96
         },
         {
             "Hisse": "TAVHL",
-            "Son Fiyat (TL)": 258.75
+            "Son Fiyat (TL)": 257.25
         },
         {
             "Hisse": "TBORG",
-            "Son Fiyat (TL)": 138.0
+            "Son Fiyat (TL)": 137.7
         },
         {
             "Hisse": "TCELL",
-            "Son Fiyat (TL)": 103.6
+            "Son Fiyat (TL)": 103.4
         },
         {
             "Hisse": "TCKRC",
-            "Son Fiyat (TL)": 159.0
+            "Son Fiyat (TL)": 157.7
         },
         {
             "Hisse": "TDGYO",
-            "Son Fiyat (TL)": 15.08
+            "Son Fiyat (TL)": 14.85
         },
         {
             "Hisse": "TEHOL",
-            "Son Fiyat (TL)": 28.86
+            "Son Fiyat (TL)": 29.0
         },
         {
             "Hisse": "TEKTU",
-            "Son Fiyat (TL)": 11.55
+            "Son Fiyat (TL)": 11.61
         },
         {
             "Hisse": "TERA",
-            "Son Fiyat (TL)": 202.9
+            "Son Fiyat (TL)": 202.8
         },
         {
             "Hisse": "TEZOL",
-            "Son Fiyat (TL)": 19.52
+            "Son Fiyat (TL)": 19.65
         },
         {
             "Hisse": "TGSAS",
-            "Son Fiyat (TL)": 180.5
+            "Son Fiyat (TL)": 181.3
         },
         {
             "Hisse": "THYAO",
-            "Son Fiyat (TL)": 298.25
+            "Son Fiyat (TL)": 298.5
         },
         {
             "Hisse": "TKFEN",
-            "Son Fiyat (TL)": 143.9
+            "Son Fiyat (TL)": 142.7
         },
         {
             "Hisse": "TKNSA",
-            "Son Fiyat (TL)": 20.98
+            "Son Fiyat (TL)": 21.06
         },
         {
             "Hisse": "TLMAN",
-            "Son Fiyat (TL)": 98.7
+            "Son Fiyat (TL)": 98.5
         },
         {
             "Hisse": "TMPOL",
-            "Son Fiyat (TL)": 300.75
+            "Son Fiyat (TL)": 302.25
         },
         {
             "Hisse": "TMSN",
-            "Son Fiyat (TL)": 101.9
+            "Son Fiyat (TL)": 101.7
         },
         {
             "Hisse": "TNZTP",
-            "Son Fiyat (TL)": 25.64
+            "Son Fiyat (TL)": 25.88
         },
         {
             "Hisse": "TOASO",
-            "Son Fiyat (TL)": 295.25
+            "Son Fiyat (TL)": 294.25
         },
         {
             "Hisse": "TRALT",
-            "Son Fiyat (TL)": 44.76
+            "Son Fiyat (TL)": 44.6
         },
         {
             "Hisse": "TRCAS",
-            "Son Fiyat (TL)": 45.74
+            "Son Fiyat (TL)": 45.68
         },
         {
             "Hisse": "TRENJ",
@@ -2218,11 +2218,11 @@
         },
         {
             "Hisse": "TRGYO",
-            "Son Fiyat (TL)": 92.45
+            "Son Fiyat (TL)": 92.95
         },
         {
             "Hisse": "TRHOL",
-            "Son Fiyat (TL)": 1556.0
+            "Son Fiyat (TL)": 1551.0
         },
         {
             "Hisse": "TRILC",
@@ -2230,31 +2230,31 @@
         },
         {
             "Hisse": "TRMET",
-            "Son Fiyat (TL)": 111.2
+            "Son Fiyat (TL)": 111.9
         },
         {
             "Hisse": "TSGYO",
-            "Son Fiyat (TL)": 6.55
+            "Son Fiyat (TL)": 6.53
         },
         {
             "Hisse": "TSKB",
-            "Son Fiyat (TL)": 11.29
+            "Son Fiyat (TL)": 11.3
         },
         {
             "Hisse": "TSPOR",
-            "Son Fiyat (TL)": 1.01
+            "Son Fiyat (TL)": 1.0
         },
         {
             "Hisse": "TTKOM",
-            "Son Fiyat (TL)": 61.65
+            "Son Fiyat (TL)": 61.15
         },
         {
             "Hisse": "TTRAK",
-            "Son Fiyat (TL)": 450.5
+            "Son Fiyat (TL)": 450.25
         },
         {
             "Hisse": "TUCLK",
-            "Son Fiyat (TL)": 4.61
+            "Son Fiyat (TL)": 4.6
         },
         {
             "Hisse": "TUKAS",
@@ -2262,35 +2262,35 @@
         },
         {
             "Hisse": "TUPRS",
-            "Son Fiyat (TL)": 239.4
+            "Son Fiyat (TL)": 237.6
         },
         {
             "Hisse": "TUREX",
-            "Son Fiyat (TL)": 8.42
+            "Son Fiyat (TL)": 8.46
         },
         {
             "Hisse": "TURGG",
-            "Son Fiyat (TL)": 31.12
+            "Son Fiyat (TL)": 31.28
         },
         {
             "Hisse": "TURSG",
-            "Son Fiyat (TL)": 12.66
+            "Son Fiyat (TL)": 12.63
         },
         {
             "Hisse": "UCAYM",
-            "Son Fiyat (TL)": 37.9
+            "Son Fiyat (TL)": 37.86
         },
         {
             "Hisse": "UFUK",
-            "Son Fiyat (TL)": 1415.0
+            "Son Fiyat (TL)": 1417.0
         },
         {
             "Hisse": "ULAS",
-            "Son Fiyat (TL)": 27.18
+            "Son Fiyat (TL)": 27.16
         },
         {
             "Hisse": "ULKER",
-            "Son Fiyat (TL)": 116.6
+            "Son Fiyat (TL)": 116.4
         },
         {
             "Hisse": "ULUFA",
@@ -2298,11 +2298,11 @@
         },
         {
             "Hisse": "ULUSE",
-            "Son Fiyat (TL)": 346.25
+            "Son Fiyat (TL)": 347.25
         },
         {
             "Hisse": "ULUUN",
-            "Son Fiyat (TL)": 8.99
+            "Son Fiyat (TL)": 8.9
         },
         {
             "Hisse": "UMPAS",
@@ -2310,19 +2310,19 @@
         },
         {
             "Hisse": "UNLU",
-            "Son Fiyat (TL)": 13.45
+            "Son Fiyat (TL)": 13.41
         },
         {
             "Hisse": "USAK",
-            "Son Fiyat (TL)": 1.63
+            "Son Fiyat (TL)": 1.62
         },
         {
             "Hisse": "VAKBN",
-            "Son Fiyat (TL)": 31.12
+            "Son Fiyat (TL)": 30.96
         },
         {
             "Hisse": "VAKFA",
-            "Son Fiyat (TL)": 12.55
+            "Son Fiyat (TL)": 12.58
         },
         {
             "Hisse": "VAKFN",
@@ -2330,11 +2330,11 @@
         },
         {
             "Hisse": "VAKKO",
-            "Son Fiyat (TL)": 76.55
+            "Son Fiyat (TL)": 76.7
         },
         {
             "Hisse": "VANGD",
-            "Son Fiyat (TL)": 90.0
+            "Son Fiyat (TL)": 91.25
         },
         {
             "Hisse": "VBTYZ",
@@ -2342,11 +2342,11 @@
         },
         {
             "Hisse": "VERTU",
-            "Son Fiyat (TL)": 39.96
+            "Son Fiyat (TL)": 40.14
         },
         {
             "Hisse": "VERUS",
-            "Son Fiyat (TL)": 580.5
+            "Son Fiyat (TL)": 582.5
         },
         {
             "Hisse": "VESBE",
@@ -2354,39 +2354,39 @@
         },
         {
             "Hisse": "VESTL",
-            "Son Fiyat (TL)": 26.8
+            "Son Fiyat (TL)": 26.82
         },
         {
             "Hisse": "VKFYO",
-            "Son Fiyat (TL)": 30.84
+            "Son Fiyat (TL)": 30.68
         },
         {
             "Hisse": "VKGYO",
-            "Son Fiyat (TL)": 2.74
+            "Son Fiyat (TL)": 2.75
         },
         {
             "Hisse": "VKING",
-            "Son Fiyat (TL)": 26.24
+            "Son Fiyat (TL)": 26.26
         },
         {
             "Hisse": "VRGYO",
-            "Son Fiyat (TL)": 2.25
+            "Son Fiyat (TL)": 2.24
         },
         {
             "Hisse": "VSNMD",
-            "Son Fiyat (TL)": 82.3
+            "Son Fiyat (TL)": 82.65
         },
         {
             "Hisse": "YAPRK",
-            "Son Fiyat (TL)": 13.29
+            "Son Fiyat (TL)": 13.33
         },
         {
             "Hisse": "YATAS",
-            "Son Fiyat (TL)": 41.38
+            "Son Fiyat (TL)": 41.4
         },
         {
             "Hisse": "YAYLA",
-            "Son Fiyat (TL)": 28.26
+            "Son Fiyat (TL)": 27.86
         },
         {
             "Hisse": "YBTAS",
@@ -2394,23 +2394,23 @@
         },
         {
             "Hisse": "YEOTK",
-            "Son Fiyat (TL)": 110.5
+            "Son Fiyat (TL)": 108.7
         },
         {
             "Hisse": "YESIL",
-            "Son Fiyat (TL)": 1.57
+            "Son Fiyat (TL)": 1.56
         },
         {
             "Hisse": "YGGYO",
-            "Son Fiyat (TL)": 233.5
+            "Son Fiyat (TL)": 230.9
         },
         {
             "Hisse": "YIGIT",
-            "Son Fiyat (TL)": 24.9
+            "Son Fiyat (TL)": 24.84
         },
         {
             "Hisse": "YKBNK",
-            "Son Fiyat (TL)": 33.78
+            "Son Fiyat (TL)": 33.42
         },
         {
             "Hisse": "YKSLN",
@@ -2422,7 +2422,7 @@
         },
         {
             "Hisse": "YUNSA",
-            "Son Fiyat (TL)": 10.3
+            "Son Fiyat (TL)": 10.33
         },
         {
             "Hisse": "YYAPI",
@@ -2430,19 +2430,19 @@
         },
         {
             "Hisse": "YYLGD",
-            "Son Fiyat (TL)": 11.86
+            "Son Fiyat (TL)": 11.91
         },
         {
             "Hisse": "ZEDUR",
-            "Son Fiyat (TL)": 9.9
+            "Son Fiyat (TL)": 9.97
         },
         {
             "Hisse": "ZERGY",
-            "Son Fiyat (TL)": 14.96
+            "Son Fiyat (TL)": 14.91
         },
         {
             "Hisse": "ZGYO",
-            "Son Fiyat (TL)": 37.66
+            "Son Fiyat (TL)": 37.28
         },
         {
             "Hisse": "ZOREN",
@@ -2450,7 +2450,7 @@
         },
         {
             "Hisse": "ZRGYO",
-            "Son Fiyat (TL)": 15.0
+            "Son Fiyat (TL)": 14.9
         }
     ],
     "fonlar": [
@@ -3164,7 +3164,7 @@
         },
         {
             "Fon Kodu": "BUB",
-            "Fiyat": 1.066283
+            "Fiyat": 1.065582
         },
         {
             "Fon Kodu": "BUC",
@@ -4860,19 +4860,19 @@
         },
         {
             "Fon Kodu": "GO1",
-            "Fiyat": 4.365452
+            "Fiyat": 4.377984
         },
         {
             "Fon Kodu": "GO2",
-            "Fiyat": 4.693793
+            "Fiyat": 4.703778
         },
         {
             "Fon Kodu": "GO3",
-            "Fiyat": 4.76244
+            "Fiyat": 4.757292
         },
         {
             "Fon Kodu": "GO4",
-            "Fiyat": 5.121748
+            "Fiyat": 5.111199
         },
         {
             "Fon Kodu": "GO6",
@@ -6232,7 +6232,7 @@
         },
         {
             "Fon Kodu": "IUH",
-            "Fiyat": 5.870482
+            "Fiyat": 5.882483
         },
         {
             "Fon Kodu": "IUM",
@@ -7236,7 +7236,7 @@
         },
         {
             "Fon Kodu": "NFF",
-            "Fiyat": 1.244084
+            "Fiyat": 1.250281
         },
         {
             "Fon Kodu": "NFH",
@@ -7248,7 +7248,7 @@
         },
         {
             "Fon Kodu": "NHP",
-            "Fiyat": 5.447677
+            "Fiyat": 5.470856
         },
         {
             "Fon Kodu": "NHT",
@@ -7980,7 +7980,7 @@
         },
         {
             "Fon Kodu": "PFS",
-            "Fiyat": 2.819529
+            "Fiyat": 2.827938
         },
         {
             "Fon Kodu": "PGD",
@@ -8036,7 +8036,7 @@
         },
         {
             "Fon Kodu": "PIL",
-            "Fiyat": 4.24954
+            "Fiyat": 4.249462
         },
         {
             "Fon Kodu": "PIP",
@@ -8596,7 +8596,7 @@
         },
         {
             "Fon Kodu": "RLH",
-            "Fiyat": 1.559813
+            "Fiyat": 1.560232
         },
         {
             "Fon Kodu": "RO1",
@@ -8620,7 +8620,7 @@
         },
         {
             "Fon Kodu": "RPC",
-            "Fiyat": 4.996018
+            "Fiyat": 4.996135
         },
         {
             "Fon Kodu": "RPD",
@@ -8768,7 +8768,7 @@
         },
         {
             "Fon Kodu": "RYU",
-            "Fiyat": 46.463596
+            "Fiyat": 46.463757
         },
         {
             "Fon Kodu": "RZR",
