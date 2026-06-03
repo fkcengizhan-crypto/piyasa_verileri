@@ -23,7 +23,7 @@ def selenium_driver_olustur():
     chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--disable-background-networking")
     chrome_options.add_argument("--remote-debugging-port=0")
-    chrome_options.page_load_strategy = 'eager'   # Tam sayfa yüklemesini beklemez, hızlandırır
+    chrome_options.page_load_strategy = 'eager'
 
     chrome_binary = os.environ.get("CHROME_BINARY_PATH")
     if chrome_binary:
@@ -51,7 +51,6 @@ def hisse_verilerini_cek():
     driver = selenium_driver_olustur()
     try:
         driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
-        # Tablo yüklenene kadar akıllıca bekle (en fazla 30 saniye)
         WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.ID, "DataTables_Table_0"))
         )
@@ -89,7 +88,6 @@ def fon_verilerini_cek():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
     }
 
-    # Bugünden başla, 15 gün geriye git
     for i in range(15):
         tarih = (datetime.now() - timedelta(days=i)).strftime("%Y%m%d")
         print(f"Tarih deneniyor: {tarih}")
@@ -149,18 +147,35 @@ def fon_verilerini_cek():
     return pd.DataFrame(columns=["Fon Kodu", "Fiyat"])
 
 
+# ----------------------------- BLOOMBERG VERİLERİ (DÜZELTİLMİŞ) -----------------------------
 def bloomberg_verilerini_cek():
     driver = selenium_driver_olustur()
     try:
         driver.get("https://www.bloomberght.com/piyasalar")
+        # 1. Slayt konteynerinin DOM'a eklenmesini bekle
         WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-slide[data-swiper-slide-index]"))
         )
+        # 2. İlk slayttaki fiyat ve değişim metinlerinin gerçekten dolmasını bekle
+        for _ in range(10):  # En fazla 10 saniye
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+            slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
+            if slides:
+                ilk_fiyat = slides[0].select_one("span.lastPrice")
+                ilk_degisim = slides[0].select_one("span.percentChange")
+                if ilk_fiyat and ilk_fiyat.get_text(strip=True) and ilk_degisim and ilk_degisim.get_text(strip=True):
+                    break
+            time.sleep(1)
+        else:
+            print("UYARI: Bloomberg verileri 10 saniye içinde tam yüklenemedi.")
+        
         soup = BeautifulSoup(driver.page_source, "html.parser")
     finally:
         driver.quit()
 
     slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
+    print(f"Bulunan Bloomberg slayt sayısı: {len(slides)}")
+
     gorulmus = set()
     data = []
     for slide in slides:
@@ -172,14 +187,20 @@ def bloomberg_verilerini_cek():
             if sembol_text in gorulmus:
                 continue
             gorulmus.add(sembol_text)
+            # Türkçe sayı formatını düzelt: 1.234,56 -> 1234.56
             fiyat_str  = fiyat.get_text(strip=True).replace(".", "").replace(",", ".")
             degisim_str = degisim.get_text(strip=True).replace("%", "").replace(".", "").replace(",", ".")
             data.append([sembol_text, fiyat_str, degisim_str])
+
+    if not data:
+        print("Hiç Bloomberg verisi çekilemedi. Sayfa yapısını veya seçicileri kontrol edin.")
+        return pd.DataFrame(columns=["Sembol", "Fiyat", "Değişim%"])
 
     df = pd.DataFrame(data, columns=["Sembol", "Fiyat", "Değişim%"])
     df["Fiyat"]    = pd.to_numeric(df["Fiyat"],    errors="coerce")
     df["Değişim%"] = pd.to_numeric(df["Değişim%"], errors="coerce")
     return df
+
 
 # ----------------------------- ANA İŞLEM -----------------------------
 if __name__ == "__main__":
