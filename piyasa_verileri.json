@@ -10479,5 +10479,46 @@
             "Fiyat": 79.54289
         }
     ],
-    "bloomberg": []
+    "bloomberg": [
+        {
+            "Sembol": "BIST 100",
+            "Fiyat": 13965.65,
+            "Değişim%": -1.65
+        },
+        {
+            "Sembol": "USD/TRY",
+            "Fiyat": 45.9567,
+            "Değişim%": 0.04
+        },
+        {
+            "Sembol": "EUR/TRY",
+            "Fiyat": 53.3607,
+            "Değişim%": -0.18
+        },
+        {
+            "Sembol": "ALTIN/ONS",
+            "Fiyat": 4442.59,
+            "Değişim%": -1.03
+        },
+        {
+            "Sembol": "EUR/USD",
+            "Fiyat": 1.1606,
+            "Değişim%": -0.21
+        },
+        {
+            "Sembol": "FAİZ",
+            "Fiyat": 43.45,
+            "Değişim%": 0.12
+        },
+        {
+            "Sembol": "BRENT",
+            "Fiyat": 97.93,
+            "Değişim%": 2.01
+        },
+        {
+            "Sembol": "BALTIK KURU YÜK",
+            "Fiyat": 3205.0,
+            "Değişim%": -0.53
+        }
+    ]
 }
