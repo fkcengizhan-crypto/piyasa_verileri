@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.remote_connection import RemoteConnection
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
@@ -22,8 +23,8 @@ def selenium_driver_olustur():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--disable-background-networking")
-    chrome_options.add_argument("--remote-debugging-port=0")
-    chrome_options.page_load_strategy = 'eager'
+    # remote-debugging-port=0 yerine sabit bir port vermeyelim, rastgele atanır
+    chrome_options.page_load_strategy = 'eager'  # veya 'normal' deneyebilirsiniz
 
     chrome_binary = os.environ.get("CHROME_BINARY_PATH")
     if chrome_binary:
@@ -32,9 +33,19 @@ def selenium_driver_olustur():
     driver_path = os.environ.get("CHROME_DRIVER_PATH")
     if driver_path:
         service = Service(driver_path)
-        return webdriver.Chrome(service=service, options=chrome_options)
+        driver = webdriver.Chrome(service=service, options=chrome_options)
     else:
-        return webdriver.Chrome(options=chrome_options)
+        driver = webdriver.Chrome(options=chrome_options)
+
+    # ---- Zaman aşımlarını yapılandır ----
+    # Sayfa yükleme için maksimum süre (saniye)
+    driver.set_page_load_timeout(120)
+    # Remote connection (HTTP istekleri) için okuma zaman aşımını artır
+    RemoteConnection.set_timeout(120)
+    # Komut yürütme zaman aşımı (isteğe bağlı)
+    driver.command_executor.set_timeout(120)
+
+    return driver
 
 
 # ----------------------------- HİSSE VERİLERİ -----------------------------
@@ -47,16 +58,26 @@ def turkce_sayi_cevir(deger):
     except ValueError:
         return None
 
+
 def hisse_verilerini_cek():
-    driver = selenium_driver_olustur()
-    try:
-        driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.ID, "DataTables_Table_0"))
-        )
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-    finally:
-        driver.quit()
+    max_deneme = 3
+    for deneme in range(1, max_deneme + 1):
+        driver = selenium_driver_olustur()
+        try:
+            print(f"Hisse verisi deneme {deneme}/{max_deneme}...")
+            driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.ID, "DataTables_Table_0"))
+            )
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            break  # başarılıysa döngüden çık
+        except Exception as e:
+            print(f"Deneme {deneme} başarısız: {e}")
+            if deneme == max_deneme:
+                raise  # son denemede de başarısızsa hatayı fırlat
+            time.sleep(5)  # yeniden denemeden önce bekle
+        finally:
+            driver.quit()
 
     table = soup.find('table', id='DataTables_Table_0')
     if not table:
@@ -77,6 +98,7 @@ def hisse_verilerini_cek():
 
 
 # ----------------------------- FON VERİLERİ -----------------------------
+# (Bu kısımda değişiklik yok, olduğu gibi bırakabilirsiniz)
 def fon_verilerini_cek():
     url = "https://www.tefas.gov.tr/api/funds/fonGnlBlgSiraliGetirDosya"
     headers = {
@@ -111,7 +133,7 @@ def fon_verilerini_cek():
             print(f"HTTP Durum Kodu: {response.status_code}")
 
             if response.status_code != 200:
-                print(f"HTTP hatası, yanıt: {response.text[:300]}")
+                print(f"HTTP hatası, yanıt: {response.text[:120]}")
                 continue
 
             data = response.json()
@@ -137,7 +159,7 @@ def fon_verilerini_cek():
             continue
         except json.JSONDecodeError as e:
             print(f"JSON ayrıştırma hatası ({tarih}): {e}")
-            print(f"Ham yanıt: {response.text[:300]}")
+            print(f"Ham yanıt: {response.text[:120]}")
             continue
         except Exception as e:
             print(f"Beklenmeyen hata ({tarih}): {e}")
@@ -147,31 +169,37 @@ def fon_verilerini_cek():
     return pd.DataFrame(columns=["Fon Kodu", "Fiyat"])
 
 
-# ----------------------------- BLOOMBERG VERİLERİ (DÜZELTİLMİŞ) -----------------------------
+# ----------------------------- BLOOMBERG VERİLERİ -----------------------------
 def bloomberg_verilerini_cek():
-    driver = selenium_driver_olustur()
-    try:
-        driver.get("https://www.bloomberght.com/piyasalar")
-        # 1. Slayt konteynerinin DOM'a eklenmesini bekle
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-slide[data-swiper-slide-index]"))
-        )
-        # 2. İlk slayttaki fiyat ve değişim metinlerinin gerçekten dolmasını bekle
-        for _ in range(10):  # En fazla 10 saniye
+    max_deneme = 3
+    for deneme in range(1, max_deneme + 1):
+        driver = selenium_driver_olustur()
+        try:
+            print(f"Bloomberg verisi deneme {deneme}/{max_deneme}...")
+            driver.get("https://www.bloomberght.com/piyasalar")
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-slide[data-swiper-slide-index]"))
+            )
+            for _ in range(10):
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
+                if slides:
+                    ilk_fiyat = slides[0].select_one("span.lastPrice")
+                    ilk_degisim = slides[0].select_one("span.percentChange")
+                    if ilk_fiyat and ilk_fiyat.get_text(strip=True) and ilk_degisim and ilk_degisim.get_text(strip=True):
+                        break
+                time.sleep(1)
+            else:
+                print("UYARI: Bloomberg verileri 10 saniye içinde tam yüklenemedi.")
             soup = BeautifulSoup(driver.page_source, "html.parser")
-            slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
-            if slides:
-                ilk_fiyat = slides[0].select_one("span.lastPrice")
-                ilk_degisim = slides[0].select_one("span.percentChange")
-                if ilk_fiyat and ilk_fiyat.get_text(strip=True) and ilk_degisim and ilk_degisim.get_text(strip=True):
-                    break
-            time.sleep(1)
-        else:
-            print("UYARI: Bloomberg verileri 10 saniye içinde tam yüklenemedi.")
-        
-        soup = BeautifulSoup(driver.page_source, "html.parser")
-    finally:
-        driver.quit()
+            break  # başarılı
+        except Exception as e:
+            print(f"Bloomberg deneme {deneme} başarısız: {e}")
+            if deneme == max_deneme:
+                raise
+            time.sleep(5)
+        finally:
+            driver.quit()
 
     slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
     print(f"Bulunan Bloomberg slayt sayısı: {len(slides)}")
@@ -187,7 +215,6 @@ def bloomberg_verilerini_cek():
             if sembol_text in gorulmus:
                 continue
             gorulmus.add(sembol_text)
-            # Türkçe sayı formatını düzelt: 1.234,56 -> 1234.56
             fiyat_str  = fiyat.get_text(strip=True).replace(".", "").replace(",", ".")
             degisim_str = degisim.get_text(strip=True).replace("%", "").replace(".", "").replace(",", ".")
             data.append([sembol_text, fiyat_str, degisim_str])
@@ -216,7 +243,7 @@ if __name__ == "__main__":
     df_bloomberg = bloomberg_verilerini_cek()
     print(f"{len(df_bloomberg)} Bloomberg verisi bulundu.")
 
-    # Excel: Fon (A) | boş (C) | Hisse (D) | boş (F) | Bloomberg (G)
+    # Excel çıktısı
     col_fon      = 0
     col_hisse    = len(df_fon.columns) + 1
     col_bloomberg = col_hisse + len(df_hisse.columns) + 1
