@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.remote_connection import RemoteConnection
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
@@ -17,14 +16,28 @@ import os
 def selenium_driver_olustur():
     """Hem Windows hem GitHub Actions için ortak Selenium driver."""
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless=new")          # Yeni headless modu (eski --headless yerine)
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--disable-background-networking")
-    # remote-debugging-port=0 yerine sabit bir port vermeyelim, rastgele atanır
-    chrome_options.page_load_strategy = 'eager'  # veya 'normal' deneyebilirsiniz
+    chrome_options.add_argument("--no-zygote")             # CI'da renderer crash'ini önler
+    chrome_options.add_argument("--single-process")        # CI ortamında kararlılığı artırır
+    chrome_options.add_argument("--disable-software-rasterizer")
+    chrome_options.add_argument("--disable-features=VizDisplayCompositor")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--remote-debugging-port=0")
+    chrome_options.add_argument("--disable-setuid-sandbox")
+    chrome_options.add_argument("--disable-infobars")
+    chrome_options.add_argument("--ignore-certificate-errors")
+    # Bot tespitini azaltmak için gerçek User-Agent
+    chrome_options.add_argument(
+        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+    )
+    # page_load_strategy normal bırakıldı — 'eager' renderer timeout'a yol açıyordu
+    chrome_options.page_load_strategy = 'normal'
 
     chrome_binary = os.environ.get("CHROME_BINARY_PATH")
     if chrome_binary:
@@ -37,14 +50,9 @@ def selenium_driver_olustur():
     else:
         driver = webdriver.Chrome(options=chrome_options)
 
-    # ---- Zaman aşımlarını yapılandır ----
-    # Sayfa yükleme için maksimum süre (saniye)
-    driver.set_page_load_timeout(120)
-    # Remote connection (HTTP istekleri) için okuma zaman aşımını artır
-    RemoteConnection.set_timeout(120)
-    # Komut yürütme zaman aşımı (isteğe bağlı)
-    driver.command_executor.set_timeout(120)
-
+    driver.set_page_load_timeout(90)
+    driver.set_script_timeout(90)
+    # NOT: RemoteConnection.set_timeout() kaldırıldı — deprecated ve gereksiz
     return driver
 
 
@@ -55,29 +63,81 @@ def turkce_sayi_cevir(deger):
         deger = deger.replace(',', '.')
     try:
         return float(deger)
-    except ValueError:
+    except (ValueError, TypeError):
         return None
 
 
+def hisse_verilerini_api_ile_cek():
+    """
+    isyatirim.com.tr'nin arka planda kullandığı DataTables API endpoint'ini
+    doğrudan çağırarak Selenium'a gerek kalmadan hisse verilerini çeker.
+    """
+    url = "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx"
+    # DataTables ajax endpoint — sayfa kaynağında bulunan gerçek istek
+    api_url = (
+        "https://www.isyatirim.com.tr/_layouts/15/Isyatirim.Website/Common/Data.aspx/HisseSirketleri"
+    )
+    headers = {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Referer": url,
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+        ),
+        "X-Requested-With": "XMLHttpRequest",
+    }
+    try:
+        resp = requests.post(api_url, headers=headers, json={}, timeout=30)
+        if resp.status_code == 200:
+            raw = resp.json()
+            # Yanıt yapısı: {"d": [...]} veya doğrudan liste
+            kayitlar = raw.get("d", raw) if isinstance(raw, dict) else raw
+            if kayitlar:
+                data = [[k.get("kod", k.get("Kod", "")),
+                         k.get("kapanis", k.get("Kapanis", k.get("sonFiyat", "")))]
+                        for k in kayitlar if isinstance(k, dict)]
+                df = pd.DataFrame(data, columns=["Hisse", "Son Fiyat (TL)"])
+                df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
+                df = df[df["Hisse"].str.strip() != ""]
+                if not df.empty:
+                    print(f"API ile {len(df)} hisse verisi alındı.")
+                    return df
+    except Exception as e:
+        print(f"API yöntemi başarısız: {e}")
+    return None
+
+
 def hisse_verilerini_cek():
+    # Önce API ile dene (daha hızlı ve güvenilir)
+    df = hisse_verilerini_api_ile_cek()
+    if df is not None and not df.empty:
+        return df
+
+    # API çalışmazsa Selenium fallback
+    print("API başarısız, Selenium ile deneniyor...")
     max_deneme = 3
+    soup = None
     for deneme in range(1, max_deneme + 1):
         driver = selenium_driver_olustur()
         try:
             print(f"Hisse verisi deneme {deneme}/{max_deneme}...")
             driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
-            WebDriverWait(driver, 30).until(
+            WebDriverWait(driver, 60).until(
                 EC.presence_of_element_located((By.ID, "DataTables_Table_0"))
             )
             soup = BeautifulSoup(driver.page_source, 'html.parser')
-            break  # başarılıysa döngüden çık
+            break
         except Exception as e:
             print(f"Deneme {deneme} başarısız: {e}")
             if deneme == max_deneme:
-                raise  # son denemede de başarısızsa hatayı fırlat
-            time.sleep(5)  # yeniden denemeden önce bekle
+                raise
+            time.sleep(10)
         finally:
             driver.quit()
+
+    if soup is None:
+        raise Exception("Hisse verileri çekilemedi!")
 
     table = soup.find('table', id='DataTables_Table_0')
     if not table:
@@ -88,7 +148,8 @@ def hisse_verilerini_cek():
     for row in rows:
         cols = row.find_all('td')
         if len(cols) >= 2:
-            hisse = cols[0].find('a').text.strip()
+            a_tag = cols[0].find('a')
+            hisse = a_tag.text.strip() if a_tag else cols[0].get_text(strip=True)
             fiyat = cols[1].get_text(strip=True)
             data.append([hisse, fiyat])
 
@@ -98,7 +159,6 @@ def hisse_verilerini_cek():
 
 
 # ----------------------------- FON VERİLERİ -----------------------------
-# (Bu kısımda değişiklik yok, olduğu gibi bırakabilirsiniz)
 def fon_verilerini_cek():
     url = "https://www.tefas.gov.tr/api/funds/fonGnlBlgSiraliGetirDosya"
     headers = {
@@ -172,12 +232,13 @@ def fon_verilerini_cek():
 # ----------------------------- BLOOMBERG VERİLERİ -----------------------------
 def bloomberg_verilerini_cek():
     max_deneme = 3
+    soup = None
     for deneme in range(1, max_deneme + 1):
         driver = selenium_driver_olustur()
         try:
             print(f"Bloomberg verisi deneme {deneme}/{max_deneme}...")
             driver.get("https://www.bloomberght.com/piyasalar")
-            WebDriverWait(driver, 30).until(
+            WebDriverWait(driver, 60).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-slide[data-swiper-slide-index]"))
             )
             for _ in range(10):
@@ -186,20 +247,24 @@ def bloomberg_verilerini_cek():
                 if slides:
                     ilk_fiyat = slides[0].select_one("span.lastPrice")
                     ilk_degisim = slides[0].select_one("span.percentChange")
-                    if ilk_fiyat and ilk_fiyat.get_text(strip=True) and ilk_degisim and ilk_degisim.get_text(strip=True):
+                    if (ilk_fiyat and ilk_fiyat.get_text(strip=True)
+                            and ilk_degisim and ilk_degisim.get_text(strip=True)):
                         break
                 time.sleep(1)
             else:
                 print("UYARI: Bloomberg verileri 10 saniye içinde tam yüklenemedi.")
             soup = BeautifulSoup(driver.page_source, "html.parser")
-            break  # başarılı
+            break
         except Exception as e:
             print(f"Bloomberg deneme {deneme} başarısız: {e}")
             if deneme == max_deneme:
                 raise
-            time.sleep(5)
+            time.sleep(10)
         finally:
             driver.quit()
+
+    if soup is None:
+        raise Exception("Bloomberg verileri çekilemedi!")
 
     slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
     print(f"Bulunan Bloomberg slayt sayısı: {len(slides)}")
@@ -215,7 +280,7 @@ def bloomberg_verilerini_cek():
             if sembol_text in gorulmus:
                 continue
             gorulmus.add(sembol_text)
-            fiyat_str  = fiyat.get_text(strip=True).replace(".", "").replace(",", ".")
+            fiyat_str   = fiyat.get_text(strip=True).replace(".", "").replace(",", ".")
             degisim_str = degisim.get_text(strip=True).replace("%", "").replace(".", "").replace(",", ".")
             data.append([sembol_text, fiyat_str, degisim_str])
 
@@ -244,8 +309,8 @@ if __name__ == "__main__":
     print(f"{len(df_bloomberg)} Bloomberg verisi bulundu.")
 
     # Excel çıktısı
-    col_fon      = 0
-    col_hisse    = len(df_fon.columns) + 1
+    col_fon       = 0
+    col_hisse     = len(df_fon.columns) + 1
     col_bloomberg = col_hisse + len(df_hisse.columns) + 1
     with pd.ExcelWriter("piyasa_verileri.xlsx", engine="openpyxl") as writer:
         df_fon.to_excel(writer,       sheet_name="Piyasa Verileri", index=False, startcol=col_fon)
