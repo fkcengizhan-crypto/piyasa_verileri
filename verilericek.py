@@ -13,6 +13,7 @@ from datetime import datetime, timedelta
 import json
 import os
 import glob
+import re
 
 # ----------------------------- GELİŞMİŞ SELENIUM DRIVER (indirme desteği ile) -----------------------------
 def selenium_driver_olustur():
@@ -44,6 +45,7 @@ def selenium_driver_olustur():
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
     )
+    
     # İndirme ayarları
     download_dir = os.path.join(os.getcwd(), "downloads")
     os.makedirs(download_dir, exist_ok=True)
@@ -81,38 +83,83 @@ def turkce_sayi_cevir(deger):
     except (ValueError, TypeError):
         return None
 
-def hisse_verilerini_cek():
-    # ... driver ayarları, butona tıklama, dosya indirme ...
-    # Excel dosyasını oku
-    df = pd.read_excel(downloaded_file)
-    if df.shape[1] >= 2:
-        df = df.iloc[:, [0, 1]]
-        df.columns = ["Hisse", "Son Fiyat (TL)"]
-        
-        # ---- TEMİZLİK BAŞLIYOR ----
-        import re
-        def temizle_hisse(metin):
-            if isinstance(metin, str):
-                metin = re.sub(r'\s+', ' ', metin)      # Çoklu boşlukları tek boşluğa çevir
-                metin = metin.strip()                   # Baş-son boşlukları sil
-                metin = metin.replace('\u200b', '').replace('\u200c', '').replace('\u200d', '')
-                # İsterseniz sadece harf/rakam/nokta/kısa çizgi bırakabilirsiniz:
-                # metin = re.sub(r'[^A-Za-z0-9\-\.]', '', metin)
-            return metin
-        
-        df["Hisse"] = df["Hisse"].apply(temizle_hisse)
-        df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
-        df = df.dropna(subset=["Hisse"])
-        df = df[df["Hisse"].str.strip() != ""]
-        # ---- TEMİZLİK BİTTİ ----
-        
-        print(f"Excel'den {len(df)} hisse verisi alındı (temizlendi).")
-        os.remove(downloaded_file)
-        return df
-    else:
-        raise Exception("Excel dosyası beklenen sütunları içermiyor.")
+def temizle_hisse(metin):
+    """Hisse isimlerindeki tüm boşlukları ve gizli karakterleri temizler."""
+    if isinstance(metin, str):
+        # Çoklu boşlukları tek boşluğa çevir, baş-sondaki boşlukları sil
+        metin = re.sub(r'\s+', ' ', metin).strip()
+        # Sıfır genişlikli boşluk ve diğer gizli Unicode karakterlerini temizle
+        metin = metin.replace('\u200b', '').replace('\u200c', '').replace('\u200d', '')
+        metin = metin.replace('\uFEFF', '').replace('\u00A0', ' ')  # BOM ve no-break space
+        # Tekrar kırp
+        metin = metin.strip()
+    return metin
 
-# ----------------------------- FON VERİLERİ (değişmedi) -----------------------------
+def hisse_verilerini_cek():
+    max_deneme = 3
+    for deneme in range(1, max_deneme + 1):
+        driver = None
+        try:
+            driver, download_dir = selenium_driver_olustur()
+            print(f"Hisse verisi deneme {deneme}/{max_deneme}...")
+            driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
+            # Sayfanın yüklenmesini bekle
+            WebDriverWait(driver, 90).until(
+                lambda d: d.execute_script("return document.readyState") == "complete"
+            )
+            # "Excel'e Aktar" butonunu bul ve tıkla
+            excel_btn = WebDriverWait(driver, 30).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "a.excelimage"))
+            )
+            # İndirme öncesi mevcut excel dosyalarını al
+            before = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
+            excel_btn.click()
+            # Yeni dosyanın oluşmasını bekle (en fazla 30 sn)
+            timeout = 30
+            waited = 0
+            downloaded_file = None
+            while waited < timeout:
+                after = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
+                new_files = after - before
+                if new_files:
+                    downloaded_file = max(new_files, key=os.path.getctime)
+                    break
+                time.sleep(1)
+                waited += 1
+            if not downloaded_file:
+                raise Exception("Excel dosyası indirilemedi.")
+            
+            # Excel dosyasını oku
+            df = pd.read_excel(downloaded_file)
+            if df.shape[1] >= 2:
+                df = df.iloc[:, [0, 1]]
+                df.columns = ["Hisse", "Son Fiyat (TL)"]
+                
+                # Hisse isimlerini temizle
+                df["Hisse"] = df["Hisse"].astype(str).apply(temizle_hisse)
+                df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
+                
+                # Boş satırları at
+                df = df.dropna(subset=["Hisse"])
+                df = df[df["Hisse"].str.strip() != ""]
+                
+                print(f"Excel'den {len(df)} hisse verisi alındı (temizlendi).")
+                # İndirilen dosyayı sil (isteğe bağlı)
+                os.remove(downloaded_file)
+                return df
+            else:
+                raise Exception("Excel dosyası beklenen sütunları içermiyor.")
+        except Exception as e:
+            print(f"Deneme {deneme} başarısız: {e}")
+            if deneme == max_deneme:
+                print("Hisse verileri alınamadı, boş DataFrame ile devam ediliyor.")
+                return pd.DataFrame(columns=["Hisse", "Son Fiyat (TL)"])
+            time.sleep(10)
+        finally:
+            if driver:
+                driver.quit()
+
+# ----------------------------- FON VERİLERİ -----------------------------
 def fon_verilerini_cek():
     url = "https://www.tefas.gov.tr/api/funds/fonGnlBlgSiraliGetirDosya"
     headers = {
@@ -165,13 +212,12 @@ def fon_verilerini_cek():
     print("UYARI: Son 15 günde fon verisi bulunamadı, boş DataFrame dönülüyor.")
     return pd.DataFrame(columns=["Fon Kodu", "Fiyat"])
 
-# ----------------------------- BLOOMBERG VERİLERİ (değişmedi) -----------------------------
+# ----------------------------- BLOOMBERG VERİLERİ -----------------------------
 def bloomberg_verilerini_cek():
     max_deneme = 3
     for deneme in range(1, max_deneme + 1):
         driver = None
         try:
-            # Bloomberg için ayrı driver (indirme klasörü gerekmez)
             driver, _ = selenium_driver_olustur()
             print(f"Bloomberg verisi deneme {deneme}/{max_deneme}...")
             driver.get("https://www.bloomberght.com/piyasalar")
@@ -245,6 +291,7 @@ if __name__ == "__main__":
             df_bloomberg.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_bloomberg)
     print("Veriler 'piyasa_verileri.xlsx' dosyasına kaydedildi.")
 
+    # JSON çıktısı
     json_data = {
         "hisseler": df_hisse.to_dict(orient="records"),
         "fonlar": df_fon.to_dict(orient="records"),
