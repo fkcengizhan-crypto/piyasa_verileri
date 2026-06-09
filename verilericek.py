@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 from requests.adapters import HTTPAdapter
@@ -13,13 +12,10 @@ import time
 from datetime import datetime, timedelta
 import json
 import os
+import glob
 
-# ----------------------------- GELİŞMİŞ SELENIUM DRIVER -----------------------------
+# ----------------------------- GELİŞMİŞ SELENIUM DRIVER (indirme desteği ile) -----------------------------
 def selenium_driver_olustur():
-    """
-    CI ortamında kararlı çalışacak şekilde optimize edilmiş headless Chrome driver.
-    Renderer timeout'larını önlemek için ek argümanlar eklendi.
-    """
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
@@ -48,7 +44,17 @@ def selenium_driver_olustur():
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
     )
-    chrome_options.page_load_strategy = 'normal'  # 'eager' bazı sitelerde timeout'a yol açabiliyor
+    # İndirme ayarları
+    download_dir = os.path.join(os.getcwd(), "downloads")
+    os.makedirs(download_dir, exist_ok=True)
+    prefs = {
+        "download.default_directory": download_dir,
+        "download.prompt_for_download": False,
+        "download.directory_upgrade": True,
+        "safebrowsing.enabled": True
+    }
+    chrome_options.add_experimental_option("prefs", prefs)
+    chrome_options.page_load_strategy = 'normal'
 
     chrome_binary = os.environ.get("CHROME_BINARY_PATH")
     if chrome_binary:
@@ -61,13 +67,11 @@ def selenium_driver_olustur():
     else:
         driver = webdriver.Chrome(options=chrome_options)
 
-    # Zaman aşımlarını artır (sayfa ve script)
     driver.set_page_load_timeout(120)
     driver.set_script_timeout(120)
-    return driver
+    return driver, download_dir
 
-
-# ----------------------------- HİSSE VERİLERİ -----------------------------
+# ----------------------------- HİSSE VERİLERİ (Excel'e Aktar butonu ile) -----------------------------
 def turkce_sayi_cevir(deger):
     if isinstance(deger, str):
         deger = deger.replace('.', '')
@@ -77,93 +81,59 @@ def turkce_sayi_cevir(deger):
     except (ValueError, TypeError):
         return None
 
-
-def hisse_verilerini_api_ile_cek():
-    """
-    İş Yatırım'ın DataTables API'sini daha dayanıklı bir şekilde çağırır.
-    Retry mekanizması ve uzun timeout eklenmiştir.
-    """
-    api_url = (
-        "https://www.isyatirim.com.tr/_layouts/15/Isyatirim.Website/Common/Data.aspx/HisseSirketleri"
-    )
-    headers = {
-        "Accept": "application/json, text/javascript, */*; q=0.01",
-        "Content-Type": "application/json; charset=UTF-8",
-        "Referer": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx",
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-        "X-Requested-With": "XMLHttpRequest",
-    }
-    # Oturum ve retry stratejisi
-    session = requests.Session()
-    retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
-    session.mount('https://', HTTPAdapter(max_retries=retries))
-    try:
-        resp = session.post(api_url, headers=headers, json={}, timeout=(10, 60))
-        if resp.status_code == 200:
-            raw = resp.json()
-            kayitlar = raw.get("d", raw) if isinstance(raw, dict) else raw
-            if kayitlar:
-                data = [[k.get("kod", k.get("Kod", "")),
-                         k.get("kapanis", k.get("Kapanis", k.get("sonFiyat", "")))]
-                        for k in kayitlar if isinstance(k, dict)]
-                df = pd.DataFrame(data, columns=["Hisse", "Son Fiyat (TL)"])
-                df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
-                df = df[df["Hisse"].str.strip() != ""]
-                if not df.empty:
-                    print(f"API ile {len(df)} hisse verisi alındı.")
-                    return df
-    except Exception as e:
-        print(f"API yöntemi başarısız: {e}")
-    return None
-
-
 def hisse_verilerini_cek():
-    # Önce API'yi dene
-    df = hisse_verilerini_api_ile_cek()
-    if df is not None and not df.empty:
-        return df
-
-    # API başarısız olursa Selenium fallback (3 deneme)
-    print("API başarısız, Selenium ile deneniyor...")
     max_deneme = 3
     for deneme in range(1, max_deneme + 1):
         driver = None
         try:
-            driver = selenium_driver_olustur()
+            driver, download_dir = selenium_driver_olustur()
             print(f"Hisse verisi deneme {deneme}/{max_deneme}...")
             driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
-            # Sayfanın tamamen yüklenmesini bekle (readyState)
+            # Sayfanın yüklenmesini bekle
             WebDriverWait(driver, 90).until(
                 lambda d: d.execute_script("return document.readyState") == "complete"
             )
-            # Tablonun varlığını bekle
-            WebDriverWait(driver, 60).until(
-                EC.presence_of_element_located((By.ID, "DataTables_Table_0"))
+            # "Excel'e Aktar" butonunu bul ve tıkla
+            excel_btn = WebDriverWait(driver, 30).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "a.excelimage"))
             )
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            table = soup.find('table', id='DataTables_Table_0')
-            if not table:
-                raise Exception("Hisse tablosu bulunamadı!")
-
-            rows = table.select('tbody tr')
-            data = []
-            for row in rows:
-                cols = row.find_all('td')
-                if len(cols) >= 2:
-                    a_tag = cols[0].find('a')
-                    hisse = a_tag.text.strip() if a_tag else cols[0].get_text(strip=True)
-                    fiyat = cols[1].get_text(strip=True)
-                    data.append([hisse, fiyat])
-
-            df = pd.DataFrame(data, columns=["Hisse", "Son Fiyat (TL)"])
-            df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
-            print(f"Selenium ile {len(df)} hisse verisi alındı.")
-            return df
-
+            # İndirme öncesi mevcut excel dosyalarını al
+            before = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
+            excel_btn.click()
+            # Yeni dosyanın oluşmasını bekle (en fazla 30 sn)
+            timeout = 30
+            waited = 0
+            downloaded_file = None
+            while waited < timeout:
+                after = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
+                new_files = after - before
+                if new_files:
+                    # En son oluşturulan dosyayı al
+                    downloaded_file = max(new_files, key=os.path.getctime)
+                    break
+                time.sleep(1)
+                waited += 1
+            if not downloaded_file:
+                raise Exception("Excel dosyası indirilemedi.")
+            # Excel dosyasını oku
+            df = pd.read_excel(downloaded_file)
+            # İstenen sütunları temizle (genelde ilk sütun hisse, ikinci fiyat)
+            # Tablonun yapısına göre düzenleme yapılabilir
+            if df.shape[1] >= 2:
+                df = df.iloc[:, [0, 1]]  # ilk iki sütunu al
+                df.columns = ["Hisse", "Son Fiyat (TL)"]
+                df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
+                df = df.dropna(subset=["Hisse"])
+                df = df[df["Hisse"].str.strip() != ""]
+                print(f"Excel'den {len(df)} hisse verisi alındı.")
+                # İndirilen dosyayı temizle (isteğe bağlı)
+                os.remove(downloaded_file)
+                return df
+            else:
+                raise Exception("Excel dosyası beklenen sütunları içermiyor.")
         except Exception as e:
             print(f"Deneme {deneme} başarısız: {e}")
             if deneme == max_deneme:
-                # Son denemede de başarısız olursa boş DataFrame dön (iş akışı devam etsin)
                 print("Hisse verileri alınamadı, boş DataFrame ile devam ediliyor.")
                 return pd.DataFrame(columns=["Hisse", "Son Fiyat (TL)"])
             time.sleep(10)
@@ -171,8 +141,7 @@ def hisse_verilerini_cek():
             if driver:
                 driver.quit()
 
-
-# ----------------------------- FON VERİLERİ -----------------------------
+# ----------------------------- FON VERİLERİ (değişmedi) -----------------------------
 def fon_verilerini_cek():
     url = "https://www.tefas.gov.tr/api/funds/fonGnlBlgSiraliGetirDosya"
     headers = {
@@ -183,7 +152,6 @@ def fon_verilerini_cek():
         "Referer": "https://www.tefas.gov.tr/tr/fon-verileri",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
     }
-    # Oturum ve retry
     session = requests.Session()
     retries = Retry(total=2, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
     session.mount('https://', HTTPAdapter(max_retries=retries))
@@ -226,31 +194,28 @@ def fon_verilerini_cek():
     print("UYARI: Son 15 günde fon verisi bulunamadı, boş DataFrame dönülüyor.")
     return pd.DataFrame(columns=["Fon Kodu", "Fiyat"])
 
-
-# ----------------------------- BLOOMBERG VERİLERİ -----------------------------
+# ----------------------------- BLOOMBERG VERİLERİ (değişmedi) -----------------------------
 def bloomberg_verilerini_cek():
     max_deneme = 3
     for deneme in range(1, max_deneme + 1):
         driver = None
         try:
-            driver = selenium_driver_olustur()
+            # Bloomberg için ayrı driver (indirme klasörü gerekmez)
+            driver, _ = selenium_driver_olustur()
             print(f"Bloomberg verisi deneme {deneme}/{max_deneme}...")
             driver.get("https://www.bloomberght.com/piyasalar")
-            # Sayfa yüklenene kadar bekle (readyState)
             WebDriverWait(driver, 90).until(
                 lambda d: d.execute_script("return document.readyState") == "complete"
             )
-            # Slaytların yüklenmesini bekle
             WebDriverWait(driver, 60).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-slide[data-swiper-slide-index]"))
             )
-            # İçeriğin tamamen dolması için ekstra bekleme
             time.sleep(2)
+            from bs4 import BeautifulSoup
             soup = BeautifulSoup(driver.page_source, "html.parser")
             slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
             if not slides:
                 raise Exception("Bloomberg slaytları bulunamadı.")
-
             gorulmus = set()
             data = []
             for slide in slides:
@@ -265,16 +230,13 @@ def bloomberg_verilerini_cek():
                     fiyat_str = fiyat.get_text(strip=True).replace(".", "").replace(",", ".")
                     degisim_str = degisim.get_text(strip=True).replace("%", "").replace(".", "").replace(",", ".")
                     data.append([sembol_text, fiyat_str, degisim_str])
-
             if not data:
                 raise Exception("Hiç Bloomberg verisi çekilemedi (içerik boş).")
-
             df = pd.DataFrame(data, columns=["Sembol", "Fiyat", "Değişim%"])
             df["Fiyat"] = pd.to_numeric(df["Fiyat"], errors="coerce")
             df["Değişim%"] = pd.to_numeric(df["Değişim%"], errors="coerce")
             print(f"Bloomberg'den {len(df)} veri alındı.")
             return df
-
         except Exception as e:
             print(f"Bloomberg deneme {deneme} başarısız: {e}")
             if deneme == max_deneme:
@@ -284,7 +246,6 @@ def bloomberg_verilerini_cek():
         finally:
             if driver:
                 driver.quit()
-
 
 # ----------------------------- ANA İŞLEM -----------------------------
 if __name__ == "__main__":
@@ -302,8 +263,8 @@ if __name__ == "__main__":
 
     # Excel çıktısı (aynı sayfada yan yana)
     col_fon = 0
-    col_hisse = len(df_fon.columns) + 1
-    col_bloomberg = col_hisse + len(df_hisse.columns) + 1
+    col_hisse = len(df_fon.columns) + 1 if not df_fon.empty else 0
+    col_bloomberg = col_hisse + len(df_hisse.columns) + 1 if not df_hisse.empty else 0
     with pd.ExcelWriter("piyasa_verileri.xlsx", engine="openpyxl") as writer:
         if not df_fon.empty:
             df_fon.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_fon)
@@ -313,7 +274,6 @@ if __name__ == "__main__":
             df_bloomberg.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_bloomberg)
     print("Veriler 'piyasa_verileri.xlsx' dosyasına kaydedildi.")
 
-    # JSON çıktısı
     json_data = {
         "hisseler": df_hisse.to_dict(orient="records"),
         "fonlar": df_fon.to_dict(orient="records"),
