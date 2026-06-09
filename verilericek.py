@@ -205,6 +205,9 @@ def fon_verilerini_cek():
 
 # ----------------------------- BLOOMBERG VERİLERİ -----------------------------
 def bloomberg_verilerini_cek():
+    # İstenmeyen sembollerin listesi
+    istenmeyenler = ["BALTIK KURU YÜK", "BALTIK KURU YÜK ENDEKSİ"]  # İhtiyaca göre ekleyin
+
     max_deneme = 3
     for deneme in range(1, max_deneme + 1):
         driver = None
@@ -229,6 +232,9 @@ def bloomberg_verilerini_cek():
                 degisim = slide.select_one("span.percentChange")
                 if sembol and fiyat and degisim:
                     sembol_text = sembol.get_text(strip=True)
+                    # ✅ İstenmeyen sembolleri filtrele
+                    if sembol_text in istenmeyenler:
+                        continue
                     if sembol_text in gorulmus:
                         continue
                     gorulmus.add(sembol_text)
@@ -240,7 +246,7 @@ def bloomberg_verilerini_cek():
             df = pd.DataFrame(data, columns=["Sembol", "Fiyat", "Değişim%"])
             df["Fiyat"] = pd.to_numeric(df["Fiyat"], errors="coerce")
             df["Değişim%"] = pd.to_numeric(df["Değişim%"], errors="coerce")
-            print(f"Bloomberg'den {len(df)} veri alındı.")
+            print(f"Bloomberg'den {len(df)} veri alındı (filtrelendi).")
             return df
         except Exception as e:
             print(f"Bloomberg deneme {deneme} başarısız: {e}")
