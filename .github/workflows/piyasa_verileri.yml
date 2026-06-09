@@ -1,46 +1,44 @@
-name: Piyasa Verileri Çekme
+name: Piyasa Verileri Çek
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Her gün 12:00 UTC'de çalışır
-  workflow_dispatch:       # Manuel çalıştırma da mümkün
+    - cron: '*/30 9-18 * * 1-5'  # Hafta içi 09:00-18:30 arası her 30 dk
+  workflow_dispatch:
 
 jobs:
-  scrape:
+  veri-cek:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 5  # İşlem 5 dakikadan uzun sürerse iptal et
     steps:
-    - name: Kodu çek
-      uses: actions/checkout@v4
+      - name: Kodu al
+        uses: actions/checkout@v4
 
-    - name: Python'u kur
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.12'
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'  # Python 3.11 kullan (distutils hatasını önler)
 
-    - name: Chrome'u kur
-      run: |
-        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
-        google-chrome --version
+      - name: Bağımlılıkları yükle
+        run: |
+          pip install selenium pandas requests beautifulsoup4 openpyxl
 
-    - name: Bağımlılıkları yükle
-      run: |
-        pip install --upgrade pip
-        pip install undetected-chromedriver selenium pandas requests beautifulsoup4 openpyxl
+      - name: Chrome kur
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
 
-    - name: xvfb kur ve çalıştır
-      run: |
-        sudo apt-get install -y xvfb
-        xvfb-run -a python verilericek.py
+      - name: xvfb kur
+        run: |
+          sudo apt-get install -y xvfb
 
-    - name: Çıktıları yayınla (Excel ve JSON)
-      uses: actions/upload-artifact@v4
-      with:
-        name: piyasa-verileri
-        path: |
-          piyasa_verileri.xlsx
-          piyasa_verileri.json
+      - name: Verileri çek (xvfb ile)
+        run: |
+          xvfb-run -a python verilericek.py
+
+      - name: Çıktıları yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: piyasa-verileri
+          path: |
+            piyasa_verileri.xlsx
+            piyasa_verileri.json
