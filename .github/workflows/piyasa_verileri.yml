@@ -1,9 +1,12 @@
-name: Piyasa Verileri Çek ve Güncelle
+name: Piyasa Verileri Çek
 
 on:
   schedule:
     - cron: '*/30 9-18 * * 1-5'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   veri-cek:
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Kodu al
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Python kur (3.11)
         uses: actions/setup-python@v5
@@ -35,7 +40,7 @@ jobs:
         run: |
           xvfb-run -a python verilericek.py
 
-      - name: Değişiklikleri commit et ve pushla
+      - name: Değişiklikleri commit et ve push'la
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
