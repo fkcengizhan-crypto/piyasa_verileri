@@ -15,7 +15,7 @@ import os
 import glob
 import re
 
-# ----------------------------- GELİŞMİŞ SELENIUM DRIVER (headless + indirme desteği) -----------------------------
+# ----------------------------- DRIVER -----------------------------
 def selenium_driver_olustur():
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
@@ -252,7 +252,7 @@ def bloomberg_verilerini_cek():
             if driver:
                 driver.quit()
 
-# ----------------------------- ANA İŞLEM (timestamp ile dosya adları) -----------------------------
+# ----------------------------- ANA İŞLEM -----------------------------
 if __name__ == "__main__":
     print("Hisse verileri çekiliyor...")
     df_hisse = hisse_verilerini_cek()
@@ -266,18 +266,8 @@ if __name__ == "__main__":
     df_bloomberg = bloomberg_verilerini_cek()
     print(f"{len(df_bloomberg)} Bloomberg verisi bulundu.")
 
-    # Eğer tüm veri çerçeveleri boşsa, dosya oluşturma (isteğe bağlı)
-    if df_hisse.empty and df_fon.empty and df_bloomberg.empty:
-        print("Hiç veri alınamadı, çıktı dosyası oluşturulmayacak.")
-        exit(1)
-
-    # Zaman damgası
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    excel_dosyasi = f"piyasa_verileri_{timestamp}.xlsx"
-    json_dosyasi = f"piyasa_verileri_{timestamp}.json"
-
-    # Excel çıktısı
-    with pd.ExcelWriter(excel_dosyasi, engine="openpyxl") as writer:
+    # Excel dosyasını oluştur (her zaman üzerine yaz)
+    with pd.ExcelWriter("piyasa_verileri.xlsx", engine="openpyxl") as writer:
         col_offset = 0
         if not df_fon.empty:
             df_fon.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_offset)
@@ -287,21 +277,14 @@ if __name__ == "__main__":
             col_offset += len(df_hisse.columns) + 1
         if not df_bloomberg.empty:
             df_bloomberg.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_offset)
-    print(f"Excel dosyası oluşturuldu: {excel_dosyasi}, boyut: {os.path.getsize(excel_dosyasi)} bayt")
+    print("piyasa_verileri.xlsx oluşturuldu/güncellendi.")
 
-    # JSON çıktısı
+    # JSON dosyasını oluştur
     json_data = {
         "hisseler": df_hisse.to_dict(orient="records"),
         "fonlar": df_fon.to_dict(orient="records"),
-        "bloomberg": df_bloomberg.to_dict(orient="records"),
-        "timestamp": timestamp
+        "bloomberg": df_bloomberg.to_dict(orient="records")
     }
-    with open(json_dosyasi, "w", encoding="utf-8") as f:
+    with open("piyasa_verileri.json", "w", encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=4)
-    print(f"JSON dosyası oluşturuldu: {json_dosyasi}, boyut: {os.path.getsize(json_dosyasi)} bayt")
-
-    # En son dosyaları "latest" olarak da kopyala (isteğe bağlı)
-    import shutil
-    shutil.copyfile(excel_dosyasi, "piyasa_verileri_latest.xlsx")
-    shutil.copyfile(json_dosyasi, "piyasa_verileri_latest.json")
-    print("Ayrıca 'latest' kopyaları oluşturuldu.")
+    print("piyasa_verileri.json oluşturuldu/güncellendi.")
