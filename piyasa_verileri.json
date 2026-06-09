@@ -10519,23 +10519,23 @@
         },
         {
             "Sembol": "USD/TRY",
-            "Fiyat": 46.1195,
+            "Fiyat": 46.1189,
             "Değişim%": 0.04
         },
         {
             "Sembol": "EUR/TRY",
-            "Fiyat": 53.2786,
-            "Değişim%": 0.16
+            "Fiyat": 53.3011,
+            "Değişim%": 0.2
         },
         {
             "Sembol": "ALTIN/ONS",
-            "Fiyat": 4265.99,
-            "Değişim%": -1.48
+            "Fiyat": 4265.05,
+            "Değişim%": -1.5
         },
         {
             "Sembol": "EUR/USD",
-            "Fiyat": 1.1547,
-            "Değişim%": 0.11
+            "Fiyat": 1.1551,
+            "Değişim%": 0.15
         },
         {
             "Sembol": "FAİZ",
@@ -10544,8 +10544,8 @@
         },
         {
             "Sembol": "BRENT",
-            "Fiyat": 90.08,
-            "Değişim%": -4.42
+            "Fiyat": 91.34,
+            "Değişim%": -3.09
         }
     ]
 }
