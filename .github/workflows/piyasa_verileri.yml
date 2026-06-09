@@ -2,21 +2,21 @@ name: Piyasa Verileri Çek
 
 on:
   schedule:
-    - cron: '*/30 9-18 * * 1-5'  # Hafta içi 09:00-18:30 arası her 30 dk
+    - cron: '*/30 9-18 * * 1-5'
   workflow_dispatch:
 
 jobs:
   veri-cek:
     runs-on: ubuntu-latest
-    timeout-minutes: 5  # İşlem 5 dakikadan uzun sürerse iptal et
+    timeout-minutes: 5
     steps:
       - name: Kodu al
         uses: actions/checkout@v4
 
-      - name: Python kur
+      - name: Python kur (3.11)
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'  # Python 3.11 kullan (distutils hatasını önler)
+          python-version: '3.11'
 
       - name: Bağımlılıkları yükle
         run: |
@@ -35,10 +35,12 @@ jobs:
         run: |
           xvfb-run -a python verilericek.py
 
-      - name: Çıktıları yükle
+      - name: Çıktıları yükle (timestamp ile)
         uses: actions/upload-artifact@v4
         with:
-          name: piyasa-verileri
+          name: piyasa-verileri-${{ github.run_id }}
           path: |
-            piyasa_verileri.xlsx
-            piyasa_verileri.json
+            piyasa_verileri_*.xlsx
+            piyasa_verileri_*.json
+            piyasa_verileri_latest.*
+          if-no-files-found: error
