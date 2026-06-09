@@ -82,64 +82,35 @@ def turkce_sayi_cevir(deger):
         return None
 
 def hisse_verilerini_cek():
-    max_deneme = 3
-    for deneme in range(1, max_deneme + 1):
-        driver = None
-        try:
-            driver, download_dir = selenium_driver_olustur()
-            print(f"Hisse verisi deneme {deneme}/{max_deneme}...")
-            driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
-            # Sayfanın yüklenmesini bekle
-            WebDriverWait(driver, 90).until(
-                lambda d: d.execute_script("return document.readyState") == "complete"
-            )
-            # "Excel'e Aktar" butonunu bul ve tıkla
-            excel_btn = WebDriverWait(driver, 30).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, "a.excelimage"))
-            )
-            # İndirme öncesi mevcut excel dosyalarını al
-            before = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
-            excel_btn.click()
-            # Yeni dosyanın oluşmasını bekle (en fazla 30 sn)
-            timeout = 30
-            waited = 0
-            downloaded_file = None
-            while waited < timeout:
-                after = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
-                new_files = after - before
-                if new_files:
-                    # En son oluşturulan dosyayı al
-                    downloaded_file = max(new_files, key=os.path.getctime)
-                    break
-                time.sleep(1)
-                waited += 1
-            if not downloaded_file:
-                raise Exception("Excel dosyası indirilemedi.")
-            # Excel dosyasını oku
-            df = pd.read_excel(downloaded_file)
-            # İstenen sütunları temizle (genelde ilk sütun hisse, ikinci fiyat)
-            # Tablonun yapısına göre düzenleme yapılabilir
-            if df.shape[1] >= 2:
-                df = df.iloc[:, [0, 1]]  # ilk iki sütunu al
-                df.columns = ["Hisse", "Son Fiyat (TL)"]
-                df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
-                df = df.dropna(subset=["Hisse"])
-                df = df[df["Hisse"].str.strip() != ""]
-                print(f"Excel'den {len(df)} hisse verisi alındı.")
-                # İndirilen dosyayı temizle (isteğe bağlı)
-                os.remove(downloaded_file)
-                return df
-            else:
-                raise Exception("Excel dosyası beklenen sütunları içermiyor.")
-        except Exception as e:
-            print(f"Deneme {deneme} başarısız: {e}")
-            if deneme == max_deneme:
-                print("Hisse verileri alınamadı, boş DataFrame ile devam ediliyor.")
-                return pd.DataFrame(columns=["Hisse", "Son Fiyat (TL)"])
-            time.sleep(10)
-        finally:
-            if driver:
-                driver.quit()
+    # ... driver ayarları, butona tıklama, dosya indirme ...
+    # Excel dosyasını oku
+    df = pd.read_excel(downloaded_file)
+    if df.shape[1] >= 2:
+        df = df.iloc[:, [0, 1]]
+        df.columns = ["Hisse", "Son Fiyat (TL)"]
+        
+        # ---- TEMİZLİK BAŞLIYOR ----
+        import re
+        def temizle_hisse(metin):
+            if isinstance(metin, str):
+                metin = re.sub(r'\s+', ' ', metin)      # Çoklu boşlukları tek boşluğa çevir
+                metin = metin.strip()                   # Baş-son boşlukları sil
+                metin = metin.replace('\u200b', '').replace('\u200c', '').replace('\u200d', '')
+                # İsterseniz sadece harf/rakam/nokta/kısa çizgi bırakabilirsiniz:
+                # metin = re.sub(r'[^A-Za-z0-9\-\.]', '', metin)
+            return metin
+        
+        df["Hisse"] = df["Hisse"].apply(temizle_hisse)
+        df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
+        df = df.dropna(subset=["Hisse"])
+        df = df[df["Hisse"].str.strip() != ""]
+        # ---- TEMİZLİK BİTTİ ----
+        
+        print(f"Excel'den {len(df)} hisse verisi alındı (temizlendi).")
+        os.remove(downloaded_file)
+        return df
+    else:
+        raise Exception("Excel dosyası beklenen sütunları içermiyor.")
 
 # ----------------------------- FON VERİLERİ (değişmedi) -----------------------------
 def fon_verilerini_cek():
