@@ -1,58 +1,46 @@
-name: Piyasa Verilerini Güncelle
+name: Piyasa Verileri Çekme
 
 on:
-  workflow_dispatch:   # Sadece manuel tetikleme
-
-permissions:
-  contents: write
-
-concurrency:
-  group: piyasa-guncelleme
-  cancel-in-progress: false
+  schedule:
+    - cron: '0 12 * * *'  # Her gün 12:00 UTC'de çalışır
+  workflow_dispatch:       # Manuel çalıştırma da mümkün
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
-      - name: Depoyu klonla
-        uses: actions/checkout@v4
+    - name: Kodu çek
+      uses: actions/checkout@v4
 
-      # Tek action ile hem Chrome'u hem chromedriver'ı kurar
-      - name: Chrome ve chromedriver kurulumu
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: stable
+    - name: Python'u kur
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
 
-      - name: Python kurulumu
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
+    - name: Chrome'u kur
+      run: |
+        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        google-chrome --version
 
-      - name: Bağımlılıkları yükle
-        run: pip install -r requirements.txt
+    - name: Bağımlılıkları yükle
+      run: |
+        pip install --upgrade pip
+        pip install undetected-chromedriver selenium pandas requests beautifulsoup4 openpyxl
 
-      - name: Scripti çalıştır
-        run: python verilericek.py
-        # CHROME_BINARY_PATH ve CHROME_DRIVER_PATH otomatik olarak ayarlanır
+    - name: xvfb kur ve çalıştır
+      run: |
+        sudo apt-get install -y xvfb
+        xvfb-run -a python verilericek.py
 
-      - name: Dosyaları depoya ekle ve commit et
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add piyasa_verileri.xlsx piyasa_verileri.json
-          git diff --staged --quiet && echo "Değişiklik yok, atlanıyor." && exit 0
-          git commit -m "Veriler güncellendi (otomatik)"
-          git pull --rebase origin main
-          git push
-
-      - name: Çıktıları sakla (artifact)
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: piyasa-verileri
-          path: |
-            piyasa_verileri.xlsx
-            piyasa_verileri.json
+    - name: Çıktıları yayınla (Excel ve JSON)
+      uses: actions/upload-artifact@v4
+      with:
+        name: piyasa-verileri
+        path: |
+          piyasa_verileri.xlsx
+          piyasa_verileri.json
