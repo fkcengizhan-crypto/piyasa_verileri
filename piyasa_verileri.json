@@ -10526,23 +10526,23 @@
     "bloomberg": [
         {
             "Sembol": "BIST 100",
-            "Fiyat": 13744.64,
-            "Değişim%": 0.02
+            "Fiyat": 13758.17,
+            "Değişim%": 0.12
         },
         {
             "Sembol": "USD/TRY",
-            "Fiyat": 46.1376,
+            "Fiyat": 46.1377,
             "Değişim%": 0.04
         },
         {
             "Sembol": "EUR/TRY",
-            "Fiyat": 53.3354,
-            "Değişim%": 0.13
+            "Fiyat": 53.3204,
+            "Değişim%": 0.1
         },
         {
             "Sembol": "ALTIN/ONS",
-            "Fiyat": 4132.5,
-            "Değişim%": -3.01
+            "Fiyat": 4123.75,
+            "Değişim%": -3.22
         },
         {
             "Sembol": "EUR/USD",
@@ -10556,8 +10556,8 @@
         },
         {
             "Sembol": "BRENT",
-            "Fiyat": 92.76,
-            "Değişim%": 1.43
+            "Fiyat": 92.73,
+            "Değişim%": 1.4
         }
     ]
 }
