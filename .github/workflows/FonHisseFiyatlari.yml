@@ -31,3 +31,11 @@ jobs:
           path: |
             FonHisseFiyatlari.xlsx
             FonHisseFiyatlari.json
+            
+      - name: Değişiklikleri commit et ve push'la
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add FonHisseFiyatlari.xlsx FonHisseFiyatlari.json
+          git diff --staged --quiet || git commit -m "Güncel Fon ve Hisse Fiyatları"
+          git push
