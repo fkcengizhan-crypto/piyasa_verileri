@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-06-11T15:32:36.033568",
+  "guncelleme_zamani": "2026-06-11T16:25:59.637342",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -3937,6 +3937,11 @@
       "Hisse Fiyatı": 293.25
     },
     {
+      "Hisse Kodu": "ISKUR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 2915000
+    },
+    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 417997.5
@@ -3945,11 +3950,6 @@
       "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 13.74
-    },
-    {
-      "Hisse Kodu": "ISKUR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 2915000
     },
     {
       "Hisse Kodu": "HEDEF",
@@ -4192,14 +4192,14 @@
       "Hisse Fiyatı": 256.5
     },
     {
-      "Hisse Kodu": "DMLKT",
-      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
-      "Hisse Fiyatı": 6.06
-    },
-    {
       "Hisse Kodu": "EKGYO",
       "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
       "Hisse Fiyatı": 19.16
+    },
+    {
+      "Hisse Kodu": "DMLKT",
+      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "Hisse Fiyatı": 6.06
     },
     {
       "Hisse Kodu": "ARCLK",
@@ -6812,14 +6812,9 @@
       "Hisse Fiyatı": 22.2
     },
     {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 17.11
-    },
-    {
-      "Hisse Kodu": "LXGYO",
-      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 17.2
+      "Hisse Kodu": "MARMR",
+      "Hisse Adı": "Marmara Holding AS",
+      "Hisse Fiyatı": 2.42
     },
     {
       "Hisse Kodu": "ISGSY",
@@ -6827,39 +6822,9 @@
       "Hisse Fiyatı": 105.9
     },
     {
-      "Hisse Kodu": "EKDMR",
-      "Hisse Adı": "Ekinciler Demir ve Celik Sanayi AS",
-      "Hisse Fiyatı": 67.1
-    },
-    {
-      "Hisse Kodu": "MEKAG",
-      "Hisse Adı": "Meka Global Makine Imalat Sanayi Ve Ticaret A.S.",
-      "Hisse Fiyatı": 3.75
-    },
-    {
-      "Hisse Kodu": "MCARD",
-      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
-      "Hisse Fiyatı": 181.6
-    },
-    {
-      "Hisse Kodu": "ZERGY",
-      "Hisse Adı": "Zeray Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 14.43
-    },
-    {
-      "Hisse Kodu": "UCAYM",
-      "Hisse Adı": "Ucay Muhendislik Enerji ve Iklimlendirme Teknolojileri",
-      "Hisse Fiyatı": 36.7
-    },
-    {
-      "Hisse Kodu": "ECOGR",
-      "Hisse Adı": "Ecogreen Enerji Holding A.S.",
-      "Hisse Fiyatı": 38.24
-    },
-    {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 70.05
+      "Hisse Kodu": "NETCD",
+      "Hisse Adı": "Netcad Yazilim A.S.",
+      "Hisse Fiyatı": 167.4
     },
     {
       "Hisse Kodu": "EMPAE",
@@ -6867,24 +6832,44 @@
       "Hisse Fiyatı": 142.7
     },
     {
-      "Hisse Kodu": "AKHAN",
-      "Hisse Adı": "Akhan Un Fabrikasi Ve Tarim Urunleri Gida Sanayi Ticaret Anonim Sirketi",
-      "Hisse Fiyatı": 34.08
-    },
-    {
-      "Hisse Kodu": "FRMPL",
-      "Hisse Adı": "Formul Plastik Ve Metal Sanayi AS",
-      "Hisse Fiyatı": 40.9
-    },
-    {
       "Hisse Kodu": "VAKFA",
       "Hisse Adı": "VAKIF FAKTORİNG A.Ş.",
       "Hisse Fiyatı": 12.47
     },
     {
-      "Hisse Kodu": "MARMR",
-      "Hisse Adı": "Marmara Holding AS",
-      "Hisse Fiyatı": 2.42
+      "Hisse Kodu": "MEKAG",
+      "Hisse Adı": "Meka Global Makine Imalat Sanayi Ve Ticaret A.S.",
+      "Hisse Fiyatı": 3.75
+    },
+    {
+      "Hisse Kodu": "ZERGY",
+      "Hisse Adı": "Zeray Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 14.43
+    },
+    {
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 72.1
+    },
+    {
+      "Hisse Kodu": "ECOGR",
+      "Hisse Adı": "Ecogreen Enerji Holding A.S.",
+      "Hisse Fiyatı": 38.24
+    },
+    {
+      "Hisse Kodu": "MEYSU",
+      "Hisse Adı": "Meysu Gida Sanayi Ve Ticaret A.S.",
+      "Hisse Fiyatı": 16.81
+    },
+    {
+      "Hisse Kodu": "ISYAT",
+      "Hisse Adı": "İŞ YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 7.86
+    },
+    {
+      "Hisse Kodu": "FRMPL",
+      "Hisse Adı": "Formul Plastik Ve Metal Sanayi AS",
+      "Hisse Fiyatı": 40.9
     },
     {
       "Hisse Kodu": "DOFRB",
@@ -6897,14 +6882,19 @@
       "Hisse Fiyatı": 47.78
     },
     {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 72.1
+      "Hisse Kodu": "UCAYM",
+      "Hisse Adı": "Ucay Muhendislik Enerji ve Iklimlendirme Teknolojileri",
+      "Hisse Fiyatı": 36.7
     },
     {
-      "Hisse Kodu": "ISYAT",
-      "Hisse Adı": "İŞ YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 7.86
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 70.05
+    },
+    {
+      "Hisse Kodu": "LXGYO",
+      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 17.2
     },
     {
       "Hisse Kodu": "ZGYO",
@@ -6912,24 +6902,24 @@
       "Hisse Fiyatı": 41.74
     },
     {
-      "Hisse Kodu": "SVGYO",
-      "Hisse Adı": "Savur Gayrimenkul Yatirim Ortakligi A.S",
-      "Hisse Fiyatı": 20
-    },
-    {
-      "Hisse Kodu": "NETCD",
-      "Hisse Adı": "Netcad Yazilim A.S.",
-      "Hisse Fiyatı": 167.4
-    },
-    {
-      "Hisse Kodu": "MEYSU",
-      "Hisse Adı": "Meysu Gida Sanayi Ve Ticaret A.S.",
-      "Hisse Fiyatı": 16.81
-    },
-    {
       "Hisse Kodu": "AVTUR",
       "Hisse Adı": "AVRASYA PETROL VE TURİSTİK TESİSLER YATIRIMLAR A.Ş.",
       "Hisse Fiyatı": 17.65
+    },
+    {
+      "Hisse Kodu": "EKDMR",
+      "Hisse Adı": "Ekinciler Demir ve Celik Sanayi AS",
+      "Hisse Fiyatı": 67.1
+    },
+    {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 17.11
+    },
+    {
+      "Hisse Kodu": "ATATR",
+      "Hisse Adı": "Ata Turizm Isletmecilik Tasimacilik Madencilik Kuyumculu",
+      "Hisse Fiyatı": 18.65
     },
     {
       "Hisse Kodu": "GENKM",
@@ -6942,9 +6932,19 @@
       "Hisse Fiyatı": 37.7
     },
     {
-      "Hisse Kodu": "ATATR",
-      "Hisse Adı": "Ata Turizm Isletmecilik Tasimacilik Madencilik Kuyumculu",
-      "Hisse Fiyatı": 18.65
+      "Hisse Kodu": "SVGYO",
+      "Hisse Adı": "Savur Gayrimenkul Yatirim Ortakligi A.S",
+      "Hisse Fiyatı": 20
+    },
+    {
+      "Hisse Kodu": "MCARD",
+      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
+      "Hisse Fiyatı": 181.6
+    },
+    {
+      "Hisse Kodu": "AKHAN",
+      "Hisse Adı": "Akhan Un Fabrikasi Ve Tarim Urunleri Gida Sanayi Ticaret Anonim Sirketi",
+      "Hisse Fiyatı": 34.08
     }
   ]
 }
