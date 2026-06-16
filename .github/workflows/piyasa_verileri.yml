@@ -2,7 +2,7 @@ name: Piyasa Verileri Çek
 
 on:
   schedule:
-    - cron: '*/30 9-18 * * 1-5'
+    - cron: '30 7-15 * * 1-6'
   workflow_dispatch:
 
 permissions:
@@ -13,37 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Kodu al
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Python kur (3.11)
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Bağımlılıkları yükle
-        run: |
-          pip install selenium pandas requests beautifulsoup4 openpyxl
-
-      - name: Chrome kur
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-
-      - name: xvfb kur
-        run: |
-          sudo apt-get install -y xvfb
-
-      - name: Verileri çek (xvfb ile)
-        run: |
-          xvfb-run -a python verilericek.py
-
-      - name: Değişiklikleri commit et ve push'la
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add piyasa_verileri.xlsx piyasa_verileri.json
-          git diff --staged --quiet || git commit -m "Güncel piyasa verileri [skip ci]"
-          git push
+      # ... diğer adımlar aynen kalır ...
