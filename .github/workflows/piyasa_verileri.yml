@@ -1,4 +1,4 @@
-name: Fon ve Hisse Fiyatlarını Çek
+name: Piyasa Verilerini Çek
 
 on:
   workflow_dispatch:
