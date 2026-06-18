@@ -1,296 +1,478 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-import pandas as pd
 import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-import time
+import pandas as pd
 from datetime import datetime, timedelta
+from openpyxl import load_workbook
+from openpyxl.worksheet.table import Table, TableStyleInfo
+from openpyxl.utils import get_column_letter
+from openpyxl.styles import Alignment
 import json
-import os
-import glob
 import re
+from bs4 import BeautifulSoup
 
-# ----------------------------- DRIVER -----------------------------
-def selenium_driver_olustur():
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--disable-software-rasterizer")
-    chrome_options.add_argument("--disable-features=VizDisplayCompositor")
-    chrome_options.add_argument("--disable-features=NetworkService,NetworkServiceInProcess")
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_argument("--disable-background-timer-throttling")
-    chrome_options.add_argument("--disable-renderer-backgrounding")
-    chrome_options.add_argument("--disable-backgrounding-occluded-windows")
-    chrome_options.add_argument("--disable-breakpad")
-    chrome_options.add_argument("--disable-component-extensions-with-background-pages")
-    chrome_options.add_argument("--disable-default-apps")
-    chrome_options.add_argument("--disable-notifications")
-    chrome_options.add_argument("--disable-popup-blocking")
-    chrome_options.add_argument("--no-first-run")
-    chrome_options.add_argument("--safebrowsing-disable-auto-update")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--remote-debugging-port=0")
-    chrome_options.add_argument("--disable-setuid-sandbox")
-    chrome_options.add_argument("--disable-infobars")
-    chrome_options.add_argument("--ignore-certificate-errors")
-    chrome_options.add_argument(
-        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-    )
-    
-    download_dir = os.path.join(os.getcwd(), "downloads")
-    os.makedirs(download_dir, exist_ok=True)
-    prefs = {
-        "download.default_directory": download_dir,
-        "download.prompt_for_download": False,
-        "download.directory_upgrade": True,
-        "safebrowsing.enabled": True
+
+# ========== HİSSE FONKSİYONLARI (TradingView) ==========
+def fetch_all_stocks():
+    url = "https://scanner.tradingview.com/turkey/scan?label-product=screener-stock"
+    headers = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+
+    payload = {
+        "columns": ["name", "description", "close"],
+        "filter": [],
+        "ignore_unknown_fields": False,
+        "options": {"lang": "tr"},
+        "range": [0, 999],
+        "sort": {"sortBy": "market_cap_basic", "sortOrder": "desc"},
+        "markets": ["turkey"],
+        "filter2": {
+            "operator": "and",
+            "operands": [
+                {
+                    "operation": {
+                        "operator": "or",
+                        "operands": [
+                            {
+                                "operation": {
+                                    "operator": "and",
+                                    "operands": [
+                                        {"expression": {"left": "type", "operation": "equal", "right": "stock"}},
+                                        {"expression": {"left": "typespecs", "operation": "has", "right": ["common"]}}
+                                    ]
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "operator": "and",
+                                    "operands": [
+                                        {"expression": {"left": "type", "operation": "equal", "right": "stock"}},
+                                        {"expression": {"left": "typespecs", "operation": "has", "right": ["preferred"]}}
+                                    ]
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "operator": "and",
+                                    "operands": [
+                                        {"expression": {"left": "type", "operation": "equal", "right": "dr"}}
+                                    ]
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "operator": "and",
+                                    "operands": [
+                                        {"expression": {"left": "type", "operation": "equal", "right": "fund"}},
+                                        {"expression": {"left": "typespecs", "operation": "has_none_of", "right": ["etf", "mutual"]}}
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "expression": {"left": "typespecs", "operation": "has_none_of", "right": ["pre-ipo"]}
+                }
+            ]
+        }
     }
-    chrome_options.add_experimental_option("prefs", prefs)
-    chrome_options.page_load_strategy = 'eager'
 
-    chrome_binary = os.environ.get("CHROME_BINARY_PATH")
-    if chrome_binary:
-        chrome_options.binary_location = chrome_binary
+    all_stocks = []
 
-    driver_path = os.environ.get("CHROME_DRIVER_PATH")
-    if driver_path:
-        service = Service(driver_path)
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-    else:
-        driver = webdriver.Chrome(options=chrome_options)
+    def extract_stocks(data):
+        count_before = len(all_stocks)
+        for item in data.get("data", []):
+            try:
+                d = item.get("d", [])
+                if len(d) < 3:
+                    continue
+                if isinstance(d[0], str) and d[0]:
+                    code = d[0]
+                    name = d[1] if d[1] else ""
+                    price = d[2]
+                    all_stocks.append({
+                        "Hisse Kodu": code,
+                        "Hisse Adı": name,
+                        "Hisse Fiyatı": price
+                    })
+            except Exception as e:
+                print(f"  ⚠ Hisse atlandı: {e}")
+        added = len(all_stocks) - count_before
+        if added > 0:
+            print(f"  → {added} adet hisse bulundu.")
 
-    driver.set_page_load_timeout(120)
-    driver.set_script_timeout(120)
-    return driver, download_dir
-
-# ----------------------------- HİSSE VERİLERİ -----------------------------
-def turkce_sayi_cevir(deger):
-    if isinstance(deger, str):
-        deger = deger.replace('.', '')
-        deger = deger.replace(',', '.')
     try:
-        return float(deger)
-    except (ValueError, TypeError):
+        resp = requests.post(url, json=payload, headers=headers, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        total = data.get("totalCount", 0)
+        extract_stocks(data)
+
+        page_size = 999
+        for start in range(page_size, total, page_size):
+            payload["range"] = [start, start + page_size - 1]
+            print(f"Sayfa {start // page_size + 1} çekiliyor...", end=" ")
+            try:
+                resp = requests.post(url, json=payload, headers=headers, timeout=30)
+                resp.raise_for_status()
+                page_data = resp.json()
+                extract_stocks(page_data)
+            except Exception as e:
+                print(f"\n  ⚠ Sayfa hatası: {e}")
+
+    except Exception as e:
+        print(f"Ana hata: {e}")
+        if all_stocks:
+            print(f"{len(all_stocks)} hisseyle devam ediliyor...")
+            return all_stocks
         return None
 
-def temizle_hisse(metin):
-    if isinstance(metin, str):
-        metin = re.sub(r'\s+', ' ', metin).strip()
-        metin = metin.replace('\u200b', '').replace('\u200c', '').replace('\u200d', '')
-        metin = metin.replace('\uFEFF', '').replace('\u00A0', ' ')
-        metin = metin.strip()
-    return metin
+    return all_stocks if all_stocks else None
 
-def hisse_verilerini_cek():
-    max_deneme = 3
-    for deneme in range(1, max_deneme + 1):
-        driver = None
-        try:
-            print(f"Hisse verisi deneme {deneme}/{max_deneme}...")
-            driver, download_dir = selenium_driver_olustur()
-            print("Driver oluşturuldu, sayfa yükleniyor...")
-            driver.get("https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/default.aspx")
-            
-            print("Excel butonu bekleniyor...")
-            excel_btn = WebDriverWait(driver, 30).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "a.excelimage"))
-            )
-            WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, "a.excelimage"))
-            )
-            
-            before = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
-            print("Excel butonuna tıklanıyor...")
-            excel_btn.click()
-            
-            timeout = 30
-            waited = 0
-            downloaded_file = None
-            while waited < timeout:
-                after = set(glob.glob(os.path.join(download_dir, "*.xlsx")))
-                new_files = after - before
-                if new_files:
-                    downloaded_file = max(new_files, key=os.path.getctime)
-                    break
-                time.sleep(1)
-                waited += 1
-            if not downloaded_file:
-                raise Exception("Excel dosyası indirilemedi.")
-            
-            print(f"Excel dosyası indirildi: {downloaded_file}")
-            df = pd.read_excel(downloaded_file)
-            if df.shape[1] >= 2:
-                df = df.iloc[:, [0, 1]]
-                df.columns = ["Hisse", "Son Fiyat (TL)"]
-                df["Hisse"] = df["Hisse"].astype(str).apply(temizle_hisse)
-                df["Son Fiyat (TL)"] = df["Son Fiyat (TL)"].apply(turkce_sayi_cevir)
-                df = df.dropna(subset=["Hisse"])
-                df = df[df["Hisse"].str.strip() != ""]
-                print(f"Excel'den {len(df)} hisse verisi alındı (temizlendi).")
-                os.remove(downloaded_file)
-                return df
-            else:
-                raise Exception("Excel dosyası beklenen sütunları içermiyor.")
-        except Exception as e:
-            print(f"Deneme {deneme} başarısız: {e}")
-            if deneme == max_deneme:
-                print("Hisse verileri alınamadı, boş DataFrame dönülüyor.")
-                return pd.DataFrame(columns=["Hisse", "Son Fiyat (TL)"])
-            time.sleep(10)
-        finally:
-            if driver:
-                driver.quit()
 
-# ----------------------------- FON VERİLERİ -----------------------------
-def fon_verilerini_cek():
-    url = "https://www.tefas.gov.tr/api/funds/fonGnlBlgSiraliGetirDosya"
+# ========== FON FONKSİYONLARI (TEFAS) ==========
+def fon_turu_esleme_al():
+    url = "https://www.tefas.gov.tr/api/fund-returns/export"
+    payload = {
+        "format": "json",
+        "listingType": "return",
+        "fundType": "YAT",
+        "locale": "tr",
+        "filters": {
+            "kurucuKodu": None, "fonTurKod": None, "fonGrubu": None,
+            "fonTurAciklama": None, "sfonTurKod": None, "islem": 1,
+            "basTarih": "20260601", "bitTarih": "20260601",
+            "calismaTipi": 1,
+            "donemGetiri1a": "0", "donemGetiri3a": "0", "donemGetiri6a": "0",
+            "donemGetiriyb": "0", "donemGetiri1y": "0", "donemGetiri3y": "0",
+            "donemGetiri5y": "0", "getiriOrani": "1"
+        },
+        "columns": ["fonKodu", "fonTurAciklama"]
+    }
+    headers = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+    try:
+        resp = requests.post(url, json=payload, headers=headers, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        df = pd.DataFrame(data)
+        df = df[["fonKodu", "fonTurAciklama"]].drop_duplicates()
+        return dict(zip(df["fonKodu"], df["fonTurAciklama"]))
+    except Exception as e:
+        print(f"Fon türü alınamadı: {e}")
+        return {}
+
+def son_fiyatlari_cek(tarih_str):
+    url = "https://www.tefas.gov.tr/api/funds/fonGnlBlgSiraliGetir"
+    headers = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+    payload = {
+        "fonTipi": "YAT",
+        "basTarih": tarih_str,
+        "bitTarih": tarih_str,
+        "basSira": 1,
+        "bitSira": 5000,
+        "dil": "TR"
+    }
+    try:
+        resp = requests.post(url, json=payload, headers=headers, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        return data.get("resultList", [])
+    except Exception as e:
+        print(f"Fiyat çekme hatası: {e}")
+        return []
+
+def fetch_all_funds():
+    tarih_denenecek = []
+    bugun = datetime.now().date()
+    for i in range(3):
+        tarih_denenecek.append(bugun.strftime("%Y%m%d"))
+        bugun = bugun - timedelta(days=1)
+
+    tur_map = fon_turu_esleme_al()
+
+    sonuclar = []
+    for tarih_str in tarih_denenecek:
+        veri = son_fiyatlari_cek(tarih_str)
+        if veri:
+            print(f"  → {len(veri)} fon bulundu.")
+            sonuclar = veri
+            break
+        else:
+            print("✗ Veri yok.")
+
+    if not sonuclar:
+        print("Son 3 günde hiç veri bulunamadı.")
+        return None
+
+    df = pd.DataFrame(sonuclar)
+    df = df[["fonKodu", "fonUnvan", "fiyat"]].rename(columns={
+        "fonKodu": "Fon Kodu",
+        "fonUnvan": "Fon Adı",
+        "fiyat": "Fon Fiyatı"
+    })
+    df["Fon Türü"] = df["Fon Kodu"].map(tur_map).fillna("Bilinmiyor")
+
+    df = df[df["Fon Türü"] != "Bilinmiyor"]
+    df = df[~df["Fon Türü"].str.contains("Serbest", na=False)]
+
+    if df.empty:
+        print("Filtreleme sonrası hiç fon kalmadı.")
+        return None
+
+    df = df[["Fon Kodu", "Fon Adı", "Fon Türü", "Fon Fiyatı"]]
+    return df
+
+
+# ========== DOVIZ.COM VERİLERİ (STATİK HTML) ==========
+def format_price(price_str):
+    """
+    Ham fiyat string'ini düzenler:
+    - Eğer zaten virgül ile ondalık ayrılmışsa (örn: 14.421,15) aynen döndür.
+    - Eğer nokta ile ayrılmışsa son noktayı virgüle çevir (örn: 14.421.15 -> 14.421,15)
+    - Eğer sadece nokta yoksa aynen döndür (örn: 65.820 -> 65.820)
+    """
+    if not price_str:
+        return "Veri yok"
+    
+    # Önce varsa dolar işaretini temizle
+    price_str = price_str.replace('$', '').strip()
+    
+    # Eğer zaten virgül varsa (Türk formatı) direkt döndür
+    if ',' in price_str:
+        return price_str
+    
+    # Nokta ile ayrılmışsa son noktayı virgül yap
+    parts = price_str.split('.')
+    if len(parts) > 1:
+        # Son parça ondalık kısım, diğerleri binlik
+        integer_part = '.'.join(parts[:-1])
+        decimal_part = parts[-1]
+        return f"{integer_part},{decimal_part}"
+    else:
+        # Nokta yoksa aynen döndür (tam sayı)
+        return price_str
+
+def fetch_doviz_data():
+    """
+    Doviz.com'dan istenen tüm verileri çeker.
+    Döner: List[Dict] - {'Sembol': ..., 'Fiyat': ...}
+    """
+    
+    # URL ve sembol eşleştirmesi - İstenen sıraya göre düzenlendi
+    urls = {
+        "BIST 100": "https://borsa.doviz.com/endeksler/xu100-bist-100",
+        "Dolar": "https://kur.doviz.com/serbest-piyasa/amerikan-dolari",
+        "Euro": "https://kur.doviz.com/serbest-piyasa/euro",
+        "BTCUSD": "https://www.doviz.com/kripto-paralar/bitcoin",
+        "Tahvil": "https://www.doviz.com/tahvil/tr-5-yillik-tahvil",
+        "Brent Petrol": "https://www.doviz.com/emtia/brent-petrol",
+        "Gr Altın": "https://altin.doviz.com/gram-altin",
+        "Çey.Altın": "https://altin.doviz.com/ceyrek-altin",
+        "Tam Altın": "https://altin.doviz.com/tam-altin",
+        "14 Ayar Bilezik": "https://altin.doviz.com/14-ayar-altin",
+        "18 Ayar Bilezik": "https://altin.doviz.com/18-ayar-altin",
+        "22 Ayar Bilezik": "https://altin.doviz.com/22-ayar-bilezik",
+        "Ons Altın": "https://altin.doviz.com/ons"
+    }
+    
     headers = {
-        "Accept": "*/*",
-        "Authorization": "Bearer ST-tefaswebwse3irfmSBj4iRAzGPbAlS94Se",
-        "Content-Type": "application/json",
-        "Origin": "https://www.tefas.gov.tr",
-        "Referer": "https://www.tefas.gov.tr/tr/fon-verileri",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
-    session = requests.Session()
-    retries = Retry(total=2, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
-    session.mount('https://', HTTPAdapter(max_retries=retries))
-
-    for i in range(15):
-        tarih = (datetime.now() - timedelta(days=i)).strftime("%Y%m%d")
-        print(f"Fon verisi için tarih deneniyor: {tarih}")
-        payload = {
-            "dil": "TR",
-            "fonTipi": "YAT",
-            "fonKod": None,
-            "fonGrup": None,
-            "basTarih": tarih,
-            "bitTarih": tarih,
-            "fonTurKod": None,
-            "fonUnvanTip": None,
-            "kurucuKod": None,
-            "fonTurAciklama": None,
-            "sfonTurKod": None
-        }
+    sonuclar = []
+    
+    for sembol, url in urls.items():
         try:
-            response = session.post(url, headers=headers, json=payload, timeout=(10, 60))
-            if response.status_code != 200:
-                print(f"HTTP hatası: {response.status_code}")
-                continue
-            data = response.json()
-            if "resultList" not in data or not data["resultList"]:
-                print(f"{tarih} için fon verisi bulunamadı.")
-                continue
-            fonlar = data["resultList"]
-            kayitlar = [[fon["fonKodu"], fon["fiyat"]] for fon in fonlar if fon.get("fiyat") is not None]
-            df = pd.DataFrame(kayitlar, columns=["Fon Kodu", "Fiyat"])
-            df["Fiyat"] = pd.to_numeric(df["Fiyat"], errors="coerce")
-            print(f"{tarih} tarihine ait {len(df)} fon verisi alındı.")
-            return df
+            print(f"  → {sembol} çekiliyor...", end=" ")
+            resp = requests.get(url, headers=headers, timeout=15)
+            resp.raise_for_status()
+            
+            soup = BeautifulSoup(resp.text, 'html.parser')
+            fiyat_raw = None
+            
+            # 1. Yöntem: data-socket-key ve data-socket-attr="s" olan div'leri ara
+            div = soup.find('div', {'data-socket-key': True, 'data-socket-attr': 's'})
+            if div:
+                fiyat_raw = div.text.strip()
+            else:
+                # 2. Yöntem: Sayfa başlığından veya h1'den fiyat bilgisini çek
+                h1 = soup.find('h1')
+                if h1:
+                    h1_text = h1.text
+                    match = re.search(r'Son\s*\([^)]*\)\s*([\d.,]+)', h1_text)
+                    if match:
+                        fiyat_raw = match.group(1)
+                
+                # 3. Yöntem: Meta description'dan dene
+                if not fiyat_raw:
+                    meta = soup.find('meta', {'name': 'description'})
+                    if meta and meta.get('content'):
+                        content = meta.get('content')
+                        match = re.search(r'([\d.,]+)\s*(?:seviyesinde|dolar|TL|$)', content)
+                        if match:
+                            fiyat_raw = match.group(1)
+                
+                # 4. Yöntem: Sayfa başlığı (title) içinden fiyat ara
+                if not fiyat_raw:
+                    title = soup.find('title')
+                    if title:
+                        title_text = title.text
+                        match = re.search(r'([\d.,]+)\s*(?:TL|$)', title_text)
+                        if match:
+                            fiyat_raw = match.group(1)
+            
+            if fiyat_raw:
+                # Formatı düzelt (dolar işareti temizlenir, nokta/virgül düzenlenir)
+                fiyat = format_price(fiyat_raw)
+                sonuclar.append({"Sembol": sembol, "Fiyat": fiyat})
+                print("✅")
+            else:
+                sonuclar.append({"Sembol": sembol, "Fiyat": "Bulunamadı"})
+                print("❌ (bulunamadı)")
+                
         except Exception as e:
-            print(f"{tarih} için hata: {e}")
-            continue
+            print(f"❌ Hata: {str(e)[:50]}")
+            sonuclar.append({"Sembol": sembol, "Fiyat": "Hata"})
+    
+    return sonuclar
 
-    print("UYARI: Son 15 günde fon verisi bulunamadı, boş DataFrame dönülüyor.")
-    return pd.DataFrame(columns=["Fon Kodu", "Fiyat"])
 
-# ----------------------------- BLOOMBERG VERİLERİ -----------------------------
-def bloomberg_verilerini_cek():
-    # İstenmeyen sembollerin listesi
-    istenmeyenler = ["BALTIK KURU YÜK", "BALTIK KURU YÜK ENDEKSİ"]  # İhtiyaca göre ekleyin
-
-    max_deneme = 3
-    for deneme in range(1, max_deneme + 1):
-        driver = None
-        try:
-            driver, _ = selenium_driver_olustur()
-            print(f"Bloomberg verisi deneme {deneme}/{max_deneme}...")
-            driver.get("https://www.bloomberght.com/piyasalar")
-            WebDriverWait(driver, 60).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-slide[data-swiper-slide-index]"))
-            )
-            time.sleep(2)
-            from bs4 import BeautifulSoup
-            soup = BeautifulSoup(driver.page_source, "html.parser")
-            slides = soup.select("div.swiper-slide[data-swiper-slide-index]")
-            if not slides:
-                raise Exception("Bloomberg slaytları bulunamadı.")
-            gorulmus = set()
-            data = []
-            for slide in slides:
-                sembol = slide.select_one("span.text-xs.text-ellipsis")
-                fiyat = slide.select_one("span.lastPrice")
-                degisim = slide.select_one("span.percentChange")
-                if sembol and fiyat and degisim:
-                    sembol_text = sembol.get_text(strip=True)
-                    # ✅ İstenmeyen sembolleri filtrele
-                    if sembol_text in istenmeyenler:
-                        continue
-                    if sembol_text in gorulmus:
-                        continue
-                    gorulmus.add(sembol_text)
-                    fiyat_str = fiyat.get_text(strip=True).replace(".", "").replace(",", ".")
-                    degisim_str = degisim.get_text(strip=True).replace("%", "").replace(".", "").replace(",", ".")
-                    data.append([sembol_text, fiyat_str, degisim_str])
-            if not data:
-                raise Exception("Hiç Bloomberg verisi çekilemedi (içerik boş).")
-            df = pd.DataFrame(data, columns=["Sembol", "Fiyat", "Değişim%"])
-            df["Fiyat"] = pd.to_numeric(df["Fiyat"], errors="coerce")
-            df["Değişim%"] = pd.to_numeric(df["Değişim%"], errors="coerce")
-            print(f"Bloomberg'den {len(df)} veri alındı (filtrelendi).")
-            return df
-        except Exception as e:
-            print(f"Bloomberg deneme {deneme} başarısız: {e}")
-            if deneme == max_deneme:
-                print("Bloomberg verileri alınamadı, boş DataFrame ile devam ediliyor.")
-                return pd.DataFrame(columns=["Sembol", "Fiyat", "Değişim%"])
-            time.sleep(10)
-        finally:
-            if driver:
-                driver.quit()
-
-# ----------------------------- ANA İŞLEM -----------------------------
+# ========== ANA PROGRAM ==========
 if __name__ == "__main__":
-    print("Hisse verileri çekiliyor...")
-    df_hisse = hisse_verilerini_cek()
-    print(f"{len(df_hisse)} hisse bulundu.")
+    print("=== BIST HİSSELERİ ÇEKİLİYOR ===")
+    stocks = fetch_all_stocks()
+    
+    print("\n=== FON FİYATLARI ÇEKİLİYOR ===")
+    funds = fetch_all_funds()
+    
+    print("\n=== DOVIZ.COM VERİLERİ ÇEKİLİYOR ===")
+    doviz = fetch_doviz_data()
+    if doviz:
+        print(f"  → {len(doviz)} veri bulundu.")
+    else:
+        print("  ⚠ Doviz.com verisi alınamadı.")
 
-    print("Fon verileri çekiliyor...")
-    df_fon = fon_verilerini_cek()
-    print(f"{len(df_fon)} fon bulundu.")
+    if stocks is None and funds is None and doviz is None:
+        print("Hiç veri alınamadı, çıkılıyor.")
+        exit()
 
-    print("Bloomberg verileri çekiliyor...")
-    df_bloomberg = bloomberg_verilerini_cek()
-    print(f"{len(df_bloomberg)} Bloomberg verisi bulundu.")
+    dosya = "FonHisseFiyatlari.xlsx"
+    
+    stocks_startcol = None
+    doviz_startcol = None
 
-    # Excel dosyasını oluştur (her zaman üzerine yaz)
-    with pd.ExcelWriter("piyasa_verileri.xlsx", engine="openpyxl") as writer:
-        col_offset = 0
-        if not df_fon.empty:
-            df_fon.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_offset)
-            col_offset += len(df_fon.columns) + 1
-        if not df_hisse.empty:
-            df_hisse.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_offset)
-            col_offset += len(df_hisse.columns) + 1
-        if not df_bloomberg.empty:
-            df_bloomberg.to_excel(writer, sheet_name="Piyasa Verileri", index=False, startcol=col_offset)
-    print("piyasa_verileri.xlsx oluşturuldu/güncellendi.")
+    # Excel yazma (Tablolar arasında 1 sütun boşluk)
+    with pd.ExcelWriter(dosya, engine='openpyxl') as writer:
+        current_col = 0
+        
+        if funds is not None:
+            funds.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
+            current_col += 4  # Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı
+            current_col += 1  # ⬅️ BOŞ SÜTUN
+        
+        if stocks is not None:
+            stocks_startcol = current_col
+            df_stocks = pd.DataFrame(stocks)
+            df_stocks = df_stocks[["Hisse Kodu", "Hisse Adı", "Hisse Fiyatı"]]
+            df_stocks.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
+            current_col += 3
+            current_col += 1  # ⬅️ BOŞ SÜTUN
+            
+        if doviz is not None:
+            doviz_startcol = current_col
+            df_doviz = pd.DataFrame(doviz)
+            df_doviz.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
 
-    # JSON dosyasını oluştur
+    # Tablo stilleri ve biçimlendirme
+    wb = load_workbook(dosya)
+    ws = wb["Fiyatlar"]
+
+    # 1. FON TABLOSU
+    if funds is not None:
+        max_row_funds = len(funds) + 1
+        tablo_ref_funds = f"A1:{get_column_letter(4)}{max_row_funds}"
+        tbl_funds = Table(displayName="tbl_fonfiyatlari", ref=tablo_ref_funds)
+        tbl_funds.tableStyleInfo = TableStyleInfo(
+            name="TableStyleMedium9",
+            showFirstColumn=False,
+            showLastColumn=False,
+            showRowStripes=True,
+            showColumnStripes=False
+        )
+        ws.add_table(tbl_funds)
+        ws.column_dimensions['A'].width = 10
+        ws.column_dimensions['B'].width = 45
+        ws.column_dimensions['C'].width = 30
+        ws.column_dimensions['D'].width = 12
+        # Fon fiyat sütunu (D) sağa yasla
+        for row in range(2, max_row_funds + 1):
+            cell = ws[f'D{row}']
+            cell.alignment = Alignment(horizontal='right')
+
+    # 2. HİSSE TABLOSU
+    if stocks is not None and stocks_startcol is not None:
+        first_col_letter = get_column_letter(stocks_startcol + 1)
+        last_col_letter = get_column_letter(stocks_startcol + 3)
+        max_row_stocks = len(stocks) + 1
+        tablo_ref_stocks = f"{first_col_letter}1:{last_col_letter}{max_row_stocks}"
+        tbl_stocks = Table(displayName="tbl_hissefiyatlari", ref=tablo_ref_stocks)
+        tbl_stocks.tableStyleInfo = TableStyleInfo(
+            name="TableStyleMedium9",
+            showFirstColumn=False,
+            showLastColumn=False,
+            showRowStripes=True,
+            showColumnStripes=False
+        )
+        ws.add_table(tbl_stocks)
+        ws.column_dimensions[first_col_letter].width = 12
+        ws.column_dimensions[get_column_letter(stocks_startcol + 2)].width = 40
+        ws.column_dimensions[last_col_letter].width = 14
+        # Hisse fiyat sütunu (3. sütun) sağa yasla
+        price_col_letter = get_column_letter(stocks_startcol + 3)
+        for row in range(2, max_row_stocks + 1):
+            cell = ws[f'{price_col_letter}{row}']
+            cell.alignment = Alignment(horizontal='right')
+
+    # 3. DOVIZ TABLOSU (sadece 2 sütun: Sembol ve Fiyat)
+    if doviz is not None and doviz_startcol is not None:
+        first_col_letter = get_column_letter(doviz_startcol + 1)
+        last_col_letter = get_column_letter(doviz_startcol + 2)
+        max_row_doviz = len(doviz) + 1
+        tablo_ref_doviz = f"{first_col_letter}1:{last_col_letter}{max_row_doviz}"
+        tbl_doviz = Table(displayName="tbl_doviz", ref=tablo_ref_doviz)
+        tbl_doviz.tableStyleInfo = TableStyleInfo(
+            name="TableStyleMedium9",
+            showFirstColumn=False,
+            showLastColumn=False,
+            showRowStripes=True,
+            showColumnStripes=False
+        )
+        ws.add_table(tbl_doviz)
+        ws.column_dimensions[first_col_letter].width = 18
+        ws.column_dimensions[last_col_letter].width = 16
+        # Fiyat sütunu (2. sütun) sağa yasla
+        price_col_letter = get_column_letter(doviz_startcol + 2)
+        for row in range(2, max_row_doviz + 1):
+            cell = ws[f'{price_col_letter}{row}']
+            cell.alignment = Alignment(horizontal='right')
+
+    # Boş sütun genişliklerini ayarla
+    for col_idx in [5, 9]:
+        try:
+            ws.column_dimensions[get_column_letter(col_idx)].width = 3
+        except:
+            pass
+
+    wb.save(dosya)
+    print(f"\n✔ '{dosya}' kaydedildi.")
+
+    # ========== JSON DOSYASI ==========
     json_data = {
-        "hisseler": df_hisse.to_dict(orient="records"),
-        "fonlar": df_fon.to_dict(orient="records"),
-        "bloomberg": df_bloomberg.to_dict(orient="records")
+        "guncelleme_zamani": datetime.now().isoformat(),
+        "fonlar": funds.to_dict(orient='records') if funds is not None else [],
+        "hisseler": stocks if stocks is not None else [],
+        "doviz": doviz if doviz is not None else []
     }
-    with open("piyasa_verileri.json", "w", encoding="utf-8") as f:
-        json.dump(json_data, f, ensure_ascii=False, indent=4)
-    print("piyasa_verileri.json oluşturuldu/güncellendi.")
+
+    json_dosya = "FonHisseFiyatlari.json"
+    with open(json_dosya, "w", encoding="utf-8") as f:
+        json.dump(json_data, f, ensure_ascii=False, indent=2)
+
+    print(f"✔ '{json_dosya}' kaydedildi.")
