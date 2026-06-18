@@ -24,15 +24,15 @@ jobs:
           pip install requests pandas openpyxl beautifulsoup4
 
       - name: Run price fetcher script
-        run: python FonHisseFiyatlari.py
+        run: python verilericek.py
 
       - name: Upload Excel and JSON files as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: fon-hisse-fiyatlari
           path: |
-            FonHisseFiyatlari.xlsx
-            FonHisseFiyatlari.json
+            piyasa_verileri.xlsx
+            piyasa_verileri.json
 
       - name: Değişiklikleri commit et ve push'la
         env:
@@ -40,7 +40,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add FonHisseFiyatlari.xlsx FonHisseFiyatlari.json
+          git add piyasa_verileri.xlsx piyasa_verileri.json
           git diff --staged --quiet || git commit -m "Güncel Fon ve Hisse Fiyatları"
           # 🔧 Token ile push
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/fkcengizhan-crypto/fhfiyat.git HEAD:main
