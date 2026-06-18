@@ -4,7 +4,11 @@ from datetime import datetime, timedelta
 from openpyxl import load_workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.utils import get_column_letter
-import json  # JSON dosyası için eklendi
+from openpyxl.styles import Alignment
+import json
+import re
+from bs4 import BeautifulSoup
+
 
 # ========== HİSSE FONKSİYONLARI (TradingView) ==========
 def fetch_all_stocks():
@@ -123,6 +127,7 @@ def fetch_all_stocks():
 
     return all_stocks if all_stocks else None
 
+
 # ========== FON FONKSİYONLARI (TEFAS) ==========
 def fon_turu_esleme_al():
     url = "https://www.tefas.gov.tr/api/fund-returns/export"
@@ -215,40 +220,171 @@ def fetch_all_funds():
     df = df[["Fon Kodu", "Fon Adı", "Fon Türü", "Fon Fiyatı"]]
     return df
 
+
+# ========== DOVIZ.COM VERİLERİ (STATİK HTML) ==========
+def format_price(price_str):
+    """
+    Ham fiyat string'ini düzenler:
+    - Eğer zaten virgül ile ondalık ayrılmışsa (örn: 14.421,15) aynen döndür.
+    - Eğer nokta ile ayrılmışsa son noktayı virgüle çevir (örn: 14.421.15 -> 14.421,15)
+    - Eğer sadece nokta yoksa aynen döndür (örn: 65.820 -> 65.820)
+    """
+    if not price_str:
+        return "Veri yok"
+    
+    # Önce varsa dolar işaretini temizle
+    price_str = price_str.replace('$', '').strip()
+    
+    # Eğer zaten virgül varsa (Türk formatı) direkt döndür
+    if ',' in price_str:
+        return price_str
+    
+    # Nokta ile ayrılmışsa son noktayı virgül yap
+    parts = price_str.split('.')
+    if len(parts) > 1:
+        # Son parça ondalık kısım, diğerleri binlik
+        integer_part = '.'.join(parts[:-1])
+        decimal_part = parts[-1]
+        return f"{integer_part},{decimal_part}"
+    else:
+        # Nokta yoksa aynen döndür (tam sayı)
+        return price_str
+
+def fetch_doviz_data():
+    """
+    Doviz.com'dan istenen tüm verileri çeker.
+    Döner: List[Dict] - {'Sembol': ..., 'Fiyat': ...}
+    """
+    
+    # URL ve sembol eşleştirmesi - İstenen sıraya göre düzenlendi
+    urls = {
+        "BIST 100": "https://borsa.doviz.com/endeksler/xu100-bist-100",
+        "Dolar": "https://kur.doviz.com/serbest-piyasa/amerikan-dolari",
+        "Euro": "https://kur.doviz.com/serbest-piyasa/euro",
+        "BTCUSD": "https://www.doviz.com/kripto-paralar/bitcoin",
+        "Tahvil": "https://www.doviz.com/tahvil/tr-5-yillik-tahvil",
+        "Brent Petrol": "https://www.doviz.com/emtia/brent-petrol",
+        "Gr Altın": "https://altin.doviz.com/gram-altin",
+        "Çey.Altın": "https://altin.doviz.com/ceyrek-altin",
+        "Tam Altın": "https://altin.doviz.com/tam-altin",
+        "14 Ayar Bilezik": "https://altin.doviz.com/14-ayar-altin",
+        "18 Ayar Bilezik": "https://altin.doviz.com/18-ayar-altin",
+        "22 Ayar Bilezik": "https://altin.doviz.com/22-ayar-bilezik",
+        "Ons Altın": "https://altin.doviz.com/ons"
+    }
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    sonuclar = []
+    
+    for sembol, url in urls.items():
+        try:
+            print(f"  → {sembol} çekiliyor...", end=" ")
+            resp = requests.get(url, headers=headers, timeout=15)
+            resp.raise_for_status()
+            
+            soup = BeautifulSoup(resp.text, 'html.parser')
+            fiyat_raw = None
+            
+            # 1. Yöntem: data-socket-key ve data-socket-attr="s" olan div'leri ara
+            div = soup.find('div', {'data-socket-key': True, 'data-socket-attr': 's'})
+            if div:
+                fiyat_raw = div.text.strip()
+            else:
+                # 2. Yöntem: Sayfa başlığından veya h1'den fiyat bilgisini çek
+                h1 = soup.find('h1')
+                if h1:
+                    h1_text = h1.text
+                    match = re.search(r'Son\s*\([^)]*\)\s*([\d.,]+)', h1_text)
+                    if match:
+                        fiyat_raw = match.group(1)
+                
+                # 3. Yöntem: Meta description'dan dene
+                if not fiyat_raw:
+                    meta = soup.find('meta', {'name': 'description'})
+                    if meta and meta.get('content'):
+                        content = meta.get('content')
+                        match = re.search(r'([\d.,]+)\s*(?:seviyesinde|dolar|TL|$)', content)
+                        if match:
+                            fiyat_raw = match.group(1)
+                
+                # 4. Yöntem: Sayfa başlığı (title) içinden fiyat ara
+                if not fiyat_raw:
+                    title = soup.find('title')
+                    if title:
+                        title_text = title.text
+                        match = re.search(r'([\d.,]+)\s*(?:TL|$)', title_text)
+                        if match:
+                            fiyat_raw = match.group(1)
+            
+            if fiyat_raw:
+                # Formatı düzelt (dolar işareti temizlenir, nokta/virgül düzenlenir)
+                fiyat = format_price(fiyat_raw)
+                sonuclar.append({"Sembol": sembol, "Fiyat": fiyat})
+                print("✅")
+            else:
+                sonuclar.append({"Sembol": sembol, "Fiyat": "Bulunamadı"})
+                print("❌ (bulunamadı)")
+                
+        except Exception as e:
+            print(f"❌ Hata: {str(e)[:50]}")
+            sonuclar.append({"Sembol": sembol, "Fiyat": "Hata"})
+    
+    return sonuclar
+
+
 # ========== ANA PROGRAM ==========
 if __name__ == "__main__":
     print("=== BIST HİSSELERİ ÇEKİLİYOR ===")
     stocks = fetch_all_stocks()
+    
     print("\n=== FON FİYATLARI ÇEKİLİYOR ===")
     funds = fetch_all_funds()
+    
+    print("\n=== DOVIZ.COM VERİLERİ ÇEKİLİYOR ===")
+    doviz = fetch_doviz_data()
+    if doviz:
+        print(f"  → {len(doviz)} veri bulundu.")
+    else:
+        print("  ⚠ Doviz.com verisi alınamadı.")
 
-    if stocks is None and funds is None:
+    if stocks is None and funds is None and doviz is None:
         print("Hiç veri alınamadı, çıkılıyor.")
         exit()
 
     dosya = "FonHisseFiyatlari.xlsx"
     
-    # Excel yazma
+    stocks_startcol = None
+    doviz_startcol = None
+
+    # Excel yazma (Tablolar arasında 1 sütun boşluk)
     with pd.ExcelWriter(dosya, engine='openpyxl') as writer:
+        current_col = 0
+        
         if funds is not None:
-            funds.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=0, index=False)
-            fund_cols = 4
-        else:
-            fund_cols = 0
+            funds.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
+            current_col += 4  # Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı
+            current_col += 1  # ⬅️ BOŞ SÜTUN
         
         if stocks is not None:
-            startcol_stocks = fund_cols + 1 if fund_cols > 0 else 0
+            stocks_startcol = current_col
             df_stocks = pd.DataFrame(stocks)
             df_stocks = df_stocks[["Hisse Kodu", "Hisse Adı", "Hisse Fiyatı"]]
-            df_stocks.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=startcol_stocks, index=False)
-            stocks_startcol = startcol_stocks
-        else:
-            stocks_startcol = None
+            df_stocks.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
+            current_col += 3
+            current_col += 1  # ⬅️ BOŞ SÜTUN
+            
+        if doviz is not None:
+            doviz_startcol = current_col
+            df_doviz = pd.DataFrame(doviz)
+            df_doviz.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
 
-    # Tablo stilleri ekleme
+    # Tablo stilleri ve biçimlendirme
     wb = load_workbook(dosya)
     ws = wb["Fiyatlar"]
 
+    # 1. FON TABLOSU
     if funds is not None:
         max_row_funds = len(funds) + 1
         tablo_ref_funds = f"A1:{get_column_letter(4)}{max_row_funds}"
@@ -265,7 +401,12 @@ if __name__ == "__main__":
         ws.column_dimensions['B'].width = 45
         ws.column_dimensions['C'].width = 30
         ws.column_dimensions['D'].width = 12
+        # Fon fiyat sütunu (D) sağa yasla
+        for row in range(2, max_row_funds + 1):
+            cell = ws[f'D{row}']
+            cell.alignment = Alignment(horizontal='right')
 
+    # 2. HİSSE TABLOSU
     if stocks is not None and stocks_startcol is not None:
         first_col_letter = get_column_letter(stocks_startcol + 1)
         last_col_letter = get_column_letter(stocks_startcol + 3)
@@ -283,15 +424,51 @@ if __name__ == "__main__":
         ws.column_dimensions[first_col_letter].width = 12
         ws.column_dimensions[get_column_letter(stocks_startcol + 2)].width = 40
         ws.column_dimensions[last_col_letter].width = 14
+        # Hisse fiyat sütunu (3. sütun) sağa yasla
+        price_col_letter = get_column_letter(stocks_startcol + 3)
+        for row in range(2, max_row_stocks + 1):
+            cell = ws[f'{price_col_letter}{row}']
+            cell.alignment = Alignment(horizontal='right')
+
+    # 3. DOVIZ TABLOSU (sadece 2 sütun: Sembol ve Fiyat)
+    if doviz is not None and doviz_startcol is not None:
+        first_col_letter = get_column_letter(doviz_startcol + 1)
+        last_col_letter = get_column_letter(doviz_startcol + 2)
+        max_row_doviz = len(doviz) + 1
+        tablo_ref_doviz = f"{first_col_letter}1:{last_col_letter}{max_row_doviz}"
+        tbl_doviz = Table(displayName="tbl_doviz", ref=tablo_ref_doviz)
+        tbl_doviz.tableStyleInfo = TableStyleInfo(
+            name="TableStyleMedium9",
+            showFirstColumn=False,
+            showLastColumn=False,
+            showRowStripes=True,
+            showColumnStripes=False
+        )
+        ws.add_table(tbl_doviz)
+        ws.column_dimensions[first_col_letter].width = 18
+        ws.column_dimensions[last_col_letter].width = 16
+        # Fiyat sütunu (2. sütun) sağa yasla
+        price_col_letter = get_column_letter(doviz_startcol + 2)
+        for row in range(2, max_row_doviz + 1):
+            cell = ws[f'{price_col_letter}{row}']
+            cell.alignment = Alignment(horizontal='right')
+
+    # Boş sütun genişliklerini ayarla
+    for col_idx in [5, 9]:
+        try:
+            ws.column_dimensions[get_column_letter(col_idx)].width = 3
+        except:
+            pass
 
     wb.save(dosya)
     print(f"\n✔ '{dosya}' kaydedildi.")
 
-    # ========== JSON DOSYASI OLUŞTURMA ==========
+    # ========== JSON DOSYASI ==========
     json_data = {
         "guncelleme_zamani": datetime.now().isoformat(),
         "fonlar": funds.to_dict(orient='records') if funds is not None else [],
-        "hisseler": stocks if stocks is not None else []
+        "hisseler": stocks if stocks is not None else [],
+        "doviz": doviz if doviz is not None else []
     }
 
     json_dosya = "FonHisseFiyatlari.json"
