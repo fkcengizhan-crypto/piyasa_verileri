@@ -353,7 +353,7 @@ if __name__ == "__main__":
         print("Hiç veri alınamadı, çıkılıyor.")
         exit()
 
-    dosya = "FonHisseFiyatlari.xlsx"
+    dosya = "piyasa_verileri.xlsx"
     
     stocks_startcol = None
     doviz_startcol = None
@@ -471,7 +471,7 @@ if __name__ == "__main__":
         "doviz": doviz if doviz is not None else []
     }
 
-    json_dosya = "FonHisseFiyatlari.json"
+    json_dosya = "piyasa_verileri.json"
     with open(json_dosya, "w", encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)
 
