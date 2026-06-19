@@ -464,6 +464,7 @@ if __name__ == "__main__":
     print(f"\n✔ '{dosya}' kaydedildi.")
 
     # ========== JSON DOSYASI ==========
+    turkiye_saati = datetime.now(timezone(timedelta(hours=3)))
     json_data = {
         "guncelleme_zamani": turkiye_saati.isoformat(),   # ISO formatında +03:00 eklenir
         "fonlar": funds.to_dict(orient='records') if funds is not None else [],
