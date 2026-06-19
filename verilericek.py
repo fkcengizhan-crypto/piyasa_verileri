@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from openpyxl import load_workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.utils import get_column_letter
@@ -465,7 +465,7 @@ if __name__ == "__main__":
 
     # ========== JSON DOSYASI ==========
     json_data = {
-        "guncelleme_zamani": datetime.now().isoformat(),
+        "guncelleme_zamani": turkiye_saati.isoformat(),   # ISO formatında +03:00 eklenir
         "fonlar": funds.to_dict(orient='records') if funds is not None else [],
         "hisseler": stocks if stocks is not None else [],
         "doviz": doviz if doviz is not None else []
