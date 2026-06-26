@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-06-26T10:02:04.778667+03:00",
+  "guncelleme_zamani": "2026-06-26T10:32:04.532448+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -11,7 +11,7 @@
       "Fon Kodu": "AAV",
       "Fon Adı": "ATA PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 61.26003
+      "Fon Fiyatı": 61.264142
     },
     {
       "Fon Kodu": "AC4",
@@ -113,7 +113,7 @@
       "Fon Kodu": "AHV",
       "Fon Adı": "AZİMUT PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 20.626201
+      "Fon Fiyatı": 20.560394
     },
     {
       "Fon Kodu": "AIS",
@@ -215,7 +215,7 @@
       "Fon Kodu": "AYA",
       "Fon Adı": "ATA PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 18.595829
+      "Fon Fiyatı": 18.596274
     },
     {
       "Fon Kodu": "AYR",
@@ -269,7 +269,7 @@
       "Fon Kodu": "BFE",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.747448
+      "Fon Fiyatı": 1.739066
     },
     {
       "Fon Kodu": "BFS",
@@ -533,7 +533,7 @@
       "Fon Kodu": "DHT",
       "Fon Adı": "DENİZ PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.097671
+      "Fon Fiyatı": 1.096873
     },
     {
       "Fon Kodu": "DID",
@@ -635,7 +635,7 @@
       "Fon Kodu": "DVT",
       "Fon Adı": "DENİZ PORTFÖY METAVERSE VE DİJİTAL YAŞAM TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.387593
+      "Fon Fiyatı": 9.378647
     },
     {
       "Fon Kodu": "DXP",
@@ -881,7 +881,7 @@
       "Fon Kodu": "FSU",
       "Fon Adı": "TERA PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.0
+      "Fon Fiyatı": 1.263654
     },
     {
       "Fon Kodu": "FTL",
@@ -971,7 +971,7 @@
       "Fon Kodu": "GBZ",
       "Fon Adı": "AZİMUT PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.152434
+      "Fon Fiyatı": 3.15193
     },
     {
       "Fon Kodu": "GGK",
@@ -1355,7 +1355,7 @@
       "Fon Kodu": "HBN",
       "Fon Adı": "HSBC PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.0
+      "Fon Fiyatı": 4.179317
     },
     {
       "Fon Kodu": "HBU",
@@ -1433,7 +1433,7 @@
       "Fon Kodu": "HOY",
       "Fon Adı": "HSBC PORTFÖY YABANCI BYF FON SEPETI",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.354137
+      "Fon Fiyatı": 0.354101
     },
     {
       "Fon Kodu": "HPD",
@@ -1493,7 +1493,7 @@
       "Fon Kodu": "HTK",
       "Fon Adı": "QNB PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.004776
+      "Fon Fiyatı": 1.00562
     },
     {
       "Fon Kodu": "HVI",
@@ -1775,13 +1775,13 @@
       "Fon Kodu": "IPG",
       "Fon Adı": "İŞ PORTFÖY ATAK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 9.258954
+      "Fon Fiyatı": 9.280119
     },
     {
       "Fon Kodu": "IPJ",
       "Fon Adı": "İŞ PORTFÖY ELEKTRİKLİ ARAÇLAR KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 20.222592
+      "Fon Fiyatı": 20.222627
     },
     {
       "Fon Kodu": "IPV",
@@ -1949,7 +1949,7 @@
       "Fon Kodu": "KKH",
       "Fon Adı": "İŞ PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.583389
+      "Fon Fiyatı": 6.593447
     },
     {
       "Fon Kodu": "KLU",
@@ -2309,7 +2309,7 @@
       "Fon Kodu": "MTX",
       "Fon Adı": "TEB PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.385147
+      "Fon Fiyatı": 5.385396
     },
     {
       "Fon Kodu": "NAK",
@@ -2525,7 +2525,7 @@
       "Fon Kodu": "OJT",
       "Fon Adı": "QNB PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 12.493407
+      "Fon Fiyatı": 12.497758
     },
     {
       "Fon Kodu": "OKD",
@@ -2621,7 +2621,7 @@
       "Fon Kodu": "OVD",
       "Fon Adı": "QNB PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.97634
+      "Fon Fiyatı": 2.975887
     },
     {
       "Fon Kodu": "PAB",
@@ -2645,7 +2645,7 @@
       "Fon Kodu": "PBR",
       "Fon Adı": "PUSULA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.089917
+      "Fon Fiyatı": 5.089358
     },
     {
       "Fon Kodu": "PDD",
@@ -2663,7 +2663,7 @@
       "Fon Kodu": "PFO",
       "Fon Adı": "PHİLLİP PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.241775
+      "Fon Fiyatı": 2.235715
     },
     {
       "Fon Kodu": "PFS",
@@ -2711,7 +2711,7 @@
       "Fon Kodu": "PIL",
       "Fon Adı": "ROTA PORTFÖY PİL TEKNOLOJİLERİ VE ENERJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.00647
+      "Fon Fiyatı": 4.00473
     },
     {
       "Fon Kodu": "PIR",
@@ -2759,7 +2759,7 @@
       "Fon Kodu": "PPB",
       "Fon Adı": "PHİLLİP PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 10.469126
+      "Fon Fiyatı": 10.469343
     },
     {
       "Fon Kodu": "PPG",
@@ -3035,7 +3035,7 @@
       "Fon Kodu": "SFS",
       "Fon Adı": "AZİMUT PORTFÖY AGRESİF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.354382
+      "Fon Fiyatı": 1.348578
     },
     {
       "Fon Kodu": "SGT",
@@ -3095,7 +3095,7 @@
       "Fon Kodu": "SSK",
       "Fon Adı": "DENİZ PORTFÖY SAĞLIK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.596638
+      "Fon Fiyatı": 1.596577
     },
     {
       "Fon Kodu": "SSS",
@@ -3215,7 +3215,7 @@
       "Fon Kodu": "TEJ",
       "Fon Adı": "AZİMUT PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.652265
+      "Fon Fiyatı": 2.653287
     },
     {
       "Fon Kodu": "TFF",
@@ -3365,13 +3365,13 @@
       "Fon Kodu": "TMU",
       "Fon Adı": "AZİMUT PORTFÖY TEMKİNLİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.360692
+      "Fon Fiyatı": 1.358303
     },
     {
       "Fon Kodu": "TMZ",
       "Fon Adı": "İŞ PORTFÖY SÜRDÜRÜLEBİLİRLİK VE TARIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.849876
+      "Fon Fiyatı": 1.849877
     },
     {
       "Fon Kodu": "TND",
@@ -3461,7 +3461,7 @@
       "Fon Kodu": "TVN",
       "Fon Adı": "TRIVE PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.69982
+      "Fon Fiyatı": 2.693971
     },
     {
       "Fon Kodu": "TYH",
@@ -3701,7 +3701,7 @@
       "Fon Kodu": "YLC",
       "Fon Adı": "ATA PORTFÖY TARIM VE GIDA DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.672195
+      "Fon Fiyatı": 3.67232
     },
     {
       "Fon Kodu": "YLE",
@@ -3821,7 +3821,7 @@
       "Fon Kodu": "ZCN",
       "Fon Adı": "ZİRAAT PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.625202
+      "Fon Fiyatı": 3.619291
     },
     {
       "Fon Kodu": "ZDD",
@@ -3839,7 +3839,7 @@
       "Fon Kodu": "ZFB",
       "Fon Adı": "AK PORTFÖY FİNTEK VE BLOKZİNCİRİ TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.99946
+      "Fon Fiyatı": 6.986444
     },
     {
       "Fon Kodu": "ZHH",
@@ -3875,7 +3875,7 @@
       "Fon Kodu": "ZPC",
       "Fon Adı": "ZİRAAT PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 18.878135
+      "Fon Fiyatı": 18.878175
     },
     {
       "Fon Kodu": "ZPE",
@@ -3905,80 +3905,80 @@
       "Fon Kodu": "ZSG",
       "Fon Adı": "ZİRAAT PORTFÖY ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.307682
+      "Fon Fiyatı": 4.304058
     },
     {
       "Fon Kodu": "ZTG",
       "Fon Adı": "ZİRAAT PORTFÖY TARIM VE GIDA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.191022
+      "Fon Fiyatı": 1.195818
     }
   ],
   "hisseler": [
     {
       "Hisse Kodu": "ASELS",
       "Hisse Adı": "ASELSAN ELEKTRONİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 373.5
+      "Hisse Fiyatı": 375.25
     },
     {
       "Hisse Kodu": "QNBTR",
       "Hisse Adı": "QNB Bank AS",
-      "Hisse Fiyatı": 208.2
+      "Hisse Fiyatı": 208
     },
     {
       "Hisse Kodu": "DSTKF",
       "Hisse Adı": "DESTEK FAKTORİNG A.Ş.",
-      "Hisse Fiyatı": 3420
+      "Hisse Fiyatı": 3437.5
     },
     {
       "Hisse Kodu": "GARAN",
       "Hisse Adı": "TÜRKİYE GARANTİ BANKASI A.Ş.",
-      "Hisse Fiyatı": 137.6
+      "Hisse Fiyatı": 138.5
     },
     {
       "Hisse Kodu": "ENKAI",
       "Hisse Adı": "ENKA İNŞAAT VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 89.7
+      "Hisse Fiyatı": 90.2
     },
     {
       "Hisse Kodu": "KCHOL",
       "Hisse Adı": "KOÇ HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 194.9
+      "Hisse Fiyatı": 198.1
     },
     {
       "Hisse Kodu": "THYAO",
       "Hisse Adı": "TÜRK HAVA YOLLARI A.O.",
-      "Hisse Fiyatı": 328.5
+      "Hisse Fiyatı": 331.5
     },
     {
       "Hisse Kodu": "BIMAS",
       "Hisse Adı": "BİM BİRLEŞİK MAĞAZALAR A.Ş.",
-      "Hisse Fiyatı": 375.5
-    },
-    {
-      "Hisse Kodu": "AKBNK",
-      "Hisse Adı": "AKBANK T.A.Ş.",
-      "Hisse Fiyatı": 77.2
-    },
-    {
-      "Hisse Kodu": "TUPRS",
-      "Hisse Adı": "TÜPRAŞ-TÜRKİYE PETROL RAFİNERİLERİ A.Ş.",
-      "Hisse Fiyatı": 219.2
+      "Hisse Fiyatı": 376.75
     },
     {
       "Hisse Kodu": "HEDEF",
       "Hisse Adı": "HEDEF HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 143
+      "Hisse Fiyatı": 141.9
+    },
+    {
+      "Hisse Kodu": "TUPRS",
+      "Hisse Adı": "TÜPRAŞ-TÜRKİYE PETROL RAFİNERİLERİ A.Ş.",
+      "Hisse Fiyatı": 218.3
+    },
+    {
+      "Hisse Kodu": "AKBNK",
+      "Hisse Adı": "AKBANK T.A.Ş.",
+      "Hisse Fiyatı": 77.8
     },
     {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 420000
+      "Hisse Fiyatı": 425000
     },
     {
       "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 14.58
+      "Hisse Fiyatı": 14.71
     },
     {
       "Hisse Kodu": "ISKUR",
@@ -3988,117 +3988,117 @@
     {
       "Hisse Kodu": "KTLEV",
       "Hisse Adı": "KATILIMEVIM TASARRUF FINANSMAN A.S.",
-      "Hisse Fiyatı": 170.4
+      "Hisse Fiyatı": 179.6
     },
     {
       "Hisse Kodu": "YKBNK",
       "Hisse Adı": "YAPI VE KREDİ BANKASI A.Ş.",
-      "Hisse Fiyatı": 40.5
+      "Hisse Fiyatı": 41.06
     },
     {
       "Hisse Kodu": "VAKBN",
       "Hisse Adı": "TÜRKİYE VAKIFLAR BANKASI T.A.O.",
-      "Hisse Fiyatı": 32.26
+      "Hisse Fiyatı": 32.52
     },
     {
       "Hisse Kodu": "HALKB",
       "Hisse Adı": "TÜRKİYE HALK BANKASI A.Ş.",
-      "Hisse Fiyatı": 43.1
+      "Hisse Fiyatı": 43.8
     },
     {
       "Hisse Kodu": "FROTO",
       "Hisse Adı": "FORD OTOMOTİV SANAYİ A.Ş.",
-      "Hisse Fiyatı": 86.35
+      "Hisse Fiyatı": 86.75
     },
     {
       "Hisse Kodu": "ASTOR",
       "Hisse Adı": "ASTOR ENERJİ A.Ş.",
-      "Hisse Fiyatı": 298.75
+      "Hisse Fiyatı": 297.75
     },
     {
       "Hisse Kodu": "EREGL",
       "Hisse Adı": "EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş.",
-      "Hisse Fiyatı": 40.32
+      "Hisse Fiyatı": 40.82
     },
     {
       "Hisse Kodu": "TCELL",
       "Hisse Adı": "TURKCELL İLETİŞİM HİZMETLERİ A.Ş.",
-      "Hisse Fiyatı": 110.5
+      "Hisse Fiyatı": 111.2
     },
     {
       "Hisse Kodu": "CCOLA",
       "Hisse Adı": "COCA-COLA İÇECEK A.Ş.",
-      "Hisse Fiyatı": 79.15
+      "Hisse Fiyatı": 81.2
     },
     {
       "Hisse Kodu": "TTKOM",
       "Hisse Adı": "TÜRK TELEKOMÜNİKASYON A.Ş.",
-      "Hisse Fiyatı": 60.7
+      "Hisse Fiyatı": 61.15
     },
     {
       "Hisse Kodu": "SAHOL",
       "Hisse Adı": "HACI ÖMER SABANCI HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 97
+      "Hisse Fiyatı": 97.9
     },
     {
       "Hisse Kodu": "ODINE",
       "Hisse Adı": "Odine Solutions Teknoloji Ticaret ve Sanayi AS",
-      "Hisse Fiyatı": 1835
+      "Hisse Fiyatı": 1803
     },
     {
       "Hisse Kodu": "ISDMR",
       "Hisse Adı": "İSKENDERUN DEMİR VE ÇELİK A.Ş.",
-      "Hisse Fiyatı": 58.75
+      "Hisse Fiyatı": 58.7
     },
     {
       "Hisse Kodu": "TOASO",
       "Hisse Adı": "TOFAŞ TÜRK OTOMOBİL FABRİKASI A.Ş.",
-      "Hisse Fiyatı": 335.5
+      "Hisse Fiyatı": 336.5
     },
     {
       "Hisse Kodu": "GUBRF",
       "Hisse Adı": "GÜBRE FABRİKALARI T.A.Ş.",
-      "Hisse Fiyatı": 477.5
+      "Hisse Fiyatı": 480.25
     },
     {
       "Hisse Kodu": "TRALT",
       "Hisse Adı": "Turk Altin Isletmeleri A.S.",
-      "Hisse Fiyatı": 47.18
+      "Hisse Fiyatı": 47.54
     },
     {
       "Hisse Kodu": "KLRHO",
       "Hisse Adı": "KİLER HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 88.15
-    },
-    {
-      "Hisse Kodu": "SELEC",
-      "Hisse Adı": "SELÇUK ECZA DEPOSU TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 214.9
-    },
-    {
-      "Hisse Kodu": "SISE",
-      "Hisse Adı": "TÜRKİYE ŞİŞE VE CAM FABRİKALARI A.Ş.",
-      "Hisse Fiyatı": 44.24
+      "Hisse Fiyatı": 88.4
     },
     {
       "Hisse Kodu": "INVES",
       "Hisse Adı": "INVESTCO HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 717
+      "Hisse Fiyatı": 713
+    },
+    {
+      "Hisse Kodu": "SELEC",
+      "Hisse Adı": "SELÇUK ECZA DEPOSU TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 206.1
     },
     {
       "Hisse Kodu": "DOCO",
       "Hisse Adı": "DO & CO AKTIENGESELLSCHAFT",
-      "Hisse Fiyatı": 12042.5
+      "Hisse Fiyatı": 11920
+    },
+    {
+      "Hisse Kodu": "SISE",
+      "Hisse Adı": "TÜRKİYE ŞİŞE VE CAM FABRİKALARI A.Ş.",
+      "Hisse Fiyatı": 44.38
     },
     {
       "Hisse Kodu": "TURSG",
       "Hisse Adı": "TÜRKİYE SİGORTA A.Ş.",
-      "Hisse Fiyatı": 6.32
+      "Hisse Fiyatı": 6.34
     },
     {
       "Hisse Kodu": "MGROS",
       "Hisse Adı": "MİGROS TİCARET A.Ş.",
-      "Hisse Fiyatı": 694
+      "Hisse Fiyatı": 695.5
     },
     {
       "Hisse Kodu": "KENT",
@@ -4106,129 +4106,134 @@
       "Hisse Fiyatı": 373.25
     },
     {
-      "Hisse Kodu": "ENJSA",
-      "Hisse Adı": "ENERJİSA ENERJİ A.Ş.",
-      "Hisse Fiyatı": 103.3
-    },
-    {
       "Hisse Kodu": "AEFES",
       "Hisse Adı": "ANADOLU EFES BİRACILIK VE MALT SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 20.72
+      "Hisse Fiyatı": 20.8
+    },
+    {
+      "Hisse Kodu": "ENJSA",
+      "Hisse Adı": "ENERJİSA ENERJİ A.Ş.",
+      "Hisse Fiyatı": 104.2
     },
     {
       "Hisse Kodu": "SASA",
       "Hisse Adı": "SASA POLYESTER SANAYİ A.Ş.",
-      "Hisse Fiyatı": 2.51
-    },
-    {
-      "Hisse Kodu": "TERA",
-      "Hisse Adı": "TERA YATIRIM MENKUL DEĞERLER A.Ş.",
-      "Hisse Fiyatı": 160.9
+      "Hisse Fiyatı": 2.53
     },
     {
       "Hisse Kodu": "OZATD",
       "Hisse Adı": "OZATA DENIZCILIK SANAYI VE TICARET AS",
-      "Hisse Fiyatı": 1600
+      "Hisse Fiyatı": 1571
+    },
+    {
+      "Hisse Kodu": "TERA",
+      "Hisse Adı": "TERA YATIRIM MENKUL DEĞERLER A.Ş.",
+      "Hisse Fiyatı": 163.9
     },
     {
       "Hisse Kodu": "MAGEN",
       "Hisse Adı": "MARGÜN ENERJİ ÜRETİM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 36
+      "Hisse Fiyatı": 35.1
     },
     {
       "Hisse Kodu": "TAVHL",
       "Hisse Adı": "TAV HAVALİMANLARI HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 284.25
-    },
-    {
-      "Hisse Kodu": "AKSEN",
-      "Hisse Adı": "AKSA ENERJİ ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 81.25
+      "Hisse Fiyatı": 287.5
     },
     {
       "Hisse Kodu": "OYAKC",
       "Hisse Adı": "OYAK ÇİMENTO FABRİKALARI A.Ş.",
-      "Hisse Fiyatı": 20.58
+      "Hisse Fiyatı": 20.68
+    },
+    {
+      "Hisse Kodu": "AKSEN",
+      "Hisse Adı": "AKSA ENERJİ ÜRETİM A.Ş.",
+      "Hisse Fiyatı": 81.45
     },
     {
       "Hisse Kodu": "TRGYO",
       "Hisse Adı": "TORUNLAR GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 99.15
+      "Hisse Fiyatı": 100.8
     },
     {
       "Hisse Kodu": "AHGAZ",
       "Hisse Adı": "AHLATCI DOĞAL GAZ DAĞITIM ENERJİ VE YATIRIM A.Ş.",
-      "Hisse Fiyatı": 36.8
-    },
-    {
-      "Hisse Kodu": "QNBFK",
-      "Hisse Adı": "QNB Finansal Kiralama A.S.",
-      "Hisse Fiyatı": 36.42
+      "Hisse Fiyatı": 36.92
     },
     {
       "Hisse Kodu": "KLNMA",
       "Hisse Adı": "TÜRKİYE KALKINMA VE YATIRIM BANKASI A.Ş.",
-      "Hisse Fiyatı": 9.15
+      "Hisse Fiyatı": 9.3
+    },
+    {
+      "Hisse Kodu": "QNBFK",
+      "Hisse Adı": "QNB Finansal Kiralama A.S.",
+      "Hisse Fiyatı": 36.8
     },
     {
       "Hisse Kodu": "PGSUS",
       "Hisse Adı": "PEGASUS HAVA TAŞIMACILIĞI A.Ş.",
-      "Hisse Fiyatı": 180.7
+      "Hisse Fiyatı": 180.9
     },
     {
       "Hisse Kodu": "ENERY",
       "Hisse Adı": "Enerya Enerji A.S.",
-      "Hisse Fiyatı": 9.88
-    },
-    {
-      "Hisse Kodu": "ZRGYO",
-      "Hisse Adı": "ZİRAAT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 17.6
+      "Hisse Fiyatı": 10.02
     },
     {
       "Hisse Kodu": "PASEU",
       "Hisse Adı": "Pasifik Eurasia Lojistik dis Ticaret AS",
-      "Hisse Fiyatı": 127.7
+      "Hisse Fiyatı": 128
+    },
+    {
+      "Hisse Kodu": "ZRGYO",
+      "Hisse Adı": "ZİRAAT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 17.62
     },
     {
       "Hisse Kodu": "MPARK",
       "Hisse Adı": "MLP SAĞLIK HİZMETLERİ A.Ş.",
-      "Hisse Fiyatı": 426.5
-    },
-    {
-      "Hisse Kodu": "BRSAN",
-      "Hisse Adı": "BORUSAN MANNESMANN BORU SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 548.5
-    },
-    {
-      "Hisse Kodu": "LIDER",
-      "Hisse Adı": "LDR TURİZM A.Ş.",
-      "Hisse Fiyatı": 92.65
-    },
-    {
-      "Hisse Kodu": "AGHOL",
-      "Hisse Adı": "AG ANADOLU GRUBU HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 32.34
+      "Hisse Fiyatı": 426.25
     },
     {
       "Hisse Kodu": "UFUK",
       "Hisse Adı": "UFUK YATIRIM YÖNETİM VE GAYRİMENKUL A.Ş.",
-      "Hisse Fiyatı": 1700
+      "Hisse Fiyatı": 1786
     },
     {
-      "Hisse Kodu": "DMLKT",
-      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
-      "Hisse Fiyatı": 6.05
+      "Hisse Kodu": "AGHOL",
+      "Hisse Adı": "AG ANADOLU GRUBU HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 32.6
+    },
+    {
+      "Hisse Kodu": "BRSAN",
+      "Hisse Adı": "BORUSAN MANNESMANN BORU SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 552.5
+    },
+    {
+      "Hisse Kodu": "LIDER",
+      "Hisse Adı": "LDR TURİZM A.Ş.",
+      "Hisse Fiyatı": 92.25
     },
     {
       "Hisse Kodu": "EKGYO",
       "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 20.8
+      "Hisse Fiyatı": 20.98
+    },
+    {
+      "Hisse Kodu": "DMLKT",
+      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "Hisse Fiyatı": 6.06
     },
     {
       "Hisse Kodu": "TEHOL",
       "Hisse Adı": "Tera Yatirim Teknoloji Holding A.S.",
-      "Hisse Fiyatı": 36.4
+      "Hisse Fiyatı": 36.38
+    },
+    {
+      "Hisse Kodu": "IEYHO",
+      "Hisse Adı": "IŞIKLAR ENERJİ VE YAPI HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 144.5
     },
     {
       "Hisse Kodu": "PEKGY",
@@ -4236,209 +4241,204 @@
       "Hisse Fiyatı": 13.63
     },
     {
-      "Hisse Kodu": "IEYHO",
-      "Hisse Adı": "IŞIKLAR ENERJİ VE YAPI HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 142.2
-    },
-    {
       "Hisse Kodu": "ARCLK",
       "Hisse Adı": "ARÇELİK A.Ş.",
-      "Hisse Fiyatı": 100.1
+      "Hisse Fiyatı": 101.2
     },
     {
       "Hisse Kodu": "RGYAS",
       "Hisse Adı": "RÖNESANS GAYRİMENKUL YATIRIM A.Ş.",
-      "Hisse Fiyatı": 194.8
+      "Hisse Fiyatı": 194.7
     },
     {
       "Hisse Kodu": "LYDHO",
       "Hisse Adı": "Lydia Holding A.S.",
-      "Hisse Fiyatı": 178.6
-    },
-    {
-      "Hisse Kodu": "TABGD",
-      "Hisse Adı": "TAB Gida Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 227.6
+      "Hisse Fiyatı": 182.5
     },
     {
       "Hisse Kodu": "RYGYO",
       "Hisse Adı": "REYSAŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 30.12
+      "Hisse Fiyatı": 30.3
     },
     {
-      "Hisse Kodu": "YGGYO",
-      "Hisse Adı": "YENİ GİMAT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 237.1
+      "Hisse Kodu": "TABGD",
+      "Hisse Adı": "TAB Gida Sanayi ve Ticaret A.S.",
+      "Hisse Fiyatı": 226
     },
     {
       "Hisse Kodu": "BSOKE",
       "Hisse Adı": "BATISÖKE SÖKE ÇİMENTO SANAYİİ T.A.Ş.",
-      "Hisse Fiyatı": 36.12
+      "Hisse Fiyatı": 36.44
     },
     {
       "Hisse Kodu": "GLRMK",
       "Hisse Adı": "Gulermak Agir Sanayi Insaat Ve Taahhut A.S.",
-      "Hisse Fiyatı": 177.9
-    },
-    {
-      "Hisse Kodu": "EUPWR",
-      "Hisse Adı": "EUROPOWER ENERJİ VE OTOMASYON TEKNOLOJİLERİ SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 80.25
-    },
-    {
-      "Hisse Kodu": "ANSGR",
-      "Hisse Adı": "ANADOLU ANONİM TÜRK SİGORTA ŞİRKETİ",
-      "Hisse Fiyatı": 28.02
-    },
-    {
-      "Hisse Kodu": "CVKMD",
-      "Hisse Adı": "CVK MADEN İŞLETMELERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 40.18
-    },
-    {
-      "Hisse Kodu": "ISMEN",
-      "Hisse Adı": "İŞ YATIRIM MENKUL DEĞERLER A.Ş.",
-      "Hisse Fiyatı": 36.72
-    },
-    {
-      "Hisse Kodu": "ECILC",
-      "Hisse Adı": "EİS ECZACIBAŞI İLAÇ SINAİ VE FİNANSAL YATIRIMLAR SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 78.5
-    },
-    {
-      "Hisse Kodu": "RALYH",
-      "Hisse Adı": "RAL YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 144
+      "Hisse Fiyatı": 176.6
     },
     {
       "Hisse Kodu": "GUNDG",
       "Hisse Adı": "Gundogdu Gida Sut Urunleri Sanayi Ve Dis Ticaret AS",
-      "Hisse Fiyatı": 1450
+      "Hisse Fiyatı": 1399
+    },
+    {
+      "Hisse Kodu": "CVKMD",
+      "Hisse Adı": "CVK MADEN İŞLETMELERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 40.28
+    },
+    {
+      "Hisse Kodu": "ANSGR",
+      "Hisse Adı": "ANADOLU ANONİM TÜRK SİGORTA ŞİRKETİ",
+      "Hisse Fiyatı": 28.16
+    },
+    {
+      "Hisse Kodu": "YGGYO",
+      "Hisse Adı": "YENİ GİMAT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 244.4
+    },
+    {
+      "Hisse Kodu": "ISMEN",
+      "Hisse Adı": "İŞ YATIRIM MENKUL DEĞERLER A.Ş.",
+      "Hisse Fiyatı": 36.76
+    },
+    {
+      "Hisse Kodu": "ECILC",
+      "Hisse Adı": "EİS ECZACIBAŞI İLAÇ SINAİ VE FİNANSAL YATIRIMLAR SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 79.15
+    },
+    {
+      "Hisse Kodu": "EUPWR",
+      "Hisse Adı": "EUROPOWER ENERJİ VE OTOMASYON TEKNOLOJİLERİ SANAYİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 78.7
     },
     {
       "Hisse Kodu": "KRDMA",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 39.68
-    },
-    {
-      "Hisse Kodu": "KRDMD",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 39.4
+      "Hisse Fiyatı": 39.6
     },
     {
       "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 127
+      "Hisse Fiyatı": 129.4
+    },
+    {
+      "Hisse Kodu": "KRDMD",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 39.7
     },
     {
       "Hisse Kodu": "BRYAT",
       "Hisse Adı": "BORUSAN YATIRIM VE PAZARLAMA A.Ş.",
-      "Hisse Fiyatı": 1862
-    },
-    {
-      "Hisse Kodu": "PETKM",
-      "Hisse Adı": "PETKİM PETROKİMYA HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 19.32
-    },
-    {
-      "Hisse Kodu": "TRHOL",
-      "Hisse Adı": "Tera Financial Investments Holding A.S.",
-      "Hisse Fiyatı": 1526
+      "Hisse Fiyatı": 1868
     },
     {
       "Hisse Kodu": "TKFEN",
       "Hisse Adı": "TEKFEN HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 132.8
+      "Hisse Fiyatı": 133.3
+    },
+    {
+      "Hisse Kodu": "PETKM",
+      "Hisse Adı": "PETKİM PETROKİMYA HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 19.11
+    },
+    {
+      "Hisse Kodu": "RALYH",
+      "Hisse Adı": "RAL YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 156.6
     },
     {
       "Hisse Kodu": "AYGAZ",
       "Hisse Adı": "AYGAZ A.Ş.",
-      "Hisse Fiyatı": 211
+      "Hisse Fiyatı": 208.3
     },
     {
       "Hisse Kodu": "CIMSA",
       "Hisse Adı": "ÇİMSA ÇİMENTO SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 49.02
+      "Hisse Fiyatı": 49.4
     },
     {
-      "Hisse Kodu": "AKSA",
-      "Hisse Adı": "AKSA AKRİLİK KİMYA SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 11.5
+      "Hisse Kodu": "TRHOL",
+      "Hisse Adı": "Tera Financial Investments Holding A.S.",
+      "Hisse Fiyatı": 1486
     },
     {
       "Hisse Kodu": "AGESA",
       "Hisse Adı": "AGESA HAYAT VE EMEKLİLİK A.Ş.",
-      "Hisse Fiyatı": 252.5
+      "Hisse Fiyatı": 253.75
     },
     {
       "Hisse Kodu": "ARMGD",
       "Hisse Adı": "Armada Gida Ticaret ve Sanayi Anonim Sirketi",
-      "Hisse Fiyatı": 170.3
+      "Hisse Fiyatı": 174.9
+    },
+    {
+      "Hisse Kodu": "AKSA",
+      "Hisse Adı": "AKSA AKRİLİK KİMYA SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 11.52
     },
     {
       "Hisse Kodu": "ANHYT",
       "Hisse Adı": "ANADOLU HAYAT EMEKLİLİK A.Ş.",
-      "Hisse Fiyatı": 102.5
-    },
-    {
-      "Hisse Kodu": "RYSAS",
-      "Hisse Adı": "REYSAŞ TAŞIMACILIK VE LOJİSTİK TİCARET A.Ş.",
-      "Hisse Fiyatı": 21.7
+      "Hisse Fiyatı": 103.4
     },
     {
       "Hisse Kodu": "TTRAK",
       "Hisse Adı": "TÜRK TRAKTÖR VE ZİRAAT MAKİNELERİ A.Ş.",
-      "Hisse Fiyatı": 436.75
-    },
-    {
-      "Hisse Kodu": "GENIL",
-      "Hisse Adı": "GEN İLAÇ VE SAĞLIK ÜRÜNLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 9.54
-    },
-    {
-      "Hisse Kodu": "OTKAR",
-      "Hisse Adı": "OTOKAR OTOMOTİV VE SAVUNMA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 358.25
-    },
-    {
-      "Hisse Kodu": "TBORG",
-      "Hisse Adı": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 130.9
-    },
-    {
-      "Hisse Kodu": "VERUS",
-      "Hisse Adı": "VERUSA HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 616
-    },
-    {
-      "Hisse Kodu": "TRMET",
-      "Hisse Adı": "TR Anadolu Metal Madencilik Isletmeleri Anonim Sirketi",
-      "Hisse Fiyatı": 108.5
-    },
-    {
-      "Hisse Kodu": "SKBNK",
-      "Hisse Adı": "ŞEKERBANK T.A.Ş.",
-      "Hisse Fiyatı": 16.92
-    },
-    {
-      "Hisse Kodu": "ALARK",
-      "Hisse Adı": "ALARKO HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 101.5
-    },
-    {
-      "Hisse Kodu": "CWENE",
-      "Hisse Adı": "CW ENERJİ MÜHENDİSLİK TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 37.52
-    },
-    {
-      "Hisse Kodu": "AKFIS",
-      "Hisse Adı": "Akfen insaat Turizm ve Ticaret AS",
-      "Hisse Fiyatı": 66.4
+      "Hisse Fiyatı": 438.25
     },
     {
       "Hisse Kodu": "BIGEN",
       "Hisse Adı": "Birlesim Grup Enerji Yatirimlari AS",
       "Hisse Fiyatı": 75.25
+    },
+    {
+      "Hisse Kodu": "RYSAS",
+      "Hisse Adı": "REYSAŞ TAŞIMACILIK VE LOJİSTİK TİCARET A.Ş.",
+      "Hisse Fiyatı": 21.82
+    },
+    {
+      "Hisse Kodu": "VERUS",
+      "Hisse Adı": "VERUSA HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 607.5
+    },
+    {
+      "Hisse Kodu": "OTKAR",
+      "Hisse Adı": "OTOKAR OTOMOTİV VE SAVUNMA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 361
+    },
+    {
+      "Hisse Kodu": "GENIL",
+      "Hisse Adı": "GEN İLAÇ VE SAĞLIK ÜRÜNLERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 9.63
+    },
+    {
+      "Hisse Kodu": "SKBNK",
+      "Hisse Adı": "ŞEKERBANK T.A.Ş.",
+      "Hisse Fiyatı": 16.15
+    },
+    {
+      "Hisse Kodu": "TBORG",
+      "Hisse Adı": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 131.5
+    },
+    {
+      "Hisse Kodu": "AKFIS",
+      "Hisse Adı": "Akfen insaat Turizm ve Ticaret AS",
+      "Hisse Fiyatı": 68.7
+    },
+    {
+      "Hisse Kodu": "TRMET",
+      "Hisse Adı": "TR Anadolu Metal Madencilik Isletmeleri Anonim Sirketi",
+      "Hisse Fiyatı": 108.8
+    },
+    {
+      "Hisse Kodu": "ALARK",
+      "Hisse Adı": "ALARKO HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 102.7
+    },
+    {
+      "Hisse Kodu": "CWENE",
+      "Hisse Adı": "CW ENERJİ MÜHENDİSLİK TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 37.66
     },
     {
       "Hisse Kodu": "CLEBI",
@@ -4448,102 +4448,117 @@
     {
       "Hisse Kodu": "ULKER",
       "Hisse Adı": "ÜLKER BİSKÜVİ SANAYİ A.Ş.",
-      "Hisse Fiyatı": 102.2
-    },
-    {
-      "Hisse Kodu": "YEOTK",
-      "Hisse Adı": "YEO TEKNOLOJİ ENERJİ VE ENDÜSTRİ A.Ş.",
-      "Hisse Fiyatı": 103.1
+      "Hisse Fiyatı": 102.5
     },
     {
       "Hisse Kodu": "AKCNS",
       "Hisse Adı": "AKÇANSA ÇİMENTO SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 194.4
-    },
-    {
-      "Hisse Kodu": "ALKLC",
-      "Hisse Adı": "Altinkilic Gida ve Sut Sanayi Ticaret AS",
-      "Hisse Fiyatı": 338
-    },
-    {
-      "Hisse Kodu": "DOAS",
-      "Hisse Adı": "DOĞUŞ OTOMOTİV SERVİS VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 185
+      "Hisse Fiyatı": 194.1
     },
     {
       "Hisse Kodu": "DOHOL",
       "Hisse Adı": "DOĞAN ŞİRKETLER GRUBU HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 20.88
+      "Hisse Fiyatı": 20.98
+    },
+    {
+      "Hisse Kodu": "DOAS",
+      "Hisse Adı": "DOĞUŞ OTOMOTİV SERVİS VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 185.5
+    },
+    {
+      "Hisse Kodu": "YEOTK",
+      "Hisse Adı": "YEO TEKNOLOJİ ENERJİ VE ENDÜSTRİ A.Ş.",
+      "Hisse Fiyatı": 104.6
+    },
+    {
+      "Hisse Kodu": "ALKLC",
+      "Hisse Adı": "Altinkilic Gida ve Sut Sanayi Ticaret AS",
+      "Hisse Fiyatı": 336.5
     },
     {
       "Hisse Kodu": "EFOR",
       "Hisse Adı": "Efor Yatirim Sanayi Ticaret A.S.",
-      "Hisse Fiyatı": 16.56
-    },
-    {
-      "Hisse Kodu": "GLYHO",
-      "Hisse Adı": "GLOBAL YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 18.27
-    },
-    {
-      "Hisse Kodu": "BASGZ",
-      "Hisse Adı": "BAŞKENT DOĞALGAZ DAĞITIM GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 49.8
-    },
-    {
-      "Hisse Kodu": "ECZYT",
-      "Hisse Adı": "ECZACIBAŞI YATIRIM HOLDİNG ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 320
-    },
-    {
-      "Hisse Kodu": "BTCIM",
-      "Hisse Adı": "BATIÇİM BATI ANADOLU ÇİMENTO SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 5.99
-    },
-    {
-      "Hisse Kodu": "TSKB",
-      "Hisse Adı": "TÜRKİYE SINAİ KALKINMA BANKASI A.Ş.",
-      "Hisse Fiyatı": 11.77
+      "Hisse Fiyatı": 16.39
     },
     {
       "Hisse Kodu": "MOGAN",
       "Hisse Adı": "Mogan Enerji Yatirim Holding",
-      "Hisse Fiyatı": 14.7
+      "Hisse Fiyatı": 14.9
     },
     {
-      "Hisse Kodu": "GESAN",
-      "Hisse Adı": "GİRİŞİM ELEKTRİK SANAYİ TAAHHÜT VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 69.75
+      "Hisse Kodu": "GLYHO",
+      "Hisse Adı": "GLOBAL YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 18.3
     },
     {
-      "Hisse Kodu": "NUHCM",
-      "Hisse Adı": "NUH ÇİMENTO SANAYİ A.Ş.",
-      "Hisse Fiyatı": 219.4
+      "Hisse Kodu": "BASGZ",
+      "Hisse Adı": "BAŞKENT DOĞALGAZ DAĞITIM GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 49.1
+    },
+    {
+      "Hisse Kodu": "ECZYT",
+      "Hisse Adı": "ECZACIBAŞI YATIRIM HOLDİNG ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 319.5
     },
     {
       "Hisse Kodu": "CEMZY",
       "Hisse Adı": "CEM ZEYTIN ANONIM SIRKETI",
-      "Hisse Fiyatı": 14.6
+      "Hisse Fiyatı": 14.32
+    },
+    {
+      "Hisse Kodu": "BTCIM",
+      "Hisse Adı": "BATIÇİM BATI ANADOLU ÇİMENTO SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 5.97
+    },
+    {
+      "Hisse Kodu": "NUHCM",
+      "Hisse Adı": "NUH ÇİMENTO SANAYİ A.Ş.",
+      "Hisse Fiyatı": 220.4
+    },
+    {
+      "Hisse Kodu": "TSKB",
+      "Hisse Adı": "TÜRKİYE SINAİ KALKINMA BANKASI A.Ş.",
+      "Hisse Fiyatı": 11.81
+    },
+    {
+      "Hisse Kodu": "GESAN",
+      "Hisse Adı": "GİRİŞİM ELEKTRİK SANAYİ TAAHHÜT VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 68.15
     },
     {
       "Hisse Kodu": "GRSEL",
       "Hisse Adı": "GÜR-SEL TURİZM TAŞIMACILIK VE SERVİS TİCARET A.Ş.",
-      "Hisse Fiyatı": 312.5
-    },
-    {
-      "Hisse Kodu": "GRTHO",
-      "Hisse Adı": "Grainturk Holding A.S.",
-      "Hisse Fiyatı": 230.9
+      "Hisse Fiyatı": 311
     },
     {
       "Hisse Kodu": "MAVI",
       "Hisse Adı": "MAVİ GİYİM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 39.4
+      "Hisse Fiyatı": 39.62
     },
     {
       "Hisse Kodu": "RAYSG",
       "Hisse Adı": "RAY SİGORTA A.Ş.",
-      "Hisse Fiyatı": 189.1
+      "Hisse Fiyatı": 191.5
+    },
+    {
+      "Hisse Kodu": "ADGYO",
+      "Hisse Adı": "Adra Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 55.15
+    },
+    {
+      "Hisse Kodu": "PAHOL",
+      "Hisse Adı": "PASIFIK HOLDING A.S",
+      "Hisse Fiyatı": 1.52
+    },
+    {
+      "Hisse Kodu": "ANELE",
+      "Hisse Adı": "ANEL ELEKTRİK PROJE TAAHHÜT VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 110
+    },
+    {
+      "Hisse Kodu": "KCAER",
+      "Hisse Adı": "KOCAER ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 15.28
     },
     {
       "Hisse Kodu": "HEKTS",
@@ -4551,24 +4566,9 @@
       "Hisse Fiyatı": 3.43
     },
     {
-      "Hisse Kodu": "ADGYO",
-      "Hisse Adı": "Adra Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 55.45
-    },
-    {
-      "Hisse Kodu": "PAHOL",
-      "Hisse Adı": "PASIFIK HOLDING A.S",
-      "Hisse Fiyatı": 1.51
-    },
-    {
-      "Hisse Kodu": "ANELE",
-      "Hisse Adı": "ANEL ELEKTRİK PROJE TAAHHÜT VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 112.5
-    },
-    {
-      "Hisse Kodu": "KCAER",
-      "Hisse Adı": "KOCAER ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 15.33
+      "Hisse Kodu": "GRTHO",
+      "Hisse Adı": "Grainturk Holding A.S.",
+      "Hisse Fiyatı": 231.8
     },
     {
       "Hisse Kodu": "ARASE",
@@ -4578,62 +4578,62 @@
     {
       "Hisse Kodu": "SOKM",
       "Hisse Adı": "ŞOK MARKETLER TİCARET A.Ş.",
-      "Hisse Fiyatı": 47
+      "Hisse Fiyatı": 47.26
     },
     {
       "Hisse Kodu": "SARKY",
       "Hisse Adı": "SARKUYSAN ELEKTROLİTİK BAKIR SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 27.26
-    },
-    {
-      "Hisse Kodu": "AKFYE",
-      "Hisse Adı": "AKFEN YENİLENEBİLİR ENERJİ A.Ş.",
-      "Hisse Fiyatı": 22.4
-    },
-    {
-      "Hisse Kodu": "KUYAS",
-      "Hisse Adı": "KUYAŞ YATIRIM A.Ş.",
-      "Hisse Fiyatı": 69.75
-    },
-    {
-      "Hisse Kodu": "BRISA",
-      "Hisse Adı": "BRİSA BRIDGESTONE SABANCI LASTİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 86
+      "Hisse Fiyatı": 27.22
     },
     {
       "Hisse Kodu": "DAPGM",
       "Hisse Adı": "DAP GAYRİMENKUL GELİŞTİRME A.Ş.",
-      "Hisse Fiyatı": 10.28
+      "Hisse Fiyatı": 10.2
     },
     {
-      "Hisse Kodu": "DOFRB",
-      "Hisse Adı": "DOF Robotik Sanayi Anonim Sirketi",
-      "Hisse Fiyatı": 166
+      "Hisse Kodu": "AKFYE",
+      "Hisse Adı": "AKFEN YENİLENEBİLİR ENERJİ A.Ş.",
+      "Hisse Fiyatı": 22.48
+    },
+    {
+      "Hisse Kodu": "BRISA",
+      "Hisse Adı": "BRİSA BRIDGESTONE SABANCI LASTİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 86.85
+    },
+    {
+      "Hisse Kodu": "KUYAS",
+      "Hisse Adı": "KUYAŞ YATIRIM A.Ş.",
+      "Hisse Fiyatı": 69.05
     },
     {
       "Hisse Kodu": "ULUSE",
       "Hisse Adı": "ULUSOY ELEKTRİK İMALAT TAAHHÜT VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 322.75
+      "Hisse Fiyatı": 326.5
     },
     {
-      "Hisse Kodu": "LYDYE",
-      "Hisse Adı": "Lydia Yesil Enerji kaynaklari A.S.",
-      "Hisse Fiyatı": 13215
-    },
-    {
-      "Hisse Kodu": "KLYPV",
-      "Hisse Adı": "Kalyon Gunes Teknolojileri Uretim Anonim Sirketi",
-      "Hisse Fiyatı": 60.45
-    },
-    {
-      "Hisse Kodu": "ESCAR",
-      "Hisse Adı": "ESCAR FİLO KİRALAMA HİZMETLERİ A.Ş.",
-      "Hisse Fiyatı": 47.66
+      "Hisse Kodu": "DOFRB",
+      "Hisse Adı": "DOF Robotik Sanayi Anonim Sirketi",
+      "Hisse Fiyatı": 165.7
     },
     {
       "Hisse Kodu": "TCKRC",
       "Hisse Adı": "Kirac Galvaniz Telekominikasyon Metal Makine Insaat Elektrik Sanayi Ve Ticaret AS",
-      "Hisse Fiyatı": 149.5
+      "Hisse Fiyatı": 155.7
+    },
+    {
+      "Hisse Kodu": "LYDYE",
+      "Hisse Adı": "Lydia Yesil Enerji kaynaklari A.S.",
+      "Hisse Fiyatı": 13347.5
+    },
+    {
+      "Hisse Kodu": "KLYPV",
+      "Hisse Adı": "Kalyon Gunes Teknolojileri Uretim Anonim Sirketi",
+      "Hisse Fiyatı": 60.35
+    },
+    {
+      "Hisse Kodu": "PSGYO",
+      "Hisse Adı": "PASİFİK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 3.57
     },
     {
       "Hisse Kodu": "IZENR",
@@ -4641,159 +4641,144 @@
       "Hisse Fiyatı": 10.04
     },
     {
-      "Hisse Kodu": "HLGYO",
-      "Hisse Adı": "HALK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 6.48
-    },
-    {
       "Hisse Kodu": "CMENT",
       "Hisse Adı": "ÇİMENTAŞ İZMİR ÇİMENTO FABRİKASI T.A.Ş.",
-      "Hisse Fiyatı": 279.5
-    },
-    {
-      "Hisse Kodu": "BMSTL",
-      "Hisse Adı": "BMS BİRLEŞİK METAL SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 95
-    },
-    {
-      "Hisse Kodu": "PSGYO",
-      "Hisse Adı": "PASİFİK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 3.6
-    },
-    {
-      "Hisse Kodu": "AKSGY",
-      "Hisse Adı": "AKİŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 9.79
-    },
-    {
-      "Hisse Kodu": "ISGYO",
-      "Hisse Adı": "İŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 24.94
-    },
-    {
-      "Hisse Kodu": "AVPGY",
-      "Hisse Adı": "Avrupakent Gayrimenkul Yatirim Ortakligi SA",
-      "Hisse Fiyatı": 56.9
-    },
-    {
-      "Hisse Kodu": "SVGYO",
-      "Hisse Adı": "Savur Gayrimenkul Yatirim Ortakligi A.S",
-      "Hisse Fiyatı": 20.96
-    },
-    {
-      "Hisse Kodu": "ECOGR",
-      "Hisse Adı": "Ecogreen Enerji Holding A.S.",
-      "Hisse Fiyatı": 42.7
+      "Hisse Fiyatı": 279.25
     },
     {
       "Hisse Kodu": "EGPRO",
       "Hisse Adı": "EGE PROFİL TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 43.88
+      "Hisse Fiyatı": 45.88
     },
     {
-      "Hisse Kodu": "TRENJ",
-      "Hisse Adı": "TR Dogal Enerji Kaynaklari Arastirma ve Uretim Anonim Sirketi",
-      "Hisse Fiyatı": 84.6
+      "Hisse Kodu": "ISGYO",
+      "Hisse Adı": "İŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 26.4
     },
     {
-      "Hisse Kodu": "NTHOL",
-      "Hisse Adı": "NET HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 45.24
+      "Hisse Kodu": "ESCAR",
+      "Hisse Adı": "ESCAR FİLO KİRALAMA HİZMETLERİ A.Ş.",
+      "Hisse Fiyatı": 48.04
     },
     {
-      "Hisse Kodu": "SMRTG",
-      "Hisse Adı": "SMART GÜNEŞ ENERJİSİ TEKNOLOJİLERİ ARAŞTIRMA GELİŞTİRME ÜRETİM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 12.25
+      "Hisse Kodu": "BMSTL",
+      "Hisse Adı": "BMS BİRLEŞİK METAL SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 95.1
     },
     {
-      "Hisse Kodu": "OZKGY",
-      "Hisse Adı": "ÖZAK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 14.89
+      "Hisse Kodu": "AKSGY",
+      "Hisse Adı": "AKİŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 9.87
     },
     {
-      "Hisse Kodu": "ALBRK",
-      "Hisse Adı": "ALBARAKA TÜRK KATILIM BANKASI A.Ş.",
-      "Hisse Fiyatı": 8.28
-    },
-    {
-      "Hisse Kodu": "LILAK",
-      "Hisse Adı": "Lila Kagit Sanayi Ve Ticaret Anonim Sirketi",
-      "Hisse Fiyatı": 36.34
-    },
-    {
-      "Hisse Kodu": "MEGMT",
-      "Hisse Adı": "Mega Metal Sanayi Ve Ticaret A.S.",
-      "Hisse Fiyatı": 78.75
+      "Hisse Kodu": "ECOGR",
+      "Hisse Adı": "Ecogreen Enerji Holding A.S.",
+      "Hisse Fiyatı": 42.5
     },
     {
       "Hisse Kodu": "BALSU",
       "Hisse Adı": "Balsu Gida Sanayi ve Ticaret Anonim Sirketi",
-      "Hisse Fiyatı": 20.52
+      "Hisse Fiyatı": 18.99
+    },
+    {
+      "Hisse Kodu": "SVGYO",
+      "Hisse Adı": "Savur Gayrimenkul Yatirim Ortakligi A.S",
+      "Hisse Fiyatı": 21.1
+    },
+    {
+      "Hisse Kodu": "AVPGY",
+      "Hisse Adı": "Avrupakent Gayrimenkul Yatirim Ortakligi SA",
+      "Hisse Fiyatı": 57.6
+    },
+    {
+      "Hisse Kodu": "NTHOL",
+      "Hisse Adı": "NET HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 45.22
+    },
+    {
+      "Hisse Kodu": "SMRTG",
+      "Hisse Adı": "SMART GÜNEŞ ENERJİSİ TEKNOLOJİLERİ ARAŞTIRMA GELİŞTİRME ÜRETİM SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 12.22
+    },
+    {
+      "Hisse Kodu": "TRENJ",
+      "Hisse Adı": "TR Dogal Enerji Kaynaklari Arastirma ve Uretim Anonim Sirketi",
+      "Hisse Fiyatı": 85.65
+    },
+    {
+      "Hisse Kodu": "OZKGY",
+      "Hisse Adı": "ÖZAK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 14.97
+    },
+    {
+      "Hisse Kodu": "LILAK",
+      "Hisse Adı": "Lila Kagit Sanayi Ve Ticaret Anonim Sirketi",
+      "Hisse Fiyatı": 36.3
+    },
+    {
+      "Hisse Kodu": "MEGMT",
+      "Hisse Adı": "Mega Metal Sanayi Ve Ticaret A.S.",
+      "Hisse Fiyatı": 78.85
+    },
+    {
+      "Hisse Kodu": "ALBRK",
+      "Hisse Adı": "ALBARAKA TÜRK KATILIM BANKASI A.Ş.",
+      "Hisse Fiyatı": 8.3
     },
     {
       "Hisse Kodu": "MIATK",
       "Hisse Adı": "MİA TEKNOLOJİ A.Ş.",
-      "Hisse Fiyatı": 40
+      "Hisse Fiyatı": 39.78
     },
     {
       "Hisse Kodu": "NETCD",
       "Hisse Adı": "Netcad Yazilim A.S.",
-      "Hisse Fiyatı": 143.7
-    },
-    {
-      "Hisse Kodu": "ENTRA",
-      "Hisse Adı": "IC Enterra Yenilenebilir Enerji AS",
-      "Hisse Fiyatı": 4.75
-    },
-    {
-      "Hisse Kodu": "BINBN",
-      "Hisse Adı": "Bin Ulasim Ve Akilli Sehir Teknolojileri AS",
-      "Hisse Fiyatı": 169.8
+      "Hisse Fiyatı": 143.3
     },
     {
       "Hisse Kodu": "CRFSA",
       "Hisse Adı": "CARREFOURSA CARREFOUR SABANCI TİCARET MERKEZİ A.Ş.",
-      "Hisse Fiyatı": 151.1
-    },
-    {
-      "Hisse Kodu": "FENER",
-      "Hisse Adı": "FENERBAHÇE FUTBOL A.Ş.",
-      "Hisse Fiyatı": 3.06
-    },
-    {
-      "Hisse Kodu": "OBAMS",
-      "Hisse Adı": "Oba Makarnacilik Sanayi Ve Ticaret A. S.",
-      "Hisse Fiyatı": 6.5
+      "Hisse Fiyatı": 151.7
     },
     {
       "Hisse Kodu": "BARMA",
       "Hisse Adı": "BAREM AMBALAJ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 73.15
+      "Hisse Fiyatı": 73
+    },
+    {
+      "Hisse Kodu": "ENTRA",
+      "Hisse Adı": "IC Enterra Yenilenebilir Enerji AS",
+      "Hisse Fiyatı": 4.84
+    },
+    {
+      "Hisse Kodu": "FENER",
+      "Hisse Adı": "FENERBAHÇE FUTBOL A.Ş.",
+      "Hisse Fiyatı": 3.08
+    },
+    {
+      "Hisse Kodu": "BINBN",
+      "Hisse Adı": "Bin Ulasim Ve Akilli Sehir Teknolojileri AS",
+      "Hisse Fiyatı": 168.8
     },
     {
       "Hisse Kodu": "POLTK",
       "Hisse Adı": "POLİTEKNİK METAL SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 5017.5
+      "Hisse Fiyatı": 5040
     },
     {
-      "Hisse Kodu": "ALFAS",
-      "Hisse Adı": "ALFA SOLAR ENERJİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 49.28
+      "Hisse Kodu": "OBAMS",
+      "Hisse Adı": "Oba Makarnacilik Sanayi Ve Ticaret A. S.",
+      "Hisse Fiyatı": 6.48
     },
     {
       "Hisse Kodu": "MRSHL",
       "Hisse Adı": "MARSHALL BOYA VE VERNİK SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 1666
+      "Hisse Fiyatı": 1665
     },
     {
-      "Hisse Kodu": "AYDEM",
-      "Hisse Adı": "AYDEM YENİLENEBİLİR ENERJİ A.Ş.",
-      "Hisse Fiyatı": 25.18
-    },
-    {
-      "Hisse Kodu": "ARDYZ",
-      "Hisse Adı": "ARD GRUP BİLİŞİM TEKNOLOJİLERİ A.Ş.",
-      "Hisse Fiyatı": 54.75
+      "Hisse Kodu": "ALFAS",
+      "Hisse Adı": "ALFA SOLAR ENERJİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 49.06
     },
     {
       "Hisse Kodu": "KONYA",
@@ -4803,77 +4788,92 @@
     {
       "Hisse Kodu": "FZLGY",
       "Hisse Adı": "FUZUL GAYRIMENKUL YATIRIM ORTAKLIGI A.S.",
-      "Hisse Fiyatı": 14.4
-    },
-    {
-      "Hisse Kodu": "EKDMR",
-      "Hisse Adı": "Ekinciler Demir ve Celik Sanayi AS",
-      "Hisse Fiyatı": 54.5
-    },
-    {
-      "Hisse Kodu": "ICBCT",
-      "Hisse Adı": "ICBC TURKEY BANK A.Ş.",
-      "Hisse Fiyatı": 19.86
-    },
-    {
-      "Hisse Kodu": "EGEEN",
-      "Hisse Adı": "EGE ENDÜSTRİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 5400
-    },
-    {
-      "Hisse Kodu": "BFREN",
-      "Hisse Adı": "BOSCH FREN SİSTEMLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 136.1
+      "Hisse Fiyatı": 14.34
     },
     {
       "Hisse Kodu": "BANVT",
       "Hisse Adı": "BANVİT BANDIRMA VİTAMİNLİ YEM SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 179
+      "Hisse Fiyatı": 174.4
     },
     {
-      "Hisse Kodu": "TATEN",
-      "Hisse Adı": "Tatlipinar Enerji Uretim A.S.",
-      "Hisse Fiyatı": 14.78
+      "Hisse Kodu": "AYDEM",
+      "Hisse Adı": "AYDEM YENİLENEBİLİR ENERJİ A.Ş.",
+      "Hisse Fiyatı": 25.3
+    },
+    {
+      "Hisse Kodu": "ARDYZ",
+      "Hisse Adı": "ARD GRUP BİLİŞİM TEKNOLOJİLERİ A.Ş.",
+      "Hisse Fiyatı": 56.3
+    },
+    {
+      "Hisse Kodu": "EKDMR",
+      "Hisse Adı": "Ekinciler Demir ve Celik Sanayi AS",
+      "Hisse Fiyatı": 54.9
+    },
+    {
+      "Hisse Kodu": "ICBCT",
+      "Hisse Adı": "ICBC TURKEY BANK A.Ş.",
+      "Hisse Fiyatı": 19.69
+    },
+    {
+      "Hisse Kodu": "EGEEN",
+      "Hisse Adı": "EGE ENDÜSTRİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 5435
+    },
+    {
+      "Hisse Kodu": "BFREN",
+      "Hisse Adı": "BOSCH FREN SİSTEMLERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 137
     },
     {
       "Hisse Kodu": "GEREL",
       "Hisse Adı": "GERSAN ELEKTRİK TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 44.5
+      "Hisse Fiyatı": 44.3
     },
     {
-      "Hisse Kodu": "DGGYO",
-      "Hisse Adı": "DOĞUŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 44.04
-    },
-    {
-      "Hisse Kodu": "DMRGD",
-      "Hisse Adı": "DMR Unlu Mamuller Uretim Gida Toptan Perakende Ihracat A.S.",
-      "Hisse Fiyatı": 10.38
-    },
-    {
-      "Hisse Kodu": "POLHO",
-      "Hisse Adı": "POLİSAN HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 20.44
+      "Hisse Kodu": "TATEN",
+      "Hisse Adı": "Tatlipinar Enerji Uretim A.S.",
+      "Hisse Fiyatı": 14.63
     },
     {
       "Hisse Kodu": "KBORU",
       "Hisse Adı": "Kuzey Boru A.S.",
-      "Hisse Fiyatı": 27.18
-    },
-    {
-      "Hisse Kodu": "AYCES",
-      "Hisse Adı": "ALTIN YUNUS ÇEŞME TURİSTİK TESİSLER A.Ş.",
-      "Hisse Fiyatı": 587.5
+      "Hisse Fiyatı": 26.86
     },
     {
       "Hisse Kodu": "ALTNY",
       "Hisse Adı": "Altinay Savunma Teknolojileri A.S.",
-      "Hisse Fiyatı": 16.1
+      "Hisse Fiyatı": 16.43
+    },
+    {
+      "Hisse Kodu": "HLGYO",
+      "Hisse Adı": "HALK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 5.81
+    },
+    {
+      "Hisse Kodu": "POLHO",
+      "Hisse Adı": "POLİSAN HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 20.54
+    },
+    {
+      "Hisse Kodu": "DMRGD",
+      "Hisse Adı": "DMR Unlu Mamuller Uretim Gida Toptan Perakende Ihracat A.S.",
+      "Hisse Fiyatı": 10.71
     },
     {
       "Hisse Kodu": "PATEK",
       "Hisse Adı": "Pasifik Teknoloji AS",
-      "Hisse Fiyatı": 22.28
+      "Hisse Fiyatı": 22.36
+    },
+    {
+      "Hisse Kodu": "ASUZU",
+      "Hisse Adı": "ANADOLU ISUZU OTOMOTİV SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 59.1
+    },
+    {
+      "Hisse Kodu": "AYCES",
+      "Hisse Adı": "ALTIN YUNUS ÇEŞME TURİSTİK TESİSLER A.Ş.",
+      "Hisse Fiyatı": 585
     },
     {
       "Hisse Kodu": "SNGYO",
@@ -4881,39 +4881,34 @@
       "Hisse Fiyatı": 3.77
     },
     {
-      "Hisse Kodu": "ASUZU",
-      "Hisse Adı": "ANADOLU ISUZU OTOMOTİV SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 58.75
+      "Hisse Kodu": "DGGYO",
+      "Hisse Adı": "DOĞUŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 42.38
     },
     {
-      "Hisse Kodu": "DEVA",
-      "Hisse Adı": "DEVA HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 70.6
+      "Hisse Kodu": "KLSER",
+      "Hisse Adı": "Kaleseramik Canakkale Kalebodur Seramik A.S.",
+      "Hisse Fiyatı": 27.74
     },
     {
-      "Hisse Kodu": "GWIND",
-      "Hisse Adı": "GALATA WIND ENERJİ A.Ş.",
-      "Hisse Fiyatı": 26.2
-    },
-    {
-      "Hisse Kodu": "LMKDC",
-      "Hisse Adı": "Limak Dogu Anadolu Cimento Sanayi Ve Ticaret AS",
-      "Hisse Fiyatı": 27.14
-    },
-    {
-      "Hisse Kodu": "GMTAS",
-      "Hisse Adı": "GİMAT MAĞAZACILIK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 45.9
+      "Hisse Kodu": "HATSN",
+      "Hisse Adı": "Hat-San Gemi Insaa Bakim Onarim Deniz Nakliyat Sanayi ve Ticaret A.S.",
+      "Hisse Fiyatı": 64.15
     },
     {
       "Hisse Kodu": "KORDS",
       "Hisse Adı": "KORDSA TEKNİK TEKSTİL A.Ş.",
-      "Hisse Fiyatı": 73
+      "Hisse Fiyatı": 72.55
     },
     {
-      "Hisse Kodu": "MOBTL",
-      "Hisse Adı": "MOBİLTEL İLETİŞİM HİZMETLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 13.6
+      "Hisse Kodu": "GWIND",
+      "Hisse Adı": "GALATA WIND ENERJİ A.Ş.",
+      "Hisse Fiyatı": 26.24
+    },
+    {
+      "Hisse Kodu": "DEVA",
+      "Hisse Adı": "DEVA HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 70.55
     },
     {
       "Hisse Kodu": "KLKIM",
@@ -4921,19 +4916,29 @@
       "Hisse Fiyatı": 30.6
     },
     {
-      "Hisse Kodu": "KLSER",
-      "Hisse Adı": "Kaleseramik Canakkale Kalebodur Seramik A.S.",
-      "Hisse Fiyatı": 27.86
-    },
-    {
-      "Hisse Kodu": "ZOREN",
-      "Hisse Adı": "ZORLU ENERJİ ELEKTRİK ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 2.73
+      "Hisse Kodu": "SDTTR",
+      "Hisse Adı": "SDT UZAY VE SAVUNMA TEKNOLOJİLERİ A.Ş.",
+      "Hisse Fiyatı": 244.3
     },
     {
       "Hisse Kodu": "ISFIN",
       "Hisse Adı": "İŞ FİNANSAL KİRALAMA A.Ş.",
-      "Hisse Fiyatı": 20.18
+      "Hisse Fiyatı": 20.2
+    },
+    {
+      "Hisse Kodu": "LMKDC",
+      "Hisse Adı": "Limak Dogu Anadolu Cimento Sanayi Ve Ticaret AS",
+      "Hisse Fiyatı": 26.98
+    },
+    {
+      "Hisse Kodu": "MOBTL",
+      "Hisse Adı": "MOBİLTEL İLETİŞİM HİZMETLERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 13.74
+    },
+    {
+      "Hisse Kodu": "GSRAY",
+      "Hisse Adı": "GALATASARAY SPORTİF SINAİ VE TİCARİ YATIRIMLAR A.Ş.",
+      "Hisse Fiyatı": 1.04
     },
     {
       "Hisse Kodu": "CANTE",
@@ -4941,64 +4946,54 @@
       "Hisse Fiyatı": 1.39
     },
     {
-      "Hisse Kodu": "SDTTR",
-      "Hisse Adı": "SDT UZAY VE SAVUNMA TEKNOLOJİLERİ A.Ş.",
-      "Hisse Fiyatı": 242.5
-    },
-    {
-      "Hisse Kodu": "GSRAY",
-      "Hisse Adı": "GALATASARAY SPORTİF SINAİ VE TİCARİ YATIRIMLAR A.Ş.",
-      "Hisse Fiyatı": 1.03
-    },
-    {
       "Hisse Kodu": "SUNTK",
       "Hisse Adı": "SUN TEKSTİL SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 29.1
+      "Hisse Fiyatı": 29.52
     },
     {
-      "Hisse Kodu": "HRKET",
-      "Hisse Adı": "Hareket Proje Tasimaciligi ve Yuk Muhendisligi AS",
-      "Hisse Fiyatı": 107.3
+      "Hisse Kodu": "GMTAS",
+      "Hisse Adı": "GİMAT MAĞAZACILIK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 45.36
     },
     {
-      "Hisse Kodu": "AHSGY",
-      "Hisse Adı": "Ahes Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 17.26
-    },
-    {
-      "Hisse Kodu": "HATSN",
-      "Hisse Adı": "Hat-San Gemi Insaa Bakim Onarim Deniz Nakliyat Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 64.4
+      "Hisse Kodu": "ZOREN",
+      "Hisse Adı": "ZORLU ENERJİ ELEKTRİK ÜRETİM A.Ş.",
+      "Hisse Fiyatı": 2.71
     },
     {
       "Hisse Kodu": "ATATR",
       "Hisse Adı": "Ata Turizm Isletmecilik Tasimacilik Madencilik Kuyumculu",
-      "Hisse Fiyatı": 16.38
-    },
-    {
-      "Hisse Kodu": "IZMDC",
-      "Hisse Adı": "İZMİR DEMİR ÇELİK SANAYİ A.Ş.",
-      "Hisse Fiyatı": 8.51
-    },
-    {
-      "Hisse Kodu": "KAYSE",
-      "Hisse Adı": "KAYSERİ ŞEKER FABRİKASI A.Ş.",
-      "Hisse Fiyatı": 4.34
+      "Hisse Fiyatı": 16.39
     },
     {
       "Hisse Kodu": "LOGO",
       "Hisse Adı": "LOGO YAZILIM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 138
+      "Hisse Fiyatı": 138.1
     },
     {
-      "Hisse Kodu": "BINHO",
-      "Hisse Adı": "1000 Yatirimlar Holding AS",
-      "Hisse Fiyatı": 9.72
+      "Hisse Kodu": "KAYSE",
+      "Hisse Adı": "KAYSERİ ŞEKER FABRİKASI A.Ş.",
+      "Hisse Fiyatı": 4.36
     },
     {
       "Hisse Kodu": "OYYAT",
       "Hisse Adı": "OYAK YATIRIM MENKUL DEĞERLER A.Ş.",
-      "Hisse Fiyatı": 42.86
+      "Hisse Fiyatı": 42.98
+    },
+    {
+      "Hisse Kodu": "IZMDC",
+      "Hisse Adı": "İZMİR DEMİR ÇELİK SANAYİ A.Ş.",
+      "Hisse Fiyatı": 8.55
+    },
+    {
+      "Hisse Kodu": "BINHO",
+      "Hisse Adı": "1000 Yatirimlar Holding AS",
+      "Hisse Fiyatı": 9.73
+    },
+    {
+      "Hisse Kodu": "AHSGY",
+      "Hisse Adı": "Ahes Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 17.38
     },
     {
       "Hisse Kodu": "MEYSU",
@@ -5006,114 +5001,104 @@
       "Hisse Fiyatı": 14.21
     },
     {
-      "Hisse Kodu": "VAKKO",
-      "Hisse Adı": "VAKKO TEKSTİL VE HAZIR GİYİM SANAYİ İŞLETMELERİ A.Ş.",
-      "Hisse Fiyatı": 74
+      "Hisse Kodu": "HRKET",
+      "Hisse Adı": "Hareket Proje Tasimaciligi ve Yuk Muhendisligi AS",
+      "Hisse Fiyatı": 106.6
     },
     {
       "Hisse Kodu": "EBEBK",
       "Hisse Adı": "EBEBEK MAGAZACILIK ANONIM SIRKETI",
-      "Hisse Fiyatı": 75.6
+      "Hisse Fiyatı": 75.7
     },
     {
       "Hisse Kodu": "HTTBT",
       "Hisse Adı": "HİTİT BİLGİSAYAR HİZMETLERİ A.Ş.",
-      "Hisse Fiyatı": 40.1
-    },
-    {
-      "Hisse Kodu": "PAGYO",
-      "Hisse Adı": "PANORA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 137.1
-    },
-    {
-      "Hisse Kodu": "KZBGY",
-      "Hisse Adı": "KIZILBÜK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.96
-    },
-    {
-      "Hisse Kodu": "YYLGD",
-      "Hisse Adı": "YAYLA AGRO GIDA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 10.97
-    },
-    {
-      "Hisse Kodu": "KGYO",
-      "Hisse Adı": "KORAY GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 11.75
-    },
-    {
-      "Hisse Kodu": "GARFA",
-      "Hisse Adı": "GARANTİ FAKTORİNG A.Ş.",
-      "Hisse Fiyatı": 29.96
-    },
-    {
-      "Hisse Kodu": "KOTON",
-      "Hisse Adı": "KOTON MAĞAZACILIK TEKSTİL SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 14.49
-    },
-    {
-      "Hisse Kodu": "KSTUR",
-      "Hisse Adı": "KUŞTUR KUŞADASI TURİZM ENDÜSTRİ A.Ş.",
-      "Hisse Fiyatı": 2800
+      "Hisse Fiyatı": 40.22
     },
     {
       "Hisse Kodu": "ODAS",
       "Hisse Adı": "ODAŞ ELEKTRİK ÜRETİM SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 8.59
+      "Hisse Fiyatı": 8.74
+    },
+    {
+      "Hisse Kodu": "KOTON",
+      "Hisse Adı": "KOTON MAĞAZACILIK TEKSTİL SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 14.53
+    },
+    {
+      "Hisse Kodu": "PAGYO",
+      "Hisse Adı": "PANORA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 138.9
     },
     {
       "Hisse Kodu": "KARSN",
       "Hisse Adı": "KARSAN OTOMOTİV SANAYİİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 13.25
+      "Hisse Fiyatı": 13.36
     },
     {
-      "Hisse Kodu": "SURGY",
-      "Hisse Adı": "Sur Tatil Evleri Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 69.85
+      "Hisse Kodu": "YYLGD",
+      "Hisse Adı": "YAYLA AGRO GIDA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 11.02
+    },
+    {
+      "Hisse Kodu": "GARFA",
+      "Hisse Adı": "GARANTİ FAKTORİNG A.Ş.",
+      "Hisse Fiyatı": 29.94
+    },
+    {
+      "Hisse Kodu": "KSTUR",
+      "Hisse Adı": "KUŞTUR KUŞADASI TURİZM ENDÜSTRİ A.Ş.",
+      "Hisse Fiyatı": 2840
+    },
+    {
+      "Hisse Kodu": "KZBGY",
+      "Hisse Adı": "KIZILBÜK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 3.02
+    },
+    {
+      "Hisse Kodu": "VAKKO",
+      "Hisse Adı": "VAKKO TEKSTİL VE HAZIR GİYİM SANAYİ İŞLETMELERİ A.Ş.",
+      "Hisse Fiyatı": 74.9
     },
     {
       "Hisse Kodu": "CRDFA",
       "Hisse Adı": "CREDITWEST FAKTORİNG A.Ş.",
-      "Hisse Fiyatı": 39.3
+      "Hisse Fiyatı": 39.16
     },
     {
       "Hisse Kodu": "GEDIK",
       "Hisse Adı": "GEDİK YATIRIM MENKUL DEĞERLER A.Ş.",
-      "Hisse Fiyatı": 7.4
+      "Hisse Fiyatı": 7.26
+    },
+    {
+      "Hisse Kodu": "KGYO",
+      "Hisse Adı": "KORAY GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 11.92
+    },
+    {
+      "Hisse Kodu": "SURGY",
+      "Hisse Adı": "Sur Tatil Evleri Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 69.8
     },
     {
       "Hisse Kodu": "IZFAS",
       "Hisse Adı": "İZMİR FIRÇA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 65.1
+      "Hisse Fiyatı": 65.05
     },
     {
-      "Hisse Kodu": "KAPLM",
-      "Hisse Adı": "KAPLAMİN AMBALAJ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 545
+      "Hisse Kodu": "ISGSY",
+      "Hisse Adı": "İŞ GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 132.4
     },
     {
       "Hisse Kodu": "AKGRT",
       "Hisse Adı": "AKSİGORTA A.Ş.",
-      "Hisse Fiyatı": 7.03
+      "Hisse Fiyatı": 7.2
     },
     {
       "Hisse Kodu": "JANTS",
       "Hisse Adı": "JANTSA JANT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 15.96
-    },
-    {
-      "Hisse Kodu": "BULGS",
-      "Hisse Adı": "Bulls Girisim Sermayesi Yatirim Ortakligi Anonim Sirketi",
-      "Hisse Fiyatı": 40.48
-    },
-    {
-      "Hisse Kodu": "ISKPL",
-      "Hisse Adı": "IŞIK PLASTİK SANAYİ VE DIŞ TİCARET PAZARLAMA A.Ş.",
-      "Hisse Fiyatı": 7.02
-    },
-    {
-      "Hisse Kodu": "TARKM",
-      "Hisse Adı": "Tarkim Bitki Koruma Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 508.5
+      "Hisse Fiyatı": 15.94
     },
     {
       "Hisse Kodu": "VAKFA",
@@ -5121,39 +5106,44 @@
       "Hisse Fiyatı": 12.19
     },
     {
-      "Hisse Kodu": "AKFGY",
-      "Hisse Adı": "AKFEN GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.75
+      "Hisse Kodu": "KAPLM",
+      "Hisse Adı": "KAPLAMİN AMBALAJ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 549
+    },
+    {
+      "Hisse Kodu": "BULGS",
+      "Hisse Adı": "Bulls Girisim Sermayesi Yatirim Ortakligi Anonim Sirketi",
+      "Hisse Fiyatı": 40.66
     },
     {
       "Hisse Kodu": "TRCAS",
       "Hisse Adı": "TURCAS PETROL A.Ş.",
-      "Hisse Fiyatı": 42.2
+      "Hisse Fiyatı": 42.28
     },
     {
-      "Hisse Kodu": "ISGSY",
-      "Hisse Adı": "İŞ GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 133.3
+      "Hisse Kodu": "AKFGY",
+      "Hisse Adı": "AKFEN GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 2.76
     },
     {
-      "Hisse Kodu": "TNZTP",
-      "Hisse Adı": "TAPDİ OKSİJEN ÖZEL SAĞLIK VE EĞİTİM HİZMETLERİ SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 25.92
-    },
-    {
-      "Hisse Kodu": "KARTN",
-      "Hisse Adı": "KARTONSAN KARTON SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 136.2
+      "Hisse Kodu": "TARKM",
+      "Hisse Adı": "Tarkim Bitki Koruma Sanayi ve Ticaret A.S.",
+      "Hisse Fiyatı": 509
     },
     {
       "Hisse Kodu": "VSNMD",
       "Hisse Adı": "Visne Madencilik Uretim Sanayi ve Ticaret AS",
-      "Hisse Fiyatı": 90.2
+      "Hisse Fiyatı": 90.75
+    },
+    {
+      "Hisse Kodu": "ISKPL",
+      "Hisse Adı": "IŞIK PLASTİK SANAYİ VE DIŞ TİCARET PAZARLAMA A.Ş.",
+      "Hisse Fiyatı": 7.01
     },
     {
       "Hisse Kodu": "BERA",
       "Hisse Adı": "BERA HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 16.22
+      "Hisse Fiyatı": 16.21
     },
     {
       "Hisse Kodu": "TUKAS",
@@ -5161,29 +5151,19 @@
       "Hisse Fiyatı": 2.31
     },
     {
+      "Hisse Kodu": "TNZTP",
+      "Hisse Adı": "TAPDİ OKSİJEN ÖZEL SAĞLIK VE EĞİTİM HİZMETLERİ SANAYİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 26.08
+    },
+    {
       "Hisse Kodu": "TMSN",
       "Hisse Adı": "TÜMOSAN MOTOR VE TRAKTÖR SANAYİ A.Ş.",
-      "Hisse Fiyatı": 89.35
+      "Hisse Fiyatı": 89.65
     },
     {
-      "Hisse Kodu": "INGRM",
-      "Hisse Adı": "INGRAM MİCRO BİLİŞİM SİSTEMLERİ A.Ş.",
-      "Hisse Fiyatı": 416.25
-    },
-    {
-      "Hisse Kodu": "ORGE",
-      "Hisse Adı": "ORGE ENERJİ ELEKTRİK TAAHHÜT A.Ş.",
-      "Hisse Fiyatı": 121.4
-    },
-    {
-      "Hisse Kodu": "EGGUB",
-      "Hisse Adı": "EGE GÜBRE SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 99.55
-    },
-    {
-      "Hisse Kodu": "AYEN",
-      "Hisse Adı": "AYEN ENERJİ A.Ş.",
-      "Hisse Fiyatı": 36.24
+      "Hisse Kodu": "KARTN",
+      "Hisse Adı": "KARTONSAN KARTON SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 138.5
     },
     {
       "Hisse Kodu": "QUAGR",
@@ -5191,174 +5171,149 @@
       "Hisse Fiyatı": 3.86
     },
     {
-      "Hisse Kodu": "VESBE",
-      "Hisse Adı": "VESTEL BEYAZ EŞYA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 6.12
-    },
-    {
-      "Hisse Kodu": "MAALT",
-      "Hisse Adı": "MARMARİS ALTINYUNUS TURİSTİK TESİSLER A.Ş.",
-      "Hisse Fiyatı": 1160
+      "Hisse Kodu": "AYEN",
+      "Hisse Adı": "AYEN ENERJİ A.Ş.",
+      "Hisse Fiyatı": 36.02
     },
     {
       "Hisse Kodu": "IHAAS",
       "Hisse Adı": "İHLAS HABER AJANSI A.Ş.",
-      "Hisse Fiyatı": 61.35
+      "Hisse Fiyatı": 61.4
     },
     {
-      "Hisse Kodu": "BESLR",
-      "Hisse Adı": "Besler Gida Ve Kimya Sanayi Ve Ticaret AS",
-      "Hisse Fiyatı": 14.22
+      "Hisse Kodu": "INGRM",
+      "Hisse Adı": "INGRAM MİCRO BİLİŞİM SİSTEMLERİ A.Ş.",
+      "Hisse Fiyatı": 415.5
     },
     {
-      "Hisse Kodu": "SEGMN",
-      "Hisse Adı": "Segmen Kardesler Gida Uretim ve Ambalaj Sanayi AS",
-      "Hisse Fiyatı": 52.2
+      "Hisse Kodu": "EGGUB",
+      "Hisse Adı": "EGE GÜBRE SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 100.3
     },
     {
-      "Hisse Kodu": "SRVGY",
-      "Hisse Adı": "SERVET GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.83
+      "Hisse Kodu": "VESBE",
+      "Hisse Adı": "VESTEL BEYAZ EŞYA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 6.1
+    },
+    {
+      "Hisse Kodu": "MAALT",
+      "Hisse Adı": "MARMARİS ALTINYUNUS TURİSTİK TESİSLER A.Ş.",
+      "Hisse Fiyatı": 1158
+    },
+    {
+      "Hisse Kodu": "ORGE",
+      "Hisse Adı": "ORGE ENERJİ ELEKTRİK TAAHHÜT A.Ş.",
+      "Hisse Fiyatı": 118.6
     },
     {
       "Hisse Kodu": "MANAS",
       "Hisse Adı": "MANAS ENERJİ YÖNETİMİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 29.06
-    },
-    {
-      "Hisse Kodu": "GIPTA",
-      "Hisse Adı": "Gipta Ofis Kirtasiye ve Promosyon Urunleri Imalat Sanayi A.S.",
-      "Hisse Fiyatı": 69.6
-    },
-    {
-      "Hisse Kodu": "AKENR",
-      "Hisse Adı": "AKENERJİ ELEKTRİK ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 12.99
+      "Hisse Fiyatı": 29.2
     },
     {
       "Hisse Kodu": "SONME",
       "Hisse Adı": "SÖNMEZ FİLAMENT SENTETİK İPLİK VE ELYAF SANAYİ A.Ş.",
-      "Hisse Fiyatı": 128.5
+      "Hisse Fiyatı": 127.9
+    },
+    {
+      "Hisse Kodu": "AKENR",
+      "Hisse Adı": "AKENERJİ ELEKTRİK ÜRETİM A.Ş.",
+      "Hisse Fiyatı": 12.94
     },
     {
       "Hisse Kodu": "BASCM",
       "Hisse Adı": "BAŞTAŞ BAŞKENT ÇİMENTO SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 14.28
+      "Hisse Fiyatı": 14.32
+    },
+    {
+      "Hisse Kodu": "BESLR",
+      "Hisse Adı": "Besler Gida Ve Kimya Sanayi Ve Ticaret AS",
+      "Hisse Fiyatı": 14.24
     },
     {
       "Hisse Kodu": "EUREN",
       "Hisse Adı": "EUROPEN ENDÜSTRİ İNŞAAT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 4.45
+      "Hisse Fiyatı": 4.46
     },
     {
-      "Hisse Kodu": "EGEPO",
-      "Hisse Adı": "NASMED ÖZEL SAĞLIK HİZMETLERİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 18.38
-    },
-    {
-      "Hisse Kodu": "VKGYO",
-      "Hisse Adı": "VAKIF GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.65
-    },
-    {
-      "Hisse Kodu": "AKHAN",
-      "Hisse Adı": "Akhan Un Fabrikasi Ve Tarim Urunleri Gida Sanayi Ticaret Anonim Sirketi",
-      "Hisse Fiyatı": 33.8
+      "Hisse Kodu": "SEGMN",
+      "Hisse Adı": "Segmen Kardesler Gida Uretim ve Ambalaj Sanayi AS",
+      "Hisse Fiyatı": 52.45
     },
     {
       "Hisse Kodu": "SMRVA",
       "Hisse Adı": "Sumer Varlik Yonetim A.S.",
-      "Hisse Fiyatı": 15.56
+      "Hisse Fiyatı": 15.76
     },
     {
-      "Hisse Kodu": "AKMGY",
-      "Hisse Adı": "AKMERKEZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 244.2
-    },
-    {
-      "Hisse Kodu": "KMPUR",
-      "Hisse Adı": "KİMTEKS POLİÜRETAN SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 18.65
+      "Hisse Kodu": "AKHAN",
+      "Hisse Adı": "Akhan Un Fabrikasi Ve Tarim Urunleri Gida Sanayi Ticaret Anonim Sirketi",
+      "Hisse Fiyatı": 33.68
     },
     {
       "Hisse Kodu": "GOZDE",
       "Hisse Adı": "GÖZDE GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 23.9
+      "Hisse Fiyatı": 24.28
+    },
+    {
+      "Hisse Kodu": "SRVGY",
+      "Hisse Adı": "SERVET GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 2.85
+    },
+    {
+      "Hisse Kodu": "EGEPO",
+      "Hisse Adı": "NASMED ÖZEL SAĞLIK HİZMETLERİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 18.39
+    },
+    {
+      "Hisse Kodu": "GIPTA",
+      "Hisse Adı": "Gipta Ofis Kirtasiye ve Promosyon Urunleri Imalat Sanayi A.S.",
+      "Hisse Fiyatı": 70.05
+    },
+    {
+      "Hisse Kodu": "VKGYO",
+      "Hisse Adı": "VAKIF GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 2.67
+    },
+    {
+      "Hisse Kodu": "AKMGY",
+      "Hisse Adı": "AKMERKEZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 243.6
+    },
+    {
+      "Hisse Kodu": "KMPUR",
+      "Hisse Adı": "KİMTEKS POLİÜRETAN SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 18.7
     },
     {
       "Hisse Kodu": "MOPAS",
       "Hisse Adı": "Mopas Marketcilik Gida Sanayi Ve Ticaret A.S.",
-      "Hisse Fiyatı": 32.88
-    },
-    {
-      "Hisse Kodu": "BIOEN",
-      "Hisse Adı": "BİOTREND ÇEVRE VE ENERJİ YATIRIMLARI A.Ş.",
-      "Hisse Fiyatı": 17.6
-    },
-    {
-      "Hisse Kodu": "TEZOL",
-      "Hisse Adı": "EUROPAP TEZOL KAĞIT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 17
+      "Hisse Fiyatı": 33.04
     },
     {
       "Hisse Kodu": "KOPOL",
       "Hisse Adı": "KOZA POLYESTER SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 6.83
+      "Hisse Fiyatı": 7.15
     },
     {
-      "Hisse Kodu": "BUCIM",
-      "Hisse Adı": "BURSA ÇİMENTO FABRİKASI A.Ş.",
-      "Hisse Fiyatı": 5.78
+      "Hisse Kodu": "BIOEN",
+      "Hisse Adı": "BİOTREND ÇEVRE VE ENERJİ YATIRIMLARI A.Ş.",
+      "Hisse Fiyatı": 17.74
     },
     {
       "Hisse Kodu": "GOKNR",
       "Hisse Adı": "GÖKNUR GIDA MADDELERİ ENERJİ İMALAT İTHALAT İHRACAT TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 24.8
+      "Hisse Fiyatı": 24.88
     },
     {
-      "Hisse Kodu": "ASGYO",
-      "Hisse Adı": "ASCE GAYRIMENKUL YATIRIM ORTAKLIGI A.S.",
-      "Hisse Fiyatı": 12.82
+      "Hisse Kodu": "BUCIM",
+      "Hisse Adı": "BURSA ÇİMENTO FABRİKASI A.Ş.",
+      "Hisse Fiyatı": 5.84
     },
     {
-      "Hisse Kodu": "SNPAM",
-      "Hisse Adı": "SÖNMEZ PAMUKLU SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 21.74
-    },
-    {
-      "Hisse Kodu": "INVEO",
-      "Hisse Adı": "INVEO YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 8.2
-    },
-    {
-      "Hisse Kodu": "ZERGY",
-      "Hisse Adı": "Zeray Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 13.1
-    },
-    {
-      "Hisse Kodu": "INDES",
-      "Hisse Adı": "İNDEKS BİLGİSAYAR SİSTEMLERİ MÜHENDİSLİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 11.3
-    },
-    {
-      "Hisse Kodu": "ZGYO",
-      "Hisse Adı": "Z Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 39.2
-    },
-    {
-      "Hisse Kodu": "OFSYM",
-      "Hisse Adı": "Ofis Yem Gida Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 57.35
-    },
-    {
-      "Hisse Kodu": "GLCVY",
-      "Hisse Adı": "GELECEK VARLIK YÖNETİMİ A.Ş.",
-      "Hisse Fiyatı": 59.15
-    },
-    {
-      "Hisse Kodu": "TUREX",
-      "Hisse Adı": "TUREKS TURİZM TAŞIMACILIK A.Ş.",
-      "Hisse Fiyatı": 7.63
+      "Hisse Kodu": "TEZOL",
+      "Hisse Adı": "EUROPAP TEZOL KAĞIT SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 16.9
     },
     {
       "Hisse Kodu": "BOSSA",
@@ -5366,124 +5321,179 @@
       "Hisse Fiyatı": 6.54
     },
     {
-      "Hisse Kodu": "VAKFN",
-      "Hisse Adı": "VAKIF FİNANSAL KİRALAMA A.Ş.",
-      "Hisse Fiyatı": 1.64
+      "Hisse Kodu": "SNPAM",
+      "Hisse Adı": "SÖNMEZ PAMUKLU SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 21.5
     },
     {
-      "Hisse Kodu": "BIENY",
-      "Hisse Adı": "BİEN YAPI ÜRÜNLERİ SANAYİ TURİZM VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 22.88
+      "Hisse Kodu": "INDES",
+      "Hisse Adı": "İNDEKS BİLGİSAYAR SİSTEMLERİ MÜHENDİSLİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 11.21
     },
     {
-      "Hisse Kodu": "ADEL",
-      "Hisse Adı": "ADEL KALEMCİLİK TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 31.56
+      "Hisse Kodu": "ASGYO",
+      "Hisse Adı": "ASCE GAYRIMENKUL YATIRIM ORTAKLIGI A.S.",
+      "Hisse Fiyatı": 12.82
     },
     {
-      "Hisse Kodu": "DOKTA",
-      "Hisse Adı": "DÖKTAŞ DÖKÜMCÜLÜK TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 24.88
-    },
-    {
-      "Hisse Kodu": "EKOS",
-      "Hisse Adı": "Ekos Teknoloji ve Elektrik AS",
-      "Hisse Fiyatı": 7.24
+      "Hisse Kodu": "OFSYM",
+      "Hisse Adı": "Ofis Yem Gida Sanayi ve Ticaret A.S.",
+      "Hisse Fiyatı": 57.3
     },
     {
       "Hisse Kodu": "KAREL",
       "Hisse Adı": "KAREL ELEKTRONİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 10.36
+      "Hisse Fiyatı": 10.23
+    },
+    {
+      "Hisse Kodu": "GLCVY",
+      "Hisse Adı": "GELECEK VARLIK YÖNETİMİ A.Ş.",
+      "Hisse Fiyatı": 59.45
+    },
+    {
+      "Hisse Kodu": "BIENY",
+      "Hisse Adı": "BİEN YAPI ÜRÜNLERİ SANAYİ TURİZM VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 22.8
+    },
+    {
+      "Hisse Kodu": "ZGYO",
+      "Hisse Adı": "Z Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 39.2
+    },
+    {
+      "Hisse Kodu": "TUREX",
+      "Hisse Adı": "TUREKS TURİZM TAŞIMACILIK A.Ş.",
+      "Hisse Fiyatı": 7.67
+    },
+    {
+      "Hisse Kodu": "ADEL",
+      "Hisse Adı": "ADEL KALEMCİLİK TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 31.46
+    },
+    {
+      "Hisse Kodu": "ZERGY",
+      "Hisse Adı": "Zeray Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 13.04
+    },
+    {
+      "Hisse Kodu": "VAKFN",
+      "Hisse Adı": "VAKIF FİNANSAL KİRALAMA A.Ş.",
+      "Hisse Fiyatı": 1.66
+    },
+    {
+      "Hisse Kodu": "INVEO",
+      "Hisse Adı": "INVEO YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 8.19
     },
     {
       "Hisse Kodu": "ALGYO",
       "Hisse Adı": "ALARKO GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 4.01
+      "Hisse Fiyatı": 4.08
     },
     {
-      "Hisse Kodu": "VESTL",
-      "Hisse Adı": "VESTEL ELEKTRONİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 23.68
+      "Hisse Kodu": "EKOS",
+      "Hisse Adı": "Ekos Teknoloji ve Elektrik AS",
+      "Hisse Fiyatı": 7.27
     },
     {
-      "Hisse Kodu": "PRKAB",
-      "Hisse Adı": "TÜRK PRYSMİAN KABLO VE SİSTEMLERİ A.Ş.",
-      "Hisse Fiyatı": 36.82
-    },
-    {
-      "Hisse Kodu": "PARSN",
-      "Hisse Adı": "PARSAN MAKİNA PARÇALARI SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 89.75
-    },
-    {
-      "Hisse Kodu": "ALCAR",
-      "Hisse Adı": "ALARKO CARRIER SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 709.5
-    },
-    {
-      "Hisse Kodu": "A1CAP",
-      "Hisse Adı": "A1 Capital Yatitim Menkul Degerler A.S.",
-      "Hisse Fiyatı": 11.27
+      "Hisse Kodu": "DOKTA",
+      "Hisse Adı": "DÖKTAŞ DÖKÜMCÜLÜK TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 25.2
     },
     {
       "Hisse Kodu": "BIGTK",
       "Hisse Adı": "Big Medya Teknoloji A.S.",
-      "Hisse Fiyatı": 236.8
+      "Hisse Fiyatı": 237.2
+    },
+    {
+      "Hisse Kodu": "VESTL",
+      "Hisse Adı": "VESTEL ELEKTRONİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 23.72
+    },
+    {
+      "Hisse Kodu": "PRKAB",
+      "Hisse Adı": "TÜRK PRYSMİAN KABLO VE SİSTEMLERİ A.Ş.",
+      "Hisse Fiyatı": 37.1
     },
     {
       "Hisse Kodu": "ENDAE",
       "Hisse Adı": "Enda Enerji Holding Anonim Sirketi",
-      "Hisse Fiyatı": 18
+      "Hisse Fiyatı": 18.1
+    },
+    {
+      "Hisse Kodu": "PARSN",
+      "Hisse Adı": "PARSAN MAKİNA PARÇALARI SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 92
     },
     {
       "Hisse Kodu": "NTGAZ",
       "Hisse Adı": "NATURELGAZ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 11.14
+      "Hisse Fiyatı": 11.15
+    },
+    {
+      "Hisse Kodu": "ALCAR",
+      "Hisse Adı": "ALARKO CARRIER SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 712.5
+    },
+    {
+      "Hisse Kodu": "A1CAP",
+      "Hisse Adı": "A1 Capital Yatitim Menkul Degerler A.S.",
+      "Hisse Fiyatı": 11.09
     },
     {
       "Hisse Kodu": "UCAYM",
       "Hisse Adı": "Ucay Muhendislik Enerji ve Iklimlendirme Teknolojileri",
-      "Hisse Fiyatı": 33.74
+      "Hisse Fiyatı": 33.7
     },
     {
       "Hisse Kodu": "CGCAM",
       "Hisse Adı": "Cagdas Cam Sanayi ve Ticaret AS",
-      "Hisse Fiyatı": 44.76
+      "Hisse Fiyatı": 45.1
     },
     {
       "Hisse Kodu": "EDATA",
       "Hisse Adı": "E-DATA TEKNOLOJİ PAZARLAMA A.Ş.",
-      "Hisse Fiyatı": 18.6
+      "Hisse Fiyatı": 18.37
     },
     {
       "Hisse Kodu": "YIGIT",
       "Hisse Adı": "Yigit Aku Malzemeleri Nakliyat Turizm Insaat Sanayi Ve Ticaret",
-      "Hisse Fiyatı": 24.34
-    },
-    {
-      "Hisse Kodu": "CELHA",
-      "Hisse Adı": "ÇELİK HALAT VE TEL SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 18.17
+      "Hisse Fiyatı": 24.48
     },
     {
       "Hisse Kodu": "KOCMT",
       "Hisse Adı": "Koc Metalurji AS",
-      "Hisse Fiyatı": 3.08
+      "Hisse Fiyatı": 3.06
     },
     {
       "Hisse Kodu": "BOBET",
       "Hisse Adı": "BOĞAZİÇİ BETON SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 18.9
+      "Hisse Fiyatı": 18.98
     },
     {
       "Hisse Kodu": "ATAKP",
       "Hisse Adı": "Atakey Patates Gida Sanayi ve Ticaret AS",
-      "Hisse Fiyatı": 51.65
+      "Hisse Fiyatı": 51.8
     },
     {
       "Hisse Kodu": "ULUUN",
       "Hisse Adı": "ULUSOY UN SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 9.49
+      "Hisse Fiyatı": 9.44
+    },
+    {
+      "Hisse Kodu": "INFO",
+      "Hisse Adı": "İNFO YATIRIM MENKUL DEĞERLER A.Ş.",
+      "Hisse Fiyatı": 7.23
+    },
+    {
+      "Hisse Kodu": "BJKAS",
+      "Hisse Adı": "BEŞİKTAŞ FUTBOL YATIRIMLARI SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 1.62
+    },
+    {
+      "Hisse Kodu": "CELHA",
+      "Hisse Adı": "ÇELİK HALAT VE TEL SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 18.28
     },
     {
       "Hisse Kodu": "KLGYO",
@@ -5491,204 +5501,199 @@
       "Hisse Fiyatı": 5
     },
     {
-      "Hisse Kodu": "BURVA",
-      "Hisse Adı": "BURÇELİK VANA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 901
-    },
-    {
       "Hisse Kodu": "ALKA",
       "Hisse Adı": "ALKİM KAĞIT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 9.41
-    },
-    {
-      "Hisse Kodu": "BJKAS",
-      "Hisse Adı": "BEŞİKTAŞ FUTBOL YATIRIMLARI SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 1.61
-    },
-    {
-      "Hisse Kodu": "ESEN",
-      "Hisse Adı": "ESENBOĞA ELEKTRİK ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 3.72
+      "Hisse Fiyatı": 9.45
     },
     {
       "Hisse Kodu": "TSPOR",
       "Hisse Adı": "TRABZONSPOR SPORTİF YATIRIM VE FUTBOL İŞLETMECİLİĞİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 0.91
+      "Hisse Fiyatı": 0.92
+    },
+    {
+      "Hisse Kodu": "ESEN",
+      "Hisse Adı": "ESENBOĞA ELEKTRİK ÜRETİM A.Ş.",
+      "Hisse Fiyatı": 3.75
+    },
+    {
+      "Hisse Kodu": "BURVA",
+      "Hisse Adı": "BURÇELİK VANA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 905
     },
     {
       "Hisse Kodu": "CATES",
       "Hisse Adı": "Cates Elektrik Uretim Anonim Sirketi",
-      "Hisse Fiyatı": 40
+      "Hisse Fiyatı": 39.9
     },
     {
       "Hisse Kodu": "AGROT",
       "Hisse Adı": "Agrotech Yuksek Teknoloji ve Yatirim AS",
-      "Hisse Fiyatı": 2.73
-    },
-    {
-      "Hisse Kodu": "DITAS",
-      "Hisse Adı": "DİTAŞ DOĞAN YEDEK PARÇA İMALAT VE TEKNİK A.Ş.",
-      "Hisse Fiyatı": 34.78
-    },
-    {
-      "Hisse Kodu": "HOROZ",
-      "Hisse Adı": "Horoz Lojistik Kargo Hizmetleri Ve Ticaret AS",
-      "Hisse Fiyatı": 70.8
+      "Hisse Fiyatı": 2.75
     },
     {
       "Hisse Kodu": "TMPOL",
       "Hisse Adı": "TEMAPOL POLİMER PLASTİK VE İNŞAAT SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 458.25
+      "Hisse Fiyatı": 452.5
     },
     {
       "Hisse Kodu": "ALCTL",
       "Hisse Adı": "ALCATEL LUCENT TELETAŞ TELEKOMÜNİKASYON A.Ş.",
-      "Hisse Fiyatı": 166
+      "Hisse Fiyatı": 164.3
     },
     {
-      "Hisse Kodu": "SOKE",
-      "Hisse Adı": "SÖKE DEĞİRMENCİLİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 16.37
-    },
-    {
-      "Hisse Kodu": "REEDR",
-      "Hisse Adı": "Reeder Teknoloji Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 6.69
-    },
-    {
-      "Hisse Kodu": "INFO",
-      "Hisse Adı": "İNFO YATIRIM MENKUL DEĞERLER A.Ş.",
-      "Hisse Fiyatı": 7.35
-    },
-    {
-      "Hisse Kodu": "KRVGD",
-      "Hisse Adı": "KERVAN GIDA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 2.88
+      "Hisse Kodu": "HOROZ",
+      "Hisse Adı": "Horoz Lojistik Kargo Hizmetleri Ve Ticaret AS",
+      "Hisse Fiyatı": 69.55
     },
     {
       "Hisse Kodu": "LINK",
       "Hisse Adı": "LİNK BİLGİSAYAR SİSTEMLERİ YAZILIMI VE DONANIMI SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 7.17
+      "Hisse Fiyatı": 7.14
     },
     {
-      "Hisse Kodu": "MNDTR",
-      "Hisse Adı": "MONDİ TURKEY OLUKLU MUKAVVA KAĞIT VE AMBALAJ SANAYİ A.Ş.",
-      "Hisse Fiyatı": 5.84
+      "Hisse Kodu": "REEDR",
+      "Hisse Adı": "Reeder Teknoloji Sanayi ve Ticaret A.S.",
+      "Hisse Fiyatı": 6.71
     },
     {
-      "Hisse Kodu": "BAHKM",
-      "Hisse Adı": "Bahadir Kimya Sanayi Ve Ticaret Anonim Sirketi",
-      "Hisse Fiyatı": 111.9
-    },
-    {
-      "Hisse Kodu": "ONCSM",
-      "Hisse Adı": "ONCOSEM ONKOLOJİK SİSTEMLER SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 251
-    },
-    {
-      "Hisse Kodu": "KLSYN",
-      "Hisse Adı": "KOLEKSİYON MOBİLYA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 13.85
-    },
-    {
-      "Hisse Kodu": "MERIT",
-      "Hisse Adı": "MERİT TURİZM YATIRIM VE İŞLETME A.Ş.",
-      "Hisse Fiyatı": 17.54
-    },
-    {
-      "Hisse Kodu": "GOODY",
-      "Hisse Adı": "GOODYEAR LASTİKLERİ T.A.Ş.",
-      "Hisse Fiyatı": 19.89
+      "Hisse Kodu": "SOKE",
+      "Hisse Adı": "SÖKE DEĞİRMENCİLİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 16.17
     },
     {
       "Hisse Kodu": "FORTE",
       "Hisse Adı": "FORTE BILGI ILETISIM TEKNOLOJILERI VE SAVUNMA SANAYI A.S.",
-      "Hisse Fiyatı": 93.95
+      "Hisse Fiyatı": 94.35
+    },
+    {
+      "Hisse Kodu": "KRVGD",
+      "Hisse Adı": "KERVAN GIDA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 2.89
+    },
+    {
+      "Hisse Kodu": "BAHKM",
+      "Hisse Adı": "Bahadir Kimya Sanayi Ve Ticaret Anonim Sirketi",
+      "Hisse Fiyatı": 112.5
+    },
+    {
+      "Hisse Kodu": "MNDTR",
+      "Hisse Adı": "MONDİ TURKEY OLUKLU MUKAVVA KAĞIT VE AMBALAJ SANAYİ A.Ş.",
+      "Hisse Fiyatı": 5.83
+    },
+    {
+      "Hisse Kodu": "ONCSM",
+      "Hisse Adı": "ONCOSEM ONKOLOJİK SİSTEMLER SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 250.25
+    },
+    {
+      "Hisse Kodu": "KLSYN",
+      "Hisse Adı": "KOLEKSİYON MOBİLYA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 13.73
     },
     {
       "Hisse Kodu": "KATMR",
       "Hisse Adı": "KATMERCİLER ARAÇ ÜSTÜ EKİPMAN SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 2.75
+      "Hisse Fiyatı": 2.81
+    },
+    {
+      "Hisse Kodu": "DITAS",
+      "Hisse Adı": "DİTAŞ DOĞAN YEDEK PARÇA İMALAT VE TEKNİK A.Ş.",
+      "Hisse Fiyatı": 31.32
+    },
+    {
+      "Hisse Kodu": "MERIT",
+      "Hisse Adı": "MERİT TURİZM YATIRIM VE İŞLETME A.Ş.",
+      "Hisse Fiyatı": 17.66
     },
     {
       "Hisse Kodu": "BORSK",
       "Hisse Adı": "Bor Seker A.S.",
-      "Hisse Fiyatı": 6.08
-    },
-    {
-      "Hisse Kodu": "ARSAN",
-      "Hisse Adı": "ARSAN TEKSTİL TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 3.25
-    },
-    {
-      "Hisse Kodu": "EGEGY",
-      "Hisse Adı": "Egeyapi Avrupa Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 28.56
+      "Hisse Fiyatı": 6.09
     },
     {
       "Hisse Kodu": "GOLTS",
       "Hisse Adı": "GÖLTAŞ GÖLLER BÖLGESİ ÇİMENTO SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 321.25
-    },
-    {
-      "Hisse Kodu": "DESA",
-      "Hisse Adı": "DESA DERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 11.3
+      "Hisse Fiyatı": 321.5
     },
     {
       "Hisse Kodu": "YATAS",
       "Hisse Adı": "YATAŞ YATAK VE YORGAN SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 39.86
+      "Hisse Fiyatı": 40
     },
     {
-      "Hisse Kodu": "NATEN",
-      "Hisse Adı": "NATUREL YENİLENEBİLİR ENERJİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 6.65
+      "Hisse Kodu": "EGEGY",
+      "Hisse Adı": "Egeyapi Avrupa Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 28.3
     },
     {
-      "Hisse Kodu": "PLTUR",
-      "Hisse Adı": "PLATFORM TURİZM TAŞIMACILIK GIDA İNŞAAT TEMİZLİK HİZMETLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 23
-    },
-    {
-      "Hisse Kodu": "PENTA",
-      "Hisse Adı": "PENTA TEKNOLOJİ ÜRÜNLERİ DAĞITIM TİCARET A.Ş.",
-      "Hisse Fiyatı": 13.93
-    },
-    {
-      "Hisse Kodu": "ARFYE",
-      "Hisse Adı": "ARF Bio Yenilenebilir Enerji Uretim AS",
-      "Hisse Fiyatı": 30.44
+      "Hisse Kodu": "ARSAN",
+      "Hisse Adı": "ARSAN TEKSTİL TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 3.27
     },
     {
       "Hisse Kodu": "KONKA",
       "Hisse Adı": "KONYA KAĞIT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 14.53
+      "Hisse Fiyatı": 14.46
+    },
+    {
+      "Hisse Kodu": "PLTUR",
+      "Hisse Adı": "PLATFORM TURİZM TAŞIMACILIK GIDA İNŞAAT TEMİZLİK HİZMETLERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 22.86
+    },
+    {
+      "Hisse Kodu": "ARFYE",
+      "Hisse Adı": "ARF Bio Yenilenebilir Enerji Uretim AS",
+      "Hisse Fiyatı": 30.48
+    },
+    {
+      "Hisse Kodu": "DESA",
+      "Hisse Adı": "DESA DERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 11.29
+    },
+    {
+      "Hisse Kodu": "NATEN",
+      "Hisse Adı": "NATUREL YENİLENEBİLİR ENERJİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 6.67
+    },
+    {
+      "Hisse Kodu": "PENTA",
+      "Hisse Adı": "PENTA TEKNOLOJİ ÜRÜNLERİ DAĞITIM TİCARET A.Ş.",
+      "Hisse Fiyatı": 13.96
     },
     {
       "Hisse Kodu": "ALKIM",
       "Hisse Adı": "ALKİM ALKALİ KİMYA A.Ş.",
-      "Hisse Fiyatı": 18.2
+      "Hisse Fiyatı": 18.4
     },
     {
       "Hisse Kodu": "BLUME",
       "Hisse Adı": "Blume Metal Kimya Anonim Sirketi",
-      "Hisse Fiyatı": 31.1
+      "Hisse Fiyatı": 31.28
     },
     {
-      "Hisse Kodu": "GSDHO",
-      "Hisse Adı": "GSD HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 5.53
+      "Hisse Kodu": "GOODY",
+      "Hisse Adı": "GOODYEAR LASTİKLERİ T.A.Ş.",
+      "Hisse Fiyatı": 19.3
     },
     {
       "Hisse Kodu": "ATATP",
       "Hisse Adı": "ATP YAZILIM VE TEKNOLOJİ A.Ş.",
-      "Hisse Fiyatı": 208.8
+      "Hisse Fiyatı": 208
+    },
+    {
+      "Hisse Kodu": "GSDHO",
+      "Hisse Adı": "GSD HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 5.57
     },
     {
       "Hisse Kodu": "BORLS",
       "Hisse Adı": "Borlease Otomotiv AS",
-      "Hisse Fiyatı": 7.53
+      "Hisse Fiyatı": 7.57
+    },
+    {
+      "Hisse Kodu": "AFYON",
+      "Hisse Adı": "AFYON ÇİMENTO SANAYİ T.A.Ş.",
+      "Hisse Fiyatı": 13.03
     },
     {
       "Hisse Kodu": "ORMA",
@@ -5696,184 +5701,209 @@
       "Hisse Fiyatı": 190
     },
     {
-      "Hisse Kodu": "KONTR",
-      "Hisse Adı": "KONTROLMATİK TEKNOLOJİ ENERJİ VE MÜHENDİSLİK A.Ş.",
-      "Hisse Fiyatı": 3.65
-    },
-    {
-      "Hisse Kodu": "AFYON",
-      "Hisse Adı": "AFYON ÇİMENTO SANAYİ T.A.Ş.",
-      "Hisse Fiyatı": 12.99
-    },
-    {
       "Hisse Kodu": "FONET",
       "Hisse Adı": "FONET BİLGİ TEKNOLOJİLERİ A.Ş.",
-      "Hisse Fiyatı": 5.52
-    },
-    {
-      "Hisse Kodu": "BRKVY",
-      "Hisse Adı": "BİRİKİM VARLIK YÖNETİM A.Ş.",
-      "Hisse Fiyatı": 89.3
+      "Hisse Fiyatı": 5.54
     },
     {
       "Hisse Kodu": "OZYSR",
       "Hisse Adı": "Ozyasar Tel ve Galvanizleme Sanayi Anonim Sirketi",
-      "Hisse Fiyatı": 11.98
+      "Hisse Fiyatı": 11.83
+    },
+    {
+      "Hisse Kodu": "BRKVY",
+      "Hisse Adı": "BİRİKİM VARLIK YÖNETİM A.Ş.",
+      "Hisse Fiyatı": 89.25
     },
     {
       "Hisse Kodu": "ADESE",
       "Hisse Adı": "ADESE GAYRİMENKUL YATIRIM A.Ş.",
-      "Hisse Fiyatı": 0.99
-    },
-    {
-      "Hisse Kodu": "CEMTS",
-      "Hisse Adı": "ÇEMTAŞ ÇELİK MAKİNA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 9.89
-    },
-    {
-      "Hisse Kodu": "YUNSA",
-      "Hisse Adı": "YÜNSA YÜNLÜ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 10.25
-    },
-    {
-      "Hisse Kodu": "SAFKR",
-      "Hisse Adı": "SAFKAR EGE SOĞUTMACILIK KLİMA SOĞUK HAVA TESİSLERİ İHRACAT İTHALAT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 23.86
-    },
-    {
-      "Hisse Kodu": "GENTS",
-      "Hisse Adı": "GENTAŞ DEKORATİF YÜZEYLER SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 6.55
-    },
-    {
-      "Hisse Kodu": "INTEM",
-      "Hisse Adı": "İNTEMA İNŞAAT VE TESİSAT MALZEMELERİ YATIRIM VE PAZARLAMA A.Ş.",
-      "Hisse Fiyatı": 254.5
+      "Hisse Fiyatı": 1
     },
     {
       "Hisse Kodu": "MERCN",
       "Hisse Adı": "MERCAN KİMYA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 26.04
+      "Hisse Fiyatı": 26.14
     },
     {
-      "Hisse Kodu": "TATGD",
-      "Hisse Adı": "TAT GIDA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 19.45
+      "Hisse Kodu": "CEMTS",
+      "Hisse Adı": "ÇEMTAŞ ÇELİK MAKİNA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 9.93
+    },
+    {
+      "Hisse Kodu": "YUNSA",
+      "Hisse Adı": "YÜNSA YÜNLÜ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 10.23
+    },
+    {
+      "Hisse Kodu": "INTEM",
+      "Hisse Adı": "İNTEMA İNŞAAT VE TESİSAT MALZEMELERİ YATIRIM VE PAZARLAMA A.Ş.",
+      "Hisse Fiyatı": 255.5
+    },
+    {
+      "Hisse Kodu": "GENTS",
+      "Hisse Adı": "GENTAŞ DEKORATİF YÜZEYLER SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 6.56
     },
     {
       "Hisse Kodu": "AZTEK",
       "Hisse Adı": "AZTEK TEKNOLOJİ ÜRÜNLERİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 4.82
-    },
-    {
-      "Hisse Kodu": "AYES",
-      "Hisse Adı": "AYES ÇELİK HASIR VE ÇİT SANAYİ A.Ş.",
-      "Hisse Fiyatı": 32
-    },
-    {
-      "Hisse Kodu": "DARDL",
-      "Hisse Adı": "DARDANEL ÖNENTAŞ GIDA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 2
-    },
-    {
-      "Hisse Kodu": "KTSKR",
-      "Hisse Adı": "KÜTAHYA ŞEKER FABRİKASI A.Ş.",
-      "Hisse Fiyatı": 103
+      "Hisse Fiyatı": 4.8
     },
     {
       "Hisse Kodu": "DCTTR",
       "Hisse Adı": "DCT Trading Dis Ticaret Anonim Sirketi",
-      "Hisse Fiyatı": 12.35
+      "Hisse Fiyatı": 12.79
     },
     {
-      "Hisse Kodu": "METRO",
-      "Hisse Adı": "METRO TİCARİ VE MALİ YATIRIMLAR HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 8.72
+      "Hisse Kodu": "AYES",
+      "Hisse Adı": "AYES ÇELİK HASIR VE ÇİT SANAYİ A.Ş.",
+      "Hisse Fiyatı": 32.12
     },
     {
-      "Hisse Kodu": "YBTAS",
-      "Hisse Adı": "YİBİTAŞ YOZGAT İŞÇİ BİRLİĞİ İNŞAAT MALZEMELERİ TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 15.73
+      "Hisse Kodu": "SAFKR",
+      "Hisse Adı": "SAFKAR EGE SOĞUTMACILIK KLİMA SOĞUK HAVA TESİSLERİ İHRACAT İTHALAT SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 23.12
     },
     {
-      "Hisse Kodu": "MHRGY",
-      "Hisse Adı": "MHR Gayrimenkul Yatirim Ortakligi Anonim Sirketi",
-      "Hisse Fiyatı": 3.73
+      "Hisse Kodu": "TATGD",
+      "Hisse Adı": "TAT GIDA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 19.52
+    },
+    {
+      "Hisse Kodu": "KONTR",
+      "Hisse Adı": "KONTROLMATİK TEKNOLOJİ ENERJİ VE MÜHENDİSLİK A.Ş.",
+      "Hisse Fiyatı": 3.42
+    },
+    {
+      "Hisse Kodu": "KTSKR",
+      "Hisse Adı": "KÜTAHYA ŞEKER FABRİKASI A.Ş.",
+      "Hisse Fiyatı": 105.2
     },
     {
       "Hisse Kodu": "ELITE",
       "Hisse Adı": "ELİTE NATUREL ORGANİK GIDA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 36.42
+      "Hisse Fiyatı": 36.38
     },
     {
-      "Hisse Kodu": "BVSAN",
-      "Hisse Adı": "BÜLBÜLOĞLU VİNÇ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 118.9
-    },
-    {
-      "Hisse Kodu": "KZGYO",
-      "Hisse Adı": "Kuzugrup Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 22.3
-    },
-    {
-      "Hisse Kodu": "TSGYO",
-      "Hisse Adı": "TSKB GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 6.84
-    },
-    {
-      "Hisse Kodu": "DYOBY",
-      "Hisse Adı": "DYO BOYA FABRİKALARI SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 14.7
+      "Hisse Kodu": "YBTAS",
+      "Hisse Adı": "YİBİTAŞ YOZGAT İŞÇİ BİRLİĞİ İNŞAAT MALZEMELERİ TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 15.75
     },
     {
       "Hisse Kodu": "SERNT",
       "Hisse Adı": "Seranit Granit Seramik Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 11.38
+      "Hisse Fiyatı": 11.31
+    },
+    {
+      "Hisse Kodu": "DARDL",
+      "Hisse Adı": "DARDANEL ÖNENTAŞ GIDA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 2.02
+    },
+    {
+      "Hisse Kodu": "METRO",
+      "Hisse Adı": "METRO TİCARİ VE MALİ YATIRIMLAR HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 8.76
+    },
+    {
+      "Hisse Kodu": "MHRGY",
+      "Hisse Adı": "MHR Gayrimenkul Yatirim Ortakligi Anonim Sirketi",
+      "Hisse Fiyatı": 3.75
+    },
+    {
+      "Hisse Kodu": "BVSAN",
+      "Hisse Adı": "BÜLBÜLOĞLU VİNÇ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 119
+    },
+    {
+      "Hisse Kodu": "KZGYO",
+      "Hisse Adı": "Kuzugrup Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 22.36
+    },
+    {
+      "Hisse Kodu": "TSGYO",
+      "Hisse Adı": "TSKB GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 6.89
     },
     {
       "Hisse Kodu": "BRLSM",
       "Hisse Adı": "BİRLEŞİM MÜHENDİSLİK ISITMA SOĞUTMA HAVALANDIRMA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 19.72
+      "Hisse Fiyatı": 19.12
     },
     {
-      "Hisse Kodu": "ERCB",
-      "Hisse Adı": "ERCİYAS ÇELİK BORU SANAYİ A.Ş.",
-      "Hisse Fiyatı": 50.85
+      "Hisse Kodu": "DYOBY",
+      "Hisse Adı": "DYO BOYA FABRİKALARI SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 14.71
     },
     {
       "Hisse Kodu": "ALVES",
       "Hisse Adı": "Alves Kablo Sanayi ve Ticaret A. S.",
-      "Hisse Fiyatı": 2.7
-    },
-    {
-      "Hisse Kodu": "ESCOM",
-      "Hisse Adı": "ESCORT TEKNOLOJİ YATIRIM A.Ş.",
-      "Hisse Fiyatı": 5.87
+      "Hisse Fiyatı": 2.73
     },
     {
       "Hisse Kodu": "NETAS",
       "Hisse Adı": "NETAŞ TELEKOMÜNİKASYON A.Ş.",
-      "Hisse Fiyatı": 64.55
+      "Hisse Fiyatı": 64.65
     },
     {
       "Hisse Kodu": "GZNMI",
       "Hisse Adı": "GEZİNOMİ SEYAHAT TURİZM TİCARET A.Ş.",
-      "Hisse Fiyatı": 64.05
+      "Hisse Fiyatı": 64.15
     },
     {
-      "Hisse Kodu": "DUNYH",
-      "Hisse Adı": "Dunya Holding Anonim Sirketi",
-      "Hisse Fiyatı": 109.4
+      "Hisse Kodu": "ESCOM",
+      "Hisse Adı": "ESCORT TEKNOLOJİ YATIRIM A.Ş.",
+      "Hisse Fiyatı": 5.88
     },
     {
       "Hisse Kodu": "FMIZP",
       "Hisse Adı": "FEDERAL-MOGUL İZMİT PİSTON VE PİM ÜRETİM TESİSLERİ A.Ş.",
-      "Hisse Fiyatı": 288.75
+      "Hisse Fiyatı": 289.25
+    },
+    {
+      "Hisse Kodu": "EKSUN",
+      "Hisse Adı": "EKSUN GIDA TARIM SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 6.73
+    },
+    {
+      "Hisse Kodu": "ONRYT",
+      "Hisse Adı": "Onur Yuksek Teknoloji AS",
+      "Hisse Fiyatı": 63.65
+    },
+    {
+      "Hisse Kodu": "DUNYH",
+      "Hisse Adı": "Dunya Holding Anonim Sirketi",
+      "Hisse Fiyatı": 109
+    },
+    {
+      "Hisse Kodu": "SUWEN",
+      "Hisse Adı": "SUWEN TEKSTİL SANAYİ PAZARLAMA A.Ş.",
+      "Hisse Fiyatı": 7.18
     },
     {
       "Hisse Kodu": "KUVVA",
       "Hisse Adı": "KUVVA GIDA TİCARET VE SANAYİ YATIRIMLARI A.Ş.",
-      "Hisse Fiyatı": 128.6
+      "Hisse Fiyatı": 129.5
+    },
+    {
+      "Hisse Kodu": "OZSUB",
+      "Hisse Adı": "ÖZSU BALIK ÜRETİM A.Ş.",
+      "Hisse Fiyatı": 33.16
+    },
+    {
+      "Hisse Kodu": "HURGZ",
+      "Hisse Adı": "HÜRRİYET GAZETECİLİK VE MATBAACILIK A.Ş.",
+      "Hisse Fiyatı": 6.7
+    },
+    {
+      "Hisse Kodu": "ERCB",
+      "Hisse Adı": "ERCİYAS ÇELİK BORU SANAYİ A.Ş.",
+      "Hisse Fiyatı": 49.38
+    },
+    {
+      "Hisse Kodu": "BIGCH",
+      "Hisse Adı": "BÜYÜK ŞEFLER GIDA TURİZM TEKSTİL DANIŞMANLIK ORGANİZASYON EĞİTİM SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 7.46
     },
     {
       "Hisse Kodu": "USAK",
@@ -5881,79 +5911,54 @@
       "Hisse Fiyatı": 1.6
     },
     {
-      "Hisse Kodu": "SUWEN",
-      "Hisse Adı": "SUWEN TEKSTİL SANAYİ PAZARLAMA A.Ş.",
-      "Hisse Fiyatı": 7.15
-    },
-    {
-      "Hisse Kodu": "HURGZ",
-      "Hisse Adı": "HÜRRİYET GAZETECİLİK VE MATBAACILIK A.Ş.",
-      "Hisse Fiyatı": 6.68
-    },
-    {
-      "Hisse Kodu": "EKSUN",
-      "Hisse Adı": "EKSUN GIDA TARIM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 6.75
-    },
-    {
-      "Hisse Kodu": "ONRYT",
-      "Hisse Adı": "Onur Yuksek Teknoloji AS",
-      "Hisse Fiyatı": 64.05
-    },
-    {
-      "Hisse Kodu": "BIGCH",
-      "Hisse Adı": "BÜYÜK ŞEFLER GIDA TURİZM TEKSTİL DANIŞMANLIK ORGANİZASYON EĞİTİM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 7.38
+      "Hisse Kodu": "KIMMR",
+      "Hisse Adı": "ERSAN ALIŞVERİŞ HİZMETLERİ VE GIDA SANAYİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 16.49
     },
     {
       "Hisse Kodu": "KERVN",
       "Hisse Adı": "KERVANSARAY YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 7.15
-    },
-    {
-      "Hisse Kodu": "KIMMR",
-      "Hisse Adı": "ERSAN ALIŞVERİŞ HİZMETLERİ VE GIDA SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 16.43
-    },
-    {
-      "Hisse Kodu": "TKNSA",
-      "Hisse Adı": "TEKNOSA İÇ VE DIŞ TİCARET A.Ş.",
-      "Hisse Fiyatı": 19.29
-    },
-    {
-      "Hisse Kodu": "OZSUB",
-      "Hisse Adı": "ÖZSU BALIK ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 32.98
-    },
-    {
-      "Hisse Kodu": "SAYAS",
-      "Hisse Adı": "SAY YENİLENEBİLİR ENERJİ EKİPMANLARI SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 49
-    },
-    {
-      "Hisse Kodu": "SEGYO",
-      "Hisse Adı": "ŞEKER GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 4.73
-    },
-    {
-      "Hisse Kodu": "MRGYO",
-      "Hisse Adı": "MARTI GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 1.58
+      "Hisse Fiyatı": 7.07
     },
     {
       "Hisse Kodu": "HUNER",
       "Hisse Adı": "HUN YENİLENEBİLİR ENERJİ ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 3.9
+      "Hisse Fiyatı": 3.92
+    },
+    {
+      "Hisse Kodu": "TKNSA",
+      "Hisse Adı": "TEKNOSA İÇ VE DIŞ TİCARET A.Ş.",
+      "Hisse Fiyatı": 19.38
+    },
+    {
+      "Hisse Kodu": "IHLAS",
+      "Hisse Adı": "İHLAS HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 1.34
+    },
+    {
+      "Hisse Kodu": "SEGYO",
+      "Hisse Adı": "ŞEKER GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 4.76
     },
     {
       "Hisse Kodu": "PCILT",
       "Hisse Adı": "PC İLETİŞİM VE MEDYA HİZMETLERİ SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 33.48
+      "Hisse Fiyatı": 33.72
     },
     {
-      "Hisse Kodu": "BAKAB",
-      "Hisse Adı": "BAK AMBALAJ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 50.3
+      "Hisse Kodu": "SAYAS",
+      "Hisse Adı": "SAY YENİLENEBİLİR ENERJİ EKİPMANLARI SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 48.78
+    },
+    {
+      "Hisse Kodu": "MRGYO",
+      "Hisse Adı": "MARTI GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 1.59
+    },
+    {
+      "Hisse Kodu": "PNSUT",
+      "Hisse Adı": "PINAR SÜT MAMULLERİ SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 11.96
     },
     {
       "Hisse Kodu": "CEMAS",
@@ -5961,74 +5966,99 @@
       "Hisse Fiyatı": 4.69
     },
     {
-      "Hisse Kodu": "PNSUT",
-      "Hisse Adı": "PINAR SÜT MAMULLERİ SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 12
-    },
-    {
-      "Hisse Kodu": "DOGUB",
-      "Hisse Adı": "DOĞUSAN BORU SANAYİİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 93.2
-    },
-    {
-      "Hisse Kodu": "BAGFS",
-      "Hisse Adı": "BAGFAŞ BANDIRMA GÜBRE FABRİKALARI A.Ş.",
-      "Hisse Fiyatı": 26.88
-    },
-    {
-      "Hisse Kodu": "TURGG",
-      "Hisse Adı": "TÜRKER PROJE GAYRİMENKUL VE YATIRIM GELİŞTİRME A.Ş.",
-      "Hisse Fiyatı": 28.02
-    },
-    {
-      "Hisse Kodu": "KNFRT",
-      "Hisse Adı": "KONFRUT GIDA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 13.58
-    },
-    {
-      "Hisse Kodu": "IHLAS",
-      "Hisse Adı": "İHLAS HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 1.29
-    },
-    {
-      "Hisse Kodu": "YAPRK",
-      "Hisse Adı": "YAPRAK SÜT VE BESİ ÇİFTLİKLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 12.21
-    },
-    {
-      "Hisse Kodu": "PETUN",
-      "Hisse Adı": "PINAR ENTEGRE ET VE UN SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 11.94
+      "Hisse Kodu": "PRZMA",
+      "Hisse Adı": "PRİZMA PRES MATBAACILIK YAYINCILIK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 48
     },
     {
       "Hisse Kodu": "PKENT",
       "Hisse Adı": "PETROKENT TURİZM A.Ş.",
-      "Hisse Fiyatı": 147.1
-    },
-    {
-      "Hisse Kodu": "ENSRI",
-      "Hisse Adı": "ENSARİ DERİ GIDA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 6.37
-    },
-    {
-      "Hisse Kodu": "MACKO",
-      "Hisse Adı": "MACKOLİK İNTERNET HİZMETLERİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 35.58
-    },
-    {
-      "Hisse Kodu": "KUTPO",
-      "Hisse Adı": "KÜTAHYA PORSELEN SANAYİ A.Ş.",
-      "Hisse Fiyatı": 88.95
-    },
-    {
-      "Hisse Kodu": "MEDTR",
-      "Hisse Adı": "MEDİTERA TIBBİ MALZEME SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 29.38
+      "Hisse Fiyatı": 146.9
     },
     {
       "Hisse Kodu": "KRONT",
       "Hisse Adı": "KRON TELEKOMÜNİKASYON HİZMETLERİ A.Ş.",
-      "Hisse Fiyatı": 21.36
+      "Hisse Fiyatı": 21.26
+    },
+    {
+      "Hisse Kodu": "YAPRK",
+      "Hisse Adı": "YAPRAK SÜT VE BESİ ÇİFTLİKLERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 12.19
+    },
+    {
+      "Hisse Kodu": "DOGUB",
+      "Hisse Adı": "DOĞUSAN BORU SANAYİİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 91.35
+    },
+    {
+      "Hisse Kodu": "BAGFS",
+      "Hisse Adı": "BAGFAŞ BANDIRMA GÜBRE FABRİKALARI A.Ş.",
+      "Hisse Fiyatı": 26.98
+    },
+    {
+      "Hisse Kodu": "PETUN",
+      "Hisse Adı": "PINAR ENTEGRE ET VE UN SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 12.02
+    },
+    {
+      "Hisse Kodu": "BAKAB",
+      "Hisse Adı": "BAK AMBALAJ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 49.76
+    },
+    {
+      "Hisse Kodu": "TURGG",
+      "Hisse Adı": "TÜRKER PROJE GAYRİMENKUL VE YATIRIM GELİŞTİRME A.Ş.",
+      "Hisse Fiyatı": 28.46
+    },
+    {
+      "Hisse Kodu": "KNFRT",
+      "Hisse Adı": "KONFRUT GIDA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 13.48
+    },
+    {
+      "Hisse Kodu": "MACKO",
+      "Hisse Adı": "MACKOLİK İNTERNET HİZMETLERİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 35.62
+    },
+    {
+      "Hisse Kodu": "KUTPO",
+      "Hisse Adı": "KÜTAHYA PORSELEN SANAYİ A.Ş.",
+      "Hisse Fiyatı": 88.65
+    },
+    {
+      "Hisse Kodu": "DGATE",
+      "Hisse Adı": "DATAGATE BİLGİSAYAR MALZEMELERİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 117
+    },
+    {
+      "Hisse Kodu": "MEDTR",
+      "Hisse Adı": "MEDİTERA TIBBİ MALZEME SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 29.34
+    },
+    {
+      "Hisse Kodu": "OSMEN",
+      "Hisse Adı": "OSMANLI YATIRIM MENKUL DEĞERLER A.Ş.",
+      "Hisse Fiyatı": 9.04
+    },
+    {
+      "Hisse Kodu": "ENSRI",
+      "Hisse Adı": "ENSARİ DERİ GIDA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 6.67
+    },
+    {
+      "Hisse Kodu": "BEGYO",
+      "Hisse Adı": "Bati Ege Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 4.26
+    },
+    {
+      "Hisse Kodu": "ERBOS",
+      "Hisse Adı": "ERBOSAN ERCİYAS BORU SANAYİİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 173.1
+    },
+    {
+      "Hisse Kodu": "BURCE",
+      "Hisse Adı": "BURÇELİK BURSA ÇELİK DÖKÜM SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 40.96
     },
     {
       "Hisse Kodu": "SANFM",
@@ -6036,34 +6066,19 @@
       "Hisse Fiyatı": 9.08
     },
     {
-      "Hisse Kodu": "ERBOS",
-      "Hisse Adı": "ERBOSAN ERCİYAS BORU SANAYİİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 171.5
+      "Hisse Kodu": "SANKO",
+      "Hisse Adı": "SANKO PAZARLAMA İTHALAT İHRACAT A.Ş.",
+      "Hisse Fiyatı": 22.6
     },
     {
-      "Hisse Kodu": "OSMEN",
-      "Hisse Adı": "OSMANLI YATIRIM MENKUL DEĞERLER A.Ş.",
-      "Hisse Fiyatı": 8.66
-    },
-    {
-      "Hisse Kodu": "BEGYO",
-      "Hisse Adı": "Bati Ege Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 4.25
-    },
-    {
-      "Hisse Kodu": "BURCE",
-      "Hisse Adı": "BURÇELİK BURSA ÇELİK DÖKÜM SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 40.44
+      "Hisse Kodu": "ATEKS",
+      "Hisse Adı": "AKIN TEKSTİL A.Ş.",
+      "Hisse Fiyatı": 126.6
     },
     {
       "Hisse Kodu": "LIDFA",
       "Hisse Adı": "LİDER FAKTORİNG A.Ş.",
-      "Hisse Fiyatı": 3.09
-    },
-    {
-      "Hisse Kodu": "DGATE",
-      "Hisse Adı": "DATAGATE BİLGİSAYAR MALZEMELERİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 117.6
+      "Hisse Fiyatı": 3.11
     },
     {
       "Hisse Kodu": "DZGYO",
@@ -6071,34 +6086,14 @@
       "Hisse Fiyatı": 8.38
     },
     {
-      "Hisse Kodu": "NUGYO",
-      "Hisse Adı": "NUROL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 9.65
+      "Hisse Kodu": "PAPIL",
+      "Hisse Adı": "PAPİLON SAVUNMA TEKNOLOJİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 16.33
     },
     {
-      "Hisse Kodu": "SANKO",
-      "Hisse Adı": "SANKO PAZARLAMA İTHALAT İHRACAT A.Ş.",
-      "Hisse Fiyatı": 22.52
-    },
-    {
-      "Hisse Kodu": "PRZMA",
-      "Hisse Adı": "PRİZMA PRES MATBAACILIK YAYINCILIK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 47.66
-    },
-    {
-      "Hisse Kodu": "DAGI",
-      "Hisse Adı": "DAGİ GİYİM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 8.17
-    },
-    {
-      "Hisse Kodu": "PNLSN",
-      "Hisse Adı": "PANELSAN ÇATI CEPHE SİSTEMLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 43.46
-    },
-    {
-      "Hisse Kodu": "ISSEN",
-      "Hisse Adı": "İŞBİR SENTETİK DOKUMA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 7.6
+      "Hisse Kodu": "VBTYZ",
+      "Hisse Adı": "VBT YAZILIM A.Ş.",
+      "Hisse Fiyatı": 28.22
     },
     {
       "Hisse Kodu": "GATEG",
@@ -6106,74 +6101,74 @@
       "Hisse Fiyatı": 290
     },
     {
-      "Hisse Kodu": "VBTYZ",
-      "Hisse Adı": "VBT YAZILIM A.Ş.",
-      "Hisse Fiyatı": 28.16
-    },
-    {
-      "Hisse Kodu": "PINSU",
-      "Hisse Adı": "PINAR SU VE İÇECEK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 11.31
-    },
-    {
-      "Hisse Kodu": "LKMNH",
-      "Hisse Adı": "LOKMAN HEKİM ENGÜRÜSAĞ SAĞLIK TURİZM EĞİTİM HİZMETLERİ VE İNŞAAT TAAHHÜT A.Ş.",
-      "Hisse Fiyatı": 15.06
+      "Hisse Kodu": "DAGI",
+      "Hisse Adı": "DAGİ GİYİM SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 8.22
     },
     {
       "Hisse Kodu": "BYDNR",
       "Hisse Adı": "Baydoner Restoranlari A.S.",
-      "Hisse Fiyatı": 38.88
+      "Hisse Fiyatı": 38.52
+    },
+    {
+      "Hisse Kodu": "PNLSN",
+      "Hisse Adı": "PANELSAN ÇATI CEPHE SİSTEMLERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 43.64
+    },
+    {
+      "Hisse Kodu": "LKMNH",
+      "Hisse Adı": "LOKMAN HEKİM ENGÜRÜSAĞ SAĞLIK TURİZM EĞİTİM HİZMETLERİ VE İNŞAAT TAAHHÜT A.Ş.",
+      "Hisse Fiyatı": 14.99
+    },
+    {
+      "Hisse Kodu": "NUGYO",
+      "Hisse Adı": "NUROL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 9.7
+    },
+    {
+      "Hisse Kodu": "ISSEN",
+      "Hisse Adı": "İŞBİR SENTETİK DOKUMA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 7.63
+    },
+    {
+      "Hisse Kodu": "PINSU",
+      "Hisse Adı": "PINAR SU VE İÇECEK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 11.36
     },
     {
       "Hisse Kodu": "MNDRS",
       "Hisse Adı": "MENDERES TEKSTİL SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 11.59
-    },
-    {
-      "Hisse Kodu": "ATEKS",
-      "Hisse Adı": "AKIN TEKSTİL A.Ş.",
-      "Hisse Fiyatı": 134
+      "Hisse Fiyatı": 11.65
     },
     {
       "Hisse Kodu": "MTRKS",
       "Hisse Adı": "MATRİKS FİNANSAL TEKNOLOJİLER A.Ş.",
-      "Hisse Fiyatı": 31.24
-    },
-    {
-      "Hisse Kodu": "PAPIL",
-      "Hisse Adı": "PAPİLON SAVUNMA TEKNOLOJİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 16.11
-    },
-    {
-      "Hisse Kodu": "DGNMO",
-      "Hisse Adı": "DOĞANLAR MOBİLYA GRUBU İMALAT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 8.75
+      "Hisse Fiyatı": 30.92
     },
     {
       "Hisse Kodu": "MARBL",
       "Hisse Adı": "Tureks Turunc Madencilik Ic ve Dis Ticaret A.S.",
-      "Hisse Fiyatı": 13.4
+      "Hisse Fiyatı": 13.37
     },
     {
-      "Hisse Kodu": "MSGYO",
-      "Hisse Adı": "MİSTRAL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 6.32
-    },
-    {
-      "Hisse Kodu": "TEKTU",
-      "Hisse Adı": "TEK-ART İNŞAAT TİCARET TURİZM SANAYİ VE YATIRIMLAR A.Ş.",
-      "Hisse Fiyatı": 9.92
-    },
-    {
-      "Hisse Kodu": "LUKSK",
-      "Hisse Adı": "LÜKS KADİFE TİCARET VE SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 105.3
+      "Hisse Kodu": "DGNMO",
+      "Hisse Adı": "DOĞANLAR MOBİLYA GRUBU İMALAT SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 8.79
     },
     {
       "Hisse Kodu": "PKART",
       "Hisse Adı": "PLASTİKKART AKILLI KART İLETİŞİM SİSTEMLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 132.3
+      "Hisse Fiyatı": 132.6
+    },
+    {
+      "Hisse Kodu": "TEKTU",
+      "Hisse Adı": "TEK-ART İNŞAAT TİCARET TURİZM SANAYİ VE YATIRIMLAR A.Ş.",
+      "Hisse Fiyatı": 10.04
+    },
+    {
+      "Hisse Kodu": "MSGYO",
+      "Hisse Adı": "MİSTRAL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 6.37
     },
     {
       "Hisse Kodu": "HDFGS",
@@ -6181,14 +6176,24 @@
       "Hisse Fiyatı": 2.62
     },
     {
-      "Hisse Kodu": "PAMEL",
-      "Hisse Adı": "PAMEL YENİLENEBİLİR ELEKTRİK ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 91.45
+      "Hisse Kodu": "LUKSK",
+      "Hisse Adı": "LÜKS KADİFE TİCARET VE SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 105.1
     },
     {
       "Hisse Kodu": "ARTMS",
       "Hisse Adı": "Artemis Hali A. S.",
-      "Hisse Fiyatı": 41.92
+      "Hisse Fiyatı": 42.62
+    },
+    {
+      "Hisse Kodu": "MEKAG",
+      "Hisse Adı": "Meka Global Makine Imalat Sanayi Ve Ticaret A.S.",
+      "Hisse Fiyatı": 3.59
+    },
+    {
+      "Hisse Kodu": "PAMEL",
+      "Hisse Adı": "PAMEL YENİLENEBİLİR ELEKTRİK ÜRETİM A.Ş.",
+      "Hisse Fiyatı": 89
     },
     {
       "Hisse Kodu": "IMASM",
@@ -6198,32 +6203,37 @@
     {
       "Hisse Kodu": "EMKEL",
       "Hisse Adı": "EMEK ELEKTRİK ENDÜSTRİSİ A.Ş.",
-      "Hisse Fiyatı": 18.56
-    },
-    {
-      "Hisse Kodu": "MEKAG",
-      "Hisse Adı": "Meka Global Makine Imalat Sanayi Ve Ticaret A.S.",
-      "Hisse Fiyatı": 3.59
-    },
-    {
-      "Hisse Kodu": "ARENA",
-      "Hisse Adı": "ARENA BİLGİSAYAR SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 27.28
-    },
-    {
-      "Hisse Kodu": "RUZYE",
-      "Hisse Adı": "Ruzy Madencilik Ve Enerji Yatirimlari Sanayi Ve Ticaret A.S.",
-      "Hisse Fiyatı": 9.96
+      "Hisse Fiyatı": 18.64
     },
     {
       "Hisse Kodu": "PRKME",
       "Hisse Adı": "PARK ELEKTRİK ÜRETİM MADENCİLİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 18.67
+      "Hisse Fiyatı": 18.74
+    },
+    {
+      "Hisse Kodu": "RUZYE",
+      "Hisse Adı": "Ruzy Madencilik Ve Enerji Yatirimlari Sanayi Ve Ticaret A.S.",
+      "Hisse Fiyatı": 9.95
+    },
+    {
+      "Hisse Kodu": "ARENA",
+      "Hisse Adı": "ARENA BİLGİSAYAR SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 27.26
+    },
+    {
+      "Hisse Kodu": "SNICA",
+      "Hisse Adı": "SANİCA ISI SANAYİ A.Ş.",
+      "Hisse Fiyatı": 4.99
     },
     {
       "Hisse Kodu": "DNISI",
       "Hisse Adı": "DİNAMİK ISI MAKİNA YALITIM MALZEMELERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 22.4
+      "Hisse Fiyatı": 22.66
+    },
+    {
+      "Hisse Kodu": "DURKN",
+      "Hisse Adı": "Durukan Sekerleme Sanayi ve Ticaret AS",
+      "Hisse Fiyatı": 20.16
     },
     {
       "Hisse Kodu": "MARTI",
@@ -6231,34 +6241,14 @@
       "Hisse Fiyatı": 1.78
     },
     {
-      "Hisse Kodu": "DERHL",
-      "Hisse Adı": "DERLÜKS YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 13.43
-    },
-    {
       "Hisse Kodu": "CMBTN",
       "Hisse Adı": "ÇİMBETON HAZIRBETON VE PREFABRİK YAPI ELEMANLARI SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 1501
+      "Hisse Fiyatı": 1504
     },
     {
-      "Hisse Kodu": "BEYAZ",
-      "Hisse Adı": "BEYAZ FİLO OTO KİRALAMA A.Ş.",
-      "Hisse Fiyatı": 26.02
-    },
-    {
-      "Hisse Kodu": "KRGYO",
-      "Hisse Adı": "KÖRFEZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.62
-    },
-    {
-      "Hisse Kodu": "DURKN",
-      "Hisse Adı": "Durukan Sekerleme Sanayi ve Ticaret AS",
-      "Hisse Fiyatı": 20.2
-    },
-    {
-      "Hisse Kodu": "SKYLP",
-      "Hisse Adı": "Skyalp Finansal Teknolojiler ve Danismanlik A.S",
-      "Hisse Fiyatı": 273
+      "Hisse Kodu": "DERHL",
+      "Hisse Adı": "DERLÜKS YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 13.44
     },
     {
       "Hisse Kodu": "DURDO",
@@ -6266,24 +6256,29 @@
       "Hisse Fiyatı": 5.22
     },
     {
-      "Hisse Kodu": "ANGEN",
-      "Hisse Adı": "ANATOLİA TANI VE BİYOTEKNOLOJİ ÜRÜNLERİ ARAŞTIRMA GELİŞTİRME SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 10.83
+      "Hisse Kodu": "BEYAZ",
+      "Hisse Adı": "BEYAZ FİLO OTO KİRALAMA A.Ş.",
+      "Hisse Fiyatı": 26.08
+    },
+    {
+      "Hisse Kodu": "KRGYO",
+      "Hisse Adı": "KÖRFEZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 2.63
+    },
+    {
+      "Hisse Kodu": "SKYLP",
+      "Hisse Adı": "Skyalp Finansal Teknolojiler ve Danismanlik A.S",
+      "Hisse Fiyatı": 276
     },
     {
       "Hisse Kodu": "LRSHO",
       "Hisse Adı": "Loras Holding Anonim Sirketi",
-      "Hisse Fiyatı": 3.43
+      "Hisse Fiyatı": 3.46
     },
     {
       "Hisse Kodu": "TGSAS",
       "Hisse Adı": "TGS DIŞ TİCARET A.Ş.",
-      "Hisse Fiyatı": 171.8
-    },
-    {
-      "Hisse Kodu": "AKSUE",
-      "Hisse Adı": "AKSU ENERJİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 37.34
+      "Hisse Fiyatı": 171.9
     },
     {
       "Hisse Kodu": "FORMT",
@@ -6291,69 +6286,54 @@
       "Hisse Fiyatı": 2.19
     },
     {
-      "Hisse Kodu": "KLMSN",
-      "Hisse Adı": "KLİMASAN KLİMA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 31.02
-    },
-    {
-      "Hisse Kodu": "SNICA",
-      "Hisse Adı": "SANİCA ISI SANAYİ A.Ş.",
-      "Hisse Fiyatı": 4.54
-    },
-    {
-      "Hisse Kodu": "EDIP",
-      "Hisse Adı": "EDİP GAYRİMENKUL YATIRIM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 36.66
-    },
-    {
       "Hisse Kodu": "MAKTK",
       "Hisse Adı": "MAKİNA TAKIM ENDÜSTRİSİ A.Ş.",
-      "Hisse Fiyatı": 12.35
+      "Hisse Fiyatı": 12.39
     },
     {
-      "Hisse Kodu": "VANGD",
-      "Hisse Adı": "VANET GIDA SANAYİ İÇ VE DIŞ TİCARET A.Ş.",
-      "Hisse Fiyatı": 95.95
+      "Hisse Kodu": "AKSUE",
+      "Hisse Adı": "AKSU ENERJİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 37.06
     },
     {
-      "Hisse Kodu": "EGSER",
-      "Hisse Adı": "EGE SERAMİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 3.33
-    },
-    {
-      "Hisse Kodu": "UNLU",
-      "Hisse Adı": "ÜNLÜ YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 13.38
-    },
-    {
-      "Hisse Kodu": "BLCYT",
-      "Hisse Adı": "BİLİCİ YATIRIM SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 23.14
+      "Hisse Kodu": "KLMSN",
+      "Hisse Adı": "KLİMASAN KLİMA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 31.18
     },
     {
       "Hisse Kodu": "SEKUR",
       "Hisse Adı": "SEKURO PLASTİK AMBALAJ SANAYİ A.Ş.",
-      "Hisse Fiyatı": 12.99
+      "Hisse Fiyatı": 12.64
     },
     {
-      "Hisse Kodu": "MAKIM",
-      "Hisse Adı": "MAKİM MAKİNA TEKNOLOJİLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 19.35
+      "Hisse Kodu": "VANGD",
+      "Hisse Adı": "VANET GIDA SANAYİ İÇ VE DIŞ TİCARET A.Ş.",
+      "Hisse Fiyatı": 95.8
     },
     {
-      "Hisse Kodu": "OZRDN",
-      "Hisse Adı": "ÖZERDEN PLASTİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 30.02
+      "Hisse Kodu": "EGSER",
+      "Hisse Adı": "EGE SERAMİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 3.32
     },
     {
-      "Hisse Kodu": "VERTU",
-      "Hisse Adı": "VERUSATURK GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 41
+      "Hisse Kodu": "EDIP",
+      "Hisse Adı": "EDİP GAYRİMENKUL YATIRIM SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 36.7
+    },
+    {
+      "Hisse Kodu": "ANGEN",
+      "Hisse Adı": "ANATOLİA TANI VE BİYOTEKNOLOJİ ÜRÜNLERİ ARAŞTIRMA GELİŞTİRME SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 10.89
     },
     {
       "Hisse Kodu": "SKYMD",
       "Hisse Adı": "Seker Yatirim Menkul Degerler A.S.",
-      "Hisse Fiyatı": 15.1
+      "Hisse Fiyatı": 14.34
+    },
+    {
+      "Hisse Kodu": "UNLU",
+      "Hisse Adı": "ÜNLÜ YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 13.61
     },
     {
       "Hisse Kodu": "SELVA",
@@ -6361,14 +6341,39 @@
       "Hisse Fiyatı": 2.18
     },
     {
+      "Hisse Kodu": "OZRDN",
+      "Hisse Adı": "ÖZERDEN PLASTİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 30.3
+    },
+    {
+      "Hisse Kodu": "BLCYT",
+      "Hisse Adı": "BİLİCİ YATIRIM SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 23.32
+    },
+    {
+      "Hisse Kodu": "MAKIM",
+      "Hisse Adı": "MAKİM MAKİNA TEKNOLOJİLERİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 19.54
+    },
+    {
       "Hisse Kodu": "AGYO",
       "Hisse Adı": "ATAKULE GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
       "Hisse Fiyatı": 8.11
     },
     {
+      "Hisse Kodu": "VERTU",
+      "Hisse Adı": "VERUSATURK GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 41.06
+    },
+    {
+      "Hisse Kodu": "KRSTL",
+      "Hisse Adı": "KRİSTAL KOLA VE MEŞRUBAT SANAYİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 11.02
+    },
+    {
       "Hisse Kodu": "CONSE",
       "Hisse Adı": "CONSUS ENERJİ İŞLETMECİLİĞİ VE HİZMETLERİ A.Ş.",
-      "Hisse Fiyatı": 2.73
+      "Hisse Fiyatı": 2.75
     },
     {
       "Hisse Kodu": "BIZIM",
@@ -6376,29 +6381,14 @@
       "Hisse Fiyatı": 25.88
     },
     {
-      "Hisse Kodu": "KRSTL",
-      "Hisse Adı": "KRİSTAL KOLA VE MEŞRUBAT SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 11
-    },
-    {
-      "Hisse Kodu": "SUMAS",
-      "Hisse Adı": "SUMAŞ SUNİ TAHTA VE MOBİLYA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 345
+      "Hisse Kodu": "OZGYO",
+      "Hisse Adı": "ÖZDERİCİ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 2.15
     },
     {
       "Hisse Kodu": "ULUFA",
       "Hisse Adı": "ULUSAL FAKTORİNG A.Ş.",
-      "Hisse Fiyatı": 1.89
-    },
-    {
-      "Hisse Kodu": "TLMAN",
-      "Hisse Adı": "TRABZON LİMAN İŞLETMECİLİĞİ A.Ş.",
-      "Hisse Fiyatı": 95
-    },
-    {
-      "Hisse Kodu": "OZGYO",
-      "Hisse Adı": "ÖZDERİCİ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.15
+      "Hisse Fiyatı": 1.92
     },
     {
       "Hisse Kodu": "DERIM",
@@ -6406,9 +6396,14 @@
       "Hisse Fiyatı": 37.32
     },
     {
-      "Hisse Kodu": "BRKO",
-      "Hisse Adı": "BİRKO BİRLEŞİK KOYUNLULULAR MENSUCAT TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 13.9
+      "Hisse Kodu": "SUMAS",
+      "Hisse Adı": "SUMAŞ SUNİ TAHTA VE MOBİLYA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 330.25
+    },
+    {
+      "Hisse Kodu": "TLMAN",
+      "Hisse Adı": "TRABZON LİMAN İŞLETMECİLİĞİ A.Ş.",
+      "Hisse Fiyatı": 94.85
     },
     {
       "Hisse Kodu": "RUBNS",
@@ -6416,59 +6411,44 @@
       "Hisse Fiyatı": 24.2
     },
     {
-      "Hisse Kodu": "PENGD",
-      "Hisse Adı": "PENGUEN GIDA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 10.99
-    },
-    {
-      "Hisse Kodu": "GLRYH",
-      "Hisse Adı": "GÜLER YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 3.21
-    },
-    {
-      "Hisse Kodu": "KFEIN",
-      "Hisse Adı": "KAFEİN YAZILIM HİZMETLERİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 9.68
-    },
-    {
       "Hisse Kodu": "ICUGS",
       "Hisse Adı": "ICU Girisim Sermayesi Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 5.65
+      "Hisse Fiyatı": 5.61
     },
     {
       "Hisse Kodu": "DMSAS",
       "Hisse Adı": "DEMİSAŞ DÖKÜM EMAYE MAMÜLLERİ SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 9.8
+      "Hisse Fiyatı": 9.85
+    },
+    {
+      "Hisse Kodu": "BRKO",
+      "Hisse Adı": "BİRKO BİRLEŞİK KOYUNLULULAR MENSUCAT TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 14
     },
     {
       "Hisse Kodu": "MARKA",
       "Hisse Adı": "MARKA YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 92.05
+      "Hisse Fiyatı": 92.8
     },
     {
-      "Hisse Kodu": "BRMEN",
-      "Hisse Adı": "BİRLİK MENSUCAT TİCARET VE SANAYİ İŞLETMESİ A.Ş.",
-      "Hisse Fiyatı": 19.55
+      "Hisse Kodu": "GLRYH",
+      "Hisse Adı": "GÜLER YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 3.24
+    },
+    {
+      "Hisse Kodu": "PENGD",
+      "Hisse Adı": "PENGUEN GIDA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 11.02
+    },
+    {
+      "Hisse Kodu": "KFEIN",
+      "Hisse Adı": "KAFEİN YAZILIM HİZMETLERİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 9.62
     },
     {
       "Hisse Kodu": "IHLGM",
       "Hisse Adı": "İHLAS GAYRİMENKUL PROJE GELİŞTİRME VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 1.91
-    },
-    {
-      "Hisse Kodu": "RTALB",
-      "Hisse Adı": "RTA LABORATUVARLARI BİYOLOJİK ÜRÜNLER İLAÇ VE MAKİNE SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 3.62
-    },
-    {
-      "Hisse Kodu": "GSDDE",
-      "Hisse Adı": "GSD DENİZCİLİK GAYRİMENKUL İNŞAAT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 12.12
-    },
-    {
-      "Hisse Kodu": "A1YEN",
-      "Hisse Adı": "A1 Yenilenebilir Enerji Uretim AS",
-      "Hisse Fiyatı": 3.05
+      "Hisse Fiyatı": 1.93
     },
     {
       "Hisse Kodu": "ISBIR",
@@ -6476,14 +6456,24 @@
       "Hisse Fiyatı": 72
     },
     {
-      "Hisse Kodu": "INTEK",
-      "Hisse Adı": "Innosa Teknoloji Anonim Sirketi",
-      "Hisse Fiyatı": 224
+      "Hisse Kodu": "A1YEN",
+      "Hisse Adı": "A1 Yenilenebilir Enerji Uretim AS",
+      "Hisse Fiyatı": 3.05
+    },
+    {
+      "Hisse Kodu": "GSDDE",
+      "Hisse Adı": "GSD DENİZCİLİK GAYRİMENKUL İNŞAAT SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 12.14
     },
     {
       "Hisse Kodu": "DOFER",
       "Hisse Adı": "Dofer Yapi Maizemeleri Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 32.48
+      "Hisse Fiyatı": 32.68
+    },
+    {
+      "Hisse Kodu": "RTALB",
+      "Hisse Adı": "RTA LABORATUVARLARI BİYOLOJİK ÜRÜNLER İLAÇ VE MAKİNE SANAYİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 3.67
     },
     {
       "Hisse Kodu": "SKTAS",
@@ -6491,14 +6481,24 @@
       "Hisse Fiyatı": 3.62
     },
     {
-      "Hisse Kodu": "OSTIM",
-      "Hisse Adı": "OSTİM ENDÜSTRİYEL YATIRIMLAR VE İŞLETME A.Ş.",
-      "Hisse Fiyatı": 2.05
+      "Hisse Kodu": "INTEK",
+      "Hisse Adı": "Innosa Teknoloji Anonim Sirketi",
+      "Hisse Fiyatı": 225.1
     },
     {
       "Hisse Kodu": "AVGYO",
       "Hisse Adı": "AVRASYA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 15.65
+      "Hisse Fiyatı": 15.77
+    },
+    {
+      "Hisse Kodu": "BRMEN",
+      "Hisse Adı": "BİRLİK MENSUCAT TİCARET VE SANAYİ İŞLETMESİ A.Ş.",
+      "Hisse Fiyatı": 17.6
+    },
+    {
+      "Hisse Kodu": "VRGYO",
+      "Hisse Adı": "Vera Konsept Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 2.13
     },
     {
       "Hisse Kodu": "OBASE",
@@ -6506,34 +6506,29 @@
       "Hisse Fiyatı": 37.78
     },
     {
-      "Hisse Kodu": "VRGYO",
-      "Hisse Adı": "Vera Konsept Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 2.1
+      "Hisse Kodu": "CUSAN",
+      "Hisse Adı": "ÇUHADAROĞLU METAL SANAYİ VE PAZARLAMA A.Ş.",
+      "Hisse Fiyatı": 24.04
     },
     {
       "Hisse Kodu": "EYGYO",
       "Hisse Adı": "EYG GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.44
+      "Hisse Fiyatı": 2.45
     },
     {
       "Hisse Kodu": "MEPET",
       "Hisse Adı": "MEPET METRO PETROL VE TESİSLERİ SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 23.1
+      "Hisse Fiyatı": 23.2
     },
     {
-      "Hisse Kodu": "CUSAN",
-      "Hisse Adı": "ÇUHADAROĞLU METAL SANAYİ VE PAZARLAMA A.Ş.",
-      "Hisse Fiyatı": 23.98
+      "Hisse Kodu": "GLBMD",
+      "Hisse Adı": "GLOBAL MENKUL DEĞERLER A.Ş.",
+      "Hisse Fiyatı": 14
     },
     {
       "Hisse Kodu": "FRIGO",
       "Hisse Adı": "FRİGO-PAK GIDA MADDELERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 1.95
-    },
-    {
-      "Hisse Kodu": "ZEDUR",
-      "Hisse Adı": "ZEDUR ENERJİ ELEKTRİK ÜRETİM A.Ş.",
-      "Hisse Fiyatı": 9.2
+      "Hisse Fiyatı": 1.97
     },
     {
       "Hisse Kodu": "EUHOL",
@@ -6541,29 +6536,39 @@
       "Hisse Fiyatı": 10.94
     },
     {
+      "Hisse Kodu": "OSTIM",
+      "Hisse Adı": "OSTİM ENDÜSTRİYEL YATIRIMLAR VE İŞLETME A.Ş.",
+      "Hisse Fiyatı": 2.06
+    },
+    {
       "Hisse Kodu": "KRPLS",
       "Hisse Adı": "KOROPLAST TEMİZLİK AMBALAJ ÜRÜNLERİ SANAYİ VE DIŞ TİCARET A.Ş.",
-      "Hisse Fiyatı": 9.24
+      "Hisse Fiyatı": 9.17
+    },
+    {
+      "Hisse Kodu": "ZEDUR",
+      "Hisse Adı": "ZEDUR ENERJİ ELEKTRİK ÜRETİM A.Ş.",
+      "Hisse Fiyatı": 10.12
     },
     {
       "Hisse Kodu": "BNTAS",
       "Hisse Adı": "BANTAŞ BANDIRMA AMBALAJ SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 6.53
-    },
-    {
-      "Hisse Kodu": "YKSLN",
-      "Hisse Adı": "YÜKSELEN ÇELİK A.Ş.",
-      "Hisse Fiyatı": 3.12
-    },
-    {
-      "Hisse Kodu": "DENGE",
-      "Hisse Adı": "DENGE YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 2.5
+      "Hisse Fiyatı": 6.56
     },
     {
       "Hisse Kodu": "BMSCH",
       "Hisse Adı": "BMS ÇELİK HASIR SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 15.91
+      "Hisse Fiyatı": 15.98
+    },
+    {
+      "Hisse Kodu": "YKSLN",
+      "Hisse Adı": "YÜKSELEN ÇELİK A.Ş.",
+      "Hisse Fiyatı": 3.13
+    },
+    {
+      "Hisse Kodu": "AVHOL",
+      "Hisse Adı": "AVRUPA YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 41
     },
     {
       "Hisse Kodu": "YYAPI",
@@ -6571,44 +6576,34 @@
       "Hisse Fiyatı": 0.9
     },
     {
-      "Hisse Kodu": "GLBMD",
-      "Hisse Adı": "GLOBAL MENKUL DEĞERLER A.Ş.",
-      "Hisse Fiyatı": 14.33
-    },
-    {
       "Hisse Kodu": "ACSEL",
       "Hisse Adı": "ACISELSAN ACIPAYAM SELÜLOZ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 141
+      "Hisse Fiyatı": 141.5
     },
     {
-      "Hisse Kodu": "AVHOL",
-      "Hisse Adı": "AVRUPA YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 41.6
+      "Hisse Kodu": "DENGE",
+      "Hisse Adı": "DENGE YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 2.55
     },
     {
       "Hisse Kodu": "TUCLK",
       "Hisse Adı": "TUĞÇELİK ALÜMİNYUM VE METAL MAMÜLLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 4.06
-    },
-    {
-      "Hisse Kodu": "OTTO",
-      "Hisse Adı": "OTTO HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 185.6
+      "Hisse Fiyatı": 4.08
     },
     {
       "Hisse Kodu": "GEDZA",
       "Hisse Adı": "GEDİZ AMBALAJ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 31.3
+      "Hisse Fiyatı": 31.48
+    },
+    {
+      "Hisse Kodu": "OTTO",
+      "Hisse Adı": "OTTO HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 183.7
     },
     {
       "Hisse Kodu": "PRDGS",
       "Hisse Adı": "PARDUS GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 7.2
-    },
-    {
-      "Hisse Kodu": "MERKO",
-      "Hisse Adı": "MERKO GIDA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 1.65
+      "Hisse Fiyatı": 7.21
     },
     {
       "Hisse Kodu": "RNPOL",
@@ -6616,39 +6611,24 @@
       "Hisse Fiyatı": 2.35
     },
     {
-      "Hisse Kodu": "HKTM",
-      "Hisse Adı": "HİDROPAR HAREKET KONTROL TEKNOLOJİLERİ MERKEZİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 12.1
+      "Hisse Kodu": "MERKO",
+      "Hisse Adı": "MERKO GIDA SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 1.65
     },
     {
       "Hisse Kodu": "NIBAS",
       "Hisse Adı": "NİĞBAŞ NİĞDE BETON SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 4.21
+      "Hisse Fiyatı": 4.24
     },
     {
       "Hisse Kodu": "FADE",
       "Hisse Adı": "FADE GIDA YATIRIM SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 15.72
+      "Hisse Fiyatı": 15.84
     },
     {
       "Hisse Kodu": "ETILR",
       "Hisse Adı": "ETİLER GIDA VE TİCARİ YATIRIMLAR SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 5.48
-    },
-    {
-      "Hisse Kodu": "SANEL",
-      "Hisse Adı": "SAN-EL MÜHENDİSLİK ELEKTRİK TAAHHÜT SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 71.25
-    },
-    {
-      "Hisse Kodu": "ISYAT",
-      "Hisse Adı": "İŞ YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 8.09
-    },
-    {
-      "Hisse Kodu": "BAYRK",
-      "Hisse Adı": "BAYRAK EBT TABAN SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 4.82
+      "Hisse Fiyatı": 5.49
     },
     {
       "Hisse Kodu": "TRILC",
@@ -6656,134 +6636,139 @@
       "Hisse Fiyatı": 1.26
     },
     {
+      "Hisse Kodu": "SANEL",
+      "Hisse Adı": "SAN-EL MÜHENDİSLİK ELEKTRİK TAAHHÜT SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 71.95
+    },
+    {
+      "Hisse Kodu": "ISYAT",
+      "Hisse Adı": "İŞ YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 8.13
+    },
+    {
+      "Hisse Kodu": "HKTM",
+      "Hisse Adı": "HİDROPAR HAREKET KONTROL TEKNOLOJİLERİ MERKEZİ SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 11.09
+    },
+    {
       "Hisse Kodu": "ARZUM",
       "Hisse Adı": "ARZUM ELEKTRİKLİ EV ALETLERİ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 2.03
+      "Hisse Fiyatı": 2.05
+    },
+    {
+      "Hisse Kodu": "BAYRK",
+      "Hisse Adı": "BAYRAK EBT TABAN SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 4.79
     },
     {
       "Hisse Kodu": "YAYLA",
       "Hisse Adı": "YAYLA ENERJİ ÜRETİM TURİZM VE İNŞAAT TİCARET A.Ş.",
-      "Hisse Fiyatı": 23.7
+      "Hisse Fiyatı": 23.76
     },
     {
       "Hisse Kodu": "IZINV",
       "Hisse Adı": "İZ YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 66.6
-    },
-    {
-      "Hisse Kodu": "FLAP",
-      "Hisse Adı": "FLAP KONGRE TOPLANTI HİZMETLERİ OTOMOTİV VE TURİZM A.Ş.",
-      "Hisse Fiyatı": 11.89
-    },
-    {
-      "Hisse Kodu": "AVOD",
-      "Hisse Adı": "A.V.O.D. KURUTULMUŞ GIDA VE TARIM ÜRÜNLERİ SANAYİ TİCARET A.Ş.",
-      "Hisse Fiyatı": 4.12
+      "Hisse Fiyatı": 65.4
     },
     {
       "Hisse Kodu": "CEOEM",
       "Hisse Adı": "CEO EVENT MEDYA A.Ş.",
-      "Hisse Fiyatı": 25.54
+      "Hisse Fiyatı": 25.46
     },
     {
-      "Hisse Kodu": "EPLAS",
-      "Hisse Adı": "EGEPLAST EGE PLASTİK TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 5.63
+      "Hisse Kodu": "FLAP",
+      "Hisse Adı": "FLAP KONGRE TOPLANTI HİZMETLERİ OTOMOTİV VE TURİZM A.Ş.",
+      "Hisse Fiyatı": 11.52
+    },
+    {
+      "Hisse Kodu": "AVOD",
+      "Hisse Adı": "A.V.O.D. KURUTULMUŞ GIDA VE TARIM ÜRÜNLERİ SANAYİ TİCARET A.Ş.",
+      "Hisse Fiyatı": 4.17
     },
     {
       "Hisse Kodu": "IHGZT",
       "Hisse Adı": "İHLAS GAZETECİLİK A.Ş.",
-      "Hisse Fiyatı": 1.35
+      "Hisse Fiyatı": 1.37
     },
     {
       "Hisse Kodu": "TDGYO",
       "Hisse Adı": "TREND GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 15.64
+      "Hisse Fiyatı": 15.5
     },
     {
-      "Hisse Kodu": "SODSN",
-      "Hisse Adı": "SODAŞ SODYUM SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 8.57
+      "Hisse Kodu": "EPLAS",
+      "Hisse Adı": "EGEPLAST EGE PLASTİK TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 5.69
     },
     {
       "Hisse Kodu": "VKING",
       "Hisse Adı": "VİKİNG KAĞIT VE SELÜLOZ A.Ş.",
-      "Hisse Fiyatı": 24.64
+      "Hisse Fiyatı": 24.6
     },
     {
-      "Hisse Kodu": "SMART",
-      "Hisse Adı": "SMARTİKS YAZILIM A.Ş.",
-      "Hisse Fiyatı": 31.88
+      "Hisse Kodu": "SODSN",
+      "Hisse Adı": "SODAŞ SODYUM SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 8.59
     },
     {
       "Hisse Kodu": "DESPC",
       "Hisse Adı": "DESPEC BİLGİSAYAR PAZARLAMA VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 44.58
+      "Hisse Fiyatı": 44.26
     },
     {
-      "Hisse Kodu": "SEKFK",
-      "Hisse Adı": "ŞEKER FİNANSAL KİRALAMA A.Ş.",
-      "Hisse Fiyatı": 10.14
+      "Hisse Kodu": "SMART",
+      "Hisse Adı": "SMARTİKS YAZILIM A.Ş.",
+      "Hisse Fiyatı": 32.7
     },
     {
       "Hisse Kodu": "HATEK",
       "Hisse Adı": "HATEKS HATAY TEKSTİL İŞLETMELERİ A.Ş.",
-      "Hisse Fiyatı": 16.08
-    },
-    {
-      "Hisse Kodu": "SILVR",
-      "Hisse Adı": "SİLVERLİNE ENDÜSTRİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 2.75
+      "Hisse Fiyatı": 16.05
     },
     {
       "Hisse Kodu": "OYAYO",
       "Hisse Adı": "OYAK YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 50.5
+      "Hisse Fiyatı": 50.15
     },
     {
-      "Hisse Kodu": "ORCAY",
-      "Hisse Adı": "ORÇAY ORTAKÖY ÇAY SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 3.99
+      "Hisse Kodu": "SEKFK",
+      "Hisse Adı": "ŞEKER FİNANSAL KİRALAMA A.Ş.",
+      "Hisse Fiyatı": 10.21
+    },
+    {
+      "Hisse Kodu": "SILVR",
+      "Hisse Adı": "SİLVERLİNE ENDÜSTRİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 2.71
     },
     {
       "Hisse Kodu": "EMNIS",
       "Hisse Adı": "EMİNİŞ AMBALAJ SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 155.1
+      "Hisse Fiyatı": 159.5
+    },
+    {
+      "Hisse Kodu": "ORCAY",
+      "Hisse Adı": "ORÇAY ORTAKÖY ÇAY SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 3.95
     },
     {
       "Hisse Kodu": "COSMO",
       "Hisse Adı": "COSMOS YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 137.6
-    },
-    {
-      "Hisse Kodu": "SEYKM",
-      "Hisse Adı": "SEYİTLER KİMYA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 4.73
+      "Hisse Fiyatı": 138.6
     },
     {
       "Hisse Kodu": "PSDTC",
       "Hisse Adı": "PERGAMON STATUS DIŞ TİCARET A.Ş.",
-      "Hisse Fiyatı": 128.1
+      "Hisse Fiyatı": 130.1
+    },
+    {
+      "Hisse Kodu": "SEYKM",
+      "Hisse Adı": "SEYİTLER KİMYA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 4.71
     },
     {
       "Hisse Kodu": "YONGA",
       "Hisse Adı": "YONGA MOBİLYA SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 56.2
-    },
-    {
-      "Hisse Kodu": "SAMAT",
-      "Hisse Adı": "SARAY MATBAACILIK KAĞITÇILIK KIRTASİYECİLİK TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 7.21
-    },
-    {
-      "Hisse Kodu": "ERSU",
-      "Hisse Adı": "ERSU MEYVE VE GIDA SANAYİ A.Ş.",
-      "Hisse Fiyatı": 24.14
-    },
-    {
-      "Hisse Kodu": "YESIL",
-      "Hisse Adı": "YEŞİL YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 1.39
+      "Hisse Fiyatı": 56.5
     },
     {
       "Hisse Kodu": "MMCAS",
@@ -6791,39 +6776,44 @@
       "Hisse Fiyatı": 69
     },
     {
+      "Hisse Kodu": "YESIL",
+      "Hisse Adı": "YEŞİL YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 1.39
+    },
+    {
+      "Hisse Kodu": "ERSU",
+      "Hisse Adı": "ERSU MEYVE VE GIDA SANAYİ A.Ş.",
+      "Hisse Fiyatı": 24.5
+    },
+    {
       "Hisse Kodu": "BALAT",
       "Hisse Adı": "BALATACILAR BALATACILIK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 62.25
+      "Hisse Fiyatı": 62.45
     },
     {
       "Hisse Kodu": "VKFYO",
       "Hisse Adı": "VAKIF MENKUL KIYMET YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 28.12
-    },
-    {
-      "Hisse Kodu": "KRTEK",
-      "Hisse Adı": "KARSU TEKSTİL SANAYİİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 22.86
-    },
-    {
-      "Hisse Kodu": "HUBVC",
-      "Hisse Adı": "HUB GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 2.87
+      "Hisse Fiyatı": 28.26
     },
     {
       "Hisse Kodu": "ATSYH",
       "Hisse Adı": "ATLANTİS YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 103.3
+      "Hisse Fiyatı": 108
     },
     {
-      "Hisse Kodu": "ETYAT",
-      "Hisse Adı": "EURO TREND YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 13
+      "Hisse Kodu": "SAMAT",
+      "Hisse Adı": "SARAY MATBAACILIK KAĞITÇILIK KIRTASİYECİLİK TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 6.98
     },
     {
-      "Hisse Kodu": "AVTUR",
-      "Hisse Adı": "AVRASYA PETROL VE TURİSTİK TESİSLER YATIRIMLAR A.Ş.",
-      "Hisse Fiyatı": 17.51
+      "Hisse Kodu": "HUBVC",
+      "Hisse Adı": "HUB GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 2.9
+    },
+    {
+      "Hisse Kodu": "KRTEK",
+      "Hisse Adı": "KARSU TEKSTİL SANAYİİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 22.68
     },
     {
       "Hisse Kodu": "EKIZ",
@@ -6831,9 +6821,24 @@
       "Hisse Fiyatı": 85.7
     },
     {
+      "Hisse Kodu": "AVTUR",
+      "Hisse Adı": "AVRASYA PETROL VE TURİSTİK TESİSLER YATIRIMLAR A.Ş.",
+      "Hisse Fiyatı": 17.3
+    },
+    {
+      "Hisse Kodu": "ETYAT",
+      "Hisse Adı": "EURO TREND YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 12.91
+    },
+    {
+      "Hisse Kodu": "IDGYO",
+      "Hisse Adı": "İDEALİST GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 5.27
+    },
+    {
       "Hisse Kodu": "IHYAY",
       "Hisse Adı": "İHLAS YAYIN HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 1.67
+      "Hisse Fiyatı": 1.68
     },
     {
       "Hisse Kodu": "IHEVA",
@@ -6843,27 +6848,22 @@
     {
       "Hisse Kodu": "BRKSN",
       "Hisse Adı": "BERKOSAN YALITIM VE TECRİT MADDELERİ ÜRETİM VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 7.85
-    },
-    {
-      "Hisse Kodu": "IDGYO",
-      "Hisse Adı": "İDEALİST GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 5.15
+      "Hisse Fiyatı": 7.86
     },
     {
       "Hisse Kodu": "RODRG",
       "Hisse Adı": "RODRİGO TEKSTİL SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 24.82
+      "Hisse Fiyatı": 24.86
     },
     {
       "Hisse Kodu": "OYLUM",
       "Hisse Adı": "OYLUM SINAİ YATIRIMLAR A.Ş.",
-      "Hisse Fiyatı": 8.06
+      "Hisse Fiyatı": 8.14
     },
     {
       "Hisse Kodu": "EUKYO",
       "Hisse Adı": "EURO KAPİTAL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 11.29
+      "Hisse Fiyatı": 11.21
     },
     {
       "Hisse Kodu": "GRNYO",
@@ -6873,37 +6873,37 @@
     {
       "Hisse Kodu": "ULAS",
       "Hisse Adı": "ULAŞLAR TURİZM YATIRIMLARI VE DAYANIKLI TÜKETİM MALLARI TİCARET PAZARLAMA A.Ş.",
-      "Hisse Fiyatı": 25.7
+      "Hisse Fiyatı": 25.52
     },
     {
       "Hisse Kodu": "MZHLD",
       "Hisse Adı": "MAZHAR ZORLU HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 5.89
+      "Hisse Fiyatı": 5.93
     },
     {
       "Hisse Kodu": "AKYHO",
       "Hisse Adı": "AKDENİZ YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 2.51
+      "Hisse Fiyatı": 2.55
     },
     {
       "Hisse Kodu": "MEGAP",
       "Hisse Adı": "MEGA POLİETİLEN KÖPÜK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 2.2
+      "Hisse Fiyatı": 2.19
     },
     {
       "Hisse Kodu": "ATAGY",
       "Hisse Adı": "ATA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 11.96
+      "Hisse Fiyatı": 12.08
     },
     {
       "Hisse Kodu": "ATLAS",
       "Hisse Adı": "ATLAS MENKUL KIYMETLER YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 7.87
+      "Hisse Fiyatı": 7.82
     },
     {
       "Hisse Kodu": "MTRYO",
       "Hisse Adı": "METRO YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 10.8
+      "Hisse Fiyatı": 10.89
     },
     {
       "Hisse Kodu": "CASA",
@@ -6913,37 +6913,37 @@
     {
       "Hisse Kodu": "EUYO",
       "Hisse Adı": "EURO MENKUL KIYMET YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 5.81
+      "Hisse Fiyatı": 5.83
     },
     {
       "Hisse Kodu": "DIRIT",
       "Hisse Adı": "DİRİTEKS DİRİLİŞ TEKSTİL SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 25.8
-    },
-    {
-      "Hisse Kodu": "MARMR",
-      "Hisse Adı": "Marmara Holding AS",
-      "Hisse Fiyatı": 2.26
-    },
-    {
-      "Hisse Kodu": "LXGYO",
-      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 15.91
-    },
-    {
-      "Hisse Kodu": "MCARD",
-      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
-      "Hisse Fiyatı": 165.4
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 15.47
+      "Hisse Fiyatı": 26.3
     },
     {
       "Hisse Kodu": "ALTIN",
       "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 70.78
+      "Hisse Fiyatı": 70.87
+    },
+    {
+      "Hisse Kodu": "LXGYO",
+      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 15.81
+    },
+    {
+      "Hisse Kodu": "BESTE",
+      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
+      "Hisse Fiyatı": 33.44
+    },
+    {
+      "Hisse Kodu": "GENKM",
+      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
+      "Hisse Fiyatı": 14.34
+    },
+    {
+      "Hisse Kodu": "FRMPL",
+      "Hisse Adı": "Formul Plastik Ve Metal Sanayi AS",
+      "Hisse Fiyatı": 36.42
     },
     {
       "Hisse Kodu": "ENPRA",
@@ -6951,54 +6951,54 @@
       "Hisse Fiyatı": 65.65
     },
     {
-      "Hisse Kodu": "FRMPL",
-      "Hisse Adı": "Formul Plastik Ve Metal Sanayi AS",
-      "Hisse Fiyatı": 36.46
-    },
-    {
       "Hisse Kodu": "EMPAE",
       "Hisse Adı": "Empa Elektronik Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 78.6
+      "Hisse Fiyatı": 73.6
     },
     {
-      "Hisse Kodu": "BESTE",
-      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
-      "Hisse Fiyatı": 33.56
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 15.46
     },
     {
-      "Hisse Kodu": "GENKM",
-      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
-      "Hisse Fiyatı": 14.5
+      "Hisse Kodu": "MCARD",
+      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
+      "Hisse Fiyatı": 165
+    },
+    {
+      "Hisse Kodu": "MARMR",
+      "Hisse Adı": "Marmara Holding AS",
+      "Hisse Fiyatı": 2.48
     }
   ],
   "doviz": [
     {
       "Sembol": "BIST 100",
-      "Fiyat": "14.259,75"
+      "Fiyat": "14.351,80"
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "46,6249"
+      "Fiyat": "46,6251"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,0704"
+      "Fiyat": "53,0864"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "60,312"
+      "Fiyat": "60,629"
     },
     {
       "Sembol": "Tahvil",
-      "Fiyat": "37,21"
+      "Fiyat": "37,31"
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "74,79"
+      "Fiyat": "74,51"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.045,48"
+      "Fiyat": "6.054,27"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7022,7 +7022,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.031,22"
+      "Fiyat": "4.038,51"
     }
   ]
 }
