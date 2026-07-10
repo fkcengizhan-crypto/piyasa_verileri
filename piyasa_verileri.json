@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-07-10T21:15:04.828518+03:00",
+  "guncelleme_zamani": "2026-07-10T22:56:32.694018+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -3983,9 +3983,9 @@
       "Hisse Fiyatı": 190
     },
     {
-      "Hisse Kodu": "ISBTR",
+      "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 475897.5
+      "Hisse Fiyatı": 13.78
     },
     {
       "Hisse Kodu": "ISKUR",
@@ -3993,9 +3993,9 @@
       "Hisse Fiyatı": 4125000
     },
     {
-      "Hisse Kodu": "ISCTR",
+      "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 13.78
+      "Hisse Fiyatı": 475897.5
     },
     {
       "Hisse Kodu": "AKBNK",
@@ -4233,14 +4233,14 @@
       "Hisse Fiyatı": 1960
     },
     {
-      "Hisse Kodu": "DMLKT",
-      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
-      "Hisse Fiyatı": 6.04
-    },
-    {
       "Hisse Kodu": "EKGYO",
       "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
       "Hisse Fiyatı": 20.48
+    },
+    {
+      "Hisse Kodu": "DMLKT",
+      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "Hisse Fiyatı": 6.04
     },
     {
       "Hisse Kodu": "BRSAN",
@@ -4338,14 +4338,14 @@
       "Hisse Fiyatı": 37.78
     },
     {
-      "Hisse Kodu": "KRDMA",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 39.52
-    },
-    {
       "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 137
+    },
+    {
+      "Hisse Kodu": "KRDMA",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 39.52
     },
     {
       "Hisse Kodu": "GLRMK",
@@ -6083,14 +6083,14 @@
       "Hisse Fiyatı": 48.54
     },
     {
-      "Hisse Kodu": "DZGYO",
-      "Hisse Adı": "DENİZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 8.23
-    },
-    {
       "Hisse Kodu": "MACKO",
       "Hisse Adı": "MACKOLİK İNTERNET HİZMETLERİ TİCARET A.Ş.",
       "Hisse Fiyatı": 33.36
+    },
+    {
+      "Hisse Kodu": "DZGYO",
+      "Hisse Adı": "DENİZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 8.23
     },
     {
       "Hisse Kodu": "ENSRI",
@@ -6953,14 +6953,9 @@
       "Hisse Fiyatı": 20.96
     },
     {
-      "Hisse Kodu": "LXGYO",
-      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 13.36
-    },
-    {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 69.9
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 14.95
     },
     {
       "Hisse Kodu": "EMPAE",
@@ -6983,24 +6978,29 @@
       "Hisse Fiyatı": 85.55
     },
     {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 25.72
-    },
-    {
       "Hisse Kodu": "MCARD",
       "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
       "Hisse Fiyatı": 147
     },
     {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 14.95
+      "Hisse Kodu": "LXGYO",
+      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 13.36
     },
     {
-      "Hisse Kodu": "GENKM",
-      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
-      "Hisse Fiyatı": 12.91
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 69.9
+    },
+    {
+      "Hisse Kodu": "BESTE",
+      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
+      "Hisse Fiyatı": 30.72
+    },
+    {
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 25.72
     },
     {
       "Hisse Kodu": "ISVEA",
@@ -7008,9 +7008,9 @@
       "Hisse Fiyatı": 22.98
     },
     {
-      "Hisse Kodu": "BESTE",
-      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
-      "Hisse Fiyatı": 30.72
+      "Hisse Kodu": "GENKM",
+      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
+      "Hisse Fiyatı": 12.91
     }
   ],
   "doviz": [
@@ -7020,15 +7020,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "46,9821"
+      "Fiyat": "46,9799"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,6797"
+      "Fiyat": "53,6672"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "63,884"
+      "Fiyat": "63,999"
     },
     {
       "Sembol": "Tahvil",
@@ -7036,11 +7036,11 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "75,84"
+      "Fiyat": "76,09"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.200,32"
+      "Fiyat": "6.204,02"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7064,7 +7064,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.104,76"
+      "Fiyat": "4.107,11"
     }
   ]
 }
