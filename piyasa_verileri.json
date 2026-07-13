@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-07-13T18:32:41.547268+03:00",
+  "guncelleme_zamani": "2026-07-13T21:50:56.331482+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -3983,6 +3983,11 @@
       "Hisse Fiyatı": 196
     },
     {
+      "Hisse Kodu": "ISKUR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 4125000
+    },
+    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 459997.5
@@ -3991,11 +3996,6 @@
       "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 13.7
-    },
-    {
-      "Hisse Kodu": "ISKUR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 4125000
     },
     {
       "Hisse Kodu": "AKBNK",
@@ -4338,14 +4338,14 @@
       "Hisse Fiyatı": 38.24
     },
     {
-      "Hisse Kodu": "KRDMA",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 40.74
-    },
-    {
       "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 130.5
+    },
+    {
+      "Hisse Kodu": "KRDMA",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 40.74
     },
     {
       "Hisse Kodu": "ISMEN",
@@ -6953,9 +6953,14 @@
       "Hisse Fiyatı": 21.9
     },
     {
-      "Hisse Kodu": "BETAE",
-      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
-      "Hisse Fiyatı": 94.1
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 23.16
+    },
+    {
+      "Hisse Kodu": "LXGYO",
+      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 13.2
     },
     {
       "Hisse Kodu": "AAGYO",
@@ -6968,9 +6973,19 @@
       "Hisse Fiyatı": 73.1
     },
     {
-      "Hisse Kodu": "GENKM",
-      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
-      "Hisse Fiyatı": 12.73
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 62.55
+    },
+    {
+      "Hisse Kodu": "MCARD",
+      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
+      "Hisse Fiyatı": 144.5
+    },
+    {
+      "Hisse Kodu": "ORZAX",
+      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
+      "Hisse Fiyatı": 98.05
     },
     {
       "Hisse Kodu": "BESTE",
@@ -6983,34 +6998,19 @@
       "Hisse Fiyatı": 25.26
     },
     {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 23.16
+      "Hisse Kodu": "GENKM",
+      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
+      "Hisse Fiyatı": 12.73
     },
     {
-      "Hisse Kodu": "LXGYO",
-      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 13.2
-    },
-    {
-      "Hisse Kodu": "MCARD",
-      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
-      "Hisse Fiyatı": 144.5
+      "Hisse Kodu": "BETAE",
+      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
+      "Hisse Fiyatı": 94.1
     },
     {
       "Hisse Kodu": "ALTIN",
       "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
       "Hisse Fiyatı": 68.65
-    },
-    {
-      "Hisse Kodu": "ORZAX",
-      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
-      "Hisse Fiyatı": 98.05
-    },
-    {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 62.55
     }
   ],
   "doviz": [
@@ -7020,15 +7020,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "47,0024"
+      "Fiyat": "46,9985"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,6488"
+      "Fiyat": "53,5907"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "62,822"
+      "Fiyat": "62,000"
     },
     {
       "Sembol": "Tahvil",
@@ -7036,11 +7036,11 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "79,14"
+      "Fiyat": "82,48"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.068,87"
+      "Fiyat": "6.046,47"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7064,7 +7064,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.015,71"
+      "Fiyat": "4.000,97"
     }
   ]
 }
