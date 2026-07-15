@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-07-15T16:02:06.380006+03:00",
+  "guncelleme_zamani": "2026-07-15T16:32:05.053598+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -3983,11 +3983,6 @@
       "Hisse Fiyatı": 196.1
     },
     {
-      "Hisse Kodu": "ISKUR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 4125000
-    },
-    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 505995
@@ -3996,6 +3991,11 @@
       "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 13.89
+    },
+    {
+      "Hisse Kodu": "ISKUR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 4125000
     },
     {
       "Hisse Kodu": "AKBNK",
@@ -4318,14 +4318,14 @@
       "Hisse Fiyatı": 41.02
     },
     {
-      "Hisse Kodu": "KRDMD",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 40.84
-    },
-    {
       "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 135
+    },
+    {
+      "Hisse Kodu": "KRDMD",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 40.84
     },
     {
       "Hisse Kodu": "AYGAZ",
@@ -6958,9 +6958,39 @@
       "Hisse Fiyatı": 21.7
     },
     {
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 62
+    },
+    {
+      "Hisse Kodu": "LXGYO",
+      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 13.5
+    },
+    {
+      "Hisse Kodu": "GENKM",
+      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
+      "Hisse Fiyatı": 12.83
+    },
+    {
       "Hisse Kodu": "BETAE",
       "Hisse Adı": "Beta Enerji ve Teknoloji AS",
       "Hisse Fiyatı": 103.5
+    },
+    {
+      "Hisse Kodu": "MCARD",
+      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
+      "Hisse Fiyatı": 138
+    },
+    {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 14.91
+    },
+    {
+      "Hisse Kodu": "BESTE",
+      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
+      "Hisse Fiyatı": 33.28
     },
     {
       "Hisse Kodu": "ALTIN",
@@ -6968,9 +6998,9 @@
       "Hisse Fiyatı": 68.42
     },
     {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 62
+      "Hisse Kodu": "EMPAE",
+      "Hisse Adı": "Empa Elektronik Sanayi ve Ticaret A.S.",
+      "Hisse Fiyatı": 71.25
     },
     {
       "Hisse Kodu": "EKIM",
@@ -6981,36 +7011,6 @@
       "Hisse Kodu": "ORZAX",
       "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
       "Hisse Fiyatı": 107.8
-    },
-    {
-      "Hisse Kodu": "MCARD",
-      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
-      "Hisse Fiyatı": 138
-    },
-    {
-      "Hisse Kodu": "LXGYO",
-      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 13.5
-    },
-    {
-      "Hisse Kodu": "BESTE",
-      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
-      "Hisse Fiyatı": 33.28
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 14.91
-    },
-    {
-      "Hisse Kodu": "GENKM",
-      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
-      "Hisse Fiyatı": 12.83
-    },
-    {
-      "Hisse Kodu": "EMPAE",
-      "Hisse Adı": "Empa Elektronik Sanayi ve Ticaret A.S.",
-      "Hisse Fiyatı": 71.25
     }
   ],
   "doviz": [
@@ -7020,15 +7020,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "47,0316"
+      "Fiyat": "47,0313"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,7889"
+      "Fiyat": "53,7616"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "65,204"
+      "Fiyat": "65,412"
     },
     {
       "Sembol": "Tahvil",
@@ -7036,35 +7036,35 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "84,19"
+      "Fiyat": "84,43"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.149,67"
+      "Fiyat": "6.139,64"
     },
     {
       "Sembol": "Çey.Altın",
-      "Fiyat": "10.069,64"
+      "Fiyat": "10.058,05"
     },
     {
       "Sembol": "Tam Altın",
-      "Fiyat": "40.155,40"
+      "Fiyat": "40.109,17"
     },
     {
       "Sembol": "14 Ayar Bilezik",
-      "Fiyat": "3.510,52"
+      "Fiyat": "3.506,48"
     },
     {
       "Sembol": "18 Ayar Bilezik",
-      "Fiyat": "4.495,93"
+      "Fiyat": "4.490,75"
     },
     {
       "Sembol": "22 Ayar Bilezik",
-      "Fiyat": "5.616,83"
+      "Fiyat": "5.610,36"
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.066,65"
+      "Fiyat": "4.058,83"
     }
   ]
 }
