@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-07-15T12:02:03.798074+03:00",
+  "guncelleme_zamani": "2026-07-15T12:32:02.084324+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -3983,14 +3983,14 @@
       "Hisse Fiyatı": 196.1
     },
     {
-      "Hisse Kodu": "ISCTR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 13.89
-    },
-    {
       "Hisse Kodu": "ISKUR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 4125000
+    },
+    {
+      "Hisse Kodu": "ISCTR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 13.89
     },
     {
       "Hisse Kodu": "ISBTR",
@@ -6958,21 +6958,6 @@
       "Hisse Fiyatı": 21.7
     },
     {
-      "Hisse Kodu": "GENKM",
-      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
-      "Hisse Fiyatı": 12.83
-    },
-    {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 62
-    },
-    {
-      "Hisse Kodu": "MCARD",
-      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
-      "Hisse Fiyatı": 138
-    },
-    {
       "Hisse Kodu": "EMPAE",
       "Hisse Adı": "Empa Elektronik Sanayi ve Ticaret A.S.",
       "Hisse Fiyatı": 71.25
@@ -6981,21 +6966,6 @@
       "Hisse Kodu": "ORZAX",
       "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
       "Hisse Fiyatı": 107.8
-    },
-    {
-      "Hisse Kodu": "LXGYO",
-      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 13.5
-    },
-    {
-      "Hisse Kodu": "BETAE",
-      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
-      "Hisse Fiyatı": 103.5
-    },
-    {
-      "Hisse Kodu": "BESTE",
-      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
-      "Hisse Fiyatı": 33.28
     },
     {
       "Hisse Kodu": "EKIM",
@@ -7008,9 +6978,39 @@
       "Hisse Fiyatı": 68.42
     },
     {
+      "Hisse Kodu": "BESTE",
+      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
+      "Hisse Fiyatı": 33.28
+    },
+    {
+      "Hisse Kodu": "GENKM",
+      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
+      "Hisse Fiyatı": 12.83
+    },
+    {
       "Hisse Kodu": "AAGYO",
       "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
       "Hisse Fiyatı": 14.91
+    },
+    {
+      "Hisse Kodu": "BETAE",
+      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
+      "Hisse Fiyatı": 103.5
+    },
+    {
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 62
+    },
+    {
+      "Hisse Kodu": "MCARD",
+      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
+      "Hisse Fiyatı": 138
+    },
+    {
+      "Hisse Kodu": "LXGYO",
+      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 13.5
     }
   ],
   "doviz": [
@@ -7020,15 +7020,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "47,0299"
+      "Fiyat": "47,0277"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,7602"
+      "Fiyat": "53,7471"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "64,769"
+      "Fiyat": "64,802"
     },
     {
       "Sembol": "Tahvil",
@@ -7036,35 +7036,35 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "83,78"
+      "Fiyat": "84,41"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.097,77"
+      "Fiyat": "6.092,53"
     },
     {
       "Sembol": "Çey.Altın",
-      "Fiyat": "10.076,52"
+      "Fiyat": "9.980,77"
     },
     {
       "Sembol": "Tam Altın",
-      "Fiyat": "40.182,83"
+      "Fiyat": "39.800,99"
     },
     {
       "Sembol": "14 Ayar Bilezik",
-      "Fiyat": "3.512,92"
+      "Fiyat": "3.479,53"
     },
     {
       "Sembol": "18 Ayar Bilezik",
-      "Fiyat": "4.499,00"
+      "Fiyat": "4.456,25"
     },
     {
       "Sembol": "22 Ayar Bilezik",
-      "Fiyat": "5.620,67"
+      "Fiyat": "5.567,26"
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.033,94"
+      "Fiyat": "4.029,23"
     }
   ]
 }
