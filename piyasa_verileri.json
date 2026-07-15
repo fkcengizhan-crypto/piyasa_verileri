@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-07-15T13:02:03.803117+03:00",
+  "guncelleme_zamani": "2026-07-15T13:32:07.152155+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -3983,6 +3983,11 @@
       "Hisse Fiyatı": 196.1
     },
     {
+      "Hisse Kodu": "ISKUR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 4125000
+    },
+    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 505995
@@ -3991,11 +3996,6 @@
       "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 13.89
-    },
-    {
-      "Hisse Kodu": "ISKUR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 4125000
     },
     {
       "Hisse Kodu": "AKBNK",
@@ -6958,9 +6958,24 @@
       "Hisse Fiyatı": 21.7
     },
     {
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 68.42
+    },
+    {
       "Hisse Kodu": "AAGYO",
       "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
       "Hisse Fiyatı": 14.91
+    },
+    {
+      "Hisse Kodu": "GENKM",
+      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
+      "Hisse Fiyatı": 12.83
+    },
+    {
+      "Hisse Kodu": "MCARD",
+      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
+      "Hisse Fiyatı": 138
     },
     {
       "Hisse Kodu": "LXGYO",
@@ -6973,14 +6988,14 @@
       "Hisse Fiyatı": 103.5
     },
     {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 68.42
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 22.8
     },
     {
-      "Hisse Kodu": "BESTE",
-      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
-      "Hisse Fiyatı": 33.28
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 62
     },
     {
       "Hisse Kodu": "ORZAX",
@@ -6993,24 +7008,9 @@
       "Hisse Fiyatı": 71.25
     },
     {
-      "Hisse Kodu": "GENKM",
-      "Hisse Adı": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
-      "Hisse Fiyatı": 12.83
-    },
-    {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 22.8
-    },
-    {
-      "Hisse Kodu": "MCARD",
-      "Hisse Adı": "Metropal Kurumsal Hizmetler A.S.",
-      "Hisse Fiyatı": 138
-    },
-    {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 62
+      "Hisse Kodu": "BESTE",
+      "Hisse Adı": "Best Brands Grup Enerji Yatirim as",
+      "Hisse Fiyatı": 33.28
     }
   ],
   "doviz": [
@@ -7020,15 +7020,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "47,0301"
+      "Fiyat": "47,0313"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,7234"
+      "Fiyat": "53,7098"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "64,663"
+      "Fiyat": "64,655"
     },
     {
       "Sembol": "Tahvil",
@@ -7036,35 +7036,35 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "84,43"
+      "Fiyat": "84,79"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.093,67"
+      "Fiyat": "6.092,12"
     },
     {
       "Sembol": "Çey.Altın",
-      "Fiyat": "9.980,77"
+      "Fiyat": "9.988,11"
     },
     {
       "Sembol": "Tam Altın",
-      "Fiyat": "39.800,99"
+      "Fiyat": "39.830,28"
     },
     {
       "Sembol": "14 Ayar Bilezik",
-      "Fiyat": "3.479,53"
+      "Fiyat": "3.482,09"
     },
     {
       "Sembol": "18 Ayar Bilezik",
-      "Fiyat": "4.456,25"
+      "Fiyat": "4.459,52"
     },
     {
       "Sembol": "22 Ayar Bilezik",
-      "Fiyat": "5.567,26"
+      "Fiyat": "5.571,35"
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.029,87"
+      "Fiyat": "4.029,40"
     }
   ]
 }
