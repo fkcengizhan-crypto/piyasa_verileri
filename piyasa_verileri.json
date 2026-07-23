@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-07-23T18:32:04.989635+03:00",
+  "guncelleme_zamani": "2026-07-23T19:52:03.265750+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4318,6 +4318,11 @@
       "Hisse Fiyatı": 1804
     },
     {
+      "Hisse Kodu": "KRDMD",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 42.16
+    },
+    {
       "Hisse Kodu": "KRDMA",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 44.38
@@ -4326,11 +4331,6 @@
       "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 132.8
-    },
-    {
-      "Hisse Kodu": "KRDMD",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 42.16
     },
     {
       "Hisse Kodu": "ANSGR",
@@ -6983,14 +6983,9 @@
       "Hisse Fiyatı": 24.92
     },
     {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 61.9
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 14.44
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 21.52
     },
     {
       "Hisse Kodu": "BETAE",
@@ -6998,9 +6993,9 @@
       "Hisse Fiyatı": 90.25
     },
     {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 21.52
+      "Hisse Kodu": "LXGYO",
+      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "Hisse Fiyatı": 13.66
     },
     {
       "Hisse Kodu": "ALTIN",
@@ -7008,14 +7003,19 @@
       "Hisse Fiyatı": 68.5
     },
     {
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 61.9
+    },
+    {
       "Hisse Kodu": "ORZAX",
       "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
       "Hisse Fiyatı": 104.5
     },
     {
-      "Hisse Kodu": "LXGYO",
-      "Hisse Adı": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
-      "Hisse Fiyatı": 13.66
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 14.44
     }
   ],
   "doviz": [
@@ -7025,15 +7025,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "47,2354"
+      "Fiyat": "47,2339"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,8524"
+      "Fiyat": "53,8794"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "64,859"
+      "Fiyat": "64,732"
     },
     {
       "Sembol": "Tahvil",
@@ -7041,11 +7041,11 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "95,36"
+      "Fiyat": "95,11"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.144,16"
+      "Fiyat": "6.149,36"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7069,7 +7069,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.046,17"
+      "Fiyat": "4.048,92"
     }
   ]
 }
