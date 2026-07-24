@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-07-24T10:02:43.183151+03:00",
+  "guncelleme_zamani": "2026-07-24T10:03:21.959523+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4308,11 +4308,6 @@
       "Hisse Fiyatı": 22.56
     },
     {
-      "Hisse Kodu": "KRDMB",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 132.8
-    },
-    {
       "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 42.16
@@ -4321,6 +4316,11 @@
       "Hisse Kodu": "KRDMA",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 44.38
+    },
+    {
+      "Hisse Kodu": "KRDMB",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 132.8
     },
     {
       "Hisse Kodu": "BSOKE",
@@ -6988,14 +6988,9 @@
       "Hisse Fiyatı": 104.5
     },
     {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 68.5
-    },
-    {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 61.9
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 14.44
     },
     {
       "Hisse Kodu": "EKIM",
@@ -7008,9 +7003,14 @@
       "Hisse Fiyatı": 13.66
     },
     {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 14.44
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 68.5
+    },
+    {
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 61.9
     },
     {
       "Hisse Kodu": "BETAE",
@@ -7025,11 +7025,11 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "47,3452"
+      "Fiyat": "47,3451"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "53,9592"
+      "Fiyat": "53,9556"
     },
     {
       "Sembol": "BTCUSD",
@@ -7041,11 +7041,11 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "93,30"
+      "Fiyat": "93,37"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.147,06"
+      "Fiyat": "6.147,13"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7069,7 +7069,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.038,44"
+      "Fiyat": "4.036,87"
     }
   ]
 }
