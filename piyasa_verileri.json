@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-09-08T18:28:29.878352+03:00",
+  "guncelleme_zamani": "2026-09-08T18:32:10.050308+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4303,11 +4303,6 @@
       "Hisse Fiyatı": 15.38
     },
     {
-      "Hisse Kodu": "KRDMA",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 56.7
-    },
-    {
       "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 102.3
@@ -4316,6 +4311,11 @@
       "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 45.98
+    },
+    {
+      "Hisse Kodu": "KRDMA",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 56.7
     },
     {
       "Hisse Kodu": "ANELE",
@@ -7048,24 +7048,9 @@
       "Hisse Fiyatı": 4.69
     },
     {
-      "Hisse Kodu": "ORZAX",
-      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
-      "Hisse Fiyatı": 88.15
-    },
-    {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 56.35
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 12.07
-    },
-    {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 17.98
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 74.35
     },
     {
       "Hisse Kodu": "BETAE",
@@ -7073,9 +7058,24 @@
       "Hisse Fiyatı": 81.9
     },
     {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 74.35
+      "Hisse Kodu": "ORZAX",
+      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
+      "Hisse Fiyatı": 88.15
+    },
+    {
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 17.98
+    },
+    {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 12.07
+    },
+    {
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 56.35
     }
   ],
   "doviz": [
@@ -7085,15 +7085,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "48,4576"
+      "Fiyat": "48,4559"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "56,4040"
+      "Fiyat": "56,3985"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "78,493"
+      "Fiyat": "78,467"
     },
     {
       "Sembol": "Tahvil",
@@ -7101,11 +7101,11 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "97,97"
+      "Fiyat": "97,81"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.855,38"
+      "Fiyat": "6.858,41"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7129,7 +7129,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.400,68"
+      "Fiyat": "4.402,10"
     }
   ]
 }
