@@ -1,755 +1,755 @@
 {
-  "guncelleme_zamani": "2026-10-14T18:32:05.457142+03:00",
+  "guncelleme_zamani": "2026-10-15T10:02:07.712659+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
       "Fon Adı": "ATA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.680855
+      "Fon Fiyatı": 3.684031
     },
     {
       "Fon Kodu": "AAV",
       "Fon Adı": "ATA PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 60.643186
+      "Fon Fiyatı": 60.097305
     },
     {
       "Fon Kodu": "AC4",
       "Fon Adı": "PARDUS PORTFÖY PARA PİYASASI (TL) FON",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.002356
+      "Fon Fiyatı": 0.002355
     },
     {
       "Fon Kodu": "ACC",
       "Fon Adı": "İSTANBUL PORTFÖY DÖRDÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 41.220085
+      "Fon Fiyatı": 40.838617
     },
     {
       "Fon Kodu": "ACD",
       "Fon Adı": "İSTANBUL PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.879709
+      "Fon Fiyatı": 5.837003
     },
     {
       "Fon Kodu": "ADE",
       "Fon Adı": "AK PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.933666
+      "Fon Fiyatı": 0.93455
     },
     {
       "Fon Kodu": "ADP",
       "Fon Adı": "AK PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.259708
+      "Fon Fiyatı": 1.244518
     },
     {
       "Fon Kodu": "AED",
       "Fon Adı": "ATA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 111.451487
+      "Fon Fiyatı": 110.101108
     },
     {
       "Fon Kodu": "AES",
       "Fon Adı": "AK PORTFÖY PETROL YABANCI BYF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.214942
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "AEV",
       "Fon Adı": "ALLBATROSS PORTFÖY SANAYİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.772518
+      "Fon Fiyatı": 1.74612
     },
     {
       "Fon Kodu": "AFA",
       "Fon Adı": "AK PORTFÖY AMERİKA YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.337353
+      "Fon Fiyatı": 1.328636
     },
     {
       "Fon Kodu": "AFO",
       "Fon Adı": "AK PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.301107
+      "Fon Fiyatı": 1.289688
     },
     {
       "Fon Kodu": "AFS",
       "Fon Adı": "AK PORTFÖY SAĞLIK SEKTÖRÜ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.36482
+      "Fon Fiyatı": 0.36557
     },
     {
       "Fon Kodu": "AFT",
       "Fon Adı": "AK PORTFÖY YENİ TEKNOLOJİLER YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.014407
+      "Fon Fiyatı": 1.005955
     },
     {
       "Fon Kodu": "AFV",
       "Fon Adı": "AK PORTFÖY AVRUPA YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.589812
+      "Fon Fiyatı": 0.590363
     },
     {
       "Fon Kodu": "AGC",
       "Fon Adı": "AK PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.715469
+      "Fon Fiyatı": 9.716462
     },
     {
       "Fon Kodu": "AHI",
       "Fon Adı": "ATLAS PORTFÖY BİRİNCİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 33.807465
+      "Fon Fiyatı": 33.532374
     },
     {
       "Fon Kodu": "AHU",
       "Fon Adı": "ATLAS PORTFÖY BİRİNCİ ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 11.920652
+      "Fon Fiyatı": 11.931746
     },
     {
       "Fon Kodu": "AHV",
       "Fon Adı": "AZİMUT PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 21.959364
+      "Fon Fiyatı": 21.95791
     },
     {
       "Fon Kodu": "AIS",
       "Fon Adı": "AK PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.113399
+      "Fon Fiyatı": 0.113496
     },
     {
       "Fon Kodu": "AK2",
       "Fon Adı": "AK PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.563243
+      "Fon Fiyatı": 0.561851
     },
     {
       "Fon Kodu": "AK3",
       "Fon Adı": "AK PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 49.974031
+      "Fon Fiyatı": 49.52343
     },
     {
       "Fon Kodu": "AKE",
       "Fon Adı": "AK PORTFÖY EUROBOND (AMERİKAN DOLARI) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.53387
+      "Fon Fiyatı": 0.533266
     },
     {
       "Fon Kodu": "AKU",
       "Fon Adı": "AK PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.908093
+      "Fon Fiyatı": 0.900091
     },
     {
       "Fon Kodu": "ALC",
       "Fon Adı": "AK PORTFÖY KAR PAYI ÖDEYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.34719
+      "Fon Fiyatı": 0.344462
     },
     {
       "Fon Kodu": "AN1",
       "Fon Adı": "STRATEJİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 107.870839
+      "Fon Fiyatı": 106.724401
     },
     {
       "Fon Kodu": "AOY",
       "Fon Adı": "AK PORTFÖY ALTERNATİF ENERJİ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.341796
+      "Fon Fiyatı": 0.338089
     },
     {
       "Fon Kodu": "APJ",
       "Fon Adı": "AK PORTFÖY BIST ŞİRKETLERİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.517771
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "APT",
       "Fon Adı": "AK PORTFÖY ORTA VADELI BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.169249
+      "Fon Fiyatı": 0.168838
     },
     {
       "Fon Kodu": "ARE",
       "Fon Adı": "İSTANBUL PORTFÖY YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.252149
+      "Fon Fiyatı": 0.25068
     },
     {
       "Fon Kodu": "ARL",
       "Fon Adı": "AK PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 16.638248
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "ARM",
       "Fon Adı": "AK PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 18.831781
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "ASJ",
       "Fon Adı": "AKTİF PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.724104
+      "Fon Fiyatı": 3.676699
     },
     {
       "Fon Kodu": "ATJ",
       "Fon Adı": "AZİMUT PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 21.55882
+      "Fon Fiyatı": 21.381736
     },
     {
       "Fon Kodu": "AU1",
       "Fon Adı": "A1 CAPİTAL PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.163707
+      "Fon Fiyatı": 1.154268
     },
     {
       "Fon Kodu": "AYA",
       "Fon Adı": "ATA PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 17.424036
+      "Fon Fiyatı": 17.207206
     },
     {
       "Fon Kodu": "AYR",
       "Fon Adı": "AK PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.147607
+      "Fon Fiyatı": 0.147749
     },
     {
       "Fon Kodu": "BAG",
       "Fon Adı": "BULLS PORTFÖY ATAK DEĞIŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.021263
+      "Fon Fiyatı": 1.017853
     },
     {
       "Fon Kodu": "BBF",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 3.765027
+      "Fon Fiyatı": 3.76367
     },
     {
       "Fon Kodu": "BBP",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.340909
+      "Fon Fiyatı": 2.340038
     },
     {
       "Fon Kodu": "BCK",
       "Fon Adı": "DENİZ PORTFÖY BLOCKCHAİN VE FINTECH TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.026862
+      "Fon Fiyatı": 2.008412
     },
     {
       "Fon Kodu": "BCO",
       "Fon Adı": "BULLS PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.901127
+      "Fon Fiyatı": 1.87854
     },
     {
       "Fon Kodu": "BDS",
       "Fon Adı": "PARDUS PORTFÖY BIST 30 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.736771
+      "Fon Fiyatı": 1.723913
     },
     {
       "Fon Kodu": "BDY",
       "Fon Adı": "AK PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.558683
+      "Fon Fiyatı": 1.55049
     },
     {
       "Fon Kodu": "BFE",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.740109
+      "Fon Fiyatı": 1.728138
     },
     {
       "Fon Kodu": "BFS",
       "Fon Adı": "BULLS PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.102498
+      "Fon Fiyatı": 1.095494
     },
     {
       "Fon Kodu": "BFT",
       "Fon Adı": "AZİMUT PORTFÖY BANKA VE FİNANS SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.155186
+      "Fon Fiyatı": 1.143786
     },
     {
       "Fon Kodu": "BGP",
       "Fon Adı": "AK PORTFÖY ÜÇÜNCÜ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.90012
+      "Fon Fiyatı": 6.905761
     },
     {
       "Fon Kodu": "BHA",
       "Fon Adı": "BULLS PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.674944
+      "Fon Fiyatı": 1.657477
     },
     {
       "Fon Kodu": "BHF",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.103622
+      "Fon Fiyatı": 3.08192
     },
     {
       "Fon Kodu": "BID",
       "Fon Adı": "QNB PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.761217
+      "Fon Fiyatı": 2.71574
     },
     {
       "Fon Kodu": "BIG",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.378284
+      "Fon Fiyatı": 1.371333
     },
     {
       "Fon Kodu": "BIH",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 8.822715
+      "Fon Fiyatı": 8.780754
     },
     {
       "Fon Kodu": "BIO",
       "Fon Adı": "İŞ PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.217247
+      "Fon Fiyatı": 2.189802
     },
     {
       "Fon Kodu": "BIY",
       "Fon Adı": "AZİMUT PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.724019
+      "Fon Fiyatı": 0.72255
     },
     {
       "Fon Kodu": "BLT",
       "Fon Adı": "BULLS PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.833805
+      "Fon Fiyatı": 1.816514
     },
     {
       "Fon Kodu": "BOL",
       "Fon Adı": "AKTİF PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.787574
+      "Fon Fiyatı": 1.786374
     },
     {
       "Fon Kodu": "BON",
       "Fon Adı": "A1 CAPİTAL PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.478784
+      "Fon Fiyatı": 1.479246
     },
     {
       "Fon Kodu": "BPZ",
       "Fon Adı": "BULLS PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.001541
+      "Fon Fiyatı": 0.001543
     },
     {
       "Fon Kodu": "BRF",
       "Fon Adı": "DENİZ PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.601399
+      "Fon Fiyatı": 1.592814
     },
     {
       "Fon Kodu": "BRR",
       "Fon Adı": "AK PORTFÖY İKİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.760151
+      "Fon Fiyatı": 1.760617
     },
     {
       "Fon Kodu": "BTE",
       "Fon Adı": "BV PORTFÖY OYUN VE TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.14691
+      "Fon Fiyatı": 5.08564
     },
     {
       "Fon Kodu": "BTK",
       "Fon Adı": "BV PORTFÖY TEKNOLOJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.751497
+      "Fon Fiyatı": 1.744528
     },
     {
       "Fon Kodu": "BTZ",
       "Fon Adı": "ATLAS PORTFÖY BIST 30 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.126659
+      "Fon Fiyatı": 1.117256
     },
     {
       "Fon Kodu": "BUB",
       "Fon Adı": "BULLS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.261756
+      "Fon Fiyatı": 1.256256
     },
     {
       "Fon Kodu": "BUY",
       "Fon Adı": "AK PORTFÖY BÜYÜYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.514165
+      "Fon Fiyatı": 1.495931
     },
     {
       "Fon Kodu": "BV1",
       "Fon Adı": "BV PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.494777
+      "Fon Fiyatı": 1.474327
     },
     {
       "Fon Kodu": "BVD",
       "Fon Adı": "BV PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.384416
+      "Fon Fiyatı": 1.381127
     },
     {
       "Fon Kodu": "BVF",
       "Fon Adı": "BV PORTFÖY PARA PİYASASI (TL) FON",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.48265
+      "Fon Fiyatı": 1.481122
     },
     {
       "Fon Kodu": "BVV",
       "Fon Adı": "BV PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.552416
+      "Fon Fiyatı": 3.506863
     },
     {
       "Fon Kodu": "CFO",
       "Fon Adı": "ROTA PORTFÖY İKİNCİ PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.657441
+      "Fon Fiyatı": 2.659718
     },
     {
       "Fon Kodu": "CKF",
       "Fon Adı": "ALBARAKA PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.140846
+      "Fon Fiyatı": 2.124669
     },
     {
       "Fon Kodu": "CKL",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÇOKLU VARLIK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.641531
+      "Fon Fiyatı": 1.62704
     },
     {
       "Fon Kodu": "CPT",
       "Fon Adı": "ROTA PORTFÖY ÇİP TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.792961
+      "Fon Fiyatı": 3.742924
     },
     {
       "Fon Kodu": "CPU",
       "Fon Adı": "AKTİF PORTFÖY TEKNOLOJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.975609
+      "Fon Fiyatı": 3.943778
     },
     {
       "Fon Kodu": "CVK",
       "Fon Adı": "INVEO PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.368276
+      "Fon Fiyatı": 5.371358
     },
     {
       "Fon Kodu": "CVL",
       "Fon Adı": "A1 CAPİTAL PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.559939
+      "Fon Fiyatı": 1.556062
     },
     {
       "Fon Kodu": "DAH",
       "Fon Adı": "DENİZ PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.353358
+      "Fon Fiyatı": 3.323341
     },
     {
       "Fon Kodu": "DBA",
       "Fon Adı": "DENİZ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.733088
+      "Fon Fiyatı": 0.726589
     },
     {
       "Fon Kodu": "DBB",
       "Fon Adı": "DENİZ PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.119129
+      "Fon Fiyatı": 0.119004
     },
     {
       "Fon Kodu": "DBH",
       "Fon Adı": "DENİZ PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.390748
+      "Fon Fiyatı": 0.39081
     },
     {
       "Fon Kodu": "DBK",
       "Fon Adı": "DENİZ PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.127518
+      "Fon Fiyatı": 0.127562
     },
     {
       "Fon Kodu": "DBP",
       "Fon Adı": "DENİZ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.508125
+      "Fon Fiyatı": 0.507633
     },
     {
       "Fon Kodu": "DBZ",
       "Fon Adı": "DENİZ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.14829
+      "Fon Fiyatı": 0.148433
     },
     {
       "Fon Kodu": "DFC",
       "Fon Adı": "DENİZ PORTFÖY TARIM VE GIDA DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.079327
+      "Fon Fiyatı": 3.092893
     },
     {
       "Fon Kodu": "DGF",
       "Fon Adı": "A1 CAPİTAL PORTFÖY DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.567022
+      "Fon Fiyatı": 1.568379
     },
     {
       "Fon Kodu": "DHJ",
       "Fon Adı": "DENİZ PORTFÖY TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 5.617526
+      "Fon Fiyatı": 5.525003
     },
     {
       "Fon Kodu": "DHM",
       "Fon Adı": "DENİZ PORTFÖY ESG-SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.297583
+      "Fon Fiyatı": 5.274647
     },
     {
       "Fon Kodu": "DHT",
       "Fon Adı": "DENİZ PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.120967
+      "Fon Fiyatı": 1.117487
     },
     {
       "Fon Kodu": "DID",
       "Fon Adı": "DENİZ PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.483989
+      "Fon Fiyatı": 1.479507
     },
     {
       "Fon Kodu": "DKH",
       "Fon Adı": "DENİZ PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.516048
+      "Fon Fiyatı": 3.479371
     },
     {
       "Fon Kodu": "DL2",
       "Fon Adı": "DENİZ PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.614693
+      "Fon Fiyatı": 2.61578
     },
     {
       "Fon Kodu": "DLD",
       "Fon Adı": "DENİZ PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.46301
+      "Fon Fiyatı": 7.376247
     },
     {
       "Fon Kodu": "DLY",
       "Fon Adı": "DENİZ PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.403932
+      "Fon Fiyatı": 6.40764
     },
     {
       "Fon Kodu": "DMG",
       "Fon Adı": "DENİZ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.493696
+      "Fon Fiyatı": 6.215211
     },
     {
       "Fon Kodu": "DNF",
       "Fon Adı": "A1 CAPİTAL PORTFÖY DİNAMİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.415622
+      "Fon Fiyatı": 1.415543
     },
     {
       "Fon Kodu": "DPK",
       "Fon Adı": "DENİZ PORTFÖY KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 9.082996
+      "Fon Fiyatı": 9.090941
     },
     {
       "Fon Kodu": "DPT",
       "Fon Adı": "DENİZ PORTFÖY BİST TEMETTÜ 25 ENDEKSİ HİSSE SENEDİ FONU ( HİSSE SENEDİ YOĞUN FON )",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 17.763791
+      "Fon Fiyatı": 17.645462
     },
     {
       "Fon Kodu": "DRT",
       "Fon Adı": "DENİZ PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.199812
+      "Fon Fiyatı": 1.188648
     },
     {
       "Fon Kodu": "DSP",
       "Fon Adı": "DENİZ PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 14.973274
+      "Fon Fiyatı": 14.973089
     },
     {
       "Fon Kodu": "DTH",
       "Fon Adı": "EMAA BLUE PORTFÖY DÖNÜŞÜM TEKNOLOJİLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.160789
+      "Fon Fiyatı": 1.148711
     },
     {
       "Fon Kodu": "DTL",
       "Fon Adı": "DENİZ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.604782
+      "Fon Fiyatı": 3.539228
     },
     {
       "Fon Kodu": "DTM",
       "Fon Adı": "DENİZ PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.458258
+      "Fon Fiyatı": 1.452194
     },
     {
       "Fon Kodu": "DTZ",
       "Fon Adı": "AK PORTFÖY ROBOTİK TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.208162
+      "Fon Fiyatı": 5.164067
     },
     {
       "Fon Kodu": "DUV",
       "Fon Adı": "DENİZ PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.351883
+      "Fon Fiyatı": 1.346085
     },
     {
       "Fon Kodu": "DVT",
       "Fon Adı": "DENİZ PORTFÖY METAVERSE VE DİJİTAL YAŞAM TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.89953
+      "Fon Fiyatı": 9.799637
     },
     {
       "Fon Kodu": "DXP",
       "Fon Adı": "DENİZ PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.723026
+      "Fon Fiyatı": 1.698941
     },
     {
       "Fon Kodu": "DYN",
       "Fon Adı": "DENİZ PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇ TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.358874
+      "Fon Fiyatı": 4.339865
     },
     {
       "Fon Kodu": "DZE",
       "Fon Adı": "DENİZ PORTFÖY BIST 100 ENDEKSİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.902163
+      "Fon Fiyatı": 0.892886
     },
     {
       "Fon Kodu": "EBD",
       "Fon Adı": "GLOBAL MD PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.263399
+      "Fon Fiyatı": 0.261833
     },
     {
       "Fon Kodu": "EC2",
       "Fon Adı": "GLOBAL MD PORTFÖY BİRİNCİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 79.010658
+      "Fon Fiyatı": 77.676236
     },
     {
       "Fon Kodu": "ECA",
       "Fon Adı": "GLOBAL MD PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.005826
+      "Fon Fiyatı": 1.970186
     },
     {
       "Fon Kodu": "EDU",
       "Fon Adı": "İŞ PORTFÖY TEV EĞİTİME DESTEK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.777884
+      "Fon Fiyatı": 3.776733
     },
     {
       "Fon Kodu": "EIB",
       "Fon Adı": "ASTRA PORTFÖY DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.693009
+      "Fon Fiyatı": 0.691843
     },
     {
       "Fon Kodu": "EID",
       "Fon Adı": "ASTRA PORTFÖY HİSSE SENEDİ FONU (HİSSE YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.78156
+      "Fon Fiyatı": 1.757679
     },
     {
       "Fon Kodu": "EIL",
       "Fon Adı": "ASTRA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.585497
+      "Fon Fiyatı": 5.590209
     },
     {
       "Fon Kodu": "EKF",
       "Fon Adı": "ASTRA PORTFÖY KİRA SERTİFİKASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.14402
+      "Fon Fiyatı": 0.14415
     },
     {
       "Fon Kodu": "ELZ",
       "Fon Adı": "ASTRA PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 12.22375
+      "Fon Fiyatı": 12.080045
     },
     {
       "Fon Kodu": "EML",
       "Fon Adı": "AK PORTFÖY EMLAK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.19535
+      "Fon Fiyatı": 1.193055
     },
     {
       "Fon Kodu": "ENJ",
       "Fon Adı": "AKTİF PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.196643
+      "Fon Fiyatı": 1.179226
     },
     {
       "Fon Kodu": "EPA",
       "Fon Adı": "EMAA BLUE PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.452762
+      "Fon Fiyatı": 1.454155
     },
     {
       "Fon Kodu": "EPI",
       "Fon Adı": "EMAA BLUE PORTFÖY İNŞAAT SEKTÖRÜ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.040271
+      "Fon Fiyatı": 1.029521
     },
     {
       "Fon Kodu": "EPK",
       "Fon Adı": "EMAA BLUE PORTFÖY KIYMETLİ MADENLER KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.300966
+      "Fon Fiyatı": 1.262864
     },
     {
       "Fon Kodu": "EPT",
       "Fon Adı": "EMAA BLUE PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.409759
+      "Fon Fiyatı": 1.410848
     },
     {
       "Fon Kodu": "EVM",
       "Fon Adı": "DENİZ PORTFÖY ENERJİ VE MADENCİLİK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.145416
+      "Fon Fiyatı": 1.139507
     },
     {
       "Fon Kodu": "EYT",
@@ -761,277 +761,277 @@
       "Fon Kodu": "FAK",
       "Fon Adı": "FONMAP PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.24965
+      "Fon Fiyatı": 1.231356
     },
     {
       "Fon Kodu": "FAL",
       "Fon Adı": "ONE PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.213762
+      "Fon Fiyatı": 1.202569
     },
     {
       "Fon Kodu": "FBC",
       "Fon Adı": "ONE PORTFÖY KAR PAYI ÖDEYEN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.57968
+      "Fon Fiyatı": 1.558225
     },
     {
       "Fon Kodu": "FCK",
       "Fon Adı": "ONE PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.545138
+      "Fon Fiyatı": 1.524863
     },
     {
       "Fon Kodu": "FD1",
       "Fon Adı": "ONE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.860762
+      "Fon Fiyatı": 1.860993
     },
     {
       "Fon Kodu": "FDG",
       "Fon Adı": "FONMAP PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.667034
+      "Fon Fiyatı": 2.664494
     },
     {
       "Fon Kodu": "FFH",
       "Fon Adı": "QNB PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.952323
+      "Fon Fiyatı": 8.932792
     },
     {
       "Fon Kodu": "FFP",
       "Fon Adı": "QNB PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.854569
+      "Fon Fiyatı": 7.853873
     },
     {
       "Fon Kodu": "FI3",
       "Fon Adı": "QNB PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 835.99359
+      "Fon Fiyatı": 835.713252
     },
     {
       "Fon Kodu": "FIB",
       "Fon Adı": "FİBA PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.49377
+      "Fon Fiyatı": 0.48881
     },
     {
       "Fon Kodu": "FID",
       "Fon Adı": "FİBA PORTFÖY ÇOKLU VARLIK İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.018566
+      "Fon Fiyatı": 1.010985
     },
     {
       "Fon Kodu": "FIL",
       "Fon Adı": "FİBA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.392145
+      "Fon Fiyatı": 0.392423
     },
     {
       "Fon Kodu": "FIT",
       "Fon Adı": "FİBA PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.238966
+      "Fon Fiyatı": 0.23799
     },
     {
       "Fon Kodu": "FLY",
       "Fon Adı": "AKTİF PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.454305
+      "Fon Fiyatı": 1.45319
     },
     {
       "Fon Kodu": "FNO",
       "Fon Adı": "QNB PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.207471
+      "Fon Fiyatı": 0.206949
     },
     {
       "Fon Kodu": "FPE",
       "Fon Adı": "FİBA PORTFÖY EUROBOND BORÇLANMA ARAÇLARI (DÖVİZ) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 76.98972
+      "Fon Fiyatı": 77.013455
     },
     {
       "Fon Kodu": "FPH",
       "Fon Adı": "FİBA PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 33.585565
+      "Fon Fiyatı": 33.208003
     },
     {
       "Fon Kodu": "FPI",
       "Fon Adı": "FONMAP PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.78751
+      "Fon Fiyatı": 2.790195
     },
     {
       "Fon Kodu": "FPK",
       "Fon Adı": "FİBA PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.10331
+      "Fon Fiyatı": 0.103289
     },
     {
       "Fon Kodu": "FSK",
       "Fon Adı": "QNB PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.449393
+      "Fon Fiyatı": 6.452446
     },
     {
       "Fon Kodu": "FSU",
       "Fon Adı": "TERA PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.104986
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "FTL",
       "Fon Adı": "ONE PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.615647
+      "Fon Fiyatı": 1.617208
     },
     {
       "Fon Kodu": "FUA",
       "Fon Adı": "AK PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 4.772697
+      "Fon Fiyatı": 4.735656
     },
     {
       "Fon Kodu": "FUB",
       "Fon Adı": "QNB PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.760623
+      "Fon Fiyatı": 0.760484
     },
     {
       "Fon Kodu": "FYD",
       "Fon Adı": "QNB PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 11.12183
+      "Fon Fiyatı": 10.999002
     },
     {
       "Fon Kodu": "FYO",
       "Fon Adı": "QNB PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.25301
+      "Fon Fiyatı": 1.253102
     },
     {
       "Fon Kodu": "FZJ",
       "Fon Adı": "FİBA PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.806461
+      "Fon Fiyatı": 5.80827
     },
     {
       "Fon Kodu": "GA1",
       "Fon Adı": "GARANTİ PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.102059
+      "Fon Fiyatı": 2.099641
     },
     {
       "Fon Kodu": "GAE",
       "Fon Adı": "GARANTİ PORTFÖY BİST30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.423346
+      "Fon Fiyatı": 0.419287
     },
     {
       "Fon Kodu": "GAF",
       "Fon Adı": "INVEO PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.560362
+      "Fon Fiyatı": 1.542391
     },
     {
       "Fon Kodu": "GAH",
       "Fon Adı": "GARANTİ PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 12.89658
+      "Fon Fiyatı": 12.840902
     },
     {
       "Fon Kodu": "GBC",
       "Fon Adı": "AZİMUT PORTFÖY YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.322418
+      "Fon Fiyatı": 0.321083
     },
     {
       "Fon Kodu": "GBG",
       "Fon Adı": "INVEO PORTFÖY G-20 ÜLKELERİ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.605236
+      "Fon Fiyatı": 0.601495
     },
     {
       "Fon Kodu": "GBL",
       "Fon Adı": "AZİMUT PYŞ KISA VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.916212
+      "Fon Fiyatı": 0.916823
     },
     {
       "Fon Kodu": "GBV",
       "Fon Adı": "GARANTİ PORTFÖY BLOCKCHAİN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 13.232485
+      "Fon Fiyatı": 13.092521
     },
     {
       "Fon Kodu": "GBZ",
       "Fon Adı": "AZİMUT PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.614138
+      "Fon Fiyatı": 3.593841
     },
     {
       "Fon Kodu": "GGK",
       "Fon Adı": "INVEO PORTFÖY ALTIN FON",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 13.661455
+      "Fon Fiyatı": 13.553896
     },
     {
       "Fon Kodu": "GHS",
       "Fon Adı": "GARANTİ PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 36.890257
+      "Fon Fiyatı": 36.448669
     },
     {
       "Fon Kodu": "GID",
       "Fon Adı": "GARANTİ PORTFÖY İNŞAAT SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.484096
+      "Fon Fiyatı": 1.460613
     },
     {
       "Fon Kodu": "GIE",
       "Fon Adı": "GARANTİ PORTFÖY GARANTİ BBVA İKLİM ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.521434
+      "Fon Fiyatı": 3.490019
     },
     {
       "Fon Kodu": "GIH",
       "Fon Adı": "ALLBATROSS PORTFÖY GIDA VE İÇECEK SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.758402
+      "Fon Fiyatı": 1.725151
     },
     {
       "Fon Kodu": "GJB",
       "Fon Adı": "INVEO PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 10.194408
+      "Fon Fiyatı": 10.18532
     },
     {
       "Fon Kodu": "GKF",
       "Fon Adı": "GLOBAL MD PORTFÖY KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 4.103141
+      "Fon Fiyatı": 4.053677
     },
     {
       "Fon Kodu": "GKG",
       "Fon Adı": "GARANTİ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.369492
+      "Fon Fiyatı": 1.356937
     },
     {
       "Fon Kodu": "GKV",
       "Fon Adı": "GARANTİ PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.504062
+      "Fon Fiyatı": 7.413579
     },
     {
       "Fon Kodu": "GL1",
       "Fon Adı": "AZİMUT PYŞ BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1415.689759
+      "Fon Fiyatı": 1396.773689
     },
     {
       "Fon Kodu": "GLC",
@@ -1043,1189 +1043,1189 @@
       "Fon Kodu": "GLL",
       "Fon Adı": "GOLDEN GLOBAL PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.986261
+      "Fon Fiyatı": 0.973669
     },
     {
       "Fon Kodu": "GLS",
       "Fon Adı": "AZİMUT PORTFÖY  KİRA SERTİFİKALARI (SUKUK) KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.17909
+      "Fon Fiyatı": 0.179314
     },
     {
       "Fon Kodu": "GMA",
       "Fon Adı": "AZİMUT PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.208384
+      "Fon Fiyatı": 2.196487
     },
     {
       "Fon Kodu": "GMC",
       "Fon Adı": "TEB PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.301373
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "GMD",
       "Fon Adı": "GLOBAL MD PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.701871
+      "Fon Fiyatı": 2.688343
     },
     {
       "Fon Kodu": "GMR",
       "Fon Adı": "INVEO PORTFÖY BIST 30 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.169715
+      "Fon Fiyatı": 1.151222
     },
     {
       "Fon Kodu": "GNH",
       "Fon Adı": "GLOBAL MD PORTFÖY ALGORİTMİK MODEL HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.149172
+      "Fon Fiyatı": 1.134921
     },
     {
       "Fon Kodu": "GNS",
       "Fon Adı": "GARANTİ PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.418992
+      "Fon Fiyatı": 1.395359
     },
     {
       "Fon Kodu": "GO1",
       "Fon Adı": "ONE PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.62809
+      "Fon Fiyatı": 4.629924
     },
     {
       "Fon Kodu": "GO3",
       "Fon Adı": "ONE PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.503782
+      "Fon Fiyatı": 4.474707
     },
     {
       "Fon Kodu": "GO4",
       "Fon Adı": "ONE PORTFÖY DÖRDÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.977547
+      "Fon Fiyatı": 4.918482
     },
     {
       "Fon Kodu": "GO6",
       "Fon Adı": "ONE PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 4.441004
+      "Fon Fiyatı": 4.447708
     },
     {
       "Fon Kodu": "GO9",
       "Fon Adı": "ONE PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.432818
+      "Fon Fiyatı": 2.39256
     },
     {
       "Fon Kodu": "GOH",
       "Fon Adı": "GARANTİ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 13.785383
+      "Fon Fiyatı": 13.569172
     },
     {
       "Fon Kodu": "GOK",
       "Fon Adı": "GOLDEN GLOBAL PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.043376
+      "Fon Fiyatı": 1.044332
     },
     {
       "Fon Kodu": "GOL",
       "Fon Adı": "GARANTİ PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.753402
+      "Fon Fiyatı": 2.730765
     },
     {
       "Fon Kodu": "GOP",
       "Fon Adı": "GOLDEN GLOBAL PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.299952
+      "Fon Fiyatı": 1.301056
     },
     {
       "Fon Kodu": "GPA",
       "Fon Adı": "GARANTİ PORTFÖY EUROBOND BORÇLANMA ARAÇLARI (DÖVİZ) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 23.614521
+      "Fon Fiyatı": 23.567624
     },
     {
       "Fon Kodu": "GPB",
       "Fon Adı": "GARANTİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 12.62756
+      "Fon Fiyatı": 12.607419
     },
     {
       "Fon Kodu": "GPF",
       "Fon Adı": "GARANTİ PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 9.108062
+      "Fon Fiyatı": 9.071688
     },
     {
       "Fon Kodu": "GPG",
       "Fon Adı": "INVEO PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 15.703705
+      "Fon Fiyatı": 15.542038
     },
     {
       "Fon Kodu": "GPI",
       "Fon Adı": "GARANTİ PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 18.889554
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "GPN",
       "Fon Adı": "GARANTİ PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.468044
+      "Fon Fiyatı": 1.469477
     },
     {
       "Fon Kodu": "GPT",
       "Fon Adı": "AKTİF PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.788075
+      "Fon Fiyatı": 2.758589
     },
     {
       "Fon Kodu": "GPU",
       "Fon Adı": "GARANTİ PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 21.303991
+      "Fon Fiyatı": 21.168126
     },
     {
       "Fon Kodu": "GPZ",
       "Fon Adı": "GARANTİ PORTFÖY ÜÇÜNCÜ PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.073033
+      "Fon Fiyatı": 2.074782
     },
     {
       "Fon Kodu": "GRT",
       "Fon Adı": "GARANTİ PORTFÖY TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.271027
+      "Fon Fiyatı": 1.251113
     },
     {
       "Fon Kodu": "GSP",
       "Fon Adı": "AZİMUT PYŞ KAR PAYI ÖDEYEN HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.550191
+      "Fon Fiyatı": 0.545556
     },
     {
       "Fon Kodu": "GTA",
       "Fon Adı": "GARANTİ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.568258
+      "Fon Fiyatı": 1.554027
     },
     {
       "Fon Kodu": "GTF",
       "Fon Adı": "AZİMUT PYŞ BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 15.575312
+      "Fon Fiyatı": 15.573968
     },
     {
       "Fon Kodu": "GTH",
       "Fon Adı": "GARANTİ PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.362594
+      "Fon Fiyatı": 1.347071
     },
     {
       "Fon Kodu": "GTM",
       "Fon Adı": "GARANTİ PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.619312
+      "Fon Fiyatı": 7.550301
     },
     {
       "Fon Kodu": "GTZ",
       "Fon Adı": "GARANTİ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 11.102132
+      "Fon Fiyatı": 10.569832
     },
     {
       "Fon Kodu": "GUB",
       "Fon Adı": "GARANTİ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.707987
+      "Fon Fiyatı": 2.710577
     },
     {
       "Fon Kodu": "GUF",
       "Fon Adı": "İŞ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.867637
+      "Fon Fiyatı": 0.827305
     },
     {
       "Fon Kodu": "GUH",
       "Fon Adı": "GARANTİ PORTFÖY YABANCI TEKNOLOJİ HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.481155
+      "Fon Fiyatı": 0.479412
     },
     {
       "Fon Kodu": "GUM",
       "Fon Adı": "AK PORTFÖY GÜMÜŞ FON SEPETI FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 11.857787
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "GUV",
       "Fon Adı": "GARANTİ PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.803264
+      "Fon Fiyatı": 1.799432
     },
     {
       "Fon Kodu": "GVA",
       "Fon Adı": "GARANTİ PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇLAR DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.954936
+      "Fon Fiyatı": 3.936068
     },
     {
       "Fon Kodu": "GVI",
       "Fon Adı": "GARANTİ PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.531631
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "GYK",
       "Fon Adı": "INVEO PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.120814
+      "Fon Fiyatı": 0.120875
     },
     {
       "Fon Kodu": "GZG",
       "Fon Adı": "GARANTİ PORTFÖY SAĞLIK VE GENETİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.149235
+      "Fon Fiyatı": 7.139424
     },
     {
       "Fon Kodu": "GZH",
       "Fon Adı": "GARANTİ PORTFÖY TEMİZ ENERJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.679223
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "GZJ",
       "Fon Adı": "GARANTİ PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.737462
+      "Fon Fiyatı": 8.690752
     },
     {
       "Fon Kodu": "GZL",
       "Fon Adı": "GARANTİ PORTFÖY TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.445079
+      "Fon Fiyatı": 5.467476
     },
     {
       "Fon Kodu": "GZP",
       "Fon Adı": "GARANTİ PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.838991
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "GZR",
       "Fon Adı": "GARANTİ PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 10.982792
+      "Fon Fiyatı": 10.895473
     },
     {
       "Fon Kodu": "GZV",
       "Fon Adı": "GARANTİ PORTFÖY ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.763069
+      "Fon Fiyatı": 8.715904
     },
     {
       "Fon Kodu": "GZY",
       "Fon Adı": "GARANTİ PORTFÖY TURİZM VE SEYAHAT SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.301647
+      "Fon Fiyatı": 7.239348
     },
     {
       "Fon Kodu": "GZZ",
       "Fon Adı": "GARANTİ PORTFÖY FİNANSAL TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.746892
+      "Fon Fiyatı": 6.640051
     },
     {
       "Fon Kodu": "HAI",
       "Fon Adı": "AHLATCI PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.968938
+      "Fon Fiyatı": 0.951713
     },
     {
       "Fon Kodu": "HAM",
       "Fon Adı": "HEDEF PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.064342
+      "Fon Fiyatı": 3.038976
     },
     {
       "Fon Kodu": "HBF",
       "Fon Adı": "HSBC PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 50.071221
+      "Fon Fiyatı": 49.594026
     },
     {
       "Fon Kodu": "HBN",
       "Fon Adı": "HSBC PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.427368
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "HBU",
       "Fon Adı": "HSBC PORTFÖY BİST 30 ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.326865
+      "Fon Fiyatı": 1.31362
     },
     {
       "Fon Kodu": "HCV",
       "Fon Adı": "HEDEF PORTFÖY ATAK ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.990727
+      "Fon Fiyatı": 0.990867
     },
     {
       "Fon Kodu": "HDD",
       "Fon Adı": "AHLATCI PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.098657
+      "Fon Fiyatı": 1.093431
     },
     {
       "Fon Kodu": "HFO",
       "Fon Adı": "AHLATCI PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.928052
+      "Fon Fiyatı": 0.914622
     },
     {
       "Fon Kodu": "HFR",
       "Fon Adı": "A1 CAPİTAL PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.370001
+      "Fon Fiyatı": 1.3688
     },
     {
       "Fon Kodu": "HGM",
       "Fon Adı": "HEDEF PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.855398
+      "Fon Fiyatı": 3.827629
     },
     {
       "Fon Kodu": "HIH",
       "Fon Adı": "GARANTİ  PORTFÖY HOLDİNGLER VE İŞTİRAKLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.342163
+      "Fon Fiyatı": 1.328846
     },
     {
       "Fon Kodu": "HIZ",
       "Fon Adı": "AZİMUT PORTFÖY DİNAMİK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.151679
+      "Fon Fiyatı": 2.143475
     },
     {
       "Fon Kodu": "HJB",
       "Fon Adı": "HEDEF PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.644911
+      "Fon Fiyatı": 4.620099
     },
     {
       "Fon Kodu": "HKG",
       "Fon Adı": "ZİRAAT PORTFÖY HALK'IN ÜRETEN KADINLARI DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.489089
+      "Fon Fiyatı": 1.468624
     },
     {
       "Fon Kodu": "HKH",
       "Fon Adı": "HEDEF PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 8.190161
+      "Fon Fiyatı": 8.142537
     },
     {
       "Fon Kodu": "HMS",
       "Fon Adı": "HSBC PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.089778
+      "Fon Fiyatı": 0.088893
     },
     {
       "Fon Kodu": "HOA",
       "Fon Adı": "HSBC PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.251257
+      "Fon Fiyatı": 0.249091
     },
     {
       "Fon Kodu": "HOY",
       "Fon Adı": "HSBC PORTFÖY YABANCI BYF FON SEPETI",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.368877
+      "Fon Fiyatı": 0.367627
     },
     {
       "Fon Kodu": "HPD",
       "Fon Adı": "HSBC PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.21804
+      "Fon Fiyatı": 0.216144
     },
     {
       "Fon Kodu": "HPH",
       "Fon Adı": "HEDEF PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.464177
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "HPO",
       "Fon Adı": "HSBC PORTFÖY ÇOKLU VARLIK BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.177877
+      "Fon Fiyatı": 0.178046
     },
     {
       "Fon Kodu": "HPT",
       "Fon Adı": "HSBC PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.119356
+      "Fon Fiyatı": 0.1194
     },
     {
       "Fon Kodu": "HRZ",
       "Fon Adı": "AKTİF PORTFÖY BIST HALKA ARZ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.627728
+      "Fon Fiyatı": 1.582449
     },
     {
       "Fon Kodu": "HSA",
       "Fon Adı": "HSBC PORTFÖY DEĞİŞKEN (TL) FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1659.048712
+      "Fon Fiyatı": 1646.757199
     },
     {
       "Fon Kodu": "HSL",
       "Fon Adı": "HSBC PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 434.780857
+      "Fon Fiyatı": 435.112902
     },
     {
       "Fon Kodu": "HST",
       "Fon Adı": "HSBC PORTFÖY  BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.051162
+      "Fon Fiyatı": 1.049321
     },
     {
       "Fon Kodu": "HTJ",
       "Fon Adı": "HEDEF PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.02883
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "HTK",
       "Fon Adı": "QNB PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.950089
+      "Fon Fiyatı": 0.951333
     },
     {
       "Fon Kodu": "HVI",
       "Fon Adı": "DENİZ PORTFÖY HOLDİNGLER VE İŞTİRAKLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.235126
+      "Fon Fiyatı": 1.222089
     },
     {
       "Fon Kodu": "HVK",
       "Fon Adı": "HEDEF PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 5.081913
+      "Fon Fiyatı": 5.086347
     },
     {
       "Fon Kodu": "HVS",
       "Fon Adı": "HSBC PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.513801
+      "Fon Fiyatı": 1.493971
     },
     {
       "Fon Kodu": "HVT",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.009339
+      "Fon Fiyatı": 5.013505
     },
     {
       "Fon Kodu": "HVU",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.367122
+      "Fon Fiyatı": 5.330601
     },
     {
       "Fon Kodu": "HVZ",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 6.248807
+      "Fon Fiyatı": 6.158337
     },
     {
       "Fon Kodu": "HYV",
       "Fon Adı": "HEDEF PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.658963
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "IAE",
       "Fon Adı": "İSTANBUL PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.08489
+      "Fon Fiyatı": 2.063183
     },
     {
       "Fon Kodu": "IAM",
       "Fon Adı": "İŞ PORTFÖY AGRESİF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.712745
+      "Fon Fiyatı": 1.707374
     },
     {
       "Fon Kodu": "IAT",
       "Fon Adı": "İŞ PORTFÖY KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.205487
+      "Fon Fiyatı": 0.205664
     },
     {
       "Fon Kodu": "IAY",
       "Fon Adı": "INVEO PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.477002
+      "Fon Fiyatı": 1.465393
     },
     {
       "Fon Kodu": "IBB",
       "Fon Adı": "İŞ PORTFÖY ATAK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 16.558784
+      "Fon Fiyatı": 16.567405
     },
     {
       "Fon Kodu": "ICA",
       "Fon Adı": "TEB PORTFÖY ICBC TURKEY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.540758
+      "Fon Fiyatı": 0.536196
     },
     {
       "Fon Kodu": "ICC",
       "Fon Adı": "TEB PORTFÖY BEŞİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.323672
+      "Fon Fiyatı": 1.318666
     },
     {
       "Fon Kodu": "ICD",
       "Fon Adı": "TEB PORTFÖY DÖRDÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 141.128096
+      "Fon Fiyatı": 140.947486
     },
     {
       "Fon Kodu": "ICE",
       "Fon Adı": "TEB PORTFÖY ICBC TURKEY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 134.632113
+      "Fon Fiyatı": 134.72478
     },
     {
       "Fon Kodu": "ICF",
       "Fon Adı": "TEB PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 183.637341
+      "Fon Fiyatı": 182.067776
     },
     {
       "Fon Kodu": "ICH",
       "Fon Adı": "PARDUS PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.270245
+      "Fon Fiyatı": 2.265485
     },
     {
       "Fon Kodu": "ICZ",
       "Fon Adı": "AK PORTFÖY TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.032142
+      "Fon Fiyatı": 6.941338
     },
     {
       "Fon Kodu": "IDH",
       "Fon Adı": "İŞ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 11.173268
+      "Fon Fiyatı": 11.020338
     },
     {
       "Fon Kodu": "IDI",
       "Fon Adı": "AZİMUT PORTFÖY İNŞAAT SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.543121
+      "Fon Fiyatı": 1.521557
     },
     {
       "Fon Kodu": "IDL",
       "Fon Adı": "AKTİF PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.37491
+      "Fon Fiyatı": 6.377851
     },
     {
       "Fon Kodu": "IDY",
       "Fon Adı": "TEB PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.240007
+      "Fon Fiyatı": 0.239649
     },
     {
       "Fon Kodu": "IED",
       "Fon Adı": "İŞ PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.046451
+      "Fon Fiyatı": 1.036253
     },
     {
       "Fon Kodu": "IEV",
       "Fon Adı": "İŞ PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.651107
+      "Fon Fiyatı": 4.643827
     },
     {
       "Fon Kodu": "IFN",
       "Fon Adı": "TEB PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 8.794622
+      "Fon Fiyatı": 8.721316
     },
     {
       "Fon Kodu": "IFV",
       "Fon Adı": "TEB PORTFÖY BİRİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 4.909809
+      "Fon Fiyatı": 4.906256
     },
     {
       "Fon Kodu": "IHA",
       "Fon Adı": "ALLBATROSS PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.669301
+      "Fon Fiyatı": 2.635259
     },
     {
       "Fon Kodu": "IHK",
       "Fon Adı": "İŞ PORTFÖY İŞ'TE KADIN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 15.545002
+      "Fon Fiyatı": 15.348883
     },
     {
       "Fon Kodu": "IHT",
       "Fon Adı": "İŞ PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.481081
+      "Fon Fiyatı": 3.448042
     },
     {
       "Fon Kodu": "IIH",
       "Fon Adı": "İSTANBUL PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 31.516078
+      "Fon Fiyatı": 31.19193
     },
     {
       "Fon Kodu": "IJA",
       "Fon Adı": "INVEO PORTFÖY ATAK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 13.311404
+      "Fon Fiyatı": 13.223319
     },
     {
       "Fon Kodu": "IJB",
       "Fon Adı": "İŞ PORTFÖY DİJİTAL OYUN SEKTÖRÜ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 6.761226
+      "Fon Fiyatı": 6.732524
     },
     {
       "Fon Kodu": "IJC",
       "Fon Adı": "İŞ PORTFÖY YARI İLETKEN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 14.990118
+      "Fon Fiyatı": 14.791967
     },
     {
       "Fon Kodu": "IJH",
       "Fon Adı": "TEB PORTFÖY ICBC TURKEY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.483217
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "IJP",
       "Fon Adı": "İŞ PORTFÖY BLOCKCHAİN TEKNOLOJİLERİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 9.302753
+      "Fon Fiyatı": 9.23172
     },
     {
       "Fon Kodu": "IJV",
       "Fon Adı": "İSTANBUL PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.949728
+      "Fon Fiyatı": 5.956389
     },
     {
       "Fon Kodu": "IJZ",
       "Fon Adı": "İŞ PORTFÖY SİBER GÜVENLİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 14.966428
+      "Fon Fiyatı": 14.697351
     },
     {
       "Fon Kodu": "IKL",
       "Fon Adı": "İŞ PORTFÖY SAĞLIK ŞİRKETLERİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 10.192057
+      "Fon Fiyatı": 10.222997
     },
     {
       "Fon Kodu": "IKP",
       "Fon Adı": "İŞ PORTFÖY YENİLENEBİLİR ENERJİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 9.029853
+      "Fon Fiyatı": 8.987121
     },
     {
       "Fon Kodu": "IKV",
       "Fon Adı": "İŞ PORTFÖY İKİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.600877
+      "Fon Fiyatı": 1.602115
     },
     {
       "Fon Kodu": "ILZ",
       "Fon Adı": "İŞ PORTFÖY TEMKİNLİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.613379
+      "Fon Fiyatı": 8.618792
     },
     {
       "Fon Kodu": "IMB",
       "Fon Adı": "İSTANBUL PORTFÖY ALGORİTMİK MODEL HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.177694
+      "Fon Fiyatı": 1.167683
     },
     {
       "Fon Kodu": "IML",
       "Fon Adı": "İŞ PORTFÖY MODEL PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.660021
+      "Fon Fiyatı": 1.630792
     },
     {
       "Fon Kodu": "IOO",
       "Fon Adı": "İŞ PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 4.858024
+      "Fon Fiyatı": 4.861749
     },
     {
       "Fon Kodu": "IPB",
       "Fon Adı": "İSTANBUL PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.730573
+      "Fon Fiyatı": 0.722513
     },
     {
       "Fon Kodu": "IPG",
       "Fon Adı": "İŞ PORTFÖY ATAK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 9.881286
+      "Fon Fiyatı": 9.874717
     },
     {
       "Fon Kodu": "IPJ",
       "Fon Adı": "İŞ PORTFÖY ELEKTRİKLİ ARAÇLAR KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 19.578392
+      "Fon Fiyatı": 19.508715
     },
     {
       "Fon Kodu": "IPV",
       "Fon Adı": "İŞ PORTFÖY EUROBOND BORÇLANMA ARAÇLARI (DÖVİZ) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 79.974801
+      "Fon Fiyatı": 80.00065
     },
     {
       "Fon Kodu": "IRF",
       "Fon Adı": "İSTANBUL PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.72036
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "IRT",
       "Fon Adı": "INVEO PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.895633
+      "Fon Fiyatı": 7.854387
     },
     {
       "Fon Kodu": "IRY",
       "Fon Adı": "INVEO PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 4.227144
+      "Fon Fiyatı": 4.231268
     },
     {
       "Fon Kodu": "IST",
       "Fon Adı": "İSTANBUL PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.205026
+      "Fon Fiyatı": 0.205256
     },
     {
       "Fon Kodu": "ITC",
       "Fon Adı": "INVEO PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.102792
+      "Fon Fiyatı": 1.093536
     },
     {
       "Fon Kodu": "ITP",
       "Fon Adı": "İŞ PORTFÖY TEKNOLOJİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 13.62647
+      "Fon Fiyatı": 13.556345
     },
     {
       "Fon Kodu": "IUH",
       "Fon Adı": "INVEO PORTFÖY DÖNÜŞTÜRÜCÜ TEKNOLOJİLER FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.251553
+      "Fon Fiyatı": 6.25117
     },
     {
       "Fon Kodu": "IV8",
       "Fon Adı": "INVEO PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.412374
+      "Fon Fiyatı": 2.413725
     },
     {
       "Fon Kodu": "IVF",
       "Fon Adı": "İSTANBUL PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 5.960542
+      "Fon Fiyatı": 5.897404
     },
     {
       "Fon Kodu": "IVY",
       "Fon Adı": "İSTANBUL PORTFÖY BLOCKCHAIN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.333156
+      "Fon Fiyatı": 6.269357
     },
     {
       "Fon Kodu": "IYB",
       "Fon Adı": "AURA PORTFÖY DEĞİŞKEN FONU",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.790207
+      "Fon Fiyatı": 5.772876
     },
     {
       "Fon Kodu": "JET",
       "Fon Adı": "ATA PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.151634
+      "Fon Fiyatı": 2.163032
     },
     {
       "Fon Kodu": "KCL",
       "Fon Adı": "KARE PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.711251
+      "Fon Fiyatı": 1.706219
     },
     {
       "Fon Kodu": "KCV",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.309614
+      "Fon Fiyatı": 5.288697
     },
     {
       "Fon Kodu": "KDE",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY DENGELİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.810799
+      "Fon Fiyatı": 1.806218
     },
     {
       "Fon Kodu": "KGM",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY GÜMÜŞ KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.793975
+      "Fon Fiyatı": 2.678356
     },
     {
       "Fon Kodu": "KH1",
       "Fon Adı": "AK PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.268913
+      "Fon Fiyatı": 1.261573
     },
     {
       "Fon Kodu": "KHA",
       "Fon Adı": "PARDUS PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.001577
+      "Fon Fiyatı": 0.001582
     },
     {
       "Fon Kodu": "KHB",
       "Fon Adı": "KARE PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.269023
+      "Fon Fiyatı": 1.253388
     },
     {
       "Fon Kodu": "KHC",
       "Fon Adı": "PARDUS PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.650025
+      "Fon Fiyatı": 1.631211
     },
     {
       "Fon Kodu": "KHJ",
       "Fon Adı": "ATLAS PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.954343
+      "Fon Fiyatı": 0.941997
     },
     {
       "Fon Kodu": "KIA",
       "Fon Adı": "TRIVE PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.542649
+      "Fon Fiyatı": 4.538517
     },
     {
       "Fon Kodu": "KIB",
       "Fon Adı": "TRIVE PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.151236
+      "Fon Fiyatı": 4.101373
     },
     {
       "Fon Kodu": "KIE",
       "Fon Adı": "TRIVE PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 4.923551
+      "Fon Fiyatı": 4.926685
     },
     {
       "Fon Kodu": "KIK",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY İKİNCİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.464874
+      "Fon Fiyatı": 1.45311
     },
     {
       "Fon Kodu": "KIS",
       "Fon Adı": "ASTRA PORTFÖY KİRA SERTİFİKASI KATILIM (DÖVİZ) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.224821
+      "Fon Fiyatı": 0.225008
     },
     {
       "Fon Kodu": "KKH",
       "Fon Adı": "İŞ PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.136942
+      "Fon Fiyatı": 7.137707
     },
     {
       "Fon Kodu": "KLU",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.100571
+      "Fon Fiyatı": 5.105472
     },
     {
       "Fon Kodu": "KME",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY TEMKİNLİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.653436
+      "Fon Fiyatı": 1.65106
     },
     {
       "Fon Kodu": "KMF",
       "Fon Adı": "AZİMUT PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.392055
+      "Fon Fiyatı": 3.35754
     },
     {
       "Fon Kodu": "KMN",
       "Fon Adı": "YAPI KREDİ PORTFÖY KIYMETLİ MADENLER KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.919419
+      "Fon Fiyatı": 0.906247
     },
     {
       "Fon Kodu": "KNJ",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ENERJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.103447
+      "Fon Fiyatı": 2.09994
     },
     {
       "Fon Kodu": "KOD",
       "Fon Adı": "YAPI KREDİ PORTFÖY KÜÇÜK ÖLÇEKLİ ŞİRKETLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.93668
+      "Fon Fiyatı": 0.925239
     },
     {
       "Fon Kodu": "KOT",
       "Fon Adı": "AZİMUT PORTFÖY KOÇ TOPLULUĞU ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.479398
+      "Fon Fiyatı": 1.461724
     },
     {
       "Fon Kodu": "KPA",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KAR PAYI ÖDEYEN KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.569587
+      "Fon Fiyatı": 1.556282
     },
     {
       "Fon Kodu": "KPC",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 20.167599
+      "Fon Fiyatı": 19.966487
     },
     {
       "Fon Kodu": "KPH",
       "Fon Adı": "İŞ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.198475
+      "Fon Fiyatı": 1.188099
     },
     {
       "Fon Kodu": "KPI",
       "Fon Adı": "İŞ PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.55225
+      "Fon Fiyatı": 1.553728
     },
     {
       "Fon Kodu": "KPP",
       "Fon Adı": "KARE PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.337356
+      "Fon Fiyatı": 3.339763
     },
     {
       "Fon Kodu": "KPU",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY İKİNCİ KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.693604
+      "Fon Fiyatı": 3.655313
     },
     {
       "Fon Kodu": "KRC",
       "Fon Adı": "KARE PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.153729
+      "Fon Fiyatı": 0.153873
     },
     {
       "Fon Kodu": "KRF",
       "Fon Adı": "KARE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 21.627181
+      "Fon Fiyatı": 21.620479
     },
     {
       "Fon Kodu": "KRR",
       "Fon Adı": "İŞ PORTFÖY KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 1.141897
+      "Fon Fiyatı": 1.135141
     },
     {
       "Fon Kodu": "KSK",
       "Fon Adı": "AZİMUT PORTFÖY İKİNCİ PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.088406
+      "Fon Fiyatı": 3.091339
     },
     {
       "Fon Kodu": "KSR",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY SÜRDÜRÜLEBİLİRLİK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.317189
+      "Fon Fiyatı": 5.292982
     },
     {
       "Fon Kodu": "KST",
       "Fon Adı": "ALLBATROSS PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.746241
+      "Fon Fiyatı": 1.727689
     },
     {
       "Fon Kodu": "KTI",
       "Fon Adı": "AZİMUT PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.903503
+      "Fon Fiyatı": 1.877995
     },
     {
       "Fon Kodu": "KTJ",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY TEKNOLOJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.803409
+      "Fon Fiyatı": 2.778248
     },
     {
       "Fon Kodu": "KTM",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY BİRİNCİ KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 22.207838
+      "Fon Fiyatı": 22.122047
     },
     {
       "Fon Kodu": "KTN",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.233837
+      "Fon Fiyatı": 8.240254
     },
     {
       "Fon Kodu": "KTV",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.097282
+      "Fon Fiyatı": 8.104353
     },
     {
       "Fon Kodu": "KU3",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ÜÇÜNCÜ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.120785
+      "Fon Fiyatı": 1.110891
     },
     {
       "Fon Kodu": "KUA",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY AGRESİF KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.398453
+      "Fon Fiyatı": 1.389056
     },
     {
       "Fon Kodu": "KUB",
       "Fon Adı": "KARE PORTFÖY DEĞİŞKEN  (DÖVİZ) FONU",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.769643
+      "Fon Fiyatı": 0.766672
     },
     {
       "Fon Kodu": "KUD",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY DİNAMİK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.731152
+      "Fon Fiyatı": 1.722758
     },
     {
       "Fon Kodu": "KUT",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KIYMETLİ MADENLER KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 11.711105
+      "Fon Fiyatı": 11.510289
     },
     {
       "Fon Kodu": "KVT",
       "Fon Adı": "AK PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.240426
+      "Fon Fiyatı": 1.222633
     },
     {
       "Fon Kodu": "KYA",
       "Fon Adı": "KARE PORTFÖY HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.107899
+      "Fon Fiyatı": 1.095599
     },
     {
       "Fon Kodu": "KZL",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 27.675699
+      "Fon Fiyatı": 27.449219
     },
     {
       "Fon Kodu": "KZU",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY İKİNCİ ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.34199
+      "Fon Fiyatı": 2.318494
     },
     {
       "Fon Kodu": "LKF",
       "Fon Adı": "İŞ PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.021266
+      "Fon Fiyatı": 1.012952
     },
     {
       "Fon Kodu": "LKT",
       "Fon Adı": "AKTİF PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.977582
+      "Fon Fiyatı": 1.980282
     },
     {
       "Fon Kodu": "LTL",
       "Fon Adı": "AHLATCI PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.186988
+      "Fon Fiyatı": 1.175594
     },
     {
       "Fon Kodu": "MAC",
       "Fon Adı": "MARMARA CAPITAL PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.681912
+      "Fon Fiyatı": 0.67418
     },
     {
       "Fon Kodu": "MAD",
       "Fon Adı": "MEKSA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.989076
+      "Fon Fiyatı": 0.984785
     },
     {
       "Fon Kodu": "MBL",
       "Fon Adı": "MEKSA PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.302743
+      "Fon Fiyatı": 0.303027
     },
     {
       "Fon Kodu": "MBR",
       "Fon Adı": "MT PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.733095
+      "Fon Fiyatı": 1.734343
     },
     {
       "Fon Kodu": "MD1",
       "Fon Adı": "MT PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.872183
+      "Fon Fiyatı": 1.859995
     },
     {
       "Fon Kodu": "MD2",
       "Fon Adı": "MT PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.97209
+      "Fon Fiyatı": 1.971048
     },
     {
       "Fon Kodu": "MET",
       "Fon Adı": "GARANTİ PORTFÖY METAVERSE VE YENİ TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.371989
+      "Fon Fiyatı": 6.332154
     },
     {
       "Fon Kodu": "MHF",
       "Fon Adı": "MT PORTFÖY BIST HALKA ARZ ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.264851
+      "Fon Fiyatı": 1.230737
     },
     {
       "Fon Kodu": "MJB",
@@ -2243,67 +2243,67 @@
       "Fon Kodu": "MKA",
       "Fon Adı": "MARMARA CAPİTAL PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.099276
+      "Fon Fiyatı": 1.084003
     },
     {
       "Fon Kodu": "MKG",
       "Fon Adı": "AKTİF PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 17.268046
+      "Fon Fiyatı": 17.092685
     },
     {
       "Fon Kodu": "MMH",
       "Fon Adı": "AKTİF PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 16.07584
+      "Fon Fiyatı": 15.932489
     },
     {
       "Fon Kodu": "MPE",
       "Fon Adı": "MT PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.455065
+      "Fon Fiyatı": 1.456439
     },
     {
       "Fon Kodu": "MPF",
       "Fon Adı": "AKTİF PORTFÖY KISA VADELİ KİRA SERTİFİKASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.770608
+      "Fon Fiyatı": 8.776808
     },
     {
       "Fon Kodu": "MPK",
       "Fon Adı": "AKTİF PORTFÖY KİRA SERTİFİKASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 10.39659
+      "Fon Fiyatı": 10.401278
     },
     {
       "Fon Kodu": "MPL",
       "Fon Adı": "MT PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.129473
+      "Fon Fiyatı": 2.131581
     },
     {
       "Fon Kodu": "MPS",
       "Fon Adı": "AKTİF PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 22.553267
+      "Fon Fiyatı": 22.220169
     },
     {
       "Fon Kodu": "MTD",
       "Fon Adı": "BV PORTFÖY MALZEME TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.173012
+      "Fon Fiyatı": 1.156167
     },
     {
       "Fon Kodu": "MTH",
       "Fon Adı": "MT PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.826686
+      "Fon Fiyatı": 1.808133
     },
     {
       "Fon Kodu": "MTK",
       "Fon Adı": "MT PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.36174
+      "Fon Fiyatı": 1.346438
     },
     {
       "Fon Kodu": "MTS",
@@ -2315,343 +2315,343 @@
       "Fon Kodu": "MTV",
       "Fon Adı": "AK PORTFÖY METAVERSE VE DİJİTAL YAŞAM TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.430957
+      "Fon Fiyatı": 5.414951
     },
     {
       "Fon Kodu": "MTX",
       "Fon Adı": "TEB PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.260302
+      "Fon Fiyatı": 5.216305
     },
     {
       "Fon Kodu": "NAK",
       "Fon Adı": "NEO PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.056157
+      "Fon Fiyatı": 1.04804
     },
     {
       "Fon Kodu": "NAU",
       "Fon Adı": "NEO PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 3.040569
+      "Fon Fiyatı": 3.018099
     },
     {
       "Fon Kodu": "NBO",
       "Fon Adı": "NEO PORTFÖY BORÇLANMA ARACI FONLARI FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.596456
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "NHP",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.71423
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "NHY",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 5.097635
+      "Fon Fiyatı": 5.001283
     },
     {
       "Fon Kodu": "NJF",
       "Fon Adı": "NUROL PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 12.462917
+      "Fon Fiyatı": 12.364826
     },
     {
       "Fon Kodu": "NJR",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 6.155017
+      "Fon Fiyatı": 6.15909
     },
     {
       "Fon Kodu": "NJY",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 7.918609
+      "Fon Fiyatı": 7.92629
     },
     {
       "Fon Kodu": "NKC",
       "Fon Adı": "NEO PORTFÖY İKİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.160984
+      "Fon Fiyatı": 1.156945
     },
     {
       "Fon Kodu": "NKM",
       "Fon Adı": "NEO PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.884954
+      "Fon Fiyatı": 0.872904
     },
     {
       "Fon Kodu": "NKP",
       "Fon Adı": "NEO PORTFÖY KAR PAYI ÖDEYEN DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.121786
+      "Fon Fiyatı": 1.114509
     },
     {
       "Fon Kodu": "NKT",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.467085
+      "Fon Fiyatı": 1.4436
     },
     {
       "Fon Kodu": "NLE",
       "Fon Adı": "NUROL PORTFÖY EMLAK SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.523224
+      "Fon Fiyatı": 1.515163
     },
     {
       "Fon Kodu": "NNF",
       "Fon Adı": "HEDEF PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 20.017671
+      "Fon Fiyatı": 19.874812
     },
     {
       "Fon Kodu": "NPH",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.453768
+      "Fon Fiyatı": 1.441406
     },
     {
       "Fon Kodu": "NRC",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.926402
+      "Fon Fiyatı": 9.768153
     },
     {
       "Fon Kodu": "NRG",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.887215
+      "Fon Fiyatı": 5.891441
     },
     {
       "Fon Kodu": "NSP",
       "Fon Adı": "NUROL PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.948602
+      "Fon Fiyatı": 1.950553
     },
     {
       "Fon Kodu": "NST",
       "Fon Adı": "İŞ PORTFÖY EMLAK SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.080548
+      "Fon Fiyatı": 1.071099
     },
     {
       "Fon Kodu": "NTI",
       "Fon Adı": "NEO PORTFÖY TEKNOLOJİ VE İNOVASYON DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.618963
+      "Fon Fiyatı": 1.60242
     },
     {
       "Fon Kodu": "NUH",
       "Fon Adı": "NEO PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.170365
+      "Fon Fiyatı": 1.161429
     },
     {
       "Fon Kodu": "NVB",
       "Fon Adı": "NEO PORTFÖY İKİNCİ PARA PİYASASI (TL) FON",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.092137
+      "Fon Fiyatı": 5.095784
     },
     {
       "Fon Kodu": "NZH",
       "Fon Adı": "NEO PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.348612
+      "Fon Fiyatı": 3.334866
     },
     {
       "Fon Kodu": "OBI",
       "Fon Adı": "OYAK PORTFÖY İKİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 3.330188
+      "Fon Fiyatı": 3.322013
     },
     {
       "Fon Kodu": "OBP",
       "Fon Adı": "OYAK PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.2105
+      "Fon Fiyatı": 0.209955
     },
     {
       "Fon Kodu": "ODG",
       "Fon Adı": "ONE PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.201769
+      "Fon Fiyatı": 1.204099
     },
     {
       "Fon Kodu": "ODV",
       "Fon Adı": "AK PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 19.586884
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "OFI",
       "Fon Adı": "OYAK PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.067855
+      "Fon Fiyatı": 4.029605
     },
     {
       "Fon Kodu": "OFS",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.343399
+      "Fon Fiyatı": 8.281067
     },
     {
       "Fon Kodu": "OGD",
       "Fon Adı": "OYAK PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 11.447871
+      "Fon Fiyatı": 11.342858
     },
     {
       "Fon Kodu": "OHB",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 22.998433
+      "Fon Fiyatı": 22.781984
     },
     {
       "Fon Kodu": "OHK",
       "Fon Adı": "OYAK PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.733381
+      "Fon Fiyatı": 2.713792
     },
     {
       "Fon Kodu": "OIL",
       "Fon Adı": "OSMANLI PORTFÖY ALTIN FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.835143
+      "Fon Fiyatı": 3.829901
     },
     {
       "Fon Kodu": "OIR",
       "Fon Adı": "OSMANLI PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.161892
+      "Fon Fiyatı": 5.161644
     },
     {
       "Fon Kodu": "OJK",
       "Fon Adı": "QNB PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 13.248832
+      "Fon Fiyatı": 13.131002
     },
     {
       "Fon Kodu": "OJT",
       "Fon Adı": "QNB PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 13.288827
+      "Fon Fiyatı": 13.171344
     },
     {
       "Fon Kodu": "OKD",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.605454
+      "Fon Fiyatı": 0.602405
     },
     {
       "Fon Kodu": "OKP",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 6.818295
+      "Fon Fiyatı": 6.821493
     },
     {
       "Fon Kodu": "OKT",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.17253
+      "Fon Fiyatı": 0.172701
     },
     {
       "Fon Kodu": "OLD",
       "Fon Adı": "QNB PORTFÖY TEMİZ ENERJİ VE SU FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.951307
+      "Fon Fiyatı": 2.938467
     },
     {
       "Fon Kodu": "OLE",
       "Fon Adı": "OSMANLI PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.356779
+      "Fon Fiyatı": 5.357523
     },
     {
       "Fon Kodu": "OMG",
       "Fon Adı": "AZİMUT PORTFÖY İKİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.76185
+      "Fon Fiyatı": 1.743696
     },
     {
       "Fon Kodu": "OPB",
       "Fon Adı": "OSMANLI PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 13.419591
+      "Fon Fiyatı": 13.355637
     },
     {
       "Fon Kodu": "OPF",
       "Fon Adı": "OSMANLI PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.40872
+      "Fon Fiyatı": 3.393508
     },
     {
       "Fon Kodu": "OPH",
       "Fon Adı": "OSMANLI PORTFÖY BİRİNCİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 23.817947
+      "Fon Fiyatı": 23.492504
     },
     {
       "Fon Kodu": "OPI",
       "Fon Adı": "OSMANLI PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 21.076448
+      "Fon Fiyatı": 20.893512
     },
     {
       "Fon Kodu": "OPL",
       "Fon Adı": "OSMANLI PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.492849
+      "Fon Fiyatı": 9.42694
     },
     {
       "Fon Kodu": "OSD",
       "Fon Adı": "OSMANLI PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 15.045419
+      "Fon Fiyatı": 15.061276
     },
     {
       "Fon Kodu": "OSL",
       "Fon Adı": "OSMANLI PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.164326
+      "Fon Fiyatı": 0.164371
     },
     {
       "Fon Kodu": "OTJ",
       "Fon Adı": "OYAK PORTFÖY KIYMETLİ MADENLER KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.86774
+      "Fon Fiyatı": 6.634931
     },
     {
       "Fon Kodu": "OTM",
       "Fon Adı": "AZİMUT PORTFÖY OTOMOTİV SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.28512
+      "Fon Fiyatı": 1.269323
     },
     {
       "Fon Kodu": "OVD",
       "Fon Adı": "QNB PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.622846
+      "Fon Fiyatı": 3.620614
     },
     {
       "Fon Kodu": "PAB",
       "Fon Adı": "A1 CAPİTAL PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.008763
+      "Fon Fiyatı": 0.008767
     },
     {
       "Fon Kodu": "PAF",
       "Fon Adı": "PARDUS PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 3.475929
+      "Fon Fiyatı": 3.44785
     },
     {
       "Fon Kodu": "PBI",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.115867
+      "Fon Fiyatı": 2.116317
     },
     {
       "Fon Kodu": "PBR",
@@ -2663,37 +2663,37 @@
       "Fon Kodu": "PDD",
       "Fon Adı": "ASTRA PORTFÖY KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 6.130749
+      "Fon Fiyatı": 6.133814
     },
     {
       "Fon Kodu": "PEA",
       "Fon Adı": "PERFORM PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.444145
+      "Fon Fiyatı": 1.432496
     },
     {
       "Fon Kodu": "PFO",
       "Fon Adı": "PHİLLİP PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.212436
+      "Fon Fiyatı": 2.210665
     },
     {
       "Fon Kodu": "PFS",
       "Fon Adı": "ATLAS PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.82758
+      "Fon Fiyatı": 2.825636
     },
     {
       "Fon Kodu": "PGD",
       "Fon Adı": "ASTRA PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.83264
+      "Fon Fiyatı": 1.832872
     },
     {
       "Fon Kodu": "PGS",
       "Fon Adı": "AZİMUT PORTFÖY PAY GERİ ALIMI YAPAN ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.25158
+      "Fon Fiyatı": 1.231202
     },
     {
       "Fon Kodu": "PHE",
@@ -2705,391 +2705,391 @@
       "Fon Kodu": "PHI",
       "Fon Adı": "PİRAMİT PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.491802
+      "Fon Fiyatı": 1.477749
     },
     {
       "Fon Kodu": "PHK",
       "Fon Adı": "PHİLLİP PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.548404
+      "Fon Fiyatı": 1.533645
     },
     {
       "Fon Kodu": "PID",
       "Fon Adı": "PİRAMİT PORTFÖY DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.899072
+      "Fon Fiyatı": 1.897591
     },
     {
       "Fon Kodu": "PIL",
       "Fon Adı": "ROTA PORTFÖY PİL TEKNOLOJİLERİ VE ENERJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.770917
+      "Fon Fiyatı": 3.714329
     },
     {
       "Fon Kodu": "PIR",
       "Fon Adı": "PİRAMİT PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.6217
+      "Fon Fiyatı": 1.598858
     },
     {
       "Fon Kodu": "PJL",
       "Fon Adı": "PHİLLİP PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.481801
+      "Fon Fiyatı": 5.485488
     },
     {
       "Fon Kodu": "PKF",
       "Fon Adı": "ATA PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 4.654097
+      "Fon Fiyatı": 4.615068
     },
     {
       "Fon Kodu": "PKR",
       "Fon Adı": "ROTA PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.619723
+      "Fon Fiyatı": 1.621258
     },
     {
       "Fon Kodu": "PLR",
       "Fon Adı": "OSMANLI PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.766139
+      "Fon Fiyatı": 1.767307
     },
     {
       "Fon Kodu": "PNU",
       "Fon Adı": "PUSULA PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.285786
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "PP1",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.449137
+      "Fon Fiyatı": 1.440001
     },
     {
       "Fon Kodu": "PPB",
       "Fon Adı": "PHİLLİP PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 9.466833
+      "Fon Fiyatı": 9.381535
     },
     {
       "Fon Kodu": "PPG",
       "Fon Adı": "ALBARAKA PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.532343
+      "Fon Fiyatı": 1.533821
     },
     {
       "Fon Kodu": "PPH",
       "Fon Adı": "PARDUS PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.144817
+      "Fon Fiyatı": 1.125787
     },
     {
       "Fon Kodu": "PPI",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.409552
+      "Fon Fiyatı": 2.41061
     },
     {
       "Fon Kodu": "PPK",
       "Fon Adı": "QNB PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.374325
+      "Fon Fiyatı": 2.376443
     },
     {
       "Fon Kodu": "PPN",
       "Fon Adı": "NUROL PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.096887
+      "Fon Fiyatı": 6.101558
     },
     {
       "Fon Kodu": "PPP",
       "Fon Adı": "PERFORM PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.29561
+      "Fon Fiyatı": 3.298249
     },
     {
       "Fon Kodu": "PPT",
       "Fon Adı": "ATLAS PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.427501
+      "Fon Fiyatı": 3.428348
     },
     {
       "Fon Kodu": "PPZ",
       "Fon Adı": "AZİMUT PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.942165
+      "Fon Fiyatı": 6.946916
     },
     {
       "Fon Kodu": "PRD",
       "Fon Adı": "PİRAMİT PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.479838
+      "Fon Fiyatı": 2.481703
     },
     {
       "Fon Kodu": "PRH",
       "Fon Adı": "AURA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.279545
+      "Fon Fiyatı": 2.258489
     },
     {
       "Fon Kodu": "PRR",
       "Fon Adı": "INVEO PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.409189
+      "Fon Fiyatı": 1.410268
     },
     {
       "Fon Kodu": "PRY",
       "Fon Adı": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.284013
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "PSH",
       "Fon Adı": "DENİZ PORTFÖY PERAKENDE SEKTÖRÜ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.890146
+      "Fon Fiyatı": 0.877136
     },
     {
       "Fon Kodu": "PTN",
       "Fon Adı": "PHİLLİP PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.595046
+      "Fon Fiyatı": 1.57736
     },
     {
       "Fon Kodu": "PTO",
       "Fon Adı": "PARDUS PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.878072
+      "Fon Fiyatı": 1.874888
     },
     {
       "Fon Kodu": "PTP",
       "Fon Adı": "AHLATCI PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.262835
+      "Fon Fiyatı": 1.263592
     },
     {
       "Fon Kodu": "PUK",
       "Fon Adı": "PUSULA PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.240833
+      "Fon Fiyatı": 1.231242
     },
     {
       "Fon Kodu": "RBA",
       "Fon Adı": "ALBARAKA PORTFÖY BEREKET VAKFI NA DESTEK ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 21.140985
+      "Fon Fiyatı": 20.951958
     },
     {
       "Fon Kodu": "RBB",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.746161
+      "Fon Fiyatı": 1.746124
     },
     {
       "Fon Kodu": "RBF",
       "Fon Adı": "ROTA PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.863355
+      "Fon Fiyatı": 1.861534
     },
     {
       "Fon Kodu": "RBH",
       "Fon Adı": "ALBARAKA PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 32.074826
+      "Fon Fiyatı": 31.784173
     },
     {
       "Fon Kodu": "RBK",
       "Fon Adı": "ALBARAKA PORTFÖY KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 9.098366
+      "Fon Fiyatı": 9.101363
     },
     {
       "Fon Kodu": "RBP",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.398896
+      "Fon Fiyatı": 2.401147
     },
     {
       "Fon Kodu": "RBT",
       "Fon Adı": "ALBARAKA PORTFÖY KİRA SERTİFİKALARI  KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 6.951261
+      "Fon Fiyatı": 6.957125
     },
     {
       "Fon Kodu": "RBV",
       "Fon Adı": "ALBARAKA PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 7.284902
+      "Fon Fiyatı": 7.287587
     },
     {
       "Fon Kodu": "RCV",
       "Fon Adı": "AZİMUT PORTFÖY BİRİNCİ ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.715214
+      "Fon Fiyatı": 1.706749
     },
     {
       "Fon Kodu": "RD1",
       "Fon Adı": "ROTA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.992624
+      "Fon Fiyatı": 1.988616
     },
     {
       "Fon Kodu": "RGD",
       "Fon Adı": "RE-PIE PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.127756
+      "Fon Fiyatı": 1.127165
     },
     {
       "Fon Kodu": "RHI",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.632725
+      "Fon Fiyatı": 1.609817
     },
     {
       "Fon Kodu": "RHS",
       "Fon Adı": "ROTA PORTFÖY HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 6.978405
+      "Fon Fiyatı": 6.897183
     },
     {
       "Fon Kodu": "RIK",
       "Fon Adı": "RE-PIE PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.712347
+      "Fon Fiyatı": 4.725232
     },
     {
       "Fon Kodu": "RJG",
       "Fon Adı": "RE-PIE PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.404829
+      "Fon Fiyatı": 3.373988
     },
     {
       "Fon Kodu": "RKC",
       "Fon Adı": "ROTA PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.780436
+      "Fon Fiyatı": 1.77769
     },
     {
       "Fon Kodu": "RKS",
       "Fon Adı": "ROTA PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.143068
+      "Fon Fiyatı": 2.145008
     },
     {
       "Fon Kodu": "RPC",
       "Fon Adı": "ROTA PORTFÖY İKLİM DEĞİŞİKLİĞİ ÇÖZÜMLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.20439
+      "Fon Fiyatı": 5.197181
     },
     {
       "Fon Kodu": "RPD",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 12.432653
+      "Fon Fiyatı": 12.391471
     },
     {
       "Fon Kodu": "RPG",
       "Fon Adı": "ROTA PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 6.075019
+      "Fon Fiyatı": 5.998221
     },
     {
       "Fon Kodu": "RPI",
       "Fon Adı": "ROTA PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.44976
+      "Fon Fiyatı": 1.441765
     },
     {
       "Fon Kodu": "RPM",
       "Fon Adı": "ROTA PORTFÖY İLAÇ VE MEDİKAL TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.080044
+      "Fon Fiyatı": 4.071156
     },
     {
       "Fon Kodu": "RPP",
       "Fon Adı": "ROTA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.237576
+      "Fon Fiyatı": 5.241883
     },
     {
       "Fon Kodu": "RRP",
       "Fon Adı": "RE-PIE PORTFÖY PARA PİYASASI KATILIM (TL) FON",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.732821
+      "Fon Fiyatı": 1.734559
     },
     {
       "Fon Kodu": "RTD",
       "Fon Adı": "RE-PIE PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.034931
+      "Fon Fiyatı": 2.026156
     },
     {
       "Fon Kodu": "RTG",
       "Fon Adı": "ATA PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.798792
+      "Fon Fiyatı": 5.730422
     },
     {
       "Fon Kodu": "RUT",
       "Fon Adı": "BV PORTFÖY ROBOTİK VE UZAY TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.484709
+      "Fon Fiyatı": 2.459504
     },
     {
       "Fon Kodu": "SAS",
       "Fon Adı": "AK PORTFÖY SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.512233
+      "Fon Fiyatı": 1.495435
     },
     {
       "Fon Kodu": "SFS",
       "Fon Adı": "AZİMUT PORTFÖY AGRESİF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.391617
+      "Fon Fiyatı": 1.391587
     },
     {
       "Fon Kodu": "SGT",
       "Fon Adı": "GARANTİ PORTFÖY SİBER GÜVENLİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.142551
+      "Fon Fiyatı": 2.106089
     },
     {
       "Fon Kodu": "SHE",
       "Fon Adı": "TEB PORTFÖY ÖNCE KADIN DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.34935
+      "Fon Fiyatı": 3.30911
     },
     {
       "Fon Kodu": "SKO",
       "Fon Adı": "STRATEJİ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.626041
+      "Fon Fiyatı": 1.612228
     },
     {
       "Fon Kodu": "SLG",
       "Fon Adı": "QNB PORTFÖY ALGORİTMİK STRATEJİLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.263953
+      "Fon Fiyatı": 1.250984
     },
     {
       "Fon Kodu": "SOS",
       "Fon Adı": "HEDEF PORTFÖY SAĞLIK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.532534
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "SPP",
       "Fon Adı": "SPARTA PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.688652
+      "Fon Fiyatı": 1.689862
     },
     {
       "Fon Kodu": "SPR",
       "Fon Adı": "BV PORTFÖY SPOR ENDÜSTRİSİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.272991
+      "Fon Fiyatı": 1.270087
     },
     {
       "Fon Kodu": "SPT",
@@ -3101,169 +3101,169 @@
       "Fon Kodu": "SRL",
       "Fon Adı": "PARDUS PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.725147
+      "Fon Fiyatı": 1.716071
     },
     {
       "Fon Kodu": "SSK",
       "Fon Adı": "DENİZ PORTFÖY SAĞLIK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.778907
+      "Fon Fiyatı": 1.779083
     },
     {
       "Fon Kodu": "SSS",
       "Fon Adı": "YAPI KREDİ PORTFÖY SAVUNMA SANAYİİ ŞİRKETLERİ ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.29305
+      "Fon Fiyatı": 1.273656
     },
     {
       "Fon Kodu": "ST1",
       "Fon Adı": "STRATEJİ PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 165.599718
+      "Fon Fiyatı": 163.4172
     },
     {
       "Fon Kodu": "SUA",
       "Fon Adı": "ÜNLÜ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.612965
+      "Fon Fiyatı": 0.611075
     },
     {
       "Fon Kodu": "SUB",
       "Fon Adı": "ÜNLÜ PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.376192
+      "Fon Fiyatı": 0.373764
     },
     {
       "Fon Kodu": "SUC",
       "Fon Adı": "ÜNLÜ PORTFÖY ÜÇÜNCÜ DEĞIŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 23.412961
+      "Fon Fiyatı": 23.228472
     },
     {
       "Fon Kodu": "SUR",
       "Fon Adı": "EMAA BLUE PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.119392
+      "Fon Fiyatı": 1.110523
     },
     {
       "Fon Kodu": "SVB",
       "Fon Adı": "STRATEJİ PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 8.71486
+      "Fon Fiyatı": 8.621248
     },
     {
       "Fon Kodu": "TAL",
       "Fon Adı": "ATLAS PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 2.681272
+      "Fon Fiyatı": 2.653459
     },
     {
       "Fon Kodu": "TAR",
       "Fon Adı": "AK PORTFÖY TARIM VE GIDA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.403096
+      "Fon Fiyatı": 2.396953
     },
     {
       "Fon Kodu": "TAU",
       "Fon Adı": "İŞ PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.626415
+      "Fon Fiyatı": 0.617568
     },
     {
       "Fon Kodu": "TBT",
       "Fon Adı": "TEB PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 55.388718
+      "Fon Fiyatı": 55.179771
     },
     {
       "Fon Kodu": "TBV",
       "Fon Adı": "İŞ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.433238
+      "Fon Fiyatı": 0.433663
     },
     {
       "Fon Kodu": "TCA",
       "Fon Adı": "ZİRAAT PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.765822
+      "Fon Fiyatı": 0.758005
     },
     {
       "Fon Kodu": "TCB",
       "Fon Adı": "TACİRLER PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.247922
+      "Fon Fiyatı": 0.248073
     },
     {
       "Fon Kodu": "TCD",
       "Fon Adı": "TACİRLER PORTFÖY DEĞIŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 46.099607
+      "Fon Fiyatı": 45.645469
     },
     {
       "Fon Kodu": "TCF",
       "Fon Adı": "TEB PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.764018
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "TDG",
       "Fon Adı": "İŞ PORTFÖY YABANCI BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.530639
+      "Fon Fiyatı": 0.529588
     },
     {
       "Fon Kodu": "TE3",
       "Fon Adı": "TEB PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 40.352211
+      "Fon Fiyatı": 40.086218
     },
     {
       "Fon Kodu": "TE4",
       "Fon Adı": "TEB PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.875333
+      "Fon Fiyatı": 6.874818
     },
     {
       "Fon Kodu": "TEJ",
       "Fon Adı": "AZİMUT PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.83211
+      "Fon Fiyatı": 2.808027
     },
     {
       "Fon Kodu": "TFF",
       "Fon Adı": "TEB PORTFÖY AMERİKA TEKNOLOJİ YABANCI BYF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 46.602994
+      "Fon Fiyatı": 46.351536
     },
     {
       "Fon Kodu": "TFU",
       "Fon Adı": "İŞ PORTFÖY TÜFEYE ENDEKSLİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.326929
+      "Fon Fiyatı": 1.327938
     },
     {
       "Fon Kodu": "TGA",
       "Fon Adı": "GARANTİ PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.470978
+      "Fon Fiyatı": 0.467802
     },
     {
       "Fon Kodu": "TGE",
       "Fon Adı": "İŞ PORTFÖY EMTİA YABANCI BYF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.31336
+      "Fon Fiyatı": 0.314197
     },
     {
       "Fon Kodu": "TGR",
       "Fon Adı": "AK PORTFÖY TURİZM VE SEYAHAT SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.506051
+      "Fon Fiyatı": 6.441082
     },
     {
       "Fon Kodu": "THD",
       "Fon Adı": "TRIVE PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.47378
+      "Fon Fiyatı": 2.447218
     },
     {
       "Fon Kodu": "THF",
@@ -3275,79 +3275,79 @@
       "Fon Kodu": "TI2",
       "Fon Adı": "İŞ PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.12074
+      "Fon Fiyatı": 0.119235
     },
     {
       "Fon Kodu": "TI3",
       "Fon Adı": "İŞ PORTFÖY İŞ BANKASI İŞTİRAKLERİ ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.101905
+      "Fon Fiyatı": 0.101293
     },
     {
       "Fon Kodu": "TI4",
       "Fon Adı": "İŞ PORTFÖY TEMKİNLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.068239
+      "Fon Fiyatı": 0.068302
     },
     {
       "Fon Kodu": "TI6",
       "Fon Adı": "İŞ PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.056672
+      "Fon Fiyatı": 0.056671
     },
     {
       "Fon Kodu": "TI7",
       "Fon Adı": "İŞ PORTFÖY DENGELİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 82.343479
+      "Fon Fiyatı": 82.319358
     },
     {
       "Fon Kodu": "TIE",
       "Fon Adı": "İŞ PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.687222
+      "Fon Fiyatı": 0.680362
     },
     {
       "Fon Kodu": "TIL",
       "Fon Adı": "İŞ PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.287849
+      "Fon Fiyatı": 1.272622
     },
     {
       "Fon Kodu": "TJF",
       "Fon Adı": "TEB PORTFÖY SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.194777
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "TJI",
       "Fon Adı": "TEB PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.34021
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "TKF",
       "Fon Adı": "TACİRLER PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 64.354644
+      "Fon Fiyatı": 63.745752
     },
     {
       "Fon Kodu": "TLE",
       "Fon Adı": "AURA PORTFÖY YABANCI BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 28.022164
+      "Fon Fiyatı": 27.968784
     },
     {
       "Fon Kodu": "TLH",
       "Fon Adı": "AURA PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 23.722079
+      "Fon Fiyatı": 23.392531
     },
     {
       "Fon Kodu": "TLK",
       "Fon Adı": "AKTİF PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.86515
+      "Fon Fiyatı": 1.866972
     },
     {
       "Fon Kodu": "TLV",
@@ -3359,43 +3359,43 @@
       "Fon Kodu": "TLZ",
       "Fon Adı": "ATA PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 17.754047
+      "Fon Fiyatı": 17.581115
     },
     {
       "Fon Kodu": "TMC",
       "Fon Adı": "İŞ PORTFÖY TEMA DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.173827
+      "Fon Fiyatı": 0.173915
     },
     {
       "Fon Kodu": "TMG",
       "Fon Adı": "İŞ PORTFÖY YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.508298
+      "Fon Fiyatı": 1.50526
     },
     {
       "Fon Kodu": "TMU",
       "Fon Adı": "AZİMUT PORTFÖY TEMKİNLİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.470186
+      "Fon Fiyatı": 1.470266
     },
     {
       "Fon Kodu": "TMZ",
       "Fon Adı": "İŞ PORTFÖY SÜRDÜRÜLEBİLİRLİK VE TARIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.968268
+      "Fon Fiyatı": 1.958132
     },
     {
       "Fon Kodu": "TND",
       "Fon Adı": "İŞ PORTFÖY TTF TENİSE DESTEK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.584315
+      "Fon Fiyatı": 1.585624
     },
     {
       "Fon Kodu": "TOT",
       "Fon Adı": "TEB PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1003.704734
+      "Fon Fiyatı": 1004.675788
     },
     {
       "Fon Kodu": "TP2",
@@ -3407,523 +3407,523 @@
       "Fon Kodu": "TPC",
       "Fon Adı": "TEB PORTFÖY KIYMETLİ MADENLER FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 12.336056
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "TPF",
       "Fon Adı": "TACİRLER PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 11.559106
+      "Fon Fiyatı": 11.557202
     },
     {
       "Fon Kodu": "TPL",
       "Fon Adı": "TEB PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 21.53519
+      "Fon Fiyatı": 21.51329
     },
     {
       "Fon Kodu": "TPV",
       "Fon Adı": "AURA PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 10.616208
+      "Fon Fiyatı": 10.583614
     },
     {
       "Fon Kodu": "TPZ",
       "Fon Adı": "TEB PORTFÖY KİRA SERTİFİKALARI (DÖVİZ) KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 29.37458
+      "Fon Fiyatı": 29.382556
     },
     {
       "Fon Kodu": "TRJ",
       "Fon Adı": "TERA PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.285735
+      "Fon Fiyatı": 2.287402
     },
     {
       "Fon Kodu": "TRO",
       "Fon Adı": "TRIVE PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 2.459011
+      "Fon Fiyatı": 2.439013
     },
     {
       "Fon Kodu": "TTA",
       "Fon Adı": "İŞ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.610691
+      "Fon Fiyatı": 0.605171
     },
     {
       "Fon Kodu": "TTE",
       "Fon Adı": "İŞ PORTFÖY BIST TEKNOLOJİ AĞIRLIK SINIRLAMALI ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.129625
+      "Fon Fiyatı": 1.10794
     },
     {
       "Fon Kodu": "TUA",
       "Fon Adı": "TEB PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.430974
+      "Fon Fiyatı": 1.417733
     },
     {
       "Fon Kodu": "TVE",
       "Fon Adı": "EMAA BLUE PORTFÖY TARIM VE GIDA SEKTÖRÜ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.026656
+      "Fon Fiyatı": 1.020617
     },
     {
       "Fon Kodu": "TVN",
       "Fon Adı": "TRIVE PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.951194
+      "Fon Fiyatı": 2.941232
     },
     {
       "Fon Kodu": "TYH",
       "Fon Adı": "TEB PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.949516
+      "Fon Fiyatı": 1.930642
     },
     {
       "Fon Kodu": "TZD",
       "Fon Adı": "ZİRAAT PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.342782
+      "Fon Fiyatı": 2.308472
     },
     {
       "Fon Kodu": "TZT",
       "Fon Adı": "ZİRAAT PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.176627
+      "Fon Fiyatı": 0.176373
     },
     {
       "Fon Kodu": "UP1",
       "Fon Adı": "ÜNLÜ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 6.104452
+      "Fon Fiyatı": 6.042154
     },
     {
       "Fon Kodu": "UPH",
       "Fon Adı": "ÜNLÜ PORTFÖY HİSSE SENEDİ (TL) FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 29.192784
+      "Fon Fiyatı": 28.832641
     },
     {
       "Fon Kodu": "UPP",
       "Fon Adı": "ÜNLÜ PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 7.417208
+      "Fon Fiyatı": 7.421816
     },
     {
       "Fon Kodu": "URA",
       "Fon Adı": "ATA PORTFÖY ENERJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.690329
+      "Fon Fiyatı": 1.648246
     },
     {
       "Fon Kodu": "VAY",
       "Fon Adı": "AK PORTFÖY DEĞER ODAKLI 100 ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.525015
+      "Fon Fiyatı": 1.513096
     },
     {
       "Fon Kodu": "VCY",
       "Fon Adı": "AK PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇ TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.482579
+      "Fon Fiyatı": 3.465096
     },
     {
       "Fon Kodu": "VFK",
       "Fon Adı": "ZİRAAT PORTFÖY İKİNCİ KISA VADELİ KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.753503
+      "Fon Fiyatı": 5.754704
     },
     {
       "Fon Kodu": "VFO",
       "Fon Adı": "V PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.985658
+      "Fon Fiyatı": 0.976511
     },
     {
       "Fon Kodu": "VHS",
       "Fon Adı": "VAKIF KATILIM PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.903186
+      "Fon Fiyatı": 0.892657
     },
     {
       "Fon Kodu": "VKK",
       "Fon Adı": "VAKIF KATILIM PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.142014
+      "Fon Fiyatı": 1.143078
     },
     {
       "Fon Kodu": "VKV",
       "Fon Adı": "VAKIF KATILIM PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.1405
+      "Fon Fiyatı": 1.140696
     },
     {
       "Fon Kodu": "VLT",
       "Fon Adı": "VAKIF KATILIM PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.995711
+      "Fon Fiyatı": 0.98704
     },
     {
       "Fon Kodu": "VPA",
       "Fon Adı": "VAKIF KATILIM PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.170682
+      "Fon Fiyatı": 1.171803
     },
     {
       "Fon Kodu": "VRK",
       "Fon Adı": "DENİZ PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.317204
+      "Fon Fiyatı": 1.309464
     },
     {
       "Fon Kodu": "YAC",
       "Fon Adı": "YAPI KREDİ PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 14.881858
+      "Fon Fiyatı": 14.802891
     },
     {
       "Fon Kodu": "YAE",
       "Fon Adı": "YAPI KREDİ PORTFÖY TLREF'E ENDEKSLİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.242654
+      "Fon Fiyatı": 1.241267
     },
     {
       "Fon Kodu": "YAK",
       "Fon Adı": "YAPI KREDİ PORTFÖY KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 5.21001
+      "Fon Fiyatı": 5.195098
     },
     {
       "Fon Kodu": "YAN",
       "Fon Adı": "YAPI KREDİ PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 15.269902
+      "Fon Fiyatı": 15.25302
     },
     {
       "Fon Kodu": "YAS",
       "Fon Adı": "YAPI KREDİ PORTFÖY KOÇ HOLDİNG İŞTİRAK VE HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 14.385291
+      "Fon Fiyatı": 14.232703
     },
     {
       "Fon Kodu": "YAY",
       "Fon Adı": "YAPI KREDİ PORTFÖY YABANCI TEKNOLOJİ SEKTÖRÜ HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1918.886227
+      "Fon Fiyatı": 1914.450672
     },
     {
       "Fon Kodu": "YBE",
       "Fon Adı": "YAPI KREDİ PORTFÖY EUROBOND (DOLAR) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.870835
+      "Fon Fiyatı": 1.86581
     },
     {
       "Fon Kodu": "YBS",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.153465
+      "Fon Fiyatı": 0.153611
     },
     {
       "Fon Kodu": "YCY",
       "Fon Adı": "İSTANBUL PORTFÖY KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.227045
+      "Fon Fiyatı": 0.0
     },
     {
       "Fon Kodu": "YDI",
       "Fon Adı": "YAPI KREDİ PORTFÖY MODEL PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.450693
+      "Fon Fiyatı": 0.446912
     },
     {
       "Fon Kodu": "YDP",
       "Fon Adı": "YAPI KREDİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.231477
+      "Fon Fiyatı": 2.216001
     },
     {
       "Fon Kodu": "YEF",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.897517
+      "Fon Fiyatı": 0.889424
     },
     {
       "Fon Kodu": "YFV",
       "Fon Adı": "YAPI KREDİ PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.107293
+      "Fon Fiyatı": 0.107385
     },
     {
       "Fon Kodu": "YHB",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.023598
+      "Fon Fiyatı": 1.996061
     },
     {
       "Fon Kodu": "YHK",
       "Fon Adı": "YAPI KREDİ PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.878372
+      "Fon Fiyatı": 1.859621
     },
     {
       "Fon Kodu": "YHS",
       "Fon Adı": "YAPI KREDİ PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 24.924914
+      "Fon Fiyatı": 24.713053
     },
     {
       "Fon Kodu": "YHT",
       "Fon Adı": "YAPI KREDİ PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.434888
+      "Fon Fiyatı": 0.434748
     },
     {
       "Fon Kodu": "YHZ",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST TEKNOLOJİ AĞIRLIK SINIRLAMALI ENDEKSİ HİSSE SENEDİ FONU ( HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.916422
+      "Fon Fiyatı": 7.818196
     },
     {
       "Fon Kodu": "YIT",
       "Fon Adı": "GARANTİ PORTFÖY YARI İLETKEN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.675707
+      "Fon Fiyatı": 2.65481
     },
     {
       "Fon Kodu": "YJH",
       "Fon Adı": "YAPI KREDİ PORTFÖY TEMİZ ENERJİ DEĞİŞKEN FONU",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.71078
+      "Fon Fiyatı": 3.672337
     },
     {
       "Fon Kodu": "YJK",
       "Fon Adı": "YAPI KREDİ PORTFÖY ROBOTİK VE YARI İLETKEN TEKNOLOJİLERİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.615822
+      "Fon Fiyatı": 5.56707
     },
     {
       "Fon Kodu": "YKT",
       "Fon Adı": "YAPI KREDİ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.865077
+      "Fon Fiyatı": 0.85639
     },
     {
       "Fon Kodu": "YLC",
       "Fon Adı": "ATA PORTFÖY TARIM VE GIDA DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.725439
+      "Fon Fiyatı": 3.716273
     },
     {
       "Fon Kodu": "YLE",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST SÜRDÜRÜLEBİLİRLİK ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 8.452654
+      "Fon Fiyatı": 8.38261
     },
     {
       "Fon Kodu": "YLO",
       "Fon Adı": "YAPI KREDİ PORTFÖY ELEKTRİKLİ ARAÇLAR DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.45537
+      "Fon Fiyatı": 5.439377
     },
     {
       "Fon Kodu": "YLY",
       "Fon Adı": "YAPI KREDİ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.218389
+      "Fon Fiyatı": 2.190033
     },
     {
       "Fon Kodu": "YOT",
       "Fon Adı": "YAPI KREDİ PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 42.22473
+      "Fon Fiyatı": 42.144848
     },
     {
       "Fon Kodu": "YPC",
       "Fon Adı": "YAPI KREDİ PORTFÖY SÜRDÜRÜLEBİLİRLİK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.858455
+      "Fon Fiyatı": 5.830775
     },
     {
       "Fon Kodu": "YPR",
       "Fon Adı": "AZİMUT PORTFÖY YILDIZ PAZAR ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.635088
+      "Fon Fiyatı": 1.610973
     },
     {
       "Fon Kodu": "YPV",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.884892
+      "Fon Fiyatı": 7.834748
     },
     {
       "Fon Kodu": "YSU",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.177957
+      "Fon Fiyatı": 0.177441
     },
     {
       "Fon Kodu": "YTD",
       "Fon Adı": "YAPI KREDİ PORTFÖY YABANCI FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.972639
+      "Fon Fiyatı": 0.964899
     },
     {
       "Fon Kodu": "YTV",
       "Fon Adı": "YAPI KREDİ PORTFÖY TARIM DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.945201
+      "Fon Fiyatı": 2.959349
     },
     {
       "Fon Kodu": "YVB",
       "Fon Adı": "YAPI KREDİ PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.420241
+      "Fon Fiyatı": 1.41549
     },
     {
       "Fon Kodu": "YZC",
       "Fon Adı": "YAPI KREDİ PORTFÖY FİNTECH VE BLOCKCHAİN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.246203
+      "Fon Fiyatı": 5.209263
     },
     {
       "Fon Kodu": "YZG",
       "Fon Adı": "YAPI KREDİ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 12.349714
+      "Fon Fiyatı": 11.783237
     },
     {
       "Fon Kodu": "YZH",
       "Fon Adı": "TEB PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 10.790393
+      "Fon Fiyatı": 10.648437
     },
     {
       "Fon Kodu": "YZT",
       "Fon Adı": "AK PORTFÖY YAPAY ZEKA TEKNOLOJİLERİ ŞİRKETLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.006139
+      "Fon Fiyatı": 0.999198
     },
     {
       "Fon Kodu": "ZBD",
       "Fon Adı": "ZİRAAT PORTFÖY DENGELİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 675.787803
+      "Fon Fiyatı": 671.502338
     },
     {
       "Fon Kodu": "ZBI",
       "Fon Adı": "ZİRAAT PORTFÖY TEMKİNLİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.364468
+      "Fon Fiyatı": 2.362797
     },
     {
       "Fon Kodu": "ZBJ",
       "Fon Adı": "ZİRAAT PORTFÖY BAŞAK PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.46746
+      "Fon Fiyatı": 5.471206
     },
     {
       "Fon Kodu": "ZCK",
       "Fon Adı": "ZİRAAT PORTFÖY AGRESİF KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.676794
+      "Fon Fiyatı": 1.661321
     },
     {
       "Fon Kodu": "ZCN",
       "Fon Adı": "ZİRAAT PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.049007
+      "Fon Fiyatı": 4.033092
     },
     {
       "Fon Kodu": "ZDD",
       "Fon Adı": "ZİRAAT PORTFÖY TEMKİNLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.732371
+      "Fon Fiyatı": 7.722285
     },
     {
       "Fon Kodu": "ZDZ",
       "Fon Adı": "ZİRAAT PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 10.171801
+      "Fon Fiyatı": 9.962118
     },
     {
       "Fon Kodu": "ZFB",
       "Fon Adı": "AK PORTFÖY FİNTEK VE BLOKZİNCİRİ TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.854763
+      "Fon Fiyatı": 6.797497
     },
     {
       "Fon Kodu": "ZHH",
       "Fon Adı": "ZİRAAT PORTFÖY HALKBANK SÜRDÜRÜLEBİLİRLİK 30 ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.418296
+      "Fon Fiyatı": 1.40363
     },
     {
       "Fon Kodu": "ZJL",
       "Fon Adı": "ZİRAAT PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 12.82596
+      "Fon Fiyatı": 12.65448
     },
     {
       "Fon Kodu": "ZJV",
       "Fon Adı": "ZİRAAT PORTFÖY BIST 30 DIŞI YILDIZ PAZAR ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 9.813274
+      "Fon Fiyatı": 9.715304
     },
     {
       "Fon Kodu": "ZLH",
       "Fon Adı": "ZİRAAT PORTFÖY BIST 100-30 ŞİRKETLERİ HİSSE SENEDİ FONU ( HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 10.500645
+      "Fon Fiyatı": 10.401531
     },
     {
       "Fon Kodu": "ZMY",
       "Fon Adı": "ZİRAAT PORTFÖY METAVERSE VE YENİ TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.651522
+      "Fon Fiyatı": 6.59609
     },
     {
       "Fon Kodu": "ZPC",
       "Fon Adı": "ZİRAAT PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 18.580229
+      "Fon Fiyatı": 18.424699
     },
     {
       "Fon Kodu": "ZPE",
       "Fon Adı": "ZİRAAT PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 32.087872
+      "Fon Fiyatı": 31.706796
     },
     {
       "Fon Kodu": "ZPF",
       "Fon Adı": "ZİRAAT PORTFÖY KATILIM FONU (DÖVİZ)",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 24.006193
+      "Fon Fiyatı": 24.003759
     },
     {
       "Fon Kodu": "ZPG",
       "Fon Adı": "ZİRAAT PORTFÖY KİRA SERTİFİKALARI (SUKUK) KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 11.229302
+      "Fon Fiyatı": 11.239609
     },
     {
       "Fon Kodu": "ZSF",
       "Fon Adı": "ZİRAAT PORTFÖY S&P/OIC COMCEC (İSEDAK) 50 SHARİAH ŞİRKETLERİ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 52.218124
+      "Fon Fiyatı": 52.025603
     },
     {
       "Fon Kodu": "ZSG",
       "Fon Adı": "ZİRAAT PORTFÖY ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.337578
+      "Fon Fiyatı": 4.318082
     },
     {
       "Fon Kodu": "ZTG",
       "Fon Adı": "ZİRAAT PORTFÖY TARIM VE GIDA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.315702
+      "Fon Fiyatı": 1.315472
     }
   ],
   "hisseler": [
@@ -3973,14 +3973,14 @@
       "Hisse Fiyatı": 67.1
     },
     {
-      "Hisse Kodu": "ISBTR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 415002.5
-    },
-    {
       "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 13.01
+    },
+    {
+      "Hisse Kodu": "ISBTR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 415002.5
     },
     {
       "Hisse Kodu": "VAKBN",
@@ -4173,14 +4173,14 @@
       "Hisse Fiyatı": 7.3
     },
     {
-      "Hisse Kodu": "DMLKT",
-      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
-      "Hisse Fiyatı": 6.97
-    },
-    {
       "Hisse Kodu": "EKGYO",
       "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
       "Hisse Fiyatı": 19.51
+    },
+    {
+      "Hisse Kodu": "DMLKT",
+      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "Hisse Fiyatı": 6.97
     },
     {
       "Hisse Kodu": "PGSUS",
@@ -4253,11 +4253,6 @@
       "Hisse Fiyatı": 24.2
     },
     {
-      "Hisse Kodu": "KRDMB",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 57.8
-    },
-    {
       "Hisse Kodu": "KRDMA",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 39.36
@@ -4266,6 +4261,11 @@
       "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 43.16
+    },
+    {
+      "Hisse Kodu": "KRDMB",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 57.8
     },
     {
       "Hisse Kodu": "SELEC",
@@ -7048,14 +7048,14 @@
       "Hisse Fiyatı": 13.25
     },
     {
-      "Hisse Kodu": "BETAE",
-      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
-      "Hisse Fiyatı": 52.3
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 16.57
     },
     {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 8.29
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 39
     },
     {
       "Hisse Kodu": "ALTIN",
@@ -7068,14 +7068,14 @@
       "Hisse Fiyatı": 61
     },
     {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 16.57
+      "Hisse Kodu": "BETAE",
+      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
+      "Hisse Fiyatı": 52.3
     },
     {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 39
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 8.29
     }
   ],
   "doviz": [
@@ -7085,15 +7085,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "49,3908"
+      "Fiyat": "49,4177"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "54,9715"
+      "Fiyat": "55,5203"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "81,910"
+      "Fiyat": "80,945"
     },
     {
       "Sembol": "Tahvil",
@@ -7101,11 +7101,11 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "105,79"
+      "Fiyat": "104,70"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.497,88"
+      "Fiyat": "6.573,38"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7129,7 +7129,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.091,40"
+      "Fiyat": "4.137,17"
     }
   ]
 }
