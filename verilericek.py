@@ -264,13 +264,18 @@ def fetch_doviz_data():
         "BTCUSD": "https://www.doviz.com/kripto-paralar/bitcoin",
         "Tahvil": "https://www.doviz.com/tahvil/tr-5-yillik-tahvil",
         "Brent Petrol": "https://www.doviz.com/emtia/brent-petrol",
-        "Gr Altın": "https://altin.doviz.com/gram-altin",
-        "Çey.Altın": "https://altin.doviz.com/ceyrek-altin",
-        "Tam Altın": "https://altin.doviz.com/tam-altin",
-        "14 Ayar Bilezik": "https://altin.doviz.com/14-ayar-altin",
-        "18 Ayar Bilezik": "https://altin.doviz.com/18-ayar-altin",
-        "22 Ayar Bilezik": "https://altin.doviz.com/22-ayar-bilezik",
-        "Ons Altın": "https://altin.doviz.com/ons"
+    }
+
+    # Altın verileri: altin.doviz.com/<sembol> alt sayfaları artık boş dönüyor.
+    # Bu yüzden hepsi altin.doviz.com ana sayfasındaki tablodan tek seferde çekilir.
+    altin_semboller = {
+        "Gr Altın": "gram-altin",
+        "Çey.Altın": "ceyrek-altin",
+        "Tam Altın": "tam-altin",
+        "14 Ayar Bilezik": "14-ayar-altin",
+        "18 Ayar Bilezik": "18-ayar-altin",
+        "22 Ayar Bilezik": "22-ayar-bilezik",
+        "Ons Altın": "ons",
     }
     
     headers = {
@@ -330,6 +335,32 @@ def fetch_doviz_data():
         except Exception as e:
             print(f"❌ Hata: {str(e)[:50]}")
             sonuclar.append({"Sembol": sembol, "Fiyat": "Hata"})
+
+    # Altın fiyatlarını ana sayfadan tek seferde çek
+    altin_fiyatlar = {}
+    try:
+        resp = requests.get("https://altin.doviz.com/", headers=headers, timeout=15)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        for key in set(altin_semboller.values()):
+            # Önce "s" (son), yoksa "ask" (satış), yoksa "bid" (alış) değerini kullan
+            for attr in ("s", "ask", "bid"):
+                el = soup.find(attrs={"data-socket-key": key, "data-socket-attr": attr})
+                if el and el.get_text(strip=True):
+                    altin_fiyatlar[key] = el.get_text(strip=True)
+                    break
+    except Exception:
+        pass
+
+    for sembol, key in altin_semboller.items():
+        print(f"  → {sembol} çekiliyor...", end=" ")
+        fiyat_raw = altin_fiyatlar.get(key)
+        if fiyat_raw:
+            sonuclar.append({"Sembol": sembol, "Fiyat": format_price(fiyat_raw)})
+            print("✅")
+        else:
+            sonuclar.append({"Sembol": sembol, "Fiyat": "Bulunamadı"})
+            print("❌ (bulunamadı)")
     
     return sonuclar
 
