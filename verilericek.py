@@ -7,6 +7,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment
 import json
 import re
+import websocket
 from bs4 import BeautifulSoup
 
 
@@ -221,6 +222,60 @@ def fetch_all_funds():
     return df
 
 
+# ========== BIST TLREF ENDEKSİ FONLARI (FINTABLES / BYF) ==========
+def fetch_byf_fonlar():
+    """
+    Fintables canli akisindan NPTLR.F ve OPTLR.F fonlarinin son fiyatini ceker.
+    tbl_fonfiyatlari tablosunun sonuna eklenecek satirlari dondurur.
+    Doner: DataFrame [Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı] veya None
+    """
+    kodlar = ["NPTLR.F", "OPTLR.F"]
+    fon_adi = "NUROL PORTFÖY BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU"
+    fon_turu = "Bıst Tlref Endeksi"
+
+    topics = []
+    for kod in kodlar:
+        topics += [kod + "/C", kod + "/P", kod + "/T"]
+
+    fiyatlar = {}
+    try:
+        ws = websocket.create_connection("wss://markets.fintables.com/vessel", timeout=15)
+        try:
+            ws.send(json.dumps({"type": "subscribe", "topics": topics}))
+            for _ in range(20):
+                try:
+                    data = json.loads(ws.recv())
+                except Exception:
+                    continue
+                if data.get("type") == "subscribe_success":
+                    for item in data.get("data", []):
+                        kod = item.get("code")
+                        if kod and item.get("C") is not None:
+                            fiyatlar[kod] = item.get("C")
+                    break
+        finally:
+            ws.close()
+    except Exception as e:
+        print(f"  ⚠ Fintables fon verisi alınamadı: {str(e)[:60]}")
+        return None
+
+    satirlar = []
+    for kod in kodlar:
+        if kod in fiyatlar:
+            satirlar.append({
+                "Fon Kodu": kod,
+                "Fon Adı": fon_adi,
+                "Fon Türü": fon_turu,
+                "Fon Fiyatı": fiyatlar[kod]
+            })
+        else:
+            print(f"  ⚠ {kod} için fiyat bulunamadı.")
+
+    if not satirlar:
+        return None
+    return pd.DataFrame(satirlar)
+
+
 # ========== DOVIZ.COM VERİLERİ (STATİK HTML) ==========
 def format_price(price_str):
     """
@@ -341,7 +396,18 @@ if __name__ == "__main__":
     
     print("\n=== FON FİYATLARI ÇEKİLİYOR ===")
     funds = fetch_all_funds()
-    
+
+    print("\n=== BIST TLREF ENDEKSİ FONLARI (FINTABLES) ÇEKİLİYOR ===")
+    byf_fonlar = fetch_byf_fonlar()
+    if byf_fonlar is not None and not byf_fonlar.empty:
+        print(f"  → {len(byf_fonlar)} fon fiyatı bulundu.")
+        if funds is not None:
+            funds_tablo = pd.concat([funds, byf_fonlar], ignore_index=True)
+        else:
+            funds_tablo = byf_fonlar
+    else:
+        funds_tablo = funds
+
     print("\n=== DOVIZ.COM VERİLERİ ÇEKİLİYOR ===")
     doviz = fetch_doviz_data()
     if doviz:
@@ -349,7 +415,7 @@ if __name__ == "__main__":
     else:
         print("  ⚠ Doviz.com verisi alınamadı.")
 
-    if stocks is None and funds is None and doviz is None:
+    if stocks is None and funds_tablo is None and doviz is None:
         print("Hiç veri alınamadı, çıkılıyor.")
         exit()
 
@@ -362,8 +428,8 @@ if __name__ == "__main__":
     with pd.ExcelWriter(dosya, engine='openpyxl') as writer:
         current_col = 0
         
-        if funds is not None:
-            funds.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
+        if funds_tablo is not None:
+            funds_tablo.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
             current_col += 4  # Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı
             current_col += 1  # ⬅️ BOŞ SÜTUN
         
@@ -385,8 +451,8 @@ if __name__ == "__main__":
     ws = wb["Fiyatlar"]
 
     # 1. FON TABLOSU
-    if funds is not None:
-        max_row_funds = len(funds) + 1
+    if funds_tablo is not None:
+        max_row_funds = len(funds_tablo) + 1
         tablo_ref_funds = f"A1:{get_column_letter(4)}{max_row_funds}"
         tbl_funds = Table(displayName="tbl_fonfiyatlari", ref=tablo_ref_funds)
         tbl_funds.tableStyleInfo = TableStyleInfo(
