@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-10-16T18:32:04.109449+03:00",
+  "guncelleme_zamani": "2026-10-16T19:11:48.825615+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4248,11 +4248,6 @@
       "Hisse Fiyatı": 21.98
     },
     {
-      "Hisse Kodu": "KRDMA",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 36.94
-    },
-    {
       "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 49.1
@@ -4261,6 +4256,11 @@
       "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 41.26
+    },
+    {
+      "Hisse Kodu": "KRDMA",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 36.94
     },
     {
       "Hisse Kodu": "KTLEV",
@@ -7048,11 +7048,6 @@
       "Hisse Fiyatı": 10.74
     },
     {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 8.05
-    },
-    {
       "Hisse Kodu": "ENPRA",
       "Hisse Adı": "Enpara Bank A.S.",
       "Hisse Fiyatı": 38.56
@@ -7073,6 +7068,11 @@
       "Hisse Fiyatı": 71.67
     },
     {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 8.05
+    },
+    {
       "Hisse Kodu": "BETAE",
       "Hisse Adı": "Beta Enerji ve Teknoloji AS",
       "Hisse Fiyatı": 50.05
@@ -7085,15 +7085,15 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "49,5264"
+      "Fiyat": "49,5228"
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,7464"
+      "Fiyat": "55,6421"
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "81,664"
+      "Fiyat": "81,469"
     },
     {
       "Sembol": "Tahvil",
@@ -7101,11 +7101,11 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "105,66"
+      "Fiyat": "107,60"
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.648,65"
+      "Fiyat": "6.632,99"
     },
     {
       "Sembol": "Çey.Altın",
@@ -7129,7 +7129,7 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.175,47"
+      "Fiyat": "4.165,93"
     }
   ]
 }
