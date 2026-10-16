@@ -7,6 +7,11 @@ from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment
 import json
 import re
+import socket
+import ssl
+import base64
+import os
+import struct
 from bs4 import BeautifulSoup
 
 
@@ -221,6 +226,132 @@ def fetch_all_funds():
     return df
 
 
+# ========== BIST TLREF ENDEKSİ FONLARI (FINTABLES / BYF) ==========
+# Fintables canli akisina standart kutuphane ile (socket + ssl) baglanir.
+# Harici paket GEREKTIRMEZ (workflow'da ek kurulum gerekmez).
+def _ws_baglan(host, path, timeout=15):
+    ctx = ssl.create_default_context()
+    raw = socket.create_connection((host, 443), timeout=timeout)
+    sock = ctx.wrap_socket(raw, server_hostname=host)
+    key = base64.b64encode(os.urandom(16)).decode("ascii")
+    istek = (
+        "GET " + path + " HTTP/1.1\r\n"
+        "Host: " + host + "\r\n"
+        "Upgrade: websocket\r\n"
+        "Connection: Upgrade\r\n"
+        "Sec-WebSocket-Key: " + key + "\r\n"
+        "Sec-WebSocket-Version: 13\r\n"
+        "User-Agent: Mozilla/5.0\r\n"
+        "\r\n"
+    )
+    sock.sendall(istek.encode("ascii"))
+    f = sock.makefile("rb")
+    durum = f.readline()
+    if b"101" not in durum:
+        sock.close()
+        raise ConnectionError("WebSocket el sikismasi basarisiz")
+    while True:
+        satir = f.readline()
+        if satir in (b"\r\n", b"\n", b""):
+            break
+    return sock, f
+
+
+def _ws_frame_oku(f):
+    bas = f.read(2)
+    if len(bas) < 2:
+        raise ConnectionError("baglanti kapandi")
+    opcode = bas[0] & 0x0F
+    uzunluk = bas[1] & 0x7F
+    if uzunluk == 126:
+        uzunluk = struct.unpack(">H", f.read(2))[0]
+    elif uzunluk == 127:
+        uzunluk = struct.unpack(">Q", f.read(8))[0]
+    veri = f.read(uzunluk) if uzunluk else b""
+    return opcode, veri
+
+
+def _ws_gonder(sock, metin):
+    veri = metin.encode("utf-8")
+    maske = os.urandom(4)
+    cerceve = bytearray([0x81])
+    if len(veri) < 126:
+        cerceve.append(0x80 | len(veri))
+    elif len(veri) < 65536:
+        cerceve.append(0x80 | 126)
+        cerceve += struct.pack(">H", len(veri))
+    else:
+        cerceve.append(0x80 | 127)
+        cerceve += struct.pack(">Q", len(veri))
+    cerceve += maske
+    cerceve += bytes(veri[i] ^ maske[i % 4] for i in range(len(veri)))
+    sock.sendall(bytes(cerceve))
+
+
+def fetch_byf_fonlar():
+    """
+    Fintables canli akisindan NPTLR.F ve OPTLR.F fonlarinin son fiyatini ceker.
+    tbl_fonfiyatlari tablosunun sonuna eklenecek satirlari dondurur.
+    Doner: DataFrame [Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı] veya None
+    """
+    kodlar = ["NPTLR.F", "OPTLR.F"]
+    fon_adi = "NUROL PORTFÖY BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU"
+    fon_turu = "Bıst Tlref Endeksi"
+
+    topics = []
+    for kod in kodlar:
+        topics += [kod + "/C", kod + "/P", kod + "/T"]
+
+    fiyatlar = {}
+    sock = None
+    try:
+        sock, akis = _ws_baglan("markets.fintables.com", "/vessel", timeout=15)
+        _ws_gonder(sock, json.dumps({"type": "subscribe", "topics": topics}))
+        for _ in range(20):
+            opcode, veri = _ws_frame_oku(akis)
+            if opcode == 0x8:
+                break
+            if opcode not in (0x1, 0x2):
+                continue
+            try:
+                data = json.loads(veri.decode("utf-8"))
+            except Exception:
+                continue
+            if data.get("type") == "subscribe_success":
+                for item in data.get("data", []):
+                    kod = item.get("code")
+                    if kod and item.get("C") is not None:
+                        fiyatlar[kod] = item.get("C")
+                break
+    except Exception as e:
+        print(f"  ⚠ Fintables fon verisi alınamadı: {str(e)[:60]}")
+    finally:
+        if sock is not None:
+            try:
+                sock.close()
+            except Exception:
+                pass
+
+    if not fiyatlar:
+        return None
+
+    satirlar = []
+    for kod in kodlar:
+        if kod in fiyatlar:
+            satirlar.append({
+                "Fon Kodu": kod,
+                "Fon Adı": fon_adi,
+                "Fon Türü": fon_turu,
+                "Fon Fiyatı": fiyatlar[kod]
+            })
+        else:
+            print(f"  ⚠ {kod} için fiyat bulunamadı.")
+
+    if not satirlar:
+        return None
+    return pd.DataFrame(satirlar)
+
+
 # ========== DOVIZ.COM VERİLERİ (STATİK HTML) ==========
 def format_price(price_str):
     """
@@ -372,7 +503,18 @@ if __name__ == "__main__":
     
     print("\n=== FON FİYATLARI ÇEKİLİYOR ===")
     funds = fetch_all_funds()
-    
+
+    print("\n=== BIST TLREF ENDEKSİ FONLARI (FINTABLES) ÇEKİLİYOR ===")
+    byf_fonlar = fetch_byf_fonlar()
+    if byf_fonlar is not None and not byf_fonlar.empty:
+        print(f"  → {len(byf_fonlar)} fon fiyatı bulundu.")
+        if funds is not None:
+            funds_tablo = pd.concat([funds, byf_fonlar], ignore_index=True)
+        else:
+            funds_tablo = byf_fonlar
+    else:
+        funds_tablo = funds
+
     print("\n=== DOVIZ.COM VERİLERİ ÇEKİLİYOR ===")
     doviz = fetch_doviz_data()
     if doviz:
@@ -380,7 +522,7 @@ if __name__ == "__main__":
     else:
         print("  ⚠ Doviz.com verisi alınamadı.")
 
-    if stocks is None and funds is None and doviz is None:
+    if stocks is None and funds_tablo is None and doviz is None:
         print("Hiç veri alınamadı, çıkılıyor.")
         exit()
 
@@ -393,8 +535,8 @@ if __name__ == "__main__":
     with pd.ExcelWriter(dosya, engine='openpyxl') as writer:
         current_col = 0
         
-        if funds is not None:
-            funds.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
+        if funds_tablo is not None:
+            funds_tablo.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
             current_col += 4  # Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı
             current_col += 1  # ⬅️ BOŞ SÜTUN
         
@@ -416,8 +558,8 @@ if __name__ == "__main__":
     ws = wb["Fiyatlar"]
 
     # 1. FON TABLOSU
-    if funds is not None:
-        max_row_funds = len(funds) + 1
+    if funds_tablo is not None:
+        max_row_funds = len(funds_tablo) + 1
         tablo_ref_funds = f"A1:{get_column_letter(4)}{max_row_funds}"
         tbl_funds = Table(displayName="tbl_fonfiyatlari", ref=tablo_ref_funds)
         tbl_funds.tableStyleInfo = TableStyleInfo(
