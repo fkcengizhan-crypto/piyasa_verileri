@@ -295,8 +295,8 @@ def fetch_byf_fonlar():
     Doner: DataFrame [Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı] veya None
     """
     kodlar = ["NPTLR.F", "OPTLR.F"]
-    fon_adi = "NUROL PORTFÖY BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU"
-    fon_turu = "Bıst Tlref Endeksi"
+    fon_adi = "BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU"
+    fon_turu = "Bist TLref Endeksi"
 
     topics = []
     for kod in kodlar:
