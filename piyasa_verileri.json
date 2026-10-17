@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-10-17T15:24:43.503448+03:00",
+  "guncelleme_zamani": "2026-10-17T16:03:25.801306+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -3924,6 +3924,18 @@
       "Fon Adı": "ZİRAAT PORTFÖY TARIM VE GIDA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
       "Fon Fiyatı": 1.314899
+    },
+    {
+      "Fon Kodu": "NPTLR.F",
+      "Fon Adı": "BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU",
+      "Fon Türü": "Bist TLref Endeksi",
+      "Fon Fiyatı": 54.28
+    },
+    {
+      "Fon Kodu": "OPTLR.F",
+      "Fon Adı": "BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU",
+      "Fon Türü": "Bist TLref Endeksi",
+      "Fon Fiyatı": 67.04
     }
   ],
   "hisseler": [
@@ -4173,14 +4185,14 @@
       "Hisse Fiyatı": 7.17
     },
     {
-      "Hisse Kodu": "EKGYO",
-      "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "Hisse Fiyatı": 19.04
-    },
-    {
       "Hisse Kodu": "DMLKT",
       "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
       "Hisse Fiyatı": 6.98
+    },
+    {
+      "Hisse Kodu": "EKGYO",
+      "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "Hisse Fiyatı": 19.04
     },
     {
       "Hisse Kodu": "HEDEF",
@@ -4263,14 +4275,14 @@
       "Hisse Fiyatı": 49.1
     },
     {
-      "Hisse Kodu": "KRDMD",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 41.26
-    },
-    {
       "Hisse Kodu": "KRDMA",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 36.94
+    },
+    {
+      "Hisse Kodu": "KRDMD",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 41.26
     },
     {
       "Hisse Kodu": "ANHYT",
@@ -6303,14 +6315,14 @@
       "Hisse Fiyatı": 1.49
     },
     {
-      "Hisse Kodu": "LUKSK",
-      "Hisse Adı": "LÜKS KADİFE TİCARET VE SANAYİİ A.Ş.",
-      "Hisse Fiyatı": 56.25
-    },
-    {
       "Hisse Kodu": "BARMA",
       "Hisse Adı": "BAREM AMBALAJ SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 6
+    },
+    {
+      "Hisse Kodu": "LUKSK",
+      "Hisse Adı": "LÜKS KADİFE TİCARET VE SANAYİİ A.Ş.",
+      "Hisse Fiyatı": 56.25
     },
     {
       "Hisse Kodu": "AVGYO",
@@ -6568,14 +6580,14 @@
       "Hisse Fiyatı": 14.02
     },
     {
-      "Hisse Kodu": "TEKTU",
-      "Hisse Adı": "TEK-ART İNŞAAT TİCARET TURİZM SANAYİ VE YATIRIMLAR A.Ş.",
-      "Hisse Fiyatı": 3.8
-    },
-    {
       "Hisse Kodu": "IHLGM",
       "Hisse Adı": "İHLAS GAYRİMENKUL PROJE GELİŞTİRME VE TİCARET A.Ş.",
       "Hisse Fiyatı": 1.14
+    },
+    {
+      "Hisse Kodu": "TEKTU",
+      "Hisse Adı": "TEK-ART İNŞAAT TİCARET TURİZM SANAYİ VE YATIRIMLAR A.Ş.",
+      "Hisse Fiyatı": 3.8
     },
     {
       "Hisse Kodu": "DOFER",
@@ -7048,14 +7060,19 @@
       "Hisse Fiyatı": 10.74
     },
     {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 16.15
+      "Hisse Kodu": "ORZAX",
+      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
+      "Hisse Fiyatı": 62.1
     },
     {
       "Hisse Kodu": "BETAE",
       "Hisse Adı": "Beta Enerji ve Teknoloji AS",
       "Hisse Fiyatı": 50.05
+    },
+    {
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 38.56
     },
     {
       "Hisse Kodu": "AAGYO",
@@ -7068,14 +7085,9 @@
       "Hisse Fiyatı": 71.67
     },
     {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 38.56
-    },
-    {
-      "Hisse Kodu": "ORZAX",
-      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
-      "Hisse Fiyatı": 62.1
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 16.15
     }
   ],
   "doviz": [
@@ -7093,7 +7105,7 @@
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "81,536"
+      "Fiyat": "81,546"
     },
     {
       "Sembol": "Tahvil",
