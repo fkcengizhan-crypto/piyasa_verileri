@@ -640,7 +640,7 @@ if __name__ == "__main__":
     turkiye_saati = datetime.now(timezone(timedelta(hours=3)))
     json_data = {
         "guncelleme_zamani": turkiye_saati.isoformat(),   # ISO formatında +03:00 eklenir
-        "fonlar": funds.to_dict(orient='records') if funds is not None else [],
+        "fonlar": funds_tablo.to_dict(orient='records') if funds_tablo is not None else [],
         "hisseler": stocks if stocks is not None else [],
         "doviz": doviz if doviz is not None else []
     }
