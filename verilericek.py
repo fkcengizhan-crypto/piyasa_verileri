@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, timezone
 from openpyxl import load_workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.utils import get_column_letter
-from openpyxl.styles import Alignment
+from openpyxl.styles import Alignment, Font
 import json
 import re
 import socket
@@ -15,13 +15,40 @@ import struct
 from bs4 import BeautifulSoup
 
 
+# ========== YARDIMCI FONKSİYONLAR ==========
+def _yuvarla(deger, basamak=2):
+    """Sayıyı güvenli biçimde yuvarlar; boş/geçersiz değerde None döner."""
+    if deger is None:
+        return None
+    try:
+        if isinstance(deger, str) and not deger.strip():
+            return None
+        if pd.isna(deger):
+            return None
+        return round(float(deger), basamak)
+    except (TypeError, ValueError):
+        return None
+
+
+def _degisim_hesapla(yeni, eski, basamak=2):
+    """(yeni - eski) / eski * 100. Önceki değer yoksa veya sıfırsa None döner."""
+    try:
+        yeni = float(yeni)
+        eski = float(eski)
+    except (TypeError, ValueError):
+        return None
+    if not eski:
+        return None
+    return round((yeni - eski) / eski * 100, basamak)
+
+
 # ========== HİSSE FONKSİYONLARI (TradingView) ==========
 def fetch_all_stocks():
     url = "https://scanner.tradingview.com/turkey/scan?label-product=screener-stock"
     headers = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
 
     payload = {
-        "columns": ["name", "description", "close"],
+        "columns": ["name", "description", "close", "change"],
         "filter": [],
         "ignore_unknown_fields": False,
         "options": {"lang": "tr"},
@@ -93,10 +120,12 @@ def fetch_all_stocks():
                     code = d[0]
                     name = d[1] if d[1] else ""
                     price = d[2]
+                    degisim = d[3] if len(d) > 3 else None
                     all_stocks.append({
                         "Hisse Kodu": code,
                         "Hisse Adı": name,
-                        "Hisse Fiyatı": price
+                        "Hisse Fiyatı": price,
+                        "Günlük Değişim (%)": _yuvarla(degisim)
                     })
             except Exception as e:
                 print(f"  ⚠ Hisse atlandı: {e}")
@@ -184,6 +213,16 @@ def son_fiyatlari_cek(tarih_str):
         print(f"Fiyat çekme hatası: {e}")
         return []
 
+def _fiyat_haritasi(tarih_str):
+    """Belirtilen tarihin fon kodu → fiyat haritasını döndürür."""
+    veri = son_fiyatlari_cek(tarih_str)
+    return {
+        r.get("fonKodu"): r.get("fiyat")
+        for r in veri
+        if r.get("fonKodu") and r.get("fiyat") is not None
+    }
+
+
 def fetch_all_funds():
     tarih_denenecek = []
     bugun = datetime.now().date()
@@ -194,11 +233,13 @@ def fetch_all_funds():
     tur_map = fon_turu_esleme_al()
 
     sonuclar = []
+    veri_tarihi = None
     for tarih_str in tarih_denenecek:
         veri = son_fiyatlari_cek(tarih_str)
         if veri:
-            print(f"  → {len(veri)} fon bulundu.")
+            print(f"  → {len(veri)} fon bulundu ({tarih_str}).")
             sonuclar = veri
+            veri_tarihi = tarih_str
             break
         else:
             print("✗ Veri yok.")
@@ -207,12 +248,30 @@ def fetch_all_funds():
         print("Son 3 günde hiç veri bulunamadı.")
         return None
 
+    # Günlük değişim için bir önceki işlem gününün fiyatları (hafta sonu/tatil toleransı: 10 gün)
+    onceki_fiyatlar = {}
+    gun = datetime.strptime(veri_tarihi, "%Y%m%d").date() - timedelta(days=1)
+    for _ in range(10):
+        harita = _fiyat_haritasi(gun.strftime("%Y%m%d"))
+        if harita:
+            onceki_fiyatlar = harita
+            print(f"  → Önceki fiyatlar {gun.isoformat()} tarihinden alındı.")
+            break
+        gun = gun - timedelta(days=1)
+
+    if not onceki_fiyatlar:
+        print("  ⚠ Önceki gün fiyatları bulunamadı, günlük değişim boş kalacak.")
+
     df = pd.DataFrame(sonuclar)
     df = df[["fonKodu", "fonUnvan", "fiyat"]].rename(columns={
         "fonKodu": "Fon Kodu",
         "fonUnvan": "Fon Adı",
         "fiyat": "Fon Fiyatı"
     })
+    df["Günlük Değişim (%)"] = [
+        _degisim_hesapla(fiyat, onceki_fiyatlar.get(kod))
+        for kod, fiyat in zip(df["Fon Kodu"], df["Fon Fiyatı"])
+    ]
     df["Fon Türü"] = df["Fon Kodu"].map(tur_map).fillna("Bilinmiyor")
 
     df = df[df["Fon Türü"] != "Bilinmiyor"]
@@ -222,7 +281,7 @@ def fetch_all_funds():
         print("Filtreleme sonrası hiç fon kalmadı.")
         return None
 
-    df = df[["Fon Kodu", "Fon Adı", "Fon Türü", "Fon Fiyatı"]]
+    df = df[["Fon Kodu", "Fon Adı", "Fon Türü", "Fon Fiyatı", "Günlük Değişim (%)"]]
     return df
 
 
@@ -292,7 +351,8 @@ def fetch_byf_fonlar():
     """
     Fintables canli akisindan NPTLR.F ve OPTLR.F fonlarinin son fiyatini ceker.
     tbl_fonfiyatlari tablosunun sonuna eklenecek satirlari dondurur.
-    Doner: DataFrame [Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı] veya None
+    Günlük değişim, mesajdaki C (son) ve P (önceki kapanış) değerlerinden hesaplanır.
+    Doner: DataFrame [Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı, Günlük Değişim (%)] veya None
     """
     kodlar = ["NPTLR.F", "OPTLR.F"]
     fon_adi = "BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU"
@@ -303,6 +363,7 @@ def fetch_byf_fonlar():
         topics += [kod + "/C", kod + "/P", kod + "/T"]
 
     fiyatlar = {}
+    onceki_fiyatlar = {}
     sock = None
     try:
         sock, akis = _ws_baglan("markets.fintables.com", "/vessel", timeout=15)
@@ -322,6 +383,7 @@ def fetch_byf_fonlar():
                     kod = item.get("code")
                     if kod and item.get("C") is not None:
                         fiyatlar[kod] = item.get("C")
+                        onceki_fiyatlar[kod] = item.get("P")  # önceki kapanış
                 break
     except Exception as e:
         print(f"  ⚠ Fintables fon verisi alınamadı: {str(e)[:60]}")
@@ -342,7 +404,8 @@ def fetch_byf_fonlar():
                 "Fon Kodu": kod,
                 "Fon Adı": fon_adi,
                 "Fon Türü": fon_turu,
-                "Fon Fiyatı": fiyatlar[kod]
+                "Fon Fiyatı": fiyatlar[kod],
+                "Günlük Değişim (%)": _degisim_hesapla(fiyatlar[kod], onceki_fiyatlar.get(kod))
             })
         else:
             print(f"  ⚠ {kod} için fiyat bulunamadı.")
@@ -381,20 +444,53 @@ def format_price(price_str):
         # Nokta yoksa aynen döndür (tam sayı)
         return price_str
 
+def _sayi_cevir(metin):
+    """'%0,05', '1.234,56' gibi Türkçe biçimli metinleri sayıya çevirir."""
+    if metin is None:
+        return None
+    metin = str(metin).replace('%', '').replace('$', '').strip()
+    if not metin:
+        return None
+    if ',' in metin:
+        metin = metin.replace('.', '').replace(',', '.')
+    try:
+        return float(metin)
+    except ValueError:
+        return None
+
+
+def _api_info_degisim(html, asset_key):
+    """
+    Sayfadaki `var apiInfo = [...]` bloğundan ilgili varlığın günlük % değişimini çeker.
+    Bulunamazsa None döner; çağıran taraf data-socket-attr="c" ile yedekler.
+    """
+    eslesme = re.search(r'var\s+apiInfo\s*=\s*(\[.*?\])\s*;', html, re.S)
+    if not eslesme:
+        return None
+    try:
+        veriler = json.loads(eslesme.group(1))
+    except Exception:
+        return None
+    for item in veriler:
+        if item.get('assetKey') == asset_key:
+            return _yuvarla(item.get('changeRate'))
+    return None
+
+
 def fetch_doviz_data():
     """
     Doviz.com'dan istenen tüm verileri çeker.
-    Döner: List[Dict] - {'Sembol': ..., 'Fiyat': ...}
+    Döner: List[Dict] - {'Sembol': ..., 'Fiyat': ..., 'Günlük Değişim (%)': ...}
     """
     
-    # URL ve sembol eşleştirmesi - İstenen sıraya göre düzenlendi
+    # URL, sembol ve HTML içindeki varlık anahtarı eşleştirmesi
     urls = {
-        "BIST 100": "https://borsa.doviz.com/endeksler/xu100-bist-100",
-        "Dolar": "https://kur.doviz.com/serbest-piyasa/amerikan-dolari",
-        "Euro": "https://kur.doviz.com/serbest-piyasa/euro",
-        "BTCUSD": "https://www.doviz.com/kripto-paralar/bitcoin",
-        "Tahvil": "https://www.doviz.com/tahvil/tr-5-yillik-tahvil",
-        "Brent Petrol": "https://www.doviz.com/emtia/brent-petrol",
+        "BIST 100": ("https://borsa.doviz.com/endeksler/xu100-bist-100", "XU100"),
+        "Dolar": ("https://kur.doviz.com/serbest-piyasa/amerikan-dolari", "USD"),
+        "Euro": ("https://kur.doviz.com/serbest-piyasa/euro", "EUR"),
+        "BTCUSD": ("https://www.doviz.com/kripto-paralar/bitcoin", "d-bitcoin"),
+        "Tahvil": ("https://www.doviz.com/tahvil/tr-5-yillik-tahvil", "TAHVIL5Y"),
+        "Brent Petrol": ("https://www.doviz.com/emtia/brent-petrol", "BRENT"),
     }
 
     # Altın verileri: altin.doviz.com/<sembol> alt sayfaları artık boş dönüyor.
@@ -414,7 +510,7 @@ def fetch_doviz_data():
     }
     sonuclar = []
     
-    for sembol, url in urls.items():
+    for sembol, (url, asset_key) in urls.items():
         try:
             print(f"  → {sembol} çekiliyor...", end=" ")
             resp = requests.get(url, headers=headers, timeout=15)
@@ -454,21 +550,29 @@ def fetch_doviz_data():
                         if match:
                             fiyat_raw = match.group(1)
             
+            # Günlük değişim: önce apiInfo.changeRate, yoksa data-socket-attr="c"
+            degisim = _api_info_degisim(resp.text, asset_key)
+            if degisim is None:
+                el = soup.find(attrs={"data-socket-key": asset_key, "data-socket-attr": "c"})
+                if el and el.get_text(strip=True):
+                    degisim = _yuvarla(_sayi_cevir(el.get_text(strip=True)))
+
             if fiyat_raw:
                 # Formatı düzelt (dolar işareti temizlenir, nokta/virgül düzenlenir)
                 fiyat = format_price(fiyat_raw)
-                sonuclar.append({"Sembol": sembol, "Fiyat": fiyat})
+                sonuclar.append({"Sembol": sembol, "Fiyat": fiyat, "Günlük Değişim (%)": degisim})
                 print("✅")
             else:
-                sonuclar.append({"Sembol": sembol, "Fiyat": "Bulunamadı"})
+                sonuclar.append({"Sembol": sembol, "Fiyat": "Bulunamadı", "Günlük Değişim (%)": degisim})
                 print("❌ (bulunamadı)")
                 
         except Exception as e:
             print(f"❌ Hata: {str(e)[:50]}")
-            sonuclar.append({"Sembol": sembol, "Fiyat": "Hata"})
+            sonuclar.append({"Sembol": sembol, "Fiyat": "Hata", "Günlük Değişim (%)": None})
 
     # Altın fiyatlarını ana sayfadan tek seferde çek
     altin_fiyatlar = {}
+    altin_degisim = {}
     try:
         resp = requests.get("https://altin.doviz.com/", headers=headers, timeout=15)
         resp.raise_for_status()
@@ -480,17 +584,25 @@ def fetch_doviz_data():
                 if el and el.get_text(strip=True):
                     altin_fiyatlar[key] = el.get_text(strip=True)
                     break
+            c = soup.find(attrs={"data-socket-key": key, "data-socket-attr": "c"})
+            if c and c.get_text(strip=True):
+                altin_degisim[key] = _yuvarla(_sayi_cevir(c.get_text(strip=True)))
     except Exception:
         pass
 
     for sembol, key in altin_semboller.items():
         print(f"  → {sembol} çekiliyor...", end=" ")
         fiyat_raw = altin_fiyatlar.get(key)
+        degisim = altin_degisim.get(key)
         if fiyat_raw:
-            sonuclar.append({"Sembol": sembol, "Fiyat": format_price(fiyat_raw)})
+            sonuclar.append({
+                "Sembol": sembol,
+                "Fiyat": format_price(fiyat_raw),
+                "Günlük Değişim (%)": degisim
+            })
             print("✅")
         else:
-            sonuclar.append({"Sembol": sembol, "Fiyat": "Bulunamadı"})
+            sonuclar.append({"Sembol": sembol, "Fiyat": "Bulunamadı", "Günlük Değişim (%)": degisim})
             print("❌ (bulunamadı)")
     
     return sonuclar
@@ -530,6 +642,7 @@ if __name__ == "__main__":
     
     stocks_startcol = None
     doviz_startcol = None
+    bos_sutunlar = []  # tablolar arasına eklenen boş sütunlar (0 tabanlı)
 
     # Excel yazma (Tablolar arasında 1 sütun boşluk)
     with pd.ExcelWriter(dosya, engine='openpyxl') as writer:
@@ -537,30 +650,54 @@ if __name__ == "__main__":
         
         if funds_tablo is not None:
             funds_tablo.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
-            current_col += 4  # Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı
+            current_col += len(funds_tablo.columns)  # Fon Kodu, Fon Adı, Fon Türü, Fon Fiyatı, Günlük Değişim (%)
+            bos_sutunlar.append(current_col)
             current_col += 1  # ⬅️ BOŞ SÜTUN
         
         if stocks is not None:
             stocks_startcol = current_col
             df_stocks = pd.DataFrame(stocks)
-            df_stocks = df_stocks[["Hisse Kodu", "Hisse Adı", "Hisse Fiyatı"]]
+            df_stocks = df_stocks.reindex(columns=["Hisse Kodu", "Hisse Adı", "Hisse Fiyatı", "Günlük Değişim (%)"])
             df_stocks.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
-            current_col += 3
+            current_col += len(df_stocks.columns)
+            bos_sutunlar.append(current_col)
             current_col += 1  # ⬅️ BOŞ SÜTUN
             
         if doviz is not None:
             doviz_startcol = current_col
             df_doviz = pd.DataFrame(doviz)
+            df_doviz = df_doviz.reindex(columns=["Sembol", "Fiyat", "Günlük Değişim (%)"])
             df_doviz.to_excel(writer, sheet_name="Fiyatlar", startrow=0, startcol=current_col, index=False)
+            current_col += len(df_doviz.columns)
 
     # Tablo stilleri ve biçimlendirme
     wb = load_workbook(dosya)
     ws = wb["Fiyatlar"]
 
+    DEGISIM_FORMATI = '+0.00"%";-0.00"%";0.00"%"'
+
+    def _degisim_bicimle(sutun_harfi, ilk_satir, son_satir):
+        """Değişim sütununu sağa yaslar, % biçimi verir ve pozitif/negatif renklendirir."""
+        for row in range(ilk_satir, son_satir + 1):
+            cell = ws[f'{sutun_harfi}{row}']
+            cell.alignment = Alignment(horizontal='right')
+            cell.number_format = DEGISIM_FORMATI
+            deger = cell.value
+            if isinstance(deger, (int, float)):
+                if deger > 0:
+                    cell.font = Font(color="FF2E7D32")
+                elif deger < 0:
+                    cell.font = Font(color="FFC62828")
+
+    def _fiyat_sagla(sutun_harfi, ilk_satir, son_satir):
+        for row in range(ilk_satir, son_satir + 1):
+            cell = ws[f'{sutun_harfi}{row}']
+            cell.alignment = Alignment(horizontal='right')
+
     # 1. FON TABLOSU
     if funds_tablo is not None:
         max_row_funds = len(funds_tablo) + 1
-        tablo_ref_funds = f"A1:{get_column_letter(4)}{max_row_funds}"
+        tablo_ref_funds = f"A1:{get_column_letter(len(funds_tablo.columns))}{max_row_funds}"
         tbl_funds = Table(displayName="tbl_fonfiyatlari", ref=tablo_ref_funds)
         tbl_funds.tableStyleInfo = TableStyleInfo(
             name="TableStyleMedium9",
@@ -574,15 +711,15 @@ if __name__ == "__main__":
         ws.column_dimensions['B'].width = 45
         ws.column_dimensions['C'].width = 30
         ws.column_dimensions['D'].width = 12
-        # Fon fiyat sütunu (D) sağa yasla
-        for row in range(2, max_row_funds + 1):
-            cell = ws[f'D{row}']
-            cell.alignment = Alignment(horizontal='right')
+        ws.column_dimensions['E'].width = 14
+        # Fon fiyat sütunu (D) sağa yasla, değişim sütunu (E) biçimlendir
+        _fiyat_sagla('D', 2, max_row_funds)
+        _degisim_bicimle('E', 2, max_row_funds)
 
     # 2. HİSSE TABLOSU
     if stocks is not None and stocks_startcol is not None:
         first_col_letter = get_column_letter(stocks_startcol + 1)
-        last_col_letter = get_column_letter(stocks_startcol + 3)
+        last_col_letter = get_column_letter(stocks_startcol + 4)
         max_row_stocks = len(stocks) + 1
         tablo_ref_stocks = f"{first_col_letter}1:{last_col_letter}{max_row_stocks}"
         tbl_stocks = Table(displayName="tbl_hissefiyatlari", ref=tablo_ref_stocks)
@@ -596,17 +733,17 @@ if __name__ == "__main__":
         ws.add_table(tbl_stocks)
         ws.column_dimensions[first_col_letter].width = 12
         ws.column_dimensions[get_column_letter(stocks_startcol + 2)].width = 40
+        ws.column_dimensions[get_column_letter(stocks_startcol + 3)].width = 14
         ws.column_dimensions[last_col_letter].width = 14
-        # Hisse fiyat sütunu (3. sütun) sağa yasla
+        # Hisse fiyat sütunu (3. sütun) sağa yasla, değişim sütunu (4. sütun) biçimlendir
         price_col_letter = get_column_letter(stocks_startcol + 3)
-        for row in range(2, max_row_stocks + 1):
-            cell = ws[f'{price_col_letter}{row}']
-            cell.alignment = Alignment(horizontal='right')
+        _fiyat_sagla(price_col_letter, 2, max_row_stocks)
+        _degisim_bicimle(last_col_letter, 2, max_row_stocks)
 
-    # 3. DOVIZ TABLOSU (sadece 2 sütun: Sembol ve Fiyat)
+    # 3. DOVIZ TABLOSU (Sembol, Fiyat, Günlük Değişim)
     if doviz is not None and doviz_startcol is not None:
         first_col_letter = get_column_letter(doviz_startcol + 1)
-        last_col_letter = get_column_letter(doviz_startcol + 2)
+        last_col_letter = get_column_letter(doviz_startcol + 3)
         max_row_doviz = len(doviz) + 1
         tablo_ref_doviz = f"{first_col_letter}1:{last_col_letter}{max_row_doviz}"
         tbl_doviz = Table(displayName="tbl_doviz", ref=tablo_ref_doviz)
@@ -619,18 +756,18 @@ if __name__ == "__main__":
         )
         ws.add_table(tbl_doviz)
         ws.column_dimensions[first_col_letter].width = 18
-        ws.column_dimensions[last_col_letter].width = 16
-        # Fiyat sütunu (2. sütun) sağa yasla
+        ws.column_dimensions[get_column_letter(doviz_startcol + 2)].width = 16
+        ws.column_dimensions[last_col_letter].width = 14
+        # Fiyat sütunu (2. sütun) sağa yasla, değişim sütunu (3. sütun) biçimlendir
         price_col_letter = get_column_letter(doviz_startcol + 2)
-        for row in range(2, max_row_doviz + 1):
-            cell = ws[f'{price_col_letter}{row}']
-            cell.alignment = Alignment(horizontal='right')
+        _fiyat_sagla(price_col_letter, 2, max_row_doviz)
+        _degisim_bicimle(last_col_letter, 2, max_row_doviz)
 
     # Boş sütun genişliklerini ayarla
-    for col_idx in [5, 9]:
+    for col_idx in bos_sutunlar:
         try:
-            ws.column_dimensions[get_column_letter(col_idx)].width = 3
-        except:
+            ws.column_dimensions[get_column_letter(col_idx + 1)].width = 3
+        except Exception:
             pass
 
     wb.save(dosya)
@@ -638,9 +775,14 @@ if __name__ == "__main__":
 
     # ========== JSON DOSYASI ==========
     turkiye_saati = datetime.now(timezone(timedelta(hours=3)))
+    # DataFrame içindeki NaN değerler JSON'da null olarak yazılsın (geçersiz NaN üretmemek için)
+    fon_kayitlari = (
+        json.loads(funds_tablo.to_json(orient='records', force_ascii=False))
+        if funds_tablo is not None else []
+    )
     json_data = {
         "guncelleme_zamani": turkiye_saati.isoformat(),   # ISO formatında +03:00 eklenir
-        "fonlar": funds_tablo.to_dict(orient='records') if funds_tablo is not None else [],
+        "fonlar": fon_kayitlari,
         "hisseler": stocks if stocks is not None else [],
         "doviz": doviz if doviz is not None else []
     }
