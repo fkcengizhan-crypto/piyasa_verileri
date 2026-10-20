@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-10-20T19:55:28.002651+03:00",
+  "guncelleme_zamani": "2026-10-20T19:58:18.775181+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4650,16 +4650,16 @@
       "Günlük Değişim (%)": 1.71
     },
     {
-      "Hisse Kodu": "ISCTR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 13.08,
-      "Günlük Değişim (%)": 1.71
-    },
-    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 396395,
       "Günlük Değişim (%)": -4.48
+    },
+    {
+      "Hisse Kodu": "ISCTR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 13.08,
+      "Günlük Değişim (%)": 1.71
     },
     {
       "Hisse Kodu": "VAKBN",
@@ -4884,16 +4884,16 @@
       "Günlük Değişim (%)": 1.55
     },
     {
-      "Hisse Kodu": "DMLKT",
-      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
-      "Hisse Fiyatı": 7,
-      "Günlük Değişim (%)": 0.14
-    },
-    {
       "Hisse Kodu": "EKGYO",
       "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
       "Hisse Fiyatı": 19.03,
       "Günlük Değişim (%)": 4.27
+    },
+    {
+      "Hisse Kodu": "DMLKT",
+      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "Hisse Fiyatı": 7,
+      "Günlük Değişim (%)": 0.14
     },
     {
       "Hisse Kodu": "TKFEN",
@@ -4980,6 +4980,12 @@
       "Günlük Değişim (%)": 5.34
     },
     {
+      "Hisse Kodu": "KRDMA",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 38.36,
+      "Günlük Değişim (%)": 4.75
+    },
+    {
       "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 42.8,
@@ -4990,12 +4996,6 @@
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 47.8,
       "Günlük Değişim (%)": 1.96
-    },
-    {
-      "Hisse Kodu": "KRDMA",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 38.36,
-      "Günlük Değişim (%)": 4.75
     },
     {
       "Hisse Kodu": "ANHYT",
@@ -8340,6 +8340,18 @@
       "Günlük Değişim (%)": -10.0
     },
     {
+      "Hisse Kodu": "BETAE",
+      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
+      "Hisse Fiyatı": 49.26,
+      "Günlük Değişim (%)": 4.81
+    },
+    {
+      "Hisse Kodu": "ORZAX",
+      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
+      "Hisse Fiyatı": 62.7,
+      "Günlük Değişim (%)": 10.0
+    },
+    {
       "Hisse Kodu": "EKIM",
       "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
       "Hisse Fiyatı": 15.8,
@@ -8352,22 +8364,10 @@
       "Günlük Değişim (%)": 0.28
     },
     {
-      "Hisse Kodu": "ORZAX",
-      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
-      "Hisse Fiyatı": 62.7,
-      "Günlük Değişim (%)": 10.0
-    },
-    {
       "Hisse Kodu": "ENPRA",
       "Hisse Adı": "Enpara Bank A.S.",
       "Hisse Fiyatı": 35.7,
       "Günlük Değişim (%)": -0.56
-    },
-    {
-      "Hisse Kodu": "BETAE",
-      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
-      "Hisse Fiyatı": 49.26,
-      "Günlük Değişim (%)": 4.81
     },
     {
       "Hisse Kodu": "AAGYO",
@@ -8384,18 +8384,18 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "49,5669",
+      "Fiyat": "49,5671",
       "Günlük Değişim (%)": 0.06
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,7163",
+      "Fiyat": "55,7146",
       "Günlük Değişim (%)": 0.24
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "82,746",
-      "Günlük Değişim (%)": 0.91
+      "Fiyat": "82,802",
+      "Günlük Değişim (%)": 0.97
     },
     {
       "Sembol": "Tahvil",
@@ -8409,7 +8409,7 @@
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.569,72",
+      "Fiyat": "6.569,42",
       "Günlük Değişim (%)": -0.4
     },
     {
@@ -8439,8 +8439,8 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.122,50",
-      "Günlük Değişim (%)": -0.45
+      "Fiyat": "4.122,32",
+      "Günlük Değişim (%)": -0.46
     }
   ]
 }
