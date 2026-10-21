@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-10-21T18:32:09.038340+03:00",
+  "guncelleme_zamani": "2026-10-21T19:14:43.845175+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4650,16 +4650,16 @@
       "Günlük Değişim (%)": -1.61
     },
     {
-      "Hisse Kodu": "ISCTR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 12.87,
-      "Günlük Değişim (%)": -1.61
-    },
-    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 396395,
       "Günlük Değişim (%)": 0.0
+    },
+    {
+      "Hisse Kodu": "ISCTR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 12.87,
+      "Günlük Değişim (%)": -1.61
     },
     {
       "Hisse Kodu": "VAKBN",
@@ -4878,16 +4878,16 @@
       "Günlük Değişim (%)": -8.46
     },
     {
-      "Hisse Kodu": "DMLKT",
-      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
-      "Hisse Fiyatı": 6.98,
-      "Günlük Değişim (%)": -0.29
-    },
-    {
       "Hisse Kodu": "EKGYO",
       "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
       "Hisse Fiyatı": 18.57,
       "Günlük Değişim (%)": -2.42
+    },
+    {
+      "Hisse Kodu": "DMLKT",
+      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "Hisse Fiyatı": 6.98,
+      "Günlük Değişim (%)": -0.29
     },
     {
       "Hisse Kodu": "TKFEN",
@@ -4974,10 +4974,10 @@
       "Günlük Değişim (%)": -4.42
     },
     {
-      "Hisse Kodu": "KRDMD",
+      "Hisse Kodu": "KRDMA",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 42.04,
-      "Günlük Değişim (%)": -1.78
+      "Hisse Fiyatı": 36.58,
+      "Günlük Değişim (%)": -4.64
     },
     {
       "Hisse Kodu": "KRDMB",
@@ -4986,10 +4986,10 @@
       "Günlük Değişim (%)": -8.79
     },
     {
-      "Hisse Kodu": "KRDMA",
+      "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 36.58,
-      "Günlük Değişim (%)": -4.64
+      "Hisse Fiyatı": 42.04,
+      "Günlük Değişim (%)": -1.78
     },
     {
       "Hisse Kodu": "ANSGR",
@@ -6912,16 +6912,16 @@
       "Günlük Değişim (%)": -2.49
     },
     {
-      "Hisse Kodu": "LIDFA",
-      "Hisse Adı": "LİDER FAKTORİNG A.Ş.",
-      "Hisse Fiyatı": 1.73,
-      "Günlük Değişim (%)": 4.85
-    },
-    {
       "Hisse Kodu": "NATEN",
       "Hisse Adı": "NATUREL YENİLENEBİLİR ENERJİ TİCARET A.Ş.",
       "Hisse Fiyatı": 3.27,
       "Günlük Değişim (%)": -0.91
+    },
+    {
+      "Hisse Kodu": "LIDFA",
+      "Hisse Adı": "LİDER FAKTORİNG A.Ş.",
+      "Hisse Fiyatı": 1.73,
+      "Günlük Değişim (%)": 4.85
     },
     {
       "Hisse Kodu": "DYOBY",
@@ -8340,16 +8340,10 @@
       "Günlük Değişim (%)": -9.96
     },
     {
-      "Hisse Kodu": "ORZAX",
-      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
-      "Hisse Fiyatı": 61.35,
-      "Günlük Değişim (%)": -2.15
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 7.47,
-      "Günlük Değişim (%)": -1.97
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 15.42,
+      "Günlük Değişim (%)": -2.41
     },
     {
       "Hisse Kodu": "ENPRA",
@@ -8358,22 +8352,28 @@
       "Günlük Değişim (%)": -3.31
     },
     {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 7.47,
+      "Günlük Değişim (%)": -1.97
+    },
+    {
       "Hisse Kodu": "BETAE",
       "Hisse Adı": "Beta Enerji ve Teknoloji AS",
       "Hisse Fiyatı": 48,
       "Günlük Değişim (%)": -2.56
     },
     {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 15.42,
-      "Günlük Değişim (%)": -2.41
-    },
-    {
       "Hisse Kodu": "ALTIN",
       "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
       "Hisse Fiyatı": 70.94,
       "Günlük Değişim (%)": -0.48
+    },
+    {
+      "Hisse Kodu": "ORZAX",
+      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
+      "Hisse Fiyatı": 61.35,
+      "Günlük Değişim (%)": -2.15
     }
   ],
   "doviz": [
@@ -8384,18 +8384,18 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "49,6024",
+      "Fiyat": "49,6026",
       "Günlük Değişim (%)": 0.08
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,7238",
-      "Günlük Değişim (%)": -0.03
+      "Fiyat": "55,6960",
+      "Günlük Değişim (%)": -0.08
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "84,464",
-      "Günlük Değişim (%)": 2.29
+      "Fiyat": "84,593",
+      "Günlük Değişim (%)": 2.52
     },
     {
       "Sembol": "Tahvil",
@@ -8404,13 +8404,13 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "108,35",
-      "Günlük Değişim (%)": -0.4
+      "Fiyat": "108,88",
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.601,05",
-      "Günlük Değişim (%)": 0.42
+      "Fiyat": "6.588,97",
+      "Günlük Değişim (%)": 0.24
     },
     {
       "Sembol": "Çey.Altın",
@@ -8439,8 +8439,8 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.139,22",
-      "Günlük Değişim (%)": 0.34
+      "Fiyat": "4.131,63",
+      "Günlük Değişim (%)": 0.15
     }
   ]
 }
