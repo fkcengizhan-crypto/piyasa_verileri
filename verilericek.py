@@ -6,13 +6,17 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment, Font
 import json
+import gzip
 import re
 import socket
 import ssl
 import base64
 import os
 import struct
+from pathlib import Path
 from bs4 import BeautifulSoup
+
+BASE_DIR = Path(__file__).resolve().parent
 
 
 # ========== YARDIMCI FONKSİYONLAR ==========
@@ -40,6 +44,20 @@ def _degisim_hesapla(yeni, eski, basamak=2):
     if not eski:
         return None
     return round((yeni - eski) / eski * 100, basamak)
+
+
+def _json_sayi(deger):
+    """JSON çıktısı için güvenli sayı dönüşümü."""
+    if deger is None:
+        return None
+    try:
+        if pd.isna(deger):
+            return None
+    except (TypeError, ValueError):
+        pass
+    if isinstance(deger, (int, float)):
+        return float(deger)
+    return _sayi_cevir(str(deger))
 
 
 # ========== HİSSE FONKSİYONLARI (TradingView) ==========
@@ -638,7 +656,7 @@ if __name__ == "__main__":
         print("Hiç veri alınamadı, çıkılıyor.")
         exit()
 
-    dosya = "piyasa_verileri.xlsx"
+    dosya = BASE_DIR / "piyasa_verileri.xlsx"
     
     stocks_startcol = None
     doviz_startcol = None
@@ -787,8 +805,73 @@ if __name__ == "__main__":
         "doviz": doviz if doviz is not None else []
     }
 
-    json_dosya = "piyasa_verileri.json"
+    json_dosya = BASE_DIR / "piyasa_verileri.json"
     with open(json_dosya, "w", encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)
 
     print(f"✔ '{json_dosya}' kaydedildi.")
+
+    # ========== HIZLI DOSYA (gzip'li kompakt JSON) ==========
+    # Uygulama yalnızca bu dosyayı indirip doğrudan jsonDecode eder; XLSX
+    # ayrıştırma maliyeti ortadan kalkar. Temel veriler ayrıca BIST xlsx
+    # dosyasından alınmaya devam eder.
+    def _hisse_kaydi(h):
+        kod = str(h.get("Hisse Kodu") or "").strip()
+        fiyat = _json_sayi(h.get("Hisse Fiyatı"))
+        if not kod or fiyat is None or fiyat <= 0:
+            return None
+        item = {"k": kod, "p": round(fiyat, 6)}
+        ad = str(h.get("Hisse Adı") or "").strip()
+        if ad:
+            item["n"] = ad
+        degisim = _json_sayi(h.get("Günlük Değişim (%)"))
+        if degisim is not None:
+            item["ch"] = round(degisim, 4)
+        return item
+
+    def _fon_kaydi(f):
+        kod = str(f.get("Fon Kodu") or "").strip()
+        fiyat = _json_sayi(f.get("Fon Fiyatı"))
+        if not kod or fiyat is None or fiyat <= 0:
+            return None
+        item = {"k": kod, "p": round(fiyat, 6)}
+        ad = str(f.get("Fon Adı") or "").strip()
+        tur = str(f.get("Fon Türü") or "").strip()
+        if ad:
+            item["n"] = ad
+        if tur:
+            item["t"] = tur
+        degisim = _json_sayi(f.get("Günlük Değişim (%)"))
+        if degisim is not None:
+            item["ch"] = round(degisim, 4)
+        return item
+
+    def _doviz_kaydi(d):
+        sembol = str(d.get("Sembol") or "").strip()
+        fiyat = _json_sayi(d.get("Fiyat"))
+        if not sembol or fiyat is None or fiyat <= 0:
+            return None
+        item = {"k": sembol, "p": round(fiyat, 6)}
+        degisim = _json_sayi(d.get("Günlük Değişim (%)"))
+        if degisim is not None:
+            item["ch"] = round(degisim, 4)
+        return item
+
+    hizli_data = {
+        "v": 1,
+        "updated": turkiye_saati.strftime("%d.%m.%Y %H:%M"),
+        "stocks": [x for h in (stocks or []) if (x := _hisse_kaydi(h))],
+        "funds": [x for f in fon_kayitlari if (x := _fon_kaydi(f))],
+        "market": [x for d in (doviz or []) if (x := _doviz_kaydi(d))],
+    }
+    hizli_data["stocks"].sort(key=lambda x: x["k"])
+
+    hizli_dosya = BASE_DIR / "piyasa_verileri.json.gz"
+    with gzip.open(hizli_dosya, "wt", encoding="utf-8", compresslevel=9) as f:
+        json.dump(hizli_data, f, ensure_ascii=False, separators=(",", ":"))
+
+    print(
+        f"✔ '{hizli_dosya}' kaydedildi "
+        f"({hizli_dosya.stat().st_size / 1024:.1f} KB, "
+        f"{len(hizli_data['stocks'])} hisse, {len(hizli_data['funds'])} fon)."
+    )
