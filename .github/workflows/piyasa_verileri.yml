@@ -26,13 +26,14 @@ jobs:
       - name: Run price fetcher script
         run: python verilericek.py
 
-      - name: Upload Excel and JSON files as artifacts
+      - name: Upload Excel, Gzip and JSON files as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: fon-hisse-fiyatlari
           path: |
             piyasa_verileri.xlsx
             piyasa_verileri.json
+            piyasa_verileri.json.gz
 
       - name: Değişiklikleri commit et ve push'la
         env:
