@@ -226,7 +226,9 @@ def son_fiyatlari_cek(tarih_str):
         resp = requests.post(url, json=payload, headers=headers, timeout=30)
         resp.raise_for_status()
         data = resp.json()
-        return data.get("resultList", [])
+        # API işlem günü olmayan tarihlerde "resultList": null döndürür;
+        # anahtar var olduğu için .get(..., []) default'u devreye girmez.
+        return data.get("resultList") or []
     except Exception as e:
         print(f"Fiyat çekme hatası: {e}")
         return []
