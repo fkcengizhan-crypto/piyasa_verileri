@@ -3,6 +3,12 @@ name: Piyasa Verilerini Çek
 on:
   workflow_dispatch:
 
+# Aynı anda ikinci bir tetikleme olursa sıraya girsin;
+# push yarışı (non-fast-forward reddi) engellenir.
+concurrency:
+  group: piyasa-verileri
+  cancel-in-progress: false
+
 jobs:
   fetch-prices:
     runs-on: ubuntu-latest
@@ -11,10 +17,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
@@ -32,7 +38,7 @@ jobs:
           test -f piyasa_verileri.json.gz
 
       - name: Upload Excel, Gzip and JSON files as artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: fon-hisse-fiyatlari
           path: |
@@ -47,5 +53,19 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add piyasa_verileri.xlsx piyasa_verileri.json piyasa_verileri.json.gz
-          git diff --staged --quiet || git commit -m "Güncel Fon ve Hisse Fiyatları"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/fkcengizhan-crypto/piyasa_verileri.git HEAD:main
+
+          # Push yarışına karşı: hedef her seferinde güncel remote main'e
+          # sabitlenir (fetch + reset --soft), böylece rebase çakışması yaşanmaz.
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --soft FETCH_HEAD
+            if ! git diff --staged --quiet; then
+              git commit -m "Güncel Fon ve Hisse Fiyatları"
+            fi
+            if git push https://x-access-token:${GITHUB_TOKEN}@github.com/fkcengizhan-crypto/piyasa_verileri.git HEAD:main; then
+              exit 0
+            fi
+            echo "Push başarısız, 5 saniye sonra yeniden deneniyor ($i/3)..."
+            sleep 5
+          done
+          exit 1
