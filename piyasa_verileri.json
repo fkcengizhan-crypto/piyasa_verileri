@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-10-28T14:32:08.725634+03:00",
+  "guncelleme_zamani": "2026-10-28T15:02:13.840677+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4650,16 +4650,16 @@
       "Günlük Değişim (%)": -2.02
     },
     {
-      "Hisse Kodu": "ISBTR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 391285,
-      "Günlük Değişim (%)": 2.97
-    },
-    {
       "Hisse Kodu": "ISCTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 12.12,
       "Günlük Değişim (%)": -1.38
+    },
+    {
+      "Hisse Kodu": "ISBTR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 391285,
+      "Günlük Değişim (%)": 2.97
     },
     {
       "Hisse Kodu": "HALKB",
@@ -4992,6 +4992,12 @@
       "Günlük Değişim (%)": -0.9
     },
     {
+      "Hisse Kodu": "KRDMB",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 44.84,
+      "Günlük Değişim (%)": 3.8
+    },
+    {
       "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 37.56,
@@ -5002,12 +5008,6 @@
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 33.48,
       "Günlük Değişim (%)": 1.03
-    },
-    {
-      "Hisse Kodu": "KRDMB",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 44.84,
-      "Günlük Değişim (%)": 3.8
     },
     {
       "Hisse Kodu": "DSTKF",
@@ -8346,22 +8346,16 @@
       "Günlük Değişim (%)": -0.94
     },
     {
-      "Hisse Kodu": "BETAE",
-      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
-      "Hisse Fiyatı": 44.8,
-      "Günlük Değişim (%)": -0.13
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 7.37,
+      "Günlük Değişim (%)": 2.36
     },
     {
       "Hisse Kodu": "EKIM",
       "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
       "Hisse Fiyatı": 14.2,
       "Günlük Değişim (%)": -2.87
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 7.37,
-      "Günlük Değişim (%)": 2.36
     },
     {
       "Hisse Kodu": "ALTIN",
@@ -8374,6 +8368,12 @@
       "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
       "Hisse Fiyatı": 60,
       "Günlük Değişim (%)": -0.83
+    },
+    {
+      "Hisse Kodu": "BETAE",
+      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
+      "Hisse Fiyatı": 44.8,
+      "Günlük Değişim (%)": -0.13
     }
   ],
   "doviz": [
@@ -8389,13 +8389,13 @@
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,4507",
-      "Günlük Değişim (%)": -0.08
+      "Fiyat": "55,4708",
+      "Günlük Değişim (%)": -0.05
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "81,410",
-      "Günlük Değişim (%)": 1.81
+      "Fiyat": "81,312",
+      "Günlük Değişim (%)": 1.84
     },
     {
       "Sembol": "Tahvil",
@@ -8404,43 +8404,43 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "111,43",
-      "Günlük Değişim (%)": 1.85
+      "Fiyat": "111,25",
+      "Günlük Değişim (%)": 1.68
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.485,94",
-      "Günlük Değişim (%)": -0.23
+      "Fiyat": "6.481,50",
+      "Günlük Değişim (%)": -0.29
     },
     {
       "Sembol": "Çey.Altın",
-      "Fiyat": "10.618,23",
-      "Günlük Değişim (%)": 0.56
+      "Fiyat": "10.622,32",
+      "Günlük Değişim (%)": 0.6
     },
     {
       "Sembol": "Tam Altın",
-      "Fiyat": "42.343,02",
-      "Günlük Değişim (%)": 0.56
+      "Fiyat": "42.359,35",
+      "Günlük Değişim (%)": 0.6
     },
     {
       "Sembol": "14 Ayar Bilezik",
-      "Fiyat": "3.701,77",
-      "Günlük Değişim (%)": 0.56
+      "Fiyat": "3.703,19",
+      "Günlük Değişim (%)": 0.6
     },
     {
       "Sembol": "18 Ayar Bilezik",
-      "Fiyat": "4.740,86",
-      "Günlük Değişim (%)": 0.56
+      "Fiyat": "4.742,69",
+      "Günlük Değişim (%)": 0.6
     },
     {
       "Sembol": "22 Ayar Bilezik",
-      "Fiyat": "5.922,83",
-      "Günlük Değişim (%)": 0.56
+      "Fiyat": "5.925,11",
+      "Günlük Değişim (%)": 0.6
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.047,83",
-      "Günlük Değişim (%)": -0.3
+      "Fiyat": "4.045,06",
+      "Günlük Değişim (%)": -0.37
     }
   ]
 }
