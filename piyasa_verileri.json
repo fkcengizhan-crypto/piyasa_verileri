@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-10-29T10:32:04.816824+03:00",
+  "guncelleme_zamani": "2026-10-29T11:02:08.373190+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4644,16 +4644,16 @@
       "Günlük Değişim (%)": -0.2
     },
     {
-      "Hisse Kodu": "ISCTR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 12.12,
-      "Günlük Değişim (%)": -1.38
-    },
-    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 391285,
       "Günlük Değişim (%)": 2.97
+    },
+    {
+      "Hisse Kodu": "ISCTR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 12.12,
+      "Günlük Değişim (%)": -1.38
     },
     {
       "Hisse Kodu": "AKBNK",
@@ -7902,16 +7902,16 @@
       "Günlük Değişim (%)": 1.08
     },
     {
-      "Hisse Kodu": "GLRYH",
-      "Hisse Adı": "GÜLER YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 1.28,
-      "Günlük Değişim (%)": -2.29
-    },
-    {
       "Hisse Kodu": "ALVES",
       "Hisse Adı": "Alves Kablo Sanayi ve Ticaret A. S.",
       "Hisse Fiyatı": 0.48,
       "Günlük Değişim (%)": -4.0
+    },
+    {
+      "Hisse Kodu": "GLRYH",
+      "Hisse Adı": "GÜLER YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 1.28,
+      "Günlük Değişim (%)": -2.29
     },
     {
       "Hisse Kodu": "MERKO",
@@ -8340,22 +8340,16 @@
       "Günlük Değişim (%)": -1.68
     },
     {
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 37.88,
+      "Günlük Değişim (%)": -0.94
+    },
+    {
       "Hisse Kodu": "EKIM",
       "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
       "Hisse Fiyatı": 14.2,
       "Günlük Değişim (%)": -2.87
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 7.37,
-      "Günlük Değişim (%)": 2.36
-    },
-    {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 69.97,
-      "Günlük Değişim (%)": -0.19
     },
     {
       "Hisse Kodu": "ORZAX",
@@ -8364,16 +8358,22 @@
       "Günlük Değişim (%)": -0.83
     },
     {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 37.88,
-      "Günlük Değişim (%)": -0.94
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 69.97,
+      "Günlük Değişim (%)": -0.19
     },
     {
       "Hisse Kodu": "BETAE",
       "Hisse Adı": "Beta Enerji ve Teknoloji AS",
       "Hisse Fiyatı": 44.8,
       "Günlük Değişim (%)": -0.13
+    },
+    {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 7.37,
+      "Günlük Değişim (%)": 2.36
     }
   ],
   "doviz": [
@@ -8384,18 +8384,18 @@
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "49,8368",
+      "Fiyat": "49,8370",
       "Günlük Değişim (%)": 0.0
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,6458",
-      "Günlük Değişim (%)": 0.14
+      "Fiyat": "55,6759",
+      "Günlük Değişim (%)": 0.2
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "79,870",
-      "Günlük Değişim (%)": -1.33
+      "Fiyat": "79,880",
+      "Günlük Değişim (%)": -1.52
     },
     {
       "Sembol": "Tahvil",
@@ -8404,13 +8404,13 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "110,84",
-      "Günlük Değişim (%)": -0.72
+      "Fiyat": "110,79",
+      "Günlük Değişim (%)": -0.76
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.458,28",
-      "Günlük Değişim (%)": -0.92
+      "Fiyat": "6.456,62",
+      "Günlük Değişim (%)": -0.94
     },
     {
       "Sembol": "Çey.Altın",
@@ -8439,8 +8439,8 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.030,65",
-      "Günlük Değişim (%)": -0.91
+      "Fiyat": "4.029,60",
+      "Günlük Değişim (%)": -0.94
     }
   ]
 }
