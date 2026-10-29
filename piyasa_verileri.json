@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-10-29T15:32:08.152365+03:00",
+  "guncelleme_zamani": "2026-10-29T16:02:06.722157+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4644,16 +4644,16 @@
       "Günlük Değişim (%)": -0.2
     },
     {
-      "Hisse Kodu": "ISCTR",
-      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
-      "Hisse Fiyatı": 12.12,
-      "Günlük Değişim (%)": -1.38
-    },
-    {
       "Hisse Kodu": "ISBTR",
       "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
       "Hisse Fiyatı": 391285,
       "Günlük Değişim (%)": 2.97
+    },
+    {
+      "Hisse Kodu": "ISCTR",
+      "Hisse Adı": "TÜRKİYE İŞ BANKASI A.Ş.",
+      "Hisse Fiyatı": 12.12,
+      "Günlük Değişim (%)": -1.38
     },
     {
       "Hisse Kodu": "AKBNK",
@@ -4980,10 +4980,10 @@
       "Günlük Değişim (%)": -3.53
     },
     {
-      "Hisse Kodu": "KRDMD",
+      "Hisse Kodu": "KRDMB",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 37.56,
-      "Günlük Değişim (%)": -0.11
+      "Hisse Fiyatı": 44.84,
+      "Günlük Değişim (%)": 3.8
     },
     {
       "Hisse Kodu": "KRDMA",
@@ -4992,10 +4992,10 @@
       "Günlük Değişim (%)": 1.03
     },
     {
-      "Hisse Kodu": "KRDMB",
+      "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 44.84,
-      "Günlük Değişim (%)": 3.8
+      "Hisse Fiyatı": 37.56,
+      "Günlük Değişim (%)": -0.11
     },
     {
       "Hisse Kodu": "DOHOL",
@@ -7902,16 +7902,16 @@
       "Günlük Değişim (%)": 1.08
     },
     {
-      "Hisse Kodu": "GLRYH",
-      "Hisse Adı": "GÜLER YATIRIM HOLDİNG A.Ş.",
-      "Hisse Fiyatı": 1.28,
-      "Günlük Değişim (%)": -2.29
-    },
-    {
       "Hisse Kodu": "ALVES",
       "Hisse Adı": "Alves Kablo Sanayi ve Ticaret A. S.",
       "Hisse Fiyatı": 0.48,
       "Günlük Değişim (%)": -4.0
+    },
+    {
+      "Hisse Kodu": "GLRYH",
+      "Hisse Adı": "GÜLER YATIRIM HOLDİNG A.Ş.",
+      "Hisse Fiyatı": 1.28,
+      "Günlük Değişim (%)": -2.29
     },
     {
       "Hisse Kodu": "MERKO",
@@ -8340,30 +8340,6 @@
       "Günlük Değişim (%)": -1.68
     },
     {
-      "Hisse Kodu": "ORZAX",
-      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
-      "Hisse Fiyatı": 60,
-      "Günlük Değişim (%)": -0.83
-    },
-    {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 69.97,
-      "Günlük Değişim (%)": -0.19
-    },
-    {
-      "Hisse Kodu": "EKIM",
-      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
-      "Hisse Fiyatı": 14.2,
-      "Günlük Değişim (%)": -2.87
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 7.37,
-      "Günlük Değişim (%)": 2.36
-    },
-    {
       "Hisse Kodu": "BETAE",
       "Hisse Adı": "Beta Enerji ve Teknoloji AS",
       "Hisse Fiyatı": 44.8,
@@ -8374,6 +8350,30 @@
       "Hisse Adı": "Enpara Bank A.S.",
       "Hisse Fiyatı": 37.88,
       "Günlük Değişim (%)": -0.94
+    },
+    {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 7.37,
+      "Günlük Değişim (%)": 2.36
+    },
+    {
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 69.97,
+      "Günlük Değişim (%)": -0.19
+    },
+    {
+      "Hisse Kodu": "ORZAX",
+      "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
+      "Hisse Fiyatı": 60,
+      "Günlük Değişim (%)": -0.83
+    },
+    {
+      "Hisse Kodu": "EKIM",
+      "Hisse Adı": "EKİM TURİZM TİCARET VE SANAYİ A.Ş.",
+      "Hisse Fiyatı": 14.2,
+      "Günlük Değişim (%)": -2.87
     }
   ],
   "doviz": [
@@ -8389,13 +8389,13 @@
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,6369",
-      "Günlük Değişim (%)": 0.12
+      "Fiyat": "55,5832",
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "80,156",
-      "Günlük Değişim (%)": -0.91
+      "Fiyat": "80,130",
+      "Günlük Değişim (%)": -0.79
     },
     {
       "Sembol": "Tahvil",
@@ -8404,13 +8404,13 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "110,57",
-      "Günlük Değişim (%)": -0.96
+      "Fiyat": "110,06",
+      "Günlük Değişim (%)": -1.42
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.459,16",
-      "Günlük Değişim (%)": -0.9
+      "Fiyat": "6.447,05",
+      "Günlük Değişim (%)": -1.09
     },
     {
       "Sembol": "Çey.Altın",
@@ -8439,8 +8439,8 @@
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "4.031,13",
-      "Günlük Değişim (%)": -0.9
+      "Fiyat": "4.023,55",
+      "Günlük Değişim (%)": -1.09
     }
   ]
 }
