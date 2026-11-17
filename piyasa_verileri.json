@@ -1,3099 +1,3099 @@
 {
-  "guncelleme_zamani": "2026-11-16T18:32:08.009346+03:00",
+  "guncelleme_zamani": "2026-11-17T10:02:05.360116+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
       "Fon Adı": "ATA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.746686,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 3.750239,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "AAV",
       "Fon Adı": "ATA PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 59.263465,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 59.265777,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "AC4",
       "Fon Adı": "PARDUS PORTFÖY PARA PİYASASI (TL) FON",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.002676,
-      "Günlük Değişim (%)": 0.6
+      "Fon Fiyatı": 0.002679,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "ACC",
       "Fon Adı": "İSTANBUL PORTFÖY DÖRDÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 41.540073,
-      "Günlük Değişim (%)": 0.37
+      "Fon Fiyatı": 41.345832,
+      "Günlük Değişim (%)": -0.47
     },
     {
       "Fon Kodu": "ACD",
       "Fon Adı": "İSTANBUL PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.799668,
-      "Günlük Değişim (%)": -2.91
+      "Fon Fiyatı": 5.79577,
+      "Günlük Değişim (%)": -0.07
     },
     {
       "Fon Kodu": "ADE",
       "Fon Adı": "AK PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.950314,
-      "Günlük Değişim (%)": 0.08
+      "Fon Fiyatı": 0.951483,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "ADP",
       "Fon Adı": "AK PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.305804,
-      "Günlük Değişim (%)": -0.71
+      "Fon Fiyatı": 1.297494,
+      "Günlük Değişim (%)": -0.64
     },
     {
       "Fon Kodu": "AED",
       "Fon Adı": "ATA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 110.038179,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 109.948962,
+      "Günlük Değişim (%)": -0.08
     },
     {
       "Fon Kodu": "AES",
       "Fon Adı": "AK PORTFÖY PETROL YABANCI BYF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.210611,
-      "Günlük Değişim (%)": 2.9
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "AEV",
       "Fon Adı": "ALLBATROSS PORTFÖY SANAYİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.633554,
-      "Günlük Değişim (%)": 0.65
+      "Fon Fiyatı": 1.641343,
+      "Günlük Değişim (%)": 0.48
     },
     {
       "Fon Kodu": "AFA",
       "Fon Adı": "AK PORTFÖY AMERİKA YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.297755,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 1.28237,
+      "Günlük Değişim (%)": -1.19
     },
     {
       "Fon Kodu": "AFO",
       "Fon Adı": "AK PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.237341,
-      "Günlük Değişim (%)": -1.27
+      "Fon Fiyatı": 1.2316,
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Fon Kodu": "AFS",
       "Fon Adı": "AK PORTFÖY SAĞLIK SEKTÖRÜ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.405473,
-      "Günlük Değişim (%)": -0.78
+      "Fon Fiyatı": 0.411395,
+      "Günlük Değişim (%)": 1.46
     },
     {
       "Fon Kodu": "AFT",
       "Fon Adı": "AK PORTFÖY YENİ TEKNOLOJİLER YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.887521,
-      "Günlük Değişim (%)": 0.87
+      "Fon Fiyatı": 0.850007,
+      "Günlük Değişim (%)": -4.23
     },
     {
       "Fon Kodu": "AFV",
       "Fon Adı": "AK PORTFÖY AVRUPA YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.614919,
-      "Günlük Değişim (%)": -0.59
+      "Fon Fiyatı": 0.616228,
+      "Günlük Değişim (%)": 0.21
     },
     {
       "Fon Kodu": "AGC",
       "Fon Adı": "AK PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.932636,
-      "Günlük Değişim (%)": 0.02
+      "Fon Fiyatı": 9.953797,
+      "Günlük Değişim (%)": 0.21
     },
     {
       "Fon Kodu": "AHI",
       "Fon Adı": "ATLAS PORTFÖY BİRİNCİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 32.502311,
-      "Günlük Değişim (%)": 0.55
+      "Fon Fiyatı": 32.585924,
+      "Günlük Değişim (%)": 0.26
     },
     {
       "Fon Kodu": "AHU",
       "Fon Adı": "ATLAS PORTFÖY BİRİNCİ ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 11.575856,
-      "Günlük Değişim (%)": 0.16
+      "Fon Fiyatı": 11.580967,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "AHV",
       "Fon Adı": "AZİMUT PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 21.98756,
-      "Günlük Değişim (%)": 0.44
+      "Fon Fiyatı": 21.985965,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "AIS",
       "Fon Adı": "AK PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.117054,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.11717,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "AK2",
       "Fon Adı": "AK PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.56968,
-      "Günlük Değişim (%)": -0.6
+      "Fon Fiyatı": 0.568453,
+      "Günlük Değişim (%)": -0.22
     },
     {
       "Fon Kodu": "AK3",
       "Fon Adı": "AK PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 48.922002,
-      "Günlük Değişim (%)": 0.37
+      "Fon Fiyatı": 49.034827,
+      "Günlük Değişim (%)": 0.23
     },
     {
       "Fon Kodu": "AKE",
       "Fon Adı": "AK PORTFÖY EUROBOND (AMERİKAN DOLARI) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.545541,
-      "Günlük Değişim (%)": -0.29
+      "Fon Fiyatı": 0.546571,
+      "Günlük Değişim (%)": 0.19
     },
     {
       "Fon Kodu": "AKU",
       "Fon Adı": "AK PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.88626,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 0.886683,
+      "Günlük Değişim (%)": 0.05
     },
     {
       "Fon Kodu": "ALC",
       "Fon Adı": "AK PORTFÖY KAR PAYI ÖDEYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.336052,
-      "Günlük Değişim (%)": 0.52
+      "Fon Fiyatı": 0.336523,
+      "Günlük Değişim (%)": 0.14
     },
     {
       "Fon Kodu": "AN1",
       "Fon Adı": "STRATEJİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 99.098674,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 98.01351,
+      "Günlük Değişim (%)": -1.1
     },
     {
       "Fon Kodu": "AOY",
       "Fon Adı": "AK PORTFÖY ALTERNATİF ENERJİ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.34559,
-      "Günlük Değişim (%)": -1.0
+      "Fon Fiyatı": 0.340772,
+      "Günlük Değişim (%)": -1.39
     },
     {
       "Fon Kodu": "APJ",
       "Fon Adı": "AK PORTFÖY BIST ŞİRKETLERİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.374527,
-      "Günlük Değişim (%)": 0.54
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "APT",
       "Fon Adı": "AK PORTFÖY ORTA VADELI BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.17259,
-      "Günlük Değişim (%)": -0.05
+      "Fon Fiyatı": 0.17242,
+      "Günlük Değişim (%)": -0.1
     },
     {
       "Fon Kodu": "ARE",
       "Fon Adı": "İSTANBUL PORTFÖY YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.25879,
-      "Günlük Değişim (%)": -0.6
+      "Fon Fiyatı": 0.261241,
+      "Günlük Değişim (%)": 0.95
     },
     {
       "Fon Kodu": "ARL",
       "Fon Adı": "AK PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 17.282348,
-      "Günlük Değişim (%)": 0.13
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "ARM",
       "Fon Adı": "AK PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 19.524742,
-      "Günlük Değişim (%)": 0.09
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "ASJ",
       "Fon Adı": "AKTİF PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.695902,
-      "Günlük Değişim (%)": 0.52
+      "Fon Fiyatı": 3.690772,
+      "Günlük Değişim (%)": -0.14
     },
     {
       "Fon Kodu": "ATJ",
       "Fon Adı": "AZİMUT PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 21.82472,
-      "Günlük Değişim (%)": 0.96
+      "Fon Fiyatı": 21.833511,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "AU1",
       "Fon Adı": "A1 CAPİTAL PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.10968,
-      "Günlük Değişim (%)": -1.01
+      "Fon Fiyatı": 1.103375,
+      "Günlük Değişim (%)": -0.57
     },
     {
       "Fon Kodu": "AYA",
       "Fon Adı": "ATA PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 16.435347,
-      "Günlük Değişim (%)": 0.49
+      "Fon Fiyatı": 16.445587,
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Fon Kodu": "AYR",
       "Fon Adı": "AK PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.150647,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.150792,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "BAG",
       "Fon Adı": "BULLS PORTFÖY ATAK DEĞIŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.020444,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 1.02109,
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Fon Kodu": "BBF",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 3.550811,
-      "Günlük Değişim (%)": -8.22
+      "Fon Fiyatı": 3.55484,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "BBP",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.405067,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 2.40953,
+      "Günlük Değişim (%)": 0.19
     },
     {
       "Fon Kodu": "BCK",
       "Fon Adı": "DENİZ PORTFÖY BLOCKCHAİN VE FINTECH TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.892765,
-      "Günlük Değişim (%)": 0.52
+      "Fon Fiyatı": 1.853767,
+      "Günlük Değişim (%)": -2.06
     },
     {
       "Fon Kodu": "BCO",
       "Fon Adı": "BULLS PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.796895,
-      "Günlük Değişim (%)": 0.47
+      "Fon Fiyatı": 1.792193,
+      "Günlük Değişim (%)": -0.26
     },
     {
       "Fon Kodu": "BDS",
       "Fon Adı": "PARDUS PORTFÖY BIST 30 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.703093,
-      "Günlük Değişim (%)": 0.78
+      "Fon Fiyatı": 1.705162,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "BDY",
       "Fon Adı": "AK PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.472136,
-      "Günlük Değişim (%)": -0.69
+      "Fon Fiyatı": 1.48185,
+      "Günlük Değişim (%)": 0.66
     },
     {
       "Fon Kodu": "BFE",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.731644,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 1.727805,
+      "Günlük Değişim (%)": -0.22
     },
     {
       "Fon Kodu": "BFS",
       "Fon Adı": "BULLS PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.046921,
-      "Günlük Değişim (%)": 0.0
+      "Fon Fiyatı": 1.038581,
+      "Günlük Değişim (%)": -0.8
     },
     {
       "Fon Kodu": "BFT",
       "Fon Adı": "AZİMUT PORTFÖY BANKA VE FİNANS SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.184152,
-      "Günlük Değişim (%)": -0.59
+      "Fon Fiyatı": 1.179255,
+      "Günlük Değişim (%)": -0.41
     },
     {
       "Fon Kodu": "BGP",
       "Fon Adı": "AK PORTFÖY ÜÇÜNCÜ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 7.123826,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 7.131056,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "BHA",
       "Fon Adı": "BULLS PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.641676,
-      "Günlük Değişim (%)": 0.1
+      "Fon Fiyatı": 1.640843,
+      "Günlük Değişim (%)": -0.05
     },
     {
       "Fon Kodu": "BHF",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.191854,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 3.181813,
+      "Günlük Değişim (%)": -0.31
     },
     {
       "Fon Kodu": "BID",
       "Fon Adı": "QNB PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.651897,
-      "Günlük Değişim (%)": -0.79
+      "Fon Fiyatı": 2.649477,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "BIG",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.301268,
-      "Günlük Değişim (%)": 0.57
+      "Fon Fiyatı": 1.296855,
+      "Günlük Değişim (%)": -0.34
     },
     {
       "Fon Kodu": "BIH",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 8.860131,
-      "Günlük Değişim (%)": 0.13
+      "Fon Fiyatı": 8.868931,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "BIO",
       "Fon Adı": "İŞ PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.167283,
-      "Günlük Değişim (%)": -0.04
+      "Fon Fiyatı": 2.161484,
+      "Günlük Değişim (%)": -0.27
     },
     {
       "Fon Kodu": "BIY",
       "Fon Adı": "AZİMUT PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.727363,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 0.728073,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "BLT",
       "Fon Adı": "BULLS PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.742639,
-      "Günlük Değişim (%)": -1.03
+      "Fon Fiyatı": 1.732729,
+      "Günlük Değişim (%)": -0.57
     },
     {
       "Fon Kodu": "BOL",
       "Fon Adı": "AKTİF PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.835195,
-      "Günlük Değişim (%)": 0.14
+      "Fon Fiyatı": 1.836379,
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Fon Kodu": "BON",
       "Fon Adı": "A1 CAPİTAL PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.515059,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 1.516012,
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Fon Kodu": "BPZ",
       "Fon Adı": "BULLS PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.001611,
-      "Günlük Değişim (%)": 0.44
+      "Fon Fiyatı": 0.001613,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "BRF",
       "Fon Adı": "DENİZ PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.545908,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 1.522031,
+      "Günlük Değişim (%)": -1.54
     },
     {
       "Fon Kodu": "BRR",
       "Fon Adı": "AK PORTFÖY İKİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.819918,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.822301,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "BTE",
       "Fon Adı": "BV PORTFÖY OYUN VE TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.948627,
-      "Günlük Değişim (%)": 0.63
+      "Fon Fiyatı": 4.981255,
+      "Günlük Değişim (%)": 0.66
     },
     {
       "Fon Kodu": "BTK",
       "Fon Adı": "BV PORTFÖY TEKNOLOJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.578072,
-      "Günlük Değişim (%)": 0.61
+      "Fon Fiyatı": 1.547533,
+      "Günlük Değişim (%)": -1.94
     },
     {
       "Fon Kodu": "BTZ",
       "Fon Adı": "ATLAS PORTFÖY BIST 30 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.065425,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.071069,
+      "Günlük Değişim (%)": 0.53
     },
     {
       "Fon Kodu": "BUB",
       "Fon Adı": "BULLS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.193608,
-      "Günlük Değişim (%)": -0.02
+      "Fon Fiyatı": 1.193527,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "BUY",
       "Fon Adı": "AK PORTFÖY BÜYÜYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.487319,
-      "Günlük Değişim (%)": 0.46
+      "Fon Fiyatı": 1.498375,
+      "Günlük Değişim (%)": 0.74
     },
     {
       "Fon Kodu": "BV1",
       "Fon Adı": "BV PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.352093,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 1.355284,
+      "Günlük Değişim (%)": 0.24
     },
     {
       "Fon Kodu": "BVD",
       "Fon Adı": "BV PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.339139,
-      "Günlük Değişim (%)": -0.03
+      "Fon Fiyatı": 1.33511,
+      "Günlük Değişim (%)": -0.3
     },
     {
       "Fon Kodu": "BVF",
       "Fon Adı": "BV PORTFÖY PARA PİYASASI (TL) FON",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.298263,
-      "Günlük Değişim (%)": -3.34
+      "Fon Fiyatı": 1.283259,
+      "Günlük Değişim (%)": -1.16
     },
     {
       "Fon Kodu": "BVV",
       "Fon Adı": "BV PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.195009,
-      "Günlük Değişim (%)": 0.04
+      "Fon Fiyatı": 3.138388,
+      "Günlük Değişim (%)": -1.77
     },
     {
       "Fon Kodu": "CFO",
       "Fon Adı": "ROTA PORTFÖY İKİNCİ PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.743804,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 2.746566,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "CKF",
       "Fon Adı": "ALBARAKA PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.994931,
-      "Günlük Değişim (%)": 0.87
+      "Fon Fiyatı": 1.970973,
+      "Günlük Değişim (%)": -1.2
     },
     {
       "Fon Kodu": "CKL",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÇOKLU VARLIK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.412612,
-      "Günlük Değişim (%)": 0.37
+      "Fon Fiyatı": 1.414941,
+      "Günlük Değişim (%)": 0.16
     },
     {
       "Fon Kodu": "CPT",
       "Fon Adı": "ROTA PORTFÖY ÇİP TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.460117,
-      "Günlük Değişim (%)": -0.36
+      "Fon Fiyatı": 3.363579,
+      "Günlük Değişim (%)": -2.79
     },
     {
       "Fon Kodu": "CPU",
       "Fon Adı": "AKTİF PORTFÖY TEKNOLOJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.768551,
-      "Günlük Değişim (%)": 0.54
+      "Fon Fiyatı": 3.695824,
+      "Günlük Değişim (%)": -1.93
     },
     {
       "Fon Kodu": "CVK",
       "Fon Adı": "INVEO PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.501614,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 5.497658,
+      "Günlük Değişim (%)": -0.07
     },
     {
       "Fon Kodu": "CVL",
       "Fon Adı": "A1 CAPİTAL PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.560916,
-      "Günlük Değişim (%)": 0.36
+      "Fon Fiyatı": 1.563506,
+      "Günlük Değişim (%)": 0.17
     },
     {
       "Fon Kodu": "DAH",
       "Fon Adı": "DENİZ PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.279016,
-      "Günlük Değişim (%)": 0.36
+      "Fon Fiyatı": 3.273445,
+      "Günlük Değişim (%)": -0.17
     },
     {
       "Fon Kodu": "DBA",
       "Fon Adı": "DENİZ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.699047,
-      "Günlük Değişim (%)": -1.19
+      "Fon Fiyatı": 0.696343,
+      "Günlük Değişim (%)": -0.39
     },
     {
       "Fon Kodu": "DBB",
       "Fon Adı": "DENİZ PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.121885,
-      "Günlük Değişim (%)": 0.01
+      "Fon Fiyatı": 0.121811,
+      "Günlük Değişim (%)": -0.06
     },
     {
       "Fon Kodu": "DBH",
       "Fon Adı": "DENİZ PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.399345,
-      "Günlük Değişim (%)": 0.02
+      "Fon Fiyatı": 0.400374,
+      "Günlük Değişim (%)": 0.26
     },
     {
       "Fon Kodu": "DBK",
       "Fon Adı": "DENİZ PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.13152,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.131659,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "DBP",
       "Fon Adı": "DENİZ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.51774,
-      "Günlük Değişim (%)": 0.18
+      "Fon Fiyatı": 0.517703,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "DBZ",
       "Fon Adı": "DENİZ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.150564,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.150705,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "DFC",
       "Fon Adı": "DENİZ PORTFÖY TARIM VE GIDA DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.138814,
-      "Günlük Değişim (%)": -0.26
+      "Fon Fiyatı": 3.136112,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "DGF",
       "Fon Adı": "A1 CAPİTAL PORTFÖY DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.61394,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 1.615418,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "DHJ",
       "Fon Adı": "DENİZ PORTFÖY TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 5.179969,
-      "Günlük Değişim (%)": 0.14
+      "Fon Fiyatı": 5.24444,
+      "Günlük Değişim (%)": 1.24
     },
     {
       "Fon Kodu": "DHM",
       "Fon Adı": "DENİZ PORTFÖY ESG-SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.185457,
-      "Günlük Değişim (%)": 0.44
+      "Fon Fiyatı": 5.138988,
+      "Günlük Değişim (%)": -0.9
     },
     {
       "Fon Kodu": "DHT",
       "Fon Adı": "DENİZ PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.130283,
-      "Günlük Değişim (%)": -0.61
+      "Fon Fiyatı": 1.119509,
+      "Günlük Değişim (%)": -0.95
     },
     {
       "Fon Kodu": "DID",
       "Fon Adı": "DENİZ PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.448837,
-      "Günlük Değişim (%)": 0.17
+      "Fon Fiyatı": 1.442941,
+      "Günlük Değişim (%)": -0.41
     },
     {
       "Fon Kodu": "DKH",
       "Fon Adı": "DENİZ PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.309122,
-      "Günlük Değişim (%)": 0.4
+      "Fon Fiyatı": 3.3166,
+      "Günlük Değişim (%)": 0.23
     },
     {
       "Fon Kodu": "DL2",
       "Fon Adı": "DENİZ PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.698966,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 2.701801,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "DLD",
       "Fon Adı": "DENİZ PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.434559,
-      "Günlük Değişim (%)": 0.62
+      "Fon Fiyatı": 7.408758,
+      "Günlük Değişim (%)": -0.35
     },
     {
       "Fon Kodu": "DLY",
       "Fon Adı": "DENİZ PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.607293,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 6.613994,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "DMG",
       "Fon Adı": "DENİZ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.560862,
-      "Günlük Değişim (%)": -1.34
+      "Fon Fiyatı": 5.334048,
+      "Günlük Değişim (%)": -4.08
     },
     {
       "Fon Kodu": "DNF",
       "Fon Adı": "A1 CAPİTAL PORTFÖY DİNAMİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.457461,
-      "Günlük Değişim (%)": 0.21
+      "Fon Fiyatı": 1.45737,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "DPK",
       "Fon Adı": "DENİZ PORTFÖY KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 9.369072,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 9.377784,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "DPT",
       "Fon Adı": "DENİZ PORTFÖY BİST TEMETTÜ 25 ENDEKSİ HİSSE SENEDİ FONU ( HİSSE SENEDİ YOĞUN FON )",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 17.196523,
-      "Günlük Değişim (%)": 0.7
+      "Fon Fiyatı": 17.099153,
+      "Günlük Değişim (%)": -0.57
     },
     {
       "Fon Kodu": "DRT",
       "Fon Adı": "DENİZ PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.110788,
-      "Günlük Değişim (%)": 0.86
+      "Fon Fiyatı": 1.083539,
+      "Günlük Değişim (%)": -2.45
     },
     {
       "Fon Kodu": "DSP",
       "Fon Adı": "DENİZ PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 14.96097,
-      "Günlük Değişim (%)": -0.06
+      "Fon Fiyatı": 14.960043,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "DTH",
       "Fon Adı": "EMAA BLUE PORTFÖY DÖNÜŞÜM TEKNOLOJİLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.105055,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 1.106322,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "DTL",
       "Fon Adı": "DENİZ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.361748,
-      "Günlük Değişim (%)": -0.38
+      "Fon Fiyatı": 3.374443,
+      "Günlük Değişim (%)": 0.38
     },
     {
       "Fon Kodu": "DTM",
       "Fon Adı": "DENİZ PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.47589,
-      "Günlük Değişim (%)": 0.42
+      "Fon Fiyatı": 1.46853,
+      "Günlük Değişim (%)": -0.5
     },
     {
       "Fon Kodu": "DTZ",
       "Fon Adı": "AK PORTFÖY ROBOTİK TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.786794,
-      "Günlük Değişim (%)": 0.6
+      "Fon Fiyatı": 4.712642,
+      "Günlük Değişim (%)": -1.55
     },
     {
       "Fon Kodu": "DUV",
       "Fon Adı": "DENİZ PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.366595,
-      "Günlük Değişim (%)": -0.39
+      "Fon Fiyatı": 1.362788,
+      "Günlük Değişim (%)": -0.28
     },
     {
       "Fon Kodu": "DVT",
       "Fon Adı": "DENİZ PORTFÖY METAVERSE VE DİJİTAL YAŞAM TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.132713,
-      "Günlük Değişim (%)": 1.05
+      "Fon Fiyatı": 8.93574,
+      "Günlük Değişim (%)": -2.16
     },
     {
       "Fon Kodu": "DXP",
       "Fon Adı": "DENİZ PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.684059,
-      "Günlük Değişim (%)": 0.08
+      "Fon Fiyatı": 1.693239,
+      "Günlük Değişim (%)": 0.55
     },
     {
       "Fon Kodu": "DYN",
       "Fon Adı": "DENİZ PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇ TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.194231,
-      "Günlük Değişim (%)": 0.48
+      "Fon Fiyatı": 4.110651,
+      "Günlük Değişim (%)": -1.99
     },
     {
       "Fon Kodu": "DZE",
       "Fon Adı": "DENİZ PORTFÖY BIST 100 ENDEKSİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.873676,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 0.873415,
+      "Günlük Değişim (%)": -0.03
     },
     {
       "Fon Kodu": "EBD",
       "Fon Adı": "GLOBAL MD PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.24955,
-      "Günlük Değişim (%)": -0.87
+      "Fon Fiyatı": 0.249323,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "EC2",
       "Fon Adı": "GLOBAL MD PORTFÖY BİRİNCİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 73.135075,
-      "Günlük Değişim (%)": 0.06
+      "Fon Fiyatı": 73.066648,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "ECA",
       "Fon Adı": "GLOBAL MD PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.897028,
-      "Günlük Değişim (%)": 0.66
+      "Fon Fiyatı": 1.880606,
+      "Günlük Değişim (%)": -0.87
     },
     {
       "Fon Kodu": "EDU",
       "Fon Adı": "İŞ PORTFÖY TEV EĞİTİME DESTEK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.742248,
-      "Günlük Değişim (%)": 0.54
+      "Fon Fiyatı": 3.733799,
+      "Günlük Değişim (%)": -0.23
     },
     {
       "Fon Kodu": "EIB",
       "Fon Adı": "ASTRA PORTFÖY DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.703777,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 0.704381,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "EID",
       "Fon Adı": "ASTRA PORTFÖY HİSSE SENEDİ FONU (HİSSE YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.726353,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 1.72265,
+      "Günlük Değişim (%)": -0.21
     },
     {
       "Fon Kodu": "EIL",
       "Fon Adı": "ASTRA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.764894,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 5.770398,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "EKF",
       "Fon Adı": "ASTRA PORTFÖY KİRA SERTİFİKASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.12597,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 0.126097,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "ELZ",
       "Fon Adı": "ASTRA PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 11.465217,
-      "Günlük Değişim (%)": 1.11
+      "Fon Fiyatı": 11.488458,
+      "Günlük Değişim (%)": 0.2
     },
     {
       "Fon Kodu": "EML",
       "Fon Adı": "AK PORTFÖY EMLAK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.220158,
-      "Günlük Değişim (%)": -0.2
+      "Fon Fiyatı": 1.21936,
+      "Günlük Değişim (%)": -0.07
     },
     {
       "Fon Kodu": "ENJ",
       "Fon Adı": "AKTİF PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.144032,
-      "Günlük Değişim (%)": 0.97
+      "Fon Fiyatı": 1.144265,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "EPA",
       "Fon Adı": "EMAA BLUE PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.498968,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.500393,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "EPI",
       "Fon Adı": "EMAA BLUE PORTFÖY İNŞAAT SEKTÖRÜ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.997793,
-      "Günlük Değişim (%)": 0.04
+      "Fon Fiyatı": 0.997745,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "EPK",
       "Fon Adı": "EMAA BLUE PORTFÖY KIYMETLİ MADENLER KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.189766,
-      "Günlük Değişim (%)": -0.25
+      "Fon Fiyatı": 1.165022,
+      "Günlük Değişim (%)": -2.08
     },
     {
       "Fon Kodu": "EPT",
       "Fon Adı": "EMAA BLUE PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.45561,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.457098,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "EVM",
       "Fon Adı": "DENİZ PORTFÖY ENERJİ VE MADENCİLİK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.080163,
-      "Günlük Değişim (%)": 0.46
+      "Fon Fiyatı": 1.065043,
+      "Günlük Değişim (%)": -1.4
     },
     {
       "Fon Kodu": "EYT",
       "Fon Adı": "AKTİF PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
       "Fon Fiyatı": 3.017318,
-      "Günlük Değişim (%)": 0.37
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "FAK",
       "Fon Adı": "FONMAP PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.223341,
-      "Günlük Değişim (%)": 0.35
+      "Fon Fiyatı": 1.223571,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "FAL",
       "Fon Adı": "ONE PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.15769,
-      "Günlük Değişim (%)": -0.85
+      "Fon Fiyatı": 1.151179,
+      "Günlük Değişim (%)": -0.56
     },
     {
       "Fon Kodu": "FBC",
       "Fon Adı": "ONE PORTFÖY KAR PAYI ÖDEYEN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.52162,
-      "Günlük Değişim (%)": 1.07
+      "Fon Fiyatı": 1.534099,
+      "Günlük Değişim (%)": 0.82
     },
     {
       "Fon Kodu": "FCK",
       "Fon Adı": "ONE PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.55584,
-      "Günlük Değişim (%)": 0.85
+      "Fon Fiyatı": 1.57743,
+      "Günlük Değişim (%)": 1.39
     },
     {
       "Fon Kodu": "FD1",
       "Fon Adı": "ONE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.912605,
-      "Günlük Değişim (%)": 1.05
+      "Fon Fiyatı": 1.929362,
+      "Günlük Değişim (%)": 0.88
     },
     {
       "Fon Kodu": "FDG",
       "Fon Adı": "FONMAP PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.659221,
-      "Günlük Değişim (%)": -0.01
+      "Fon Fiyatı": 2.658693,
+      "Günlük Değişim (%)": -0.02
     },
     {
       "Fon Kodu": "FFH",
       "Fon Adı": "QNB PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.972773,
-      "Günlük Değişim (%)": 0.39
+      "Fon Fiyatı": 8.963527,
+      "Günlük Değişim (%)": -0.1
     },
     {
       "Fon Kodu": "FFP",
       "Fon Adı": "QNB PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.875707,
-      "Günlük Değişim (%)": 0.03
+      "Fon Fiyatı": 7.875664,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "FI3",
       "Fon Adı": "QNB PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 854.790291,
-      "Günlük Değişim (%)": 0.1
+      "Fon Fiyatı": 854.282094,
+      "Günlük Değişim (%)": -0.06
     },
     {
       "Fon Kodu": "FIB",
       "Fon Adı": "FİBA PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.469703,
-      "Günlük Değişim (%)": -1.29
+      "Fon Fiyatı": 0.468195,
+      "Günlük Değişim (%)": -0.32
     },
     {
       "Fon Kodu": "FID",
       "Fon Adı": "FİBA PORTFÖY ÇOKLU VARLIK İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.992134,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 0.993932,
+      "Günlük Değişim (%)": 0.18
     },
     {
       "Fon Kodu": "FIL",
       "Fon Adı": "FİBA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.40464,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.405096,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "FIT",
       "Fon Adı": "FİBA PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.241392,
-      "Günlük Değişim (%)": -0.46
+      "Fon Fiyatı": 0.240628,
+      "Günlük Değişim (%)": -0.32
     },
     {
       "Fon Kodu": "FLY",
       "Fon Adı": "AKTİF PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
       "Fon Fiyatı": 1.476517,
-      "Günlük Değişim (%)": -1.11
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "FNO",
       "Fon Adı": "QNB PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.209034,
-      "Günlük Değişim (%)": 0.31
+      "Fon Fiyatı": 0.209286,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "FPE",
       "Fon Adı": "FİBA PORTFÖY EUROBOND BORÇLANMA ARAÇLARI (DÖVİZ) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 78.870347,
-      "Günlük Değişim (%)": 0.03
+      "Fon Fiyatı": 78.994975,
+      "Günlük Değişim (%)": 0.16
     },
     {
       "Fon Kodu": "FPH",
       "Fon Adı": "FİBA PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 32.62999,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 32.642733,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "FPI",
       "Fon Adı": "FONMAP PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.874645,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 2.877413,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "FPK",
       "Fon Adı": "FİBA PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.106548,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.106693,
+      "Günlük Değişim (%)": 0.14
     },
     {
       "Fon Kodu": "FSK",
       "Fon Adı": "QNB PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.656667,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 6.663316,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "FSU",
       "Fon Adı": "TERA PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.113217,
-      "Günlük Değişim (%)": 0.22
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "FTL",
       "Fon Adı": "ONE PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.666144,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.667841,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "FUA",
       "Fon Adı": "AK PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 4.706664,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 4.704471,
+      "Günlük Değişim (%)": -0.05
     },
     {
       "Fon Kodu": "FUB",
       "Fon Adı": "QNB PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.779109,
-      "Günlük Değişim (%)": -0.12
+      "Fon Fiyatı": 0.780366,
+      "Günlük Değişim (%)": 0.16
     },
     {
       "Fon Kodu": "FYD",
       "Fon Adı": "QNB PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 11.004081,
-      "Günlük Değişim (%)": 0.42
+      "Fon Fiyatı": 11.012174,
+      "Günlük Değişim (%)": 0.07
     },
     {
       "Fon Kodu": "FYO",
       "Fon Adı": "QNB PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.268689,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.269918,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "FZJ",
       "Fon Adı": "FİBA PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.765701,
-      "Günlük Değişim (%)": 0.08
+      "Fon Fiyatı": 5.766661,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "GA1",
       "Fon Adı": "GARANTİ PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.147635,
-      "Günlük Değişim (%)": 0.02
+      "Fon Fiyatı": 2.14667,
+      "Günlük Değişim (%)": -0.04
     },
     {
       "Fon Kodu": "GAE",
       "Fon Adı": "GARANTİ PORTFÖY BİST30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.412587,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 0.412648,
+      "Günlük Değişim (%)": 0.01
     },
     {
       "Fon Kodu": "GAF",
       "Fon Adı": "INVEO PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.549706,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 1.549301,
+      "Günlük Değişim (%)": -0.03
     },
     {
       "Fon Kodu": "GAH",
       "Fon Adı": "GARANTİ PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 12.983119,
-      "Günlük Değişim (%)": 0.38
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GBC",
       "Fon Adı": "AZİMUT PORTFÖY YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.306938,
-      "Günlük Değişim (%)": 1.02
+      "Fon Fiyatı": 0.30195,
+      "Günlük Değişim (%)": -1.63
     },
     {
       "Fon Kodu": "GBG",
       "Fon Adı": "INVEO PORTFÖY G-20 ÜLKELERİ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.579356,
-      "Günlük Değişim (%)": 0.5
+      "Fon Fiyatı": 0.570257,
+      "Günlük Değişim (%)": -1.57
     },
     {
       "Fon Kodu": "GBL",
       "Fon Adı": "AZİMUT PYŞ KISA VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.936664,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.937593,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "GBV",
       "Fon Adı": "GARANTİ PORTFÖY BLOCKCHAİN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 12.510465,
-      "Günlük Değişim (%)": -0.09
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GBZ",
       "Fon Adı": "AZİMUT PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.390256,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 3.361129,
+      "Günlük Değişim (%)": -0.86
     },
     {
       "Fon Kodu": "GGK",
       "Fon Adı": "INVEO PORTFÖY ALTIN FON",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 13.08265,
-      "Günlük Değişim (%)": -0.95
+      "Fon Fiyatı": 13.013428,
+      "Günlük Değişim (%)": -0.53
     },
     {
       "Fon Kodu": "GHS",
       "Fon Adı": "GARANTİ PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 35.86381,
-      "Günlük Değişim (%)": 0.5
+      "Fon Fiyatı": 36.006565,
+      "Günlük Değişim (%)": 0.4
     },
     {
       "Fon Kodu": "GID",
       "Fon Adı": "GARANTİ PORTFÖY İNŞAAT SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.38797,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GIE",
       "Fon Adı": "GARANTİ PORTFÖY GARANTİ BBVA İKLİM ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.51995,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 3.51553,
+      "Günlük Değişim (%)": -0.13
     },
     {
       "Fon Kodu": "GIH",
       "Fon Adı": "ALLBATROSS PORTFÖY GIDA VE İÇECEK SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.597773,
-      "Günlük Değişim (%)": -0.07
+      "Fon Fiyatı": 1.59986,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "GJB",
       "Fon Adı": "INVEO PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 9.760628,
-      "Günlük Değişim (%)": 0.1
+      "Fon Fiyatı": 9.754383,
+      "Günlük Değişim (%)": -0.06
     },
     {
       "Fon Kodu": "GKF",
       "Fon Adı": "GLOBAL MD PORTFÖY KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.913611,
-      "Günlük Değişim (%)": 0.67
+      "Fon Fiyatı": 3.938495,
+      "Günlük Değişim (%)": 0.64
     },
     {
       "Fon Kodu": "GKG",
       "Fon Adı": "GARANTİ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.358124,
-      "Günlük Değişim (%)": 0.69
+      "Fon Fiyatı": 1.355112,
+      "Günlük Değişim (%)": -0.22
     },
     {
       "Fon Kodu": "GKV",
       "Fon Adı": "GARANTİ PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.108195,
-      "Günlük Değişim (%)": 1.1
+      "Fon Fiyatı": 7.110097,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "GL1",
       "Fon Adı": "AZİMUT PYŞ BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1384.403398,
-      "Günlük Değişim (%)": 0.7
+      "Fon Fiyatı": 1386.193307,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "GLC",
       "Fon Adı": "AKTİF PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
       "Fon Fiyatı": 4.611319,
-      "Günlük Değişim (%)": 0.21
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "GLL",
       "Fon Adı": "GOLDEN GLOBAL PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.952433,
-      "Günlük Değişim (%)": -0.59
+      "Fon Fiyatı": 0.951553,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "GLS",
       "Fon Adı": "AZİMUT PORTFÖY  KİRA SERTİFİKALARI (SUKUK) KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.184516,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 0.184713,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "GMA",
       "Fon Adı": "AZİMUT PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.227892,
-      "Günlük Değişim (%)": 0.31
+      "Fon Fiyatı": 2.229039,
+      "Günlük Değişim (%)": 0.05
     },
     {
       "Fon Kodu": "GMC",
       "Fon Adı": "TEB PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.145362,
-      "Günlük Değişim (%)": -1.27
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GMD",
       "Fon Adı": "GLOBAL MD PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.663973,
-      "Günlük Değişim (%)": 0.08
+      "Fon Fiyatı": 2.665935,
+      "Günlük Değişim (%)": 0.07
     },
     {
       "Fon Kodu": "GMR",
       "Fon Adı": "INVEO PORTFÖY BIST 30 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.085914,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 1.085395,
+      "Günlük Değişim (%)": -0.05
     },
     {
       "Fon Kodu": "GNH",
       "Fon Adı": "GLOBAL MD PORTFÖY ALGORİTMİK MODEL HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.081471,
-      "Günlük Değişim (%)": 0.58
+      "Fon Fiyatı": 1.086217,
+      "Günlük Değişim (%)": 0.44
     },
     {
       "Fon Kodu": "GNS",
       "Fon Adı": "GARANTİ PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.36305,
-      "Günlük Değişim (%)": 0.98
+      "Fon Fiyatı": 1.360771,
+      "Günlük Değişim (%)": -0.17
     },
     {
       "Fon Kodu": "GO1",
       "Fon Adı": "ONE PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.669995,
-      "Günlük Değişim (%)": 0.32
+      "Fon Fiyatı": 4.640924,
+      "Günlük Değişim (%)": -0.62
     },
     {
       "Fon Kodu": "GO3",
       "Fon Adı": "ONE PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.374203,
-      "Günlük Değişim (%)": 0.03
+      "Fon Fiyatı": 4.385463,
+      "Günlük Değişim (%)": 0.26
     },
     {
       "Fon Kodu": "GO4",
       "Fon Adı": "ONE PORTFÖY DÖRDÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.866449,
-      "Günlük Değişim (%)": 0.08
+      "Fon Fiyatı": 4.880202,
+      "Günlük Değişim (%)": 0.28
     },
     {
       "Fon Kodu": "GO6",
       "Fon Adı": "ONE PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.902937,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 3.906726,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "GO9",
       "Fon Adı": "ONE PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.355762,
-      "Günlük Değişim (%)": 0.77
+      "Fon Fiyatı": 2.356231,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "GOH",
       "Fon Adı": "GARANTİ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 12.789961,
-      "Günlük Değişim (%)": 0.03
+      "Fon Fiyatı": 12.859525,
+      "Günlük Değişim (%)": 0.54
     },
     {
       "Fon Kodu": "GOK",
       "Fon Adı": "GOLDEN GLOBAL PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.06319,
-      "Günlük Değişim (%)": 0.13
+      "Fon Fiyatı": 1.063667,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "GOL",
       "Fon Adı": "GARANTİ PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.620954,
-      "Günlük Değişim (%)": -1.03
+      "Fon Fiyatı": 2.605547,
+      "Günlük Değişim (%)": -0.59
     },
     {
       "Fon Kodu": "GOP",
       "Fon Adı": "GOLDEN GLOBAL PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.294624,
-      "Günlük Değişim (%)": 0.16
+      "Fon Fiyatı": 1.295339,
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Fon Kodu": "GPA",
       "Fon Adı": "GARANTİ PORTFÖY EUROBOND BORÇLANMA ARAÇLARI (DÖVİZ) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 24.172784,
-      "Günlük Değişim (%)": -0.23
+      "Fon Fiyatı": 24.196827,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "GPB",
       "Fon Adı": "GARANTİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 12.865724,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GPF",
       "Fon Adı": "GARANTİ PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.987493,
-      "Günlük Değişim (%)": 0.38
+      "Fon Fiyatı": 8.973113,
+      "Günlük Değişim (%)": -0.16
     },
     {
       "Fon Kodu": "GPG",
       "Fon Adı": "INVEO PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 17.324732,
-      "Günlük Değişim (%)": -1.19
+      "Fon Fiyatı": 17.328439,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "GPI",
       "Fon Adı": "GARANTİ PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 19.017876,
-      "Günlük Değişim (%)": 0.4
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GPN",
       "Fon Adı": "GARANTİ PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.515389,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.51687,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "GPT",
       "Fon Adı": "AKTİF PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
       "Fon Fiyatı": 2.505878,
-      "Günlük Değişim (%)": 0.28
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "GPU",
       "Fon Adı": "GARANTİ PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 21.216413,
-      "Günlük Değişim (%)": 0.42
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GPZ",
       "Fon Adı": "GARANTİ PORTFÖY ÜÇÜNCÜ PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.140412,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 2.142632,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "GRT",
       "Fon Adı": "GARANTİ PORTFÖY TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.160542,
-      "Günlük Değişim (%)": -0.38
+      "Fon Fiyatı": 1.172231,
+      "Günlük Değişim (%)": 1.01
     },
     {
       "Fon Kodu": "GSP",
       "Fon Adı": "AZİMUT PYŞ KAR PAYI ÖDEYEN HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.544722,
-      "Günlük Değişim (%)": 0.79
+      "Fon Fiyatı": 0.544868,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "GTA",
       "Fon Adı": "GARANTİ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.490506,
-      "Günlük Değişim (%)": -1.23
+      "Fon Fiyatı": 1.483802,
+      "Günlük Değişim (%)": -0.45
     },
     {
       "Fon Kodu": "GTF",
       "Fon Adı": "AZİMUT PYŞ BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 15.982688,
-      "Günlük Değişim (%)": 0.11
+      "Fon Fiyatı": 15.986092,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "GTH",
       "Fon Adı": "GARANTİ PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.315867,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 1.319857,
+      "Günlük Değişim (%)": 0.3
     },
     {
       "Fon Kodu": "GTM",
       "Fon Adı": "GARANTİ PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.441728,
-      "Günlük Değişim (%)": 0.37
+      "Fon Fiyatı": 7.414879,
+      "Günlük Değişim (%)": -0.36
     },
     {
       "Fon Kodu": "GTZ",
       "Fon Adı": "GARANTİ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 9.411982,
-      "Günlük Değişim (%)": -0.95
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GUB",
       "Fon Adı": "GARANTİ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.792359,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 2.794935,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "GUF",
       "Fon Adı": "İŞ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.745868,
-      "Günlük Değişim (%)": -1.23
+      "Fon Fiyatı": 0.715293,
+      "Günlük Değişim (%)": -4.1
     },
     {
       "Fon Kodu": "GUH",
       "Fon Adı": "GARANTİ PORTFÖY YABANCI TEKNOLOJİ HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.417348,
-      "Günlük Değişim (%)": 0.71
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GUM",
       "Fon Adı": "AK PORTFÖY GÜMÜŞ FON SEPETI FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 10.035281,
-      "Günlük Değişim (%)": -1.8
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GUV",
       "Fon Adı": "GARANTİ PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.831092,
-      "Günlük Değişim (%)": -0.2
+      "Fon Fiyatı": 1.828183,
+      "Günlük Değişim (%)": -0.16
     },
     {
       "Fon Kodu": "GVA",
       "Fon Adı": "GARANTİ PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇLAR DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.711379,
-      "Günlük Değişim (%)": -0.03
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GVI",
       "Fon Adı": "GARANTİ PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.427697,
-      "Günlük Değişim (%)": 0.17
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GYK",
       "Fon Adı": "INVEO PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.123809,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 0.123797,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "GZG",
       "Fon Adı": "GARANTİ PORTFÖY SAĞLIK VE GENETİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.780008,
-      "Günlük Değişim (%)": -0.69
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GZH",
       "Fon Adı": "GARANTİ PORTFÖY TEMİZ ENERJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.577931,
-      "Günlük Değişim (%)": 0.57
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GZJ",
       "Fon Adı": "GARANTİ PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.632538,
-      "Günlük Değişim (%)": 0.11
+      "Fon Fiyatı": 8.578894,
+      "Günlük Değişim (%)": -0.62
     },
     {
       "Fon Kodu": "GZL",
       "Fon Adı": "GARANTİ PORTFÖY TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.459275,
-      "Günlük Değişim (%)": -0.12
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GZP",
       "Fon Adı": "GARANTİ PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.878026,
-      "Günlük Değişim (%)": 0.31
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GZR",
       "Fon Adı": "GARANTİ PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 10.706459,
-      "Günlük Değişim (%)": 0.16
+      "Fon Fiyatı": 10.687678,
+      "Günlük Değişim (%)": -0.18
     },
     {
       "Fon Kodu": "GZV",
       "Fon Adı": "GARANTİ PORTFÖY ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.666777,
-      "Günlük Değişim (%)": 0.17
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GZY",
       "Fon Adı": "GARANTİ PORTFÖY TURİZM VE SEYAHAT SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 8.253491,
-      "Günlük Değişim (%)": -0.62
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "GZZ",
       "Fon Adı": "GARANTİ PORTFÖY FİNANSAL TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.927204,
-      "Günlük Değişim (%)": -1.03
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "HAI",
       "Fon Adı": "AHLATCI PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.905342,
-      "Günlük Değişim (%)": -0.53
+      "Fon Fiyatı": 0.901183,
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Fon Kodu": "HAM",
       "Fon Adı": "HEDEF PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.943588,
-      "Günlük Değişim (%)": -1.14
+      "Fon Fiyatı": 2.935335,
+      "Günlük Değişim (%)": -0.28
     },
     {
       "Fon Kodu": "HBF",
       "Fon Adı": "HSBC PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 47.767811,
-      "Günlük Değişim (%)": -0.99
+      "Fon Fiyatı": 47.553069,
+      "Günlük Değişim (%)": -0.45
     },
     {
       "Fon Kodu": "HBN",
       "Fon Adı": "HSBC PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.442448,
-      "Günlük Değişim (%)": 0.26
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "HBU",
       "Fon Adı": "HSBC PORTFÖY BİST 30 ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.287387,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 1.286981,
+      "Günlük Değişim (%)": -0.03
     },
     {
       "Fon Kodu": "HCV",
       "Fon Adı": "HEDEF PORTFÖY ATAK ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.994879,
-      "Günlük Değişim (%)": -0.01
+      "Fon Fiyatı": 0.995152,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "HDD",
       "Fon Adı": "AHLATCI PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.116345,
-      "Günlük Değişim (%)": 0.34
+      "Fon Fiyatı": 1.109831,
+      "Günlük Değişim (%)": -0.58
     },
     {
       "Fon Kodu": "HFO",
       "Fon Adı": "AHLATCI PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.865488,
-      "Günlük Değişim (%)": 0.82
+      "Fon Fiyatı": 0.865096,
+      "Günlük Değişim (%)": -0.05
     },
     {
       "Fon Kodu": "HFR",
       "Fon Adı": "A1 CAPİTAL PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.399412,
-      "Günlük Değişim (%)": 0.0
+      "Fon Fiyatı": 1.401188,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "HGM",
       "Fon Adı": "HEDEF PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.737977,
-      "Günlük Değişim (%)": -0.04
+      "Fon Fiyatı": 3.737114,
+      "Günlük Değişim (%)": -0.02
     },
     {
       "Fon Kodu": "HIH",
       "Fon Adı": "GARANTİ  PORTFÖY HOLDİNGLER VE İŞTİRAKLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.308574,
-      "Günlük Değişim (%)": 0.8
+      "Fon Fiyatı": 1.306054,
+      "Günlük Değişim (%)": -0.19
     },
     {
       "Fon Kodu": "HIZ",
       "Fon Adı": "AZİMUT PORTFÖY DİNAMİK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.090279,
-      "Günlük Değişim (%)": 0.83
+      "Fon Fiyatı": 2.07048,
+      "Günlük Değişim (%)": -0.95
     },
     {
       "Fon Kodu": "HJB",
       "Fon Adı": "HEDEF PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.57579,
-      "Günlük Değişim (%)": 0.51
+      "Fon Fiyatı": 4.576202,
+      "Günlük Değişim (%)": 0.01
     },
     {
       "Fon Kodu": "HKG",
       "Fon Adı": "ZİRAAT PORTFÖY HALK'IN ÜRETEN KADINLARI DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.484634,
-      "Günlük Değişim (%)": 0.58
+      "Fon Fiyatı": 1.48579,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "HKH",
       "Fon Adı": "HEDEF PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.757493,
-      "Günlük Değişim (%)": 0.49
+      "Fon Fiyatı": 7.74009,
+      "Günlük Değişim (%)": -0.22
     },
     {
       "Fon Kodu": "HMS",
       "Fon Adı": "HSBC PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.088347,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 0.088275,
+      "Günlük Değişim (%)": -0.08
     },
     {
       "Fon Kodu": "HOA",
       "Fon Adı": "HSBC PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.224153,
-      "Günlük Değişim (%)": 0.71
+      "Fon Fiyatı": 0.220129,
+      "Günlük Değişim (%)": -1.8
     },
     {
       "Fon Kodu": "HOY",
       "Fon Adı": "HSBC PORTFÖY YABANCI BYF FON SEPETI",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.367193,
-      "Günlük Değişim (%)": -0.14
+      "Fon Fiyatı": 0.364657,
+      "Günlük Değişim (%)": -0.69
     },
     {
       "Fon Kodu": "HPD",
       "Fon Adı": "HSBC PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.21333,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 0.213415,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "HPH",
       "Fon Adı": "HEDEF PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.611199,
-      "Günlük Değişim (%)": 0.11
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "HPO",
       "Fon Adı": "HSBC PORTFÖY ÇOKLU VARLIK BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.183474,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.183646,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "HPT",
       "Fon Adı": "HSBC PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.123008,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 0.123133,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "HRZ",
       "Fon Adı": "AKTİF PORTFÖY BIST HALKA ARZ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.519045,
-      "Günlük Değişim (%)": 1.02
+      "Fon Fiyatı": 1.555391,
+      "Günlük Değişim (%)": 2.39
     },
     {
       "Fon Kodu": "HSA",
       "Fon Adı": "HSBC PORTFÖY DEĞİŞKEN (TL) FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1647.434586,
-      "Günlük Değişim (%)": 0.41
+      "Fon Fiyatı": 1646.071547,
+      "Günlük Değişim (%)": -0.08
     },
     {
       "Fon Kodu": "HSL",
       "Fon Adı": "HSBC PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 448.624921,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 449.075923,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "HST",
       "Fon Adı": "HSBC PORTFÖY  BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.072402,
-      "Günlük Değişim (%)": -0.06
+      "Fon Fiyatı": 1.071303,
+      "Günlük Değişim (%)": -0.1
     },
     {
       "Fon Kodu": "HTJ",
       "Fon Adı": "HEDEF PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.756463,
-      "Günlük Değişim (%)": -2.37
+      "Fon Fiyatı": 1.75118,
+      "Günlük Değişim (%)": -0.3
     },
     {
       "Fon Kodu": "HTK",
       "Fon Adı": "QNB PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.98688,
-      "Günlük Değişim (%)": -1.09
+      "Fon Fiyatı": 0.979733,
+      "Günlük Değişim (%)": -0.72
     },
     {
       "Fon Kodu": "HVI",
       "Fon Adı": "DENİZ PORTFÖY HOLDİNGLER VE İŞTİRAKLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.21109,
-      "Günlük Değişim (%)": 0.58
+      "Fon Fiyatı": 1.206504,
+      "Günlük Değişim (%)": -0.38
     },
     {
       "Fon Kodu": "HVK",
       "Fon Adı": "HEDEF PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 4.494637,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 4.503545,
+      "Günlük Değişim (%)": 0.2
     },
     {
       "Fon Kodu": "HVS",
       "Fon Adı": "HSBC PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.450641,
-      "Günlük Değişim (%)": 0.47
+      "Fon Fiyatı": 1.447393,
+      "Günlük Değişim (%)": -0.22
     },
     {
       "Fon Kodu": "HVT",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.176289,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 5.182261,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "HVU",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.392123,
-      "Günlük Değişim (%)": -0.04
+      "Fon Fiyatı": 5.396963,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "HVZ",
       "Fon Adı": "ALLBATROSS PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 5.927846,
-      "Günlük Değişim (%)": 0.63
+      "Fon Fiyatı": 5.920018,
+      "Günlük Değişim (%)": -0.13
     },
     {
       "Fon Kodu": "HYV",
       "Fon Adı": "HEDEF PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.203891,
-      "Günlük Değişim (%)": 0.33
+      "Fon Fiyatı": 0.204115,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "IAE",
       "Fon Adı": "İSTANBUL PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.065633,
-      "Günlük Değişim (%)": 0.17
+      "Fon Fiyatı": 2.074785,
+      "Günlük Değişim (%)": 0.44
     },
     {
       "Fon Kodu": "IAM",
       "Fon Adı": "İŞ PORTFÖY AGRESİF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.735958,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 1.737623,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "IAT",
       "Fon Adı": "İŞ PORTFÖY KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.211664,
-      "Günlük Değişim (%)": 0.26
+      "Fon Fiyatı": 0.21185,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "IAY",
       "Fon Adı": "INVEO PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.414512,
-      "Günlük Değişim (%)": -0.85
+      "Fon Fiyatı": 1.406929,
+      "Günlük Değişim (%)": -0.54
     },
     {
       "Fon Kodu": "IBB",
       "Fon Adı": "İŞ PORTFÖY ATAK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 16.927892,
-      "Günlük Değişim (%)": 0.99
+      "Fon Fiyatı": 16.773448,
+      "Günlük Değişim (%)": -0.91
     },
     {
       "Fon Kodu": "ICA",
       "Fon Adı": "TEB PORTFÖY ICBC TURKEY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.514462,
-      "Günlük Değişim (%)": -1.07
+      "Fon Fiyatı": 0.511406,
+      "Günlük Değişim (%)": -0.59
     },
     {
       "Fon Kodu": "ICC",
       "Fon Adı": "TEB PORTFÖY BEŞİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.321445,
-      "Günlük Değişim (%)": 0.31
+      "Fon Fiyatı": 1.322983,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "ICD",
       "Fon Adı": "TEB PORTFÖY DÖRDÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 145.600313,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 145.756562,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "ICE",
       "Fon Adı": "TEB PORTFÖY ICBC TURKEY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 138.875374,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 139.008933,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "ICF",
       "Fon Adı": "TEB PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 181.030844,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 181.026048,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "ICH",
       "Fon Adı": "PARDUS PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.298838,
-      "Günlük Değişim (%)": -0.04
+      "Fon Fiyatı": 2.2882,
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Fon Kodu": "ICZ",
       "Fon Adı": "AK PORTFÖY TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 6.415906,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 6.493378,
+      "Günlük Değişim (%)": 1.21
     },
     {
       "Fon Kodu": "IDH",
       "Fon Adı": "İŞ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 9.795305,
-      "Günlük Değişim (%)": -1.06
+      "Fon Fiyatı": 9.817062,
+      "Günlük Değişim (%)": 0.22
     },
     {
       "Fon Kodu": "IDI",
       "Fon Adı": "AZİMUT PORTFÖY İNŞAAT SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.481291,
-      "Günlük Değişim (%)": 1.62
+      "Fon Fiyatı": 1.463842,
+      "Günlük Değişim (%)": -1.18
     },
     {
       "Fon Kodu": "IDL",
       "Fon Adı": "AKTİF PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.549138,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 6.555621,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "IDY",
       "Fon Adı": "TEB PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.240306,
-      "Günlük Değişim (%)": 0.02
+      "Fon Fiyatı": 0.237937,
+      "Günlük Değişim (%)": -0.99
     },
     {
       "Fon Kodu": "IED",
       "Fon Adı": "İŞ PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.025607,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 1.01981,
+      "Günlük Değişim (%)": -0.57
     },
     {
       "Fon Kodu": "IEV",
       "Fon Adı": "İŞ PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.687964,
-      "Günlük Değişim (%)": -1.01
+      "Fon Fiyatı": 4.711377,
+      "Günlük Değişim (%)": 0.5
     },
     {
       "Fon Kodu": "IFN",
       "Fon Adı": "TEB PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 8.695012,
-      "Günlük Değişim (%)": 0.69
+      "Fon Fiyatı": 8.704507,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "IFV",
       "Fon Adı": "TEB PORTFÖY BİRİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 5.061108,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 5.067479,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "IHA",
       "Fon Adı": "ALLBATROSS PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.587785,
-      "Günlük Değişim (%)": 0.5
+      "Fon Fiyatı": 2.595806,
+      "Günlük Değişim (%)": 0.31
     },
     {
       "Fon Kodu": "IHK",
       "Fon Adı": "İŞ PORTFÖY İŞ'TE KADIN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 14.996756,
-      "Günlük Değişim (%)": 0.0
+      "Fon Fiyatı": 14.973076,
+      "Günlük Değişim (%)": -0.16
     },
     {
       "Fon Kodu": "IHT",
       "Fon Adı": "İŞ PORTFÖY İHRACATÇI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.385185,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 3.381399,
+      "Günlük Değişim (%)": -0.11
     },
     {
       "Fon Kodu": "IIH",
       "Fon Adı": "İSTANBUL PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 31.016416,
-      "Günlük Değişim (%)": 0.12
+      "Fon Fiyatı": 30.963743,
+      "Günlük Değişim (%)": -0.17
     },
     {
       "Fon Kodu": "IJA",
       "Fon Adı": "INVEO PORTFÖY ATAK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 13.041123,
-      "Günlük Değişim (%)": 0.18
+      "Fon Fiyatı": 13.01798,
+      "Günlük Değişim (%)": -0.18
     },
     {
       "Fon Kodu": "IJB",
       "Fon Adı": "İŞ PORTFÖY DİJİTAL OYUN SEKTÖRÜ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 7.098657,
-      "Günlük Değişim (%)": 0.38
+      "Fon Fiyatı": 7.15866,
+      "Günlük Değişim (%)": 0.85
     },
     {
       "Fon Kodu": "IJC",
       "Fon Adı": "İŞ PORTFÖY YARI İLETKEN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 13.83945,
-      "Günlük Değişim (%)": 1.52
+      "Fon Fiyatı": 13.240587,
+      "Günlük Değişim (%)": -4.33
     },
     {
       "Fon Kodu": "IJH",
       "Fon Adı": "TEB PORTFÖY ICBC TURKEY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.665531,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "IJP",
       "Fon Adı": "İŞ PORTFÖY BLOCKCHAİN TEKNOLOJİLERİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 8.958258,
-      "Günlük Değişim (%)": 0.62
+      "Fon Fiyatı": 8.785956,
+      "Günlük Değişim (%)": -1.92
     },
     {
       "Fon Kodu": "IJV",
       "Fon Adı": "İSTANBUL PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.113727,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 6.119263,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "IJZ",
       "Fon Adı": "İŞ PORTFÖY SİBER GÜVENLİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 13.854722,
-      "Günlük Değişim (%)": 1.26
+      "Fon Fiyatı": 13.614843,
+      "Günlük Değişim (%)": -1.73
     },
     {
       "Fon Kodu": "IKL",
       "Fon Adı": "İŞ PORTFÖY SAĞLIK ŞİRKETLERİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 11.088532,
-      "Günlük Değişim (%)": -0.14
+      "Fon Fiyatı": 11.130363,
+      "Günlük Değişim (%)": 0.38
     },
     {
       "Fon Kodu": "IKP",
       "Fon Adı": "İŞ PORTFÖY YENİLENEBİLİR ENERJİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 8.786719,
-      "Günlük Değişim (%)": -0.01
+      "Fon Fiyatı": 8.656636,
+      "Günlük Değişim (%)": -1.48
     },
     {
       "Fon Kodu": "IKV",
       "Fon Adı": "İŞ PORTFÖY İKİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.652257,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.653928,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "ILZ",
       "Fon Adı": "İŞ PORTFÖY TEMKİNLİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.812671,
-      "Günlük Değişim (%)": 0.48
+      "Fon Fiyatı": 8.774911,
+      "Günlük Değişim (%)": -0.43
     },
     {
       "Fon Kodu": "IMB",
       "Fon Adı": "İSTANBUL PORTFÖY ALGORİTMİK MODEL HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.156689,
-      "Günlük Değişim (%)": 0.49
+      "Fon Fiyatı": 1.15757,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "IML",
       "Fon Adı": "İŞ PORTFÖY MODEL PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.584079,
-      "Günlük Değişim (%)": -0.11
+      "Fon Fiyatı": 1.587536,
+      "Günlük Değişim (%)": 0.22
     },
     {
       "Fon Kodu": "IOO",
       "Fon Adı": "İŞ PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.017275,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 5.022132,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "IPB",
       "Fon Adı": "İSTANBUL PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.728849,
-      "Günlük Değişim (%)": -0.02
+      "Fon Fiyatı": 0.733683,
+      "Günlük Değişim (%)": 0.66
     },
     {
       "Fon Kodu": "IPG",
       "Fon Adı": "İŞ PORTFÖY ATAK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 10.037731,
-      "Günlük Değişim (%)": 0.58
+      "Fon Fiyatı": 9.982349,
+      "Günlük Değişim (%)": -0.55
     },
     {
       "Fon Kodu": "IPJ",
       "Fon Adı": "İŞ PORTFÖY ELEKTRİKLİ ARAÇLAR KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 18.425819,
-      "Günlük Değişim (%)": 0.16
+      "Fon Fiyatı": 18.008349,
+      "Günlük Değişim (%)": -2.27
     },
     {
       "Fon Kodu": "IPV",
       "Fon Adı": "İŞ PORTFÖY EUROBOND BORÇLANMA ARAÇLARI (DÖVİZ) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 81.986645,
-      "Günlük Değişim (%)": 0.02
+      "Fon Fiyatı": 82.181292,
+      "Günlük Değişim (%)": 0.24
     },
     {
       "Fon Kodu": "IRF",
       "Fon Adı": "İSTANBUL PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.59288,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "IRT",
       "Fon Adı": "INVEO PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.212843,
-      "Günlük Değişim (%)": 0.47
+      "Fon Fiyatı": 7.021456,
+      "Günlük Değişim (%)": -2.65
     },
     {
       "Fon Kodu": "IRY",
       "Fon Adı": "INVEO PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 4.373666,
-      "Günlük Değişim (%)": 0.31
+      "Fon Fiyatı": 4.378536,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "IST",
       "Fon Adı": "İSTANBUL PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.185146,
-      "Günlük Değişim (%)": -9.37
+      "Fon Fiyatı": 0.185319,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "ITC",
       "Fon Adı": "INVEO PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.086298,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.082769,
+      "Günlük Değişim (%)": -0.32
     },
     {
       "Fon Kodu": "ITP",
       "Fon Adı": "İŞ PORTFÖY TEKNOLOJİ KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 13.053199,
-      "Günlük Değişim (%)": 0.82
+      "Fon Fiyatı": 12.834061,
+      "Günlük Değişim (%)": -1.68
     },
     {
       "Fon Kodu": "IUH",
       "Fon Adı": "INVEO PORTFÖY DÖNÜŞTÜRÜCÜ TEKNOLOJİLER FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.889105,
-      "Günlük Değişim (%)": 0.48
+      "Fon Fiyatı": 5.888757,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "IV8",
       "Fon Adı": "INVEO PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.483476,
-      "Günlük Değişim (%)": 0.26
+      "Fon Fiyatı": 2.485644,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "IVF",
       "Fon Adı": "İSTANBUL PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 5.560627,
-      "Günlük Değişim (%)": 0.69
+      "Fon Fiyatı": 5.581548,
+      "Günlük Değişim (%)": 0.38
     },
     {
       "Fon Kodu": "IVY",
       "Fon Adı": "İSTANBUL PORTFÖY BLOCKCHAIN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.823186,
-      "Günlük Değişim (%)": 0.5
+      "Fon Fiyatı": 5.632283,
+      "Günlük Değişim (%)": -3.28
     },
     {
       "Fon Kodu": "IYB",
       "Fon Adı": "AURA PORTFÖY DEĞİŞKEN FONU",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.313207,
-      "Günlük Değişim (%)": 0.42
+      "Fon Fiyatı": 5.308436,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "JET",
       "Fon Adı": "ATA PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.156045,
-      "Günlük Değişim (%)": -0.65
+      "Fon Fiyatı": 2.170049,
+      "Günlük Değişim (%)": 0.65
     },
     {
       "Fon Kodu": "KCL",
       "Fon Adı": "KARE PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.697775,
-      "Günlük Değişim (%)": 0.65
+      "Fon Fiyatı": 1.695398,
+      "Günlük Değişim (%)": -0.14
     },
     {
       "Fon Kodu": "KCV",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.274761,
-      "Günlük Değişim (%)": 0.5
+      "Fon Fiyatı": 5.258937,
+      "Günlük Değişim (%)": -0.3
     },
     {
       "Fon Kodu": "KDE",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY DENGELİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.811687,
-      "Günlük Değişim (%)": 0.32
+      "Fon Fiyatı": 1.802142,
+      "Günlük Değişim (%)": -0.53
     },
     {
       "Fon Kodu": "KGM",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY GÜMÜŞ KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.379909,
-      "Günlük Değişim (%)": -1.4
+      "Fon Fiyatı": 2.278178,
+      "Günlük Değişim (%)": -4.27
     },
     {
       "Fon Kodu": "KH1",
       "Fon Adı": "AK PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.202019,
-      "Günlük Değişim (%)": 0.73
+      "Fon Fiyatı": 1.202057,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "KHA",
       "Fon Adı": "PARDUS PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.001953,
-      "Günlük Değişim (%)": 1.4
+      "Fon Fiyatı": 0.001961,
+      "Günlük Değişim (%)": 0.41
     },
     {
       "Fon Kodu": "KHB",
       "Fon Adı": "KARE PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.218433,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 1.227677,
+      "Günlük Değişim (%)": 0.76
     },
     {
       "Fon Kodu": "KHC",
       "Fon Adı": "PARDUS PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.562229,
-      "Günlük Değişim (%)": 0.87
+      "Fon Fiyatı": 1.560732,
+      "Günlük Değişim (%)": -0.1
     },
     {
       "Fon Kodu": "KHJ",
       "Fon Adı": "ATLAS PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.897724,
-      "Günlük Değişim (%)": 0.53
+      "Fon Fiyatı": 0.905756,
+      "Günlük Değişim (%)": 0.89
     },
     {
       "Fon Kodu": "KIA",
       "Fon Adı": "TRIVE PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.663918,
-      "Günlük Değişim (%)": -0.29
+      "Fon Fiyatı": 4.657864,
+      "Günlük Değişim (%)": -0.13
     },
     {
       "Fon Kodu": "KIB",
       "Fon Adı": "TRIVE PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.846408,
-      "Günlük Değişim (%)": 0.78
+      "Fon Fiyatı": 3.801409,
+      "Günlük Değişim (%)": -1.17
     },
     {
       "Fon Kodu": "KIE",
       "Fon Adı": "TRIVE PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 4.706262,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 4.710836,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "KIK",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY İKİNCİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.43496,
-      "Günlük Değişim (%)": 0.37
+      "Fon Fiyatı": 1.396809,
+      "Günlük Değişim (%)": -2.66
     },
     {
       "Fon Kodu": "KIS",
       "Fon Adı": "ASTRA PORTFÖY KİRA SERTİFİKASI KATILIM (DÖVİZ) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.229592,
-      "Günlük Değişim (%)": -0.11
+      "Fon Fiyatı": 0.229914,
+      "Günlük Değişim (%)": 0.14
     },
     {
       "Fon Kodu": "KKH",
       "Fon Adı": "İŞ PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.160517,
-      "Günlük Değişim (%)": 0.6
+      "Fon Fiyatı": 7.12326,
+      "Günlük Değişim (%)": -0.52
     },
     {
       "Fon Kodu": "KLU",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.261045,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 5.265992,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "KME",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY TEMKİNLİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.686784,
-      "Günlük Değişim (%)": 0.39
+      "Fon Fiyatı": 1.689405,
+      "Günlük Değişim (%)": 0.16
     },
     {
       "Fon Kodu": "KMF",
       "Fon Adı": "AZİMUT PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.252372,
-      "Günlük Değişim (%)": -0.89
+      "Fon Fiyatı": 3.240038,
+      "Günlük Değişim (%)": -0.38
     },
     {
       "Fon Kodu": "KMN",
       "Fon Adı": "YAPI KREDİ PORTFÖY KIYMETLİ MADENLER KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.83495,
-      "Günlük Değişim (%)": -1.78
+      "Fon Fiyatı": 0.828141,
+      "Günlük Değişim (%)": -0.82
     },
     {
       "Fon Kodu": "KNJ",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ENERJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.006668,
-      "Günlük Değişim (%)": 1.27
+      "Fon Fiyatı": 1.98391,
+      "Günlük Değişim (%)": -1.13
     },
     {
       "Fon Kodu": "KOD",
       "Fon Adı": "YAPI KREDİ PORTFÖY KÜÇÜK ÖLÇEKLİ ŞİRKETLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.937989,
-      "Günlük Değişim (%)": -0.51
+      "Fon Fiyatı": 0.92719,
+      "Günlük Değişim (%)": -1.15
     },
     {
       "Fon Kodu": "KOT",
       "Fon Adı": "AZİMUT PORTFÖY KOÇ TOPLULUĞU ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.443436,
-      "Günlük Değişim (%)": -0.05
+      "Fon Fiyatı": 1.440132,
+      "Günlük Değişim (%)": -0.23
     },
     {
       "Fon Kodu": "KPA",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KAR PAYI ÖDEYEN KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.465173,
-      "Günlük Değişim (%)": 0.34
+      "Fon Fiyatı": 1.465951,
+      "Günlük Değişim (%)": 0.05
     },
     {
       "Fon Kodu": "KPC",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 19.276543,
-      "Günlük Değişim (%)": 0.97
+      "Fon Fiyatı": 19.2918,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "KPH",
       "Fon Adı": "İŞ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.167305,
-      "Günlük Değişim (%)": 0.05
+      "Fon Fiyatı": 1.165693,
+      "Günlük Değişim (%)": -0.14
     },
     {
       "Fon Kodu": "KPI",
       "Fon Adı": "İŞ PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.60135,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.602891,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "KPP",
       "Fon Adı": "KARE PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.337632,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 3.341189,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "KPU",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY İKİNCİ KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 3.481721,
-      "Günlük Değişim (%)": 1.08
+      "Fon Fiyatı": 3.487386,
+      "Günlük Değişim (%)": 0.16
     },
     {
       "Fon Kodu": "KRC",
       "Fon Adı": "KARE PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.151258,
-      "Günlük Değişim (%)": 0.16
+      "Fon Fiyatı": 0.151402,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "KRF",
       "Fon Adı": "KARE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 21.277444,
-      "Günlük Değişim (%)": 0.1
+      "Fon Fiyatı": 21.327726,
+      "Günlük Değişim (%)": 0.24
     },
     {
       "Fon Kodu": "KRR",
       "Fon Adı": "İŞ PORTFÖY KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 1.140659,
-      "Günlük Değişim (%)": 0.17
+      "Fon Fiyatı": 1.140667,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "KSK",
       "Fon Adı": "AZİMUT PORTFÖY İKİNCİ PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.183938,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 3.186819,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "KSR",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY SÜRDÜRÜLEBİLİRLİK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.285875,
-      "Günlük Değişim (%)": 0.32
+      "Fon Fiyatı": 5.186048,
+      "Günlük Değişim (%)": -1.89
     },
     {
       "Fon Kodu": "KST",
       "Fon Adı": "ALLBATROSS PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.672248,
-      "Günlük Değişim (%)": 0.99
+      "Fon Fiyatı": 1.674431,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "KTI",
       "Fon Adı": "AZİMUT PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.835647,
-      "Günlük Değişim (%)": 1.24
+      "Fon Fiyatı": 1.828072,
+      "Günlük Değişim (%)": -0.41
     },
     {
       "Fon Kodu": "KTJ",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY TEKNOLOJİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.672864,
-      "Günlük Değişim (%)": 0.38
+      "Fon Fiyatı": 2.582131,
+      "Günlük Değişim (%)": -3.39
     },
     {
       "Fon Kodu": "KTM",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY BİRİNCİ KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 21.960762,
-      "Günlük Değişim (%)": 0.58
+      "Fon Fiyatı": 21.947383,
+      "Günlük Değişim (%)": -0.06
     },
     {
       "Fon Kodu": "KTN",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.444044,
-      "Günlük Değişim (%)": 0.22
+      "Fon Fiyatı": 8.451431,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "KTV",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.349221,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 8.357096,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "KU3",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ÜÇÜNCÜ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.066982,
-      "Günlük Değişim (%)": 1.03
+      "Fon Fiyatı": 1.044756,
+      "Günlük Değişim (%)": -2.08
     },
     {
       "Fon Kodu": "KUA",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY AGRESİF KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.355009,
-      "Günlük Değişim (%)": 0.85
+      "Fon Fiyatı": 1.35464,
+      "Günlük Değişim (%)": -0.03
     },
     {
       "Fon Kodu": "KUB",
       "Fon Adı": "KARE PORTFÖY DEĞİŞKEN  (DÖVİZ) FONU",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.766928,
-      "Günlük Değişim (%)": 0.01
+      "Fon Fiyatı": 0.762603,
+      "Günlük Değişim (%)": -0.56
     },
     {
       "Fon Kodu": "KUD",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY DİNAMİK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.684876,
-      "Günlük Değişim (%)": 0.49
+      "Fon Fiyatı": 1.684604,
+      "Günlük Değişim (%)": -0.02
     },
     {
       "Fon Kodu": "KUT",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY KIYMETLİ MADENLER KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 10.613205,
-      "Günlük Değişim (%)": -1.87
+      "Fon Fiyatı": 10.449066,
+      "Günlük Değişim (%)": -1.55
     },
     {
       "Fon Kodu": "KVT",
       "Fon Adı": "AK PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.177777,
-      "Günlük Değişim (%)": 0.44
+      "Fon Fiyatı": 1.178079,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "KYA",
       "Fon Adı": "KARE PORTFÖY HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.094085,
-      "Günlük Değişim (%)": 0.37
+      "Fon Fiyatı": 1.089397,
+      "Günlük Değişim (%)": -0.43
     },
     {
       "Fon Kodu": "KZL",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 26.385965,
-      "Günlük Değişim (%)": -1.06
+      "Fon Fiyatı": 26.231956,
+      "Günlük Değişim (%)": -0.58
     },
     {
       "Fon Kodu": "KZU",
       "Fon Adı": "KUVEYT TÜRK PORTFÖY İKİNCİ ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.233824,
-      "Günlük Değişim (%)": -0.92
+      "Fon Fiyatı": 2.224298,
+      "Günlük Değişim (%)": -0.43
     },
     {
       "Fon Kodu": "LKF",
       "Fon Adı": "İŞ PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.982857,
-      "Günlük Değişim (%)": -0.79
+      "Fon Fiyatı": 0.978928,
+      "Günlük Değişim (%)": -0.4
     },
     {
       "Fon Kodu": "LKT",
       "Fon Adı": "AKTİF PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.039057,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 2.040664,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "LTL",
       "Fon Adı": "AHLATCI PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.192065,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 1.190166,
+      "Günlük Değişim (%)": -0.16
     },
     {
       "Fon Kodu": "MAC",
       "Fon Adı": "MARMARA CAPITAL PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.644771,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.646834,
+      "Günlük Değişim (%)": 0.32
     },
     {
       "Fon Kodu": "MAD",
       "Fon Adı": "MEKSA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.97309,
-      "Günlük Değişim (%)": 0.33
+      "Fon Fiyatı": 0.971956,
+      "Günlük Değişim (%)": -0.12
     },
     {
       "Fon Kodu": "MBL",
       "Fon Adı": "MEKSA PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.312137,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 0.312316,
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Fon Kodu": "MBR",
       "Fon Adı": "MT PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.777228,
-      "Günlük Değişim (%)": 0.14
+      "Fon Fiyatı": 1.778133,
+      "Günlük Değişim (%)": 0.05
     },
     {
       "Fon Kodu": "MD1",
       "Fon Adı": "MT PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.844296,
-      "Günlük Değişim (%)": 0.51
+      "Fon Fiyatı": 1.843943,
+      "Günlük Değişim (%)": -0.02
     },
     {
       "Fon Kodu": "MD2",
       "Fon Adı": "MT PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.988489,
-      "Günlük Değişim (%)": 0.4
+      "Fon Fiyatı": 1.992723,
+      "Günlük Değişim (%)": 0.21
     },
     {
       "Fon Kodu": "MET",
       "Fon Adı": "GARANTİ PORTFÖY METAVERSE VE YENİ TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.044316,
-      "Günlük Değişim (%)": 0.58
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "MHF",
       "Fon Adı": "MT PORTFÖY BIST HALKA ARZ ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.163491,
-      "Günlük Değişim (%)": 0.59
+      "Fon Fiyatı": 1.18299,
+      "Günlük Değişim (%)": 1.68
     },
     {
       "Fon Kodu": "MJB",
       "Fon Adı": "AKTİF PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
       "Fon Fiyatı": 7.173598,
-      "Günlük Değişim (%)": -0.26
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "MJG",
       "Fon Adı": "AKTİF PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
       "Fon Fiyatı": 8.968202,
-      "Günlük Değişim (%)": -0.98
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "MKA",
       "Fon Adı": "MARMARA CAPİTAL PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.043058,
-      "Günlük Değişim (%)": 0.73
+      "Fon Fiyatı": 1.050424,
+      "Günlük Değişim (%)": 0.71
     },
     {
       "Fon Kodu": "MKG",
       "Fon Adı": "AKTİF PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
       "Fon Fiyatı": 16.440004,
-      "Günlük Değişim (%)": -1.27
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "MMH",
       "Fon Adı": "AKTİF PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 15.792764,
-      "Günlük Değişim (%)": 0.17
+      "Fon Fiyatı": 15.778937,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "MPE",
       "Fon Adı": "MT PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.483675,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 1.48467,
+      "Günlük Değişim (%)": 0.07
     },
     {
       "Fon Kodu": "MPF",
       "Fon Adı": "AKTİF PORTFÖY KISA VADELİ KİRA SERTİFİKASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 9.050838,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 9.059869,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "MPK",
       "Fon Adı": "AKTİF PORTFÖY KİRA SERTİFİKASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 10.723247,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 10.736634,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "MPL",
       "Fon Adı": "MT PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.194611,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 2.196468,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "MPS",
       "Fon Adı": "AKTİF PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 21.33946,
-      "Günlük Değişim (%)": 0.91
+      "Fon Fiyatı": 21.314724,
+      "Günlük Değişim (%)": -0.12
     },
     {
       "Fon Kodu": "MTD",
       "Fon Adı": "BV PORTFÖY MALZEME TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.084879,
-      "Günlük Değişim (%)": -0.51
+      "Fon Fiyatı": 1.059018,
+      "Günlük Değişim (%)": -2.38
     },
     {
       "Fon Kodu": "MTH",
       "Fon Adı": "MT PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.761972,
-      "Günlük Değişim (%)": 0.58
+      "Fon Fiyatı": 1.761685,
+      "Günlük Değişim (%)": -0.02
     },
     {
       "Fon Kodu": "MTK",
       "Fon Adı": "MT PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.259344,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 1.265838,
+      "Günlük Değişim (%)": 0.52
     },
     {
       "Fon Kodu": "MTS",
       "Fon Adı": "AKTİF PORTFÖY TARIM VE SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
       "Fon Fiyatı": 2.681884,
-      "Günlük Değişim (%)": -0.76
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "MTV",
       "Fon Adı": "AK PORTFÖY METAVERSE VE DİJİTAL YAŞAM TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.294069,
-      "Günlük Değişim (%)": 0.67
+      "Fon Fiyatı": 5.229254,
+      "Günlük Değişim (%)": -1.22
     },
     {
       "Fon Kodu": "MTX",
       "Fon Adı": "TEB PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.963232,
-      "Günlük Değişim (%)": 1.02
+      "Fon Fiyatı": 4.889781,
+      "Günlük Değişim (%)": -1.48
     },
     {
       "Fon Kodu": "NAK",
       "Fon Adı": "NEO PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.007373,
-      "Günlük Değişim (%)": -0.95
+      "Fon Fiyatı": 1.001973,
+      "Günlük Değişim (%)": -0.54
     },
     {
       "Fon Kodu": "NAU",
       "Fon Adı": "NEO PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 2.897515,
-      "Günlük Değişim (%)": -0.93
+      "Fon Fiyatı": 2.882492,
+      "Günlük Değişim (%)": -0.52
     },
     {
       "Fon Kodu": "NBO",
       "Fon Adı": "NEO PORTFÖY BORÇLANMA ARACI FONLARI FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.639091,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "NHP",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.790631,
-      "Günlük Değişim (%)": 0.13
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "NHY",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 4.471494,
-      "Günlük Değişim (%)": -0.47
+      "Fon Fiyatı": 4.48094,
+      "Günlük Değişim (%)": 0.21
     },
     {
       "Fon Kodu": "NJF",
       "Fon Adı": "NUROL PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 11.917742,
-      "Günlük Değişim (%)": -1.01
+      "Fon Fiyatı": 11.862782,
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Fon Kodu": "NJR",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 6.210663,
-      "Günlük Değişim (%)": -1.04
+      "Fon Fiyatı": 6.216477,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "NJY",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 8.166495,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 8.175489,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "NKC",
       "Fon Adı": "NEO PORTFÖY İKİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.100651,
-      "Günlük Değişim (%)": 0.48
+      "Fon Fiyatı": 1.09949,
+      "Günlük Değişim (%)": -0.11
     },
     {
       "Fon Kodu": "NKM",
       "Fon Adı": "NEO PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.845928,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.847849,
+      "Günlük Değişim (%)": 0.23
     },
     {
       "Fon Kodu": "NKP",
       "Fon Adı": "NEO PORTFÖY KAR PAYI ÖDEYEN DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.041327,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 1.024624,
+      "Günlük Değişim (%)": -1.6
     },
     {
       "Fon Kodu": "NKT",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.373134,
-      "Günlük Değişim (%)": 0.53
+      "Fon Fiyatı": 1.371371,
+      "Günlük Değişim (%)": -0.13
     },
     {
       "Fon Kodu": "NLE",
       "Fon Adı": "NUROL PORTFÖY EMLAK SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.437529,
-      "Günlük Değişim (%)": 0.01
+      "Fon Fiyatı": 1.442364,
+      "Günlük Değişim (%)": 0.34
     },
     {
       "Fon Kodu": "NNF",
       "Fon Adı": "HEDEF PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 19.283019,
-      "Günlük Değişim (%)": 0.12
+      "Fon Fiyatı": 19.332856,
+      "Günlük Değişim (%)": 0.26
     },
     {
       "Fon Kodu": "NPH",
       "Fon Adı": "NUROL PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.373506,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 1.375588,
+      "Günlük Değişim (%)": 0.15
     },
     {
       "Fon Kodu": "NRC",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 8.805492,
-      "Günlük Değişim (%)": 0.2
+      "Fon Fiyatı": 8.822232,
+      "Günlük Değişim (%)": 0.19
     },
     {
       "Fon Kodu": "NRG",
       "Fon Adı": "NEO PORTFÖY BİRİNCİ PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.001629,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 6.007203,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "NSP",
       "Fon Adı": "NUROL PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.011707,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 2.013681,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "NST",
       "Fon Adı": "İŞ PORTFÖY EMLAK SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.016874,
-      "Günlük Değişim (%)": -0.13
+      "Fon Fiyatı": 1.02122,
+      "Günlük Değişim (%)": 0.43
     },
     {
       "Fon Kodu": "NTI",
       "Fon Adı": "NEO PORTFÖY TEKNOLOJİ VE İNOVASYON DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.362957,
-      "Günlük Değişim (%)": 1.02
+      "Fon Fiyatı": 1.315576,
+      "Günlük Değişim (%)": -3.48
     },
     {
       "Fon Kodu": "NUH",
       "Fon Adı": "NEO PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.141287,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 1.143857,
+      "Günlük Değişim (%)": 0.23
     },
     {
       "Fon Kodu": "NVB",
       "Fon Adı": "NEO PORTFÖY İKİNCİ PARA PİYASASI (TL) FON",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.199296,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 5.203991,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "NZH",
       "Fon Adı": "NEO PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.230485,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 3.234276,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "OBI",
       "Fon Adı": "OYAK PORTFÖY İKİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 3.394682,
-      "Günlük Değişim (%)": 0.0
+      "Fon Fiyatı": 3.389563,
+      "Günlük Değişim (%)": -0.15
     },
     {
       "Fon Kodu": "OBP",
       "Fon Adı": "OYAK PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.213375,
-      "Günlük Değişim (%)": -0.02
+      "Fon Fiyatı": 0.213254,
+      "Günlük Değişim (%)": -0.06
     },
     {
       "Fon Kodu": "ODG",
       "Fon Adı": "ONE PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.225032,
-      "Günlük Değişim (%)": 0.22
+      "Fon Fiyatı": 1.226282,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "ODV",
       "Fon Adı": "AK PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 20.203659,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "OFI",
       "Fon Adı": "OYAK PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.971511,
-      "Günlük Değişim (%)": 0.02
+      "Fon Fiyatı": 3.963785,
+      "Günlük Değişim (%)": -0.19
     },
     {
       "Fon Kodu": "OFS",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 8.262232,
-      "Günlük Değişim (%)": 0.16
+      "Fon Fiyatı": 8.264267,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "OGD",
       "Fon Adı": "OYAK PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 10.911604,
-      "Günlük Değişim (%)": -0.89
+      "Fon Fiyatı": 10.848793,
+      "Günlük Değişim (%)": -0.58
     },
     {
       "Fon Kodu": "OHB",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 22.290377,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 22.331329,
+      "Günlük Değişim (%)": 0.18
     },
     {
       "Fon Kodu": "OHK",
       "Fon Adı": "OYAK PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.580528,
-      "Günlük Değişim (%)": 0.65
+      "Fon Fiyatı": 2.578263,
+      "Günlük Değişim (%)": -0.09
     },
     {
       "Fon Kodu": "OIL",
       "Fon Adı": "OSMANLI PORTFÖY ALTIN FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.653909,
-      "Günlük Değişim (%)": -0.97
+      "Fon Fiyatı": 3.652813,
+      "Günlük Değişim (%)": -0.03
     },
     {
       "Fon Kodu": "OIR",
       "Fon Adı": "OSMANLI PORTFÖY DENGELİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.141042,
-      "Günlük Değişim (%)": 0.14
+      "Fon Fiyatı": 5.140854,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "OJK",
       "Fon Adı": "QNB PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 12.631729,
-      "Günlük Değişim (%)": -1.21
+      "Fon Fiyatı": 12.580851,
+      "Günlük Değişim (%)": -0.4
     },
     {
       "Fon Kodu": "OJT",
       "Fon Adı": "QNB PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 12.14839,
-      "Günlük Değişim (%)": 1.21
+      "Fon Fiyatı": 11.828172,
+      "Günlük Değişim (%)": -2.64
     },
     {
       "Fon Kodu": "OKD",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.601131,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 0.602342,
+      "Günlük Değişim (%)": 0.2
     },
     {
       "Fon Kodu": "OKP",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 7.035855,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 7.043004,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "OKT",
       "Fon Adı": "OYAK PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.178068,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.178235,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "OLD",
       "Fon Adı": "QNB PORTFÖY TEMİZ ENERJİ VE SU FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.062769,
-      "Günlük Değişim (%)": -0.49
+      "Fon Fiyatı": 3.020434,
+      "Günlük Değişim (%)": -1.38
     },
     {
       "Fon Kodu": "OLE",
       "Fon Adı": "OSMANLI PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.507485,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 5.507475,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "OMG",
       "Fon Adı": "AZİMUT PORTFÖY İKİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.731465,
-      "Günlük Değişim (%)": 1.22
+      "Fon Fiyatı": 1.729461,
+      "Günlük Değişim (%)": -0.12
     },
     {
       "Fon Kodu": "OPB",
       "Fon Adı": "OSMANLI PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 12.844992,
-      "Günlük Değişim (%)": 0.11
+      "Fon Fiyatı": 12.861819,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "OPF",
       "Fon Adı": "OSMANLI PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.139956,
-      "Günlük Değişim (%)": 0.97
+      "Fon Fiyatı": 3.063258,
+      "Günlük Değişim (%)": -2.44
     },
     {
       "Fon Kodu": "OPH",
       "Fon Adı": "OSMANLI PORTFÖY BİRİNCİ HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 22.951808,
-      "Günlük Değişim (%)": 0.26
+      "Fon Fiyatı": 22.93395,
+      "Günlük Değişim (%)": -0.08
     },
     {
       "Fon Kodu": "OPI",
       "Fon Adı": "OSMANLI PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 20.296691,
-      "Günlük Değişim (%)": 0.41
+      "Fon Fiyatı": 20.267018,
+      "Günlük Değişim (%)": -0.15
     },
     {
       "Fon Kodu": "OPL",
       "Fon Adı": "OSMANLI PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 9.319704,
-      "Günlük Değişim (%)": -0.06
+      "Fon Fiyatı": 9.312039,
+      "Günlük Değişim (%)": -0.08
     },
     {
       "Fon Kodu": "OSD",
       "Fon Adı": "OSMANLI PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 14.718641,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 14.732557,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "OSL",
       "Fon Adı": "OSMANLI PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.169694,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.16988,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "OTJ",
       "Fon Adı": "OYAK PORTFÖY KIYMETLİ MADENLER KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.232356,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 6.068058,
+      "Günlük Değişim (%)": -2.64
     },
     {
       "Fon Kodu": "OTM",
       "Fon Adı": "AZİMUT PORTFÖY OTOMOTİV SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.306502,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 1.307089,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "OVD",
       "Fon Adı": "QNB PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.433023,
-      "Günlük Değişim (%)": 0.33
+      "Fon Fiyatı": 3.406878,
+      "Günlük Değişim (%)": -0.76
     },
     {
       "Fon Kodu": "PAB",
       "Fon Adı": "A1 CAPİTAL PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.008846,
-      "Günlük Değişim (%)": 0.12
+      "Fon Fiyatı": 0.008844,
+      "Günlük Değişim (%)": -0.02
     },
     {
       "Fon Kodu": "PAF",
       "Fon Adı": "PARDUS PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 3.324245,
-      "Günlük Değişim (%)": -0.93
+      "Fon Fiyatı": 3.306368,
+      "Günlük Değişim (%)": -0.54
     },
     {
       "Fon Kodu": "PBI",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.062766,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 2.063672,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "PBR",
@@ -3106,43 +3106,43 @@
       "Fon Kodu": "PDD",
       "Fon Adı": "ASTRA PORTFÖY KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 6.092693,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 6.095705,
+      "Günlük Değişim (%)": 0.05
     },
     {
       "Fon Kodu": "PEA",
       "Fon Adı": "PERFORM PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.374526,
-      "Günlük Değişim (%)": -1.06
+      "Fon Fiyatı": 1.366442,
+      "Günlük Değişim (%)": -0.59
     },
     {
       "Fon Kodu": "PFO",
       "Fon Adı": "PHİLLİP PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.201992,
+      "Fon Fiyatı": 2.200926,
       "Günlük Değişim (%)": -0.05
     },
     {
       "Fon Kodu": "PFS",
       "Fon Adı": "ATLAS PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.68559,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 2.686327,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "PGD",
       "Fon Adı": "ASTRA PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.872617,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 1.877413,
+      "Günlük Değişim (%)": 0.26
     },
     {
       "Fon Kodu": "PGS",
       "Fon Adı": "AZİMUT PORTFÖY PAY GERİ ALIMI YAPAN ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.167993,
-      "Günlük Değişim (%)": 0.02
+      "Fon Fiyatı": 1.166207,
+      "Günlük Değişim (%)": -0.15
     },
     {
       "Fon Kodu": "PHE",
@@ -3155,659 +3155,659 @@
       "Fon Kodu": "PHI",
       "Fon Adı": "PİRAMİT PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.416941,
-      "Günlük Değişim (%)": 0.33
+      "Fon Fiyatı": 1.406981,
+      "Günlük Değişim (%)": -0.7
     },
     {
       "Fon Kodu": "PHK",
       "Fon Adı": "PHİLLİP PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.454831,
-      "Günlük Değişim (%)": 0.38
+      "Fon Fiyatı": 1.459008,
+      "Günlük Değişim (%)": 0.29
     },
     {
       "Fon Kodu": "PID",
       "Fon Adı": "PİRAMİT PORTFÖY DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.902142,
-      "Günlük Değişim (%)": -0.33
+      "Fon Fiyatı": 1.89765,
+      "Günlük Değişim (%)": -0.24
     },
     {
       "Fon Kodu": "PIL",
       "Fon Adı": "ROTA PORTFÖY PİL TEKNOLOJİLERİ VE ENERJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.499051,
-      "Günlük Değişim (%)": -0.51
+      "Fon Fiyatı": 3.444846,
+      "Günlük Değişim (%)": -1.55
     },
     {
       "Fon Kodu": "PIR",
       "Fon Adı": "PİRAMİT PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.564682,
-      "Günlük Değişim (%)": 0.21
+      "Fon Fiyatı": 1.561784,
+      "Günlük Değişim (%)": -0.19
     },
     {
       "Fon Kodu": "PJL",
       "Fon Adı": "PHİLLİP PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.655892,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 5.661295,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "PKF",
       "Fon Adı": "ATA PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 4.473615,
-      "Günlük Değişim (%)": -0.8
+      "Fon Fiyatı": 4.453802,
+      "Günlük Değişim (%)": -0.44
     },
     {
       "Fon Kodu": "PKR",
       "Fon Adı": "ROTA PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.666622,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.668103,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "PLR",
       "Fon Adı": "OSMANLI PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.811938,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 1.813935,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "PNU",
       "Fon Adı": "PUSULA PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.258078,
-      "Günlük Değişim (%)": -0.28
+      "Fon Fiyatı": 1.258074,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "PP1",
       "Fon Adı": "PARDUS PORTFÖY BİRİNCİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.359424,
-      "Günlük Değişim (%)": 0.71
+      "Fon Fiyatı": 1.359899,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "PPB",
       "Fon Adı": "PHİLLİP PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 9.347983,
-      "Günlük Değişim (%)": 0.34
+      "Fon Fiyatı": 9.329525,
+      "Günlük Değişim (%)": -0.2
     },
     {
       "Fon Kodu": "PPG",
       "Fon Adı": "ALBARAKA PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.580758,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.582232,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "PPH",
       "Fon Adı": "PARDUS PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.035858,
-      "Günlük Değişim (%)": 0.01
+      "Fon Fiyatı": 1.042523,
+      "Günlük Değişim (%)": 0.64
     },
     {
       "Fon Kodu": "PPI",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.488653,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 2.491059,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "PPK",
       "Fon Adı": "QNB PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.45031,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 2.452671,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "PPN",
       "Fon Adı": "NUROL PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 6.272334,
-      "Günlük Değişim (%)": 0.06
+      "Fon Fiyatı": 6.278718,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "PPP",
       "Fon Adı": "PERFORM PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.399752,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 3.402948,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "PPT",
       "Fon Adı": "ATLAS PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.056452,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 2.056947,
+      "Günlük Değişim (%)": 0.02
     },
     {
       "Fon Kodu": "PPZ",
       "Fon Adı": "AZİMUT PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 7.165558,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 7.173086,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "PRD",
       "Fon Adı": "PİRAMİT PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.564294,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 2.566967,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "PRH",
       "Fon Adı": "AURA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.311951,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 2.274184,
+      "Günlük Değişim (%)": -1.63
     },
     {
       "Fon Kodu": "PRR",
       "Fon Adı": "INVEO PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.455439,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 1.456869,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "PRY",
       "Fon Adı": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 3.234156,
-      "Günlük Değişim (%)": -0.23
+      "Fon Fiyatı": 3.234157,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "PSH",
       "Fon Adı": "DENİZ PORTFÖY PERAKENDE SEKTÖRÜ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.849812,
-      "Günlük Değişim (%)": 1.03
+      "Fon Fiyatı": 0.860354,
+      "Günlük Değişim (%)": 1.24
     },
     {
       "Fon Kodu": "PTN",
       "Fon Adı": "PHİLLİP PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.532537,
-      "Günlük Değişim (%)": -0.29
+      "Fon Fiyatı": 1.525418,
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Fon Kodu": "PTO",
       "Fon Adı": "PARDUS PORTFÖY TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.9791,
-      "Günlük Değişim (%)": 0.3
+      "Fon Fiyatı": 1.973859,
+      "Günlük Değişim (%)": -0.26
     },
     {
       "Fon Kodu": "PTP",
       "Fon Adı": "AHLATCI PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.286588,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 1.287136,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "PUK",
       "Fon Adı": "PUSULA PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.17191,
-      "Günlük Değişim (%)": 0.64
+      "Fon Fiyatı": 1.18099,
+      "Günlük Değişim (%)": 0.77
     },
     {
       "Fon Kodu": "RBA",
       "Fon Adı": "ALBARAKA PORTFÖY BEREKET VAKFI NA DESTEK ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 20.360359,
-      "Günlük Değişim (%)": -0.75
+      "Fon Fiyatı": 20.274993,
+      "Günlük Değişim (%)": -0.42
     },
     {
       "Fon Kodu": "RBB",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.614517,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 1.615857,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "RBF",
       "Fon Adı": "ROTA PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.904979,
-      "Günlük Değişim (%)": 0.13
+      "Fon Fiyatı": 1.902929,
+      "Günlük Değişim (%)": -0.11
     },
     {
       "Fon Kodu": "RBH",
       "Fon Adı": "ALBARAKA PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 30.267148,
-      "Günlük Değişim (%)": 0.56
+      "Fon Fiyatı": 30.226602,
+      "Günlük Değişim (%)": -0.13
     },
     {
       "Fon Kodu": "RBK",
       "Fon Adı": "ALBARAKA PORTFÖY KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 9.352115,
-      "Günlük Değişim (%)": 0.21
+      "Fon Fiyatı": 9.358773,
+      "Günlük Değişim (%)": 0.07
     },
     {
       "Fon Kodu": "RBP",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 2.477794,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 2.480168,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "RBT",
       "Fon Adı": "ALBARAKA PORTFÖY KİRA SERTİFİKALARI  KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 7.176734,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 7.183329,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "RBV",
       "Fon Adı": "ALBARAKA PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 7.515003,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 7.521958,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "RCV",
       "Fon Adı": "AZİMUT PORTFÖY BİRİNCİ ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.673205,
-      "Günlük Değişim (%)": 0.75
+      "Fon Fiyatı": 1.665082,
+      "Günlük Değişim (%)": -0.49
     },
     {
       "Fon Kodu": "RD1",
       "Fon Adı": "ROTA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.024677,
-      "Günlük Değişim (%)": -0.03
+      "Fon Fiyatı": 2.025372,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "RGD",
       "Fon Adı": "RE-PIE PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.125767,
-      "Günlük Değişim (%)": 0.0
+      "Fon Fiyatı": 1.122828,
+      "Günlük Değişim (%)": -0.26
     },
     {
       "Fon Kodu": "RHI",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.659923,
-      "Günlük Değişim (%)": -0.51
+      "Fon Fiyatı": 1.65553,
+      "Günlük Değişim (%)": -0.26
     },
     {
       "Fon Kodu": "RHS",
       "Fon Adı": "ROTA PORTFÖY HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 6.931464,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 6.917156,
+      "Günlük Değişim (%)": -0.21
     },
     {
       "Fon Kodu": "RIK",
       "Fon Adı": "RE-PIE PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.23519,
-      "Günlük Değişim (%)": 0.44
+      "Fon Fiyatı": 4.224038,
+      "Günlük Değişim (%)": -0.26
     },
     {
       "Fon Kodu": "RJG",
       "Fon Adı": "RE-PIE PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 3.226285,
-      "Günlük Değişim (%)": -1.27
+      "Fon Fiyatı": 3.216704,
+      "Günlük Değişim (%)": -0.3
     },
     {
       "Fon Kodu": "RKC",
       "Fon Adı": "ROTA PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.794783,
-      "Günlük Değişim (%)": -0.34
+      "Fon Fiyatı": 1.795573,
+      "Günlük Değişim (%)": 0.04
     },
     {
       "Fon Kodu": "RKS",
       "Fon Adı": "ROTA PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.205924,
-      "Günlük Değişim (%)": 0.26
+      "Fon Fiyatı": 2.207733,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "RPC",
       "Fon Adı": "ROTA PORTFÖY İKLİM DEĞİŞİKLİĞİ ÇÖZÜMLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.119105,
-      "Günlük Değişim (%)": -0.12
+      "Fon Fiyatı": 5.075523,
+      "Günlük Değişim (%)": -0.85
     },
     {
       "Fon Kodu": "RPD",
       "Fon Adı": "RE-PIE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 11.738579,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 11.729943,
+      "Günlük Değişim (%)": -0.07
     },
     {
       "Fon Kodu": "RPG",
       "Fon Adı": "ROTA PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 5.767202,
-      "Günlük Değişim (%)": -0.55
+      "Fon Fiyatı": 5.740925,
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Fon Kodu": "RPI",
       "Fon Adı": "ROTA PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.388594,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 1.382375,
+      "Günlük Değişim (%)": -0.45
     },
     {
       "Fon Kodu": "RPM",
       "Fon Adı": "ROTA PORTFÖY İLAÇ VE MEDİKAL TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.369787,
-      "Günlük Değişim (%)": -0.54
+      "Fon Fiyatı": 4.374839,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "RPP",
       "Fon Adı": "ROTA PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.361621,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 5.366959,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "RRP",
       "Fon Adı": "RE-PIE PORTFÖY PARA PİYASASI KATILIM (TL) FON",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.790578,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 1.792219,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "RTD",
       "Fon Adı": "RE-PIE PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.77898,
-      "Günlük Değişim (%)": -0.15
+      "Fon Fiyatı": 1.758853,
+      "Günlük Değişim (%)": -1.13
     },
     {
       "Fon Kodu": "RTG",
       "Fon Adı": "ATA PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.128929,
-      "Günlük Değişim (%)": -0.49
+      "Fon Fiyatı": 4.996684,
+      "Günlük Değişim (%)": -2.58
     },
     {
       "Fon Kodu": "RUT",
       "Fon Adı": "BV PORTFÖY ROBOTİK VE UZAY TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.293801,
-      "Günlük Değişim (%)": -0.36
+      "Fon Fiyatı": 2.26034,
+      "Günlük Değişim (%)": -1.46
     },
     {
       "Fon Kodu": "SAS",
       "Fon Adı": "AK PORTFÖY SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.531148,
-      "Günlük Değişim (%)": 0.81
+      "Fon Fiyatı": 1.523883,
+      "Günlük Değişim (%)": -0.47
     },
     {
       "Fon Kodu": "SFS",
       "Fon Adı": "AZİMUT PORTFÖY AGRESİF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.378003,
-      "Günlük Değişim (%)": 0.56
+      "Fon Fiyatı": 1.377922,
+      "Günlük Değişim (%)": -0.01
     },
     {
       "Fon Kodu": "SGT",
       "Fon Adı": "GARANTİ PORTFÖY SİBER GÜVENLİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.986566,
-      "Günlük Değişim (%)": 1.24
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "SHE",
       "Fon Adı": "TEB PORTFÖY ÖNCE KADIN DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.228409,
-      "Günlük Değişim (%)": 0.5
+      "Fon Fiyatı": 3.220608,
+      "Günlük Değişim (%)": -0.24
     },
     {
       "Fon Kodu": "SKO",
       "Fon Adı": "STRATEJİ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.561635,
-      "Günlük Değişim (%)": 0.22
+      "Fon Fiyatı": 1.566501,
+      "Günlük Değişim (%)": 0.31
     },
     {
       "Fon Kodu": "SLG",
       "Fon Adı": "QNB PORTFÖY ALGORİTMİK STRATEJİLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.249496,
-      "Günlük Değişim (%)": 0.61
+      "Fon Fiyatı": 1.247769,
+      "Günlük Değişim (%)": -0.14
     },
     {
       "Fon Kodu": "SOS",
       "Fon Adı": "HEDEF PORTFÖY SAĞLIK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.649524,
-      "Günlük Değişim (%)": -0.45
+      "Fon Fiyatı": 1.671639,
+      "Günlük Değişim (%)": 1.34
     },
     {
       "Fon Kodu": "SPP",
       "Fon Adı": "SPARTA PORTFÖY BİRİNCİ PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 1.744939,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.746616,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "SPR",
       "Fon Adı": "BV PORTFÖY SPOR ENDÜSTRİSİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.669229,
-      "Günlük Değişim (%)": 0.12
+      "Fon Fiyatı": 1.66872,
+      "Günlük Değişim (%)": -0.03
     },
     {
       "Fon Kodu": "SPT",
       "Fon Adı": "AKTİF PORTFÖY KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
       "Fon Fiyatı": 2.189776,
-      "Günlük Değişim (%)": 0.37
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "SRL",
       "Fon Adı": "PARDUS PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.768566,
-      "Günlük Değişim (%)": 0.42
+      "Fon Fiyatı": 1.762271,
+      "Günlük Değişim (%)": -0.36
     },
     {
       "Fon Kodu": "SSK",
       "Fon Adı": "DENİZ PORTFÖY SAĞLIK SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.901242,
-      "Günlük Değişim (%)": -0.39
+      "Fon Fiyatı": 1.912257,
+      "Günlük Değişim (%)": 0.58
     },
     {
       "Fon Kodu": "SSS",
       "Fon Adı": "YAPI KREDİ PORTFÖY SAVUNMA SANAYİİ ŞİRKETLERİ ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.254029,
-      "Günlük Değişim (%)": 0.08
+      "Fon Fiyatı": 1.265059,
+      "Günlük Değişim (%)": 0.88
     },
     {
       "Fon Kodu": "ST1",
       "Fon Adı": "STRATEJİ PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 156.767917,
-      "Günlük Değişim (%)": -0.14
+      "Fon Fiyatı": 156.863008,
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Fon Kodu": "SUA",
       "Fon Adı": "ÜNLÜ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.620593,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 0.619923,
+      "Günlük Değişim (%)": -0.11
     },
     {
       "Fon Kodu": "SUB",
       "Fon Adı": "ÜNLÜ PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.375175,
-      "Günlük Değişim (%)": 0.72
+      "Fon Fiyatı": 0.375669,
+      "Günlük Değişim (%)": 0.13
     },
     {
       "Fon Kodu": "SUC",
       "Fon Adı": "ÜNLÜ PORTFÖY ÜÇÜNCÜ DEĞIŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 22.201933,
-      "Günlük Değişim (%)": -0.15
+      "Fon Fiyatı": 21.807391,
+      "Günlük Değişim (%)": -1.78
     },
     {
       "Fon Kodu": "SUR",
       "Fon Adı": "EMAA BLUE PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.11289,
-      "Günlük Değişim (%)": 0.39
+      "Fon Fiyatı": 1.11093,
+      "Günlük Değişim (%)": -0.18
     },
     {
       "Fon Kodu": "SVB",
       "Fon Adı": "STRATEJİ PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 8.533312,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 8.524838,
+      "Günlük Değişim (%)": -0.1
     },
     {
       "Fon Kodu": "TAL",
       "Fon Adı": "ATLAS PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 2.54886,
-      "Günlük Değişim (%)": -0.92
+      "Fon Fiyatı": 2.535874,
+      "Günlük Değişim (%)": -0.51
     },
     {
       "Fon Kodu": "TAR",
       "Fon Adı": "AK PORTFÖY TARIM VE GIDA TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.412336,
-      "Günlük Değişim (%)": -0.03
+      "Fon Fiyatı": 2.407963,
+      "Günlük Değişim (%)": -0.18
     },
     {
       "Fon Kodu": "TAU",
       "Fon Adı": "İŞ PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.645241,
-      "Günlük Değişim (%)": -0.73
+      "Fon Fiyatı": 0.641116,
+      "Günlük Değişim (%)": -0.64
     },
     {
       "Fon Kodu": "TBT",
       "Fon Adı": "TEB PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 55.846377,
-      "Günlük Değişim (%)": -0.51
+      "Fon Fiyatı": 55.622282,
+      "Günlük Değişim (%)": -0.4
     },
     {
       "Fon Kodu": "TBV",
       "Fon Adı": "İŞ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.444119,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.444544,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "TCA",
       "Fon Adı": "ZİRAAT PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.733471,
-      "Günlük Değişim (%)": -0.78
+      "Fon Fiyatı": 0.730652,
+      "Günlük Değişim (%)": -0.38
     },
     {
       "Fon Kodu": "TCB",
       "Fon Adı": "TACİRLER PORTFÖY PARA PİYASASI FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 0.251021,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.251297,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "TCD",
       "Fon Adı": "TACİRLER PORTFÖY DEĞIŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 44.932986,
-      "Günlük Değişim (%)": 0.33
+      "Fon Fiyatı": 44.7586,
+      "Günlük Değişim (%)": -0.39
     },
     {
       "Fon Kodu": "TCF",
       "Fon Adı": "TEB PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.894448,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "TDG",
       "Fon Adı": "İŞ PORTFÖY YABANCI BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.545091,
-      "Günlük Değişim (%)": -0.54
+      "Fon Fiyatı": 0.546761,
+      "Günlük Değişim (%)": 0.31
     },
     {
       "Fon Kodu": "TE3",
       "Fon Adı": "TEB PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 39.896569,
-      "Günlük Değişim (%)": 0.1
+      "Fon Fiyatı": 39.867407,
+      "Günlük Değişim (%)": -0.07
     },
     {
       "Fon Kodu": "TE4",
       "Fon Adı": "TEB PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.068862,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 7.077077,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "TEJ",
       "Fon Adı": "AZİMUT PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.582735,
-      "Günlük Değişim (%)": 1.3
+      "Fon Fiyatı": 2.516443,
+      "Günlük Değişim (%)": -2.57
     },
     {
       "Fon Kodu": "TFF",
       "Fon Adı": "TEB PORTFÖY AMERİKA TEKNOLOJİ YABANCI BYF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 42.773902,
-      "Günlük Değişim (%)": 1.56
+      "Fon Fiyatı": 41.495261,
+      "Günlük Değişim (%)": -2.99
     },
     {
       "Fon Kodu": "TFU",
       "Fon Adı": "İŞ PORTFÖY TÜFEYE ENDEKSLİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.361975,
-      "Günlük Değişim (%)": 0.24
+      "Fon Fiyatı": 1.36306,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "TGA",
       "Fon Adı": "GARANTİ PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.465419,
-      "Günlük Değişim (%)": 0.46
+      "Fon Fiyatı": 0.467686,
+      "Günlük Değişim (%)": 0.49
     },
     {
       "Fon Kodu": "TGE",
       "Fon Adı": "İŞ PORTFÖY EMTİA YABANCI BYF FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.303361,
-      "Günlük Değişim (%)": 0.34
+      "Fon Fiyatı": 0.299799,
+      "Günlük Değişim (%)": -1.17
     },
     {
       "Fon Kodu": "TGR",
       "Fon Adı": "AK PORTFÖY TURİZM VE SEYAHAT SEKTÖRÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.136255,
-      "Günlük Değişim (%)": -0.71
+      "Fon Fiyatı": 7.154232,
+      "Günlük Değişim (%)": 0.25
     },
     {
       "Fon Kodu": "THD",
       "Fon Adı": "TRIVE PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.452064,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 2.453817,
+      "Günlük Değişim (%)": 0.07
     },
     {
       "Fon Kodu": "THF",
@@ -3820,92 +3820,92 @@
       "Fon Kodu": "TI2",
       "Fon Adı": "İŞ PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.117397,
-      "Günlük Değişim (%)": 0.1
+      "Fon Fiyatı": 0.117331,
+      "Günlük Değişim (%)": -0.06
     },
     {
       "Fon Kodu": "TI3",
       "Fon Adı": "İŞ PORTFÖY İŞ BANKASI İŞTİRAKLERİ ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.097615,
-      "Günlük Değişim (%)": -0.43
+      "Fon Fiyatı": 0.096596,
+      "Günlük Değişim (%)": -1.04
     },
     {
       "Fon Kodu": "TI4",
       "Fon Adı": "İŞ PORTFÖY TEMKİNLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.069338,
-      "Günlük Değişim (%)": 0.94
+      "Fon Fiyatı": 0.068877,
+      "Günlük Değişim (%)": -0.66
     },
     {
       "Fon Kodu": "TI6",
       "Fon Adı": "İŞ PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.057919,
-      "Günlük Değişim (%)": 0.1
+      "Fon Fiyatı": 0.057844,
+      "Günlük Değişim (%)": -0.13
     },
     {
       "Fon Kodu": "TI7",
       "Fon Adı": "İŞ PORTFÖY DENGELİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 82.705051,
-      "Günlük Değişim (%)": 0.98
+      "Fon Fiyatı": 81.719396,
+      "Günlük Değişim (%)": -1.19
     },
     {
       "Fon Kodu": "TIE",
       "Fon Adı": "İŞ PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.6653,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 0.66535,
+      "Günlük Değişim (%)": 0.01
     },
     {
       "Fon Kodu": "TIL",
       "Fon Adı": "İŞ PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.178244,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 1.176092,
+      "Günlük Değişim (%)": -0.18
     },
     {
       "Fon Kodu": "TJF",
       "Fon Adı": "TEB PORTFÖY SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.016967,
-      "Günlük Değişim (%)": 0.13
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "TJI",
       "Fon Adı": "TEB PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 6.159766,
-      "Günlük Değişim (%)": 0.0
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "TKF",
       "Fon Adı": "TACİRLER PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 63.057717,
-      "Günlük Değişim (%)": 0.45
+      "Fon Fiyatı": 62.950203,
+      "Günlük Değişim (%)": -0.17
     },
     {
       "Fon Kodu": "TLE",
       "Fon Adı": "AURA PORTFÖY YABANCI BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 26.693991,
-      "Günlük Değişim (%)": -0.39
+      "Fon Fiyatı": 26.724276,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "TLH",
       "Fon Adı": "AURA PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 22.653114,
-      "Günlük Değişim (%)": 0.48
+      "Fon Fiyatı": 22.641418,
+      "Günlük Değişim (%)": -0.05
     },
     {
       "Fon Kodu": "TLK",
       "Fon Adı": "AKTİF PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.923401,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.925133,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "TLV",
@@ -3918,50 +3918,50 @@
       "Fon Kodu": "TLZ",
       "Fon Adı": "ATA PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 16.570377,
-      "Günlük Değişim (%)": 0.83
+      "Fon Fiyatı": 16.52744,
+      "Günlük Değişim (%)": -0.26
     },
     {
       "Fon Kodu": "TMC",
       "Fon Adı": "İŞ PORTFÖY TEMA DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.17983,
-      "Günlük Değişim (%)": 0.87
+      "Fon Fiyatı": 0.177971,
+      "Günlük Değişim (%)": -1.03
     },
     {
       "Fon Kodu": "TMG",
       "Fon Adı": "İŞ PORTFÖY YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.48181,
-      "Günlük Değişim (%)": 0.8
+      "Fon Fiyatı": 1.464531,
+      "Günlük Değişim (%)": -1.17
     },
     {
       "Fon Kodu": "TMU",
       "Fon Adı": "AZİMUT PORTFÖY TEMKİNLİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.49049,
-      "Günlük Değişim (%)": 0.35
+      "Fon Fiyatı": 1.490506,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "TMZ",
       "Fon Adı": "İŞ PORTFÖY SÜRDÜRÜLEBİLİRLİK VE TARIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.865364,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1.850042,
+      "Günlük Değişim (%)": -0.82
     },
     {
       "Fon Kodu": "TND",
       "Fon Adı": "İŞ PORTFÖY TTF TENİSE DESTEK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.633636,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 1.635177,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "TOT",
       "Fon Adı": "TEB PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1035.996018,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 1036.988143,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "TP2",
@@ -3974,624 +3974,624 @@
       "Fon Kodu": "TPC",
       "Fon Adı": "TEB PORTFÖY KIYMETLİ MADENLER FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 11.185616,
-      "Günlük Değişim (%)": -0.85
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "TPF",
       "Fon Adı": "TACİRLER PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 11.556785,
-      "Günlük Değişim (%)": 0.23
+      "Fon Fiyatı": 11.570594,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "TPL",
       "Fon Adı": "TEB PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 22.046447,
-      "Günlük Değişim (%)": -0.09
+      "Fon Fiyatı": 22.097359,
+      "Günlük Değişim (%)": 0.23
     },
     {
       "Fon Kodu": "TPV",
       "Fon Adı": "AURA PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 10.730856,
-      "Günlük Değişim (%)": -0.19
+      "Fon Fiyatı": 10.752965,
+      "Günlük Değişim (%)": 0.21
     },
     {
       "Fon Kodu": "TPZ",
       "Fon Adı": "TEB PORTFÖY KİRA SERTİFİKALARI (DÖVİZ) KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 30.06789,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 30.140375,
+      "Günlük Değişim (%)": 0.24
     },
     {
       "Fon Kodu": "TRJ",
       "Fon Adı": "TERA PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 2.331773,
-      "Günlük Değişim (%)": 0.16
+      "Fon Fiyatı": 2.265712,
+      "Günlük Değişim (%)": -2.83
     },
     {
       "Fon Kodu": "TRO",
       "Fon Adı": "TRIVE PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 2.340633,
-      "Günlük Değişim (%)": -1.07
+      "Fon Fiyatı": 2.326759,
+      "Günlük Değişim (%)": -0.59
     },
     {
       "Fon Kodu": "TTA",
       "Fon Adı": "İŞ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.586337,
-      "Günlük Değişim (%)": -0.8
+      "Fon Fiyatı": 0.58411,
+      "Günlük Değişim (%)": -0.38
     },
     {
       "Fon Kodu": "TTE",
       "Fon Adı": "İŞ PORTFÖY BIST TEKNOLOJİ AĞIRLIK SINIRLAMALI ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.024176,
-      "Günlük Değişim (%)": -0.03
+      "Fon Fiyatı": 1.040087,
+      "Günlük Değişim (%)": 1.55
     },
     {
       "Fon Kodu": "TUA",
       "Fon Adı": "TEB PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 1.362144,
-      "Günlük Değişim (%)": -1.21
+      "Fon Fiyatı": 1.355939,
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Fon Kodu": "TVE",
       "Fon Adı": "EMAA BLUE PORTFÖY TARIM VE GIDA SEKTÖRÜ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.999622,
-      "Günlük Değişim (%)": 0.18
+      "Fon Fiyatı": 1.005025,
+      "Günlük Değişim (%)": 0.54
     },
     {
       "Fon Kodu": "TVN",
       "Fon Adı": "TRIVE PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 2.822824,
-      "Günlük Değişim (%)": -0.13
+      "Fon Fiyatı": 2.79754,
+      "Günlük Değişim (%)": -0.9
     },
     {
       "Fon Kodu": "TYH",
       "Fon Adı": "TEB PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.908805,
-      "Günlük Değişim (%)": 0.54
+      "Fon Fiyatı": 1.908769,
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "TZD",
       "Fon Adı": "ZİRAAT PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.234297,
-      "Günlük Değişim (%)": 0.42
+      "Fon Fiyatı": 2.240344,
+      "Günlük Değişim (%)": 0.27
     },
     {
       "Fon Kodu": "TZT",
       "Fon Adı": "ZİRAAT PORTFÖY BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.179979,
-      "Günlük Değişim (%)": -0.06
+      "Fon Fiyatı": 0.179747,
+      "Günlük Değişim (%)": -0.13
     },
     {
       "Fon Kodu": "UP1",
       "Fon Adı": "ÜNLÜ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 5.83213,
-      "Günlük Değişim (%)": -0.82
+      "Fon Fiyatı": 5.79908,
+      "Günlük Değişim (%)": -0.57
     },
     {
       "Fon Kodu": "UPH",
       "Fon Adı": "ÜNLÜ PORTFÖY HİSSE SENEDİ (TL) FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 29.614808,
-      "Günlük Değişim (%)": 0.52
+      "Fon Fiyatı": 29.561288,
+      "Günlük Değişim (%)": -0.18
     },
     {
       "Fon Kodu": "UPP",
       "Fon Adı": "ÜNLÜ PORTFÖY PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 7.652733,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 7.660594,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "URA",
       "Fon Adı": "ATA PORTFÖY ENERJİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 1.544762,
-      "Günlük Değişim (%)": -0.58
+      "Fon Fiyatı": 1.521022,
+      "Günlük Değişim (%)": -1.54
     },
     {
       "Fon Kodu": "VAY",
       "Fon Adı": "AK PORTFÖY DEĞER ODAKLI 100 ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.511844,
-      "Günlük Değişim (%)": -0.18
+      "Fon Fiyatı": 1.507028,
+      "Günlük Değişim (%)": -0.32
     },
     {
       "Fon Kodu": "VCY",
       "Fon Adı": "AK PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇ TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.320687,
-      "Günlük Değişim (%)": 0.78
+      "Fon Fiyatı": 3.25628,
+      "Günlük Değişim (%)": -1.94
     },
     {
       "Fon Kodu": "VFK",
       "Fon Adı": "ZİRAAT PORTFÖY İKİNCİ KISA VADELİ KİRA SERTİFİKALARI KATILIM (TL) FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 5.923653,
+      "Fon Fiyatı": 5.929372,
       "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "VFO",
       "Fon Adı": "V PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.938842,
-      "Günlük Değişim (%)": -0.92
+      "Fon Fiyatı": 0.933611,
+      "Günlük Değişim (%)": -0.56
     },
     {
       "Fon Kodu": "VHS",
       "Fon Adı": "VAKIF KATILIM PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.837435,
-      "Günlük Değişim (%)": 0.57
+      "Fon Fiyatı": 0.840342,
+      "Günlük Değişim (%)": 0.35
     },
     {
       "Fon Kodu": "VKK",
       "Fon Adı": "VAKIF KATILIM PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.179032,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.180183,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "VKV",
       "Fon Adı": "VAKIF KATILIM PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.17545,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.176565,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "VLT",
       "Fon Adı": "VAKIF KATILIM PORTFÖY ALTIN KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.948181,
-      "Günlük Değişim (%)": -0.98
+      "Fon Fiyatı": 0.942814,
+      "Günlük Değişim (%)": -0.57
     },
     {
       "Fon Kodu": "VPA",
       "Fon Adı": "VAKIF KATILIM PORTFÖY PARA PİYASASI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.208016,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.209172,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "VRK",
       "Fon Adı": "DENİZ PORTFÖY ÇOKLU VARLIK KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.31269,
-      "Günlük Değişim (%)": 0.41
+      "Fon Fiyatı": 1.315348,
+      "Günlük Değişim (%)": 0.2
     },
     {
       "Fon Kodu": "YAC",
       "Fon Adı": "YAPI KREDİ PORTFÖY İKİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 14.316133,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YAE",
       "Fon Adı": "YAPI KREDİ PORTFÖY TLREF'E ENDEKSLİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.279769,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.281287,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "YAK",
       "Fon Adı": "YAPI KREDİ PORTFÖY KARMA FON",
       "Fon Türü": "Karma Şemsiye Fonu",
-      "Fon Fiyatı": 5.25344,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 5.257548,
+      "Günlük Değişim (%)": 0.08
     },
     {
       "Fon Kodu": "YAN",
       "Fon Adı": "YAPI KREDİ PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 15.407288,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YAS",
       "Fon Adı": "YAPI KREDİ PORTFÖY KOÇ HOLDİNG İŞTİRAK VE HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 13.906269,
-      "Günlük Değişim (%)": -0.24
+      "Fon Fiyatı": 13.923545,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "YAY",
       "Fon Adı": "YAPI KREDİ PORTFÖY YABANCI TEKNOLOJİ SEKTÖRÜ HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1676.356742,
-      "Günlük Değişim (%)": 1.19
+      "Fon Fiyatı": 1582.204188,
+      "Günlük Değişim (%)": -5.62
     },
     {
       "Fon Kodu": "YBE",
       "Fon Adı": "YAPI KREDİ PORTFÖY EUROBOND (DOLAR) BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.912727,
-      "Günlük Değişim (%)": -0.26
+      "Fon Fiyatı": 1.91662,
+      "Günlük Değişim (%)": 0.2
     },
     {
       "Fon Kodu": "YBS",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.158276,
-      "Günlük Değişim (%)": 0.27
+      "Fon Fiyatı": 0.158433,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "YCY",
       "Fon Adı": "İSTANBUL PORTFÖY KATILIM FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.842375,
-      "Günlük Değişim (%)": 0.19
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YDI",
       "Fon Adı": "YAPI KREDİ PORTFÖY MODEL PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.43399,
-      "Günlük Değişim (%)": 0.52
+      "Fon Fiyatı": 0.435675,
+      "Günlük Değişim (%)": 0.39
     },
     {
       "Fon Kodu": "YDP",
       "Fon Adı": "YAPI KREDİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.126685,
-      "Günlük Değişim (%)": 0.82
+      "Fon Fiyatı": 2.115351,
+      "Günlük Değişim (%)": -0.53
     },
     {
       "Fon Kodu": "YEF",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 0.872267,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.873188,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "YFV",
       "Fon Adı": "YAPI KREDİ PORTFÖY KİRA SERTİFİKALARI KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 0.110314,
-      "Günlük Değişim (%)": 0.25
+      "Fon Fiyatı": 0.110412,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "YHB",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.905329,
-      "Günlük Değişim (%)": -0.68
+      "Fon Fiyatı": 1.907219,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "YHK",
       "Fon Adı": "YAPI KREDİ PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.796931,
-      "Günlük Değişim (%)": 0.81
+      "Fon Fiyatı": 1.799591,
+      "Günlük Değişim (%)": 0.15
     },
     {
       "Fon Kodu": "YHS",
       "Fon Adı": "YAPI KREDİ PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 24.051254,
-      "Günlük Değişim (%)": 0.38
+      "Fon Fiyatı": 24.080931,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "YHT",
       "Fon Adı": "YAPI KREDİ PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 0.4483,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 0.448723,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "YHZ",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST TEKNOLOJİ AĞIRLIK SINIRLAMALI ENDEKSİ HİSSE SENEDİ FONU ( HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 7.343869,
-      "Günlük Değişim (%)": -0.1
+      "Fon Fiyatı": 7.446796,
+      "Günlük Değişim (%)": 1.4
     },
     {
       "Fon Kodu": "YIT",
       "Fon Adı": "GARANTİ PORTFÖY YARI İLETKEN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 2.428192,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YJH",
       "Fon Adı": "YAPI KREDİ PORTFÖY TEMİZ ENERJİ DEĞİŞKEN FONU",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.653848,
-      "Günlük Değişim (%)": -0.09
+      "Fon Fiyatı": 3.563479,
+      "Günlük Değişim (%)": -2.47
     },
     {
       "Fon Kodu": "YJK",
       "Fon Adı": "YAPI KREDİ PORTFÖY ROBOTİK VE YARI İLETKEN TEKNOLOJİLERİ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 5.126196,
-      "Günlük Değişim (%)": 0.53
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YKT",
       "Fon Adı": "YAPI KREDİ PORTFÖY ALTIN FONU",
       "Fon Türü": "Kıymetli Madenler Şemsiye Fonu",
-      "Fon Fiyatı": 0.822237,
-      "Günlük Değişim (%)": -1.14
+      "Fon Fiyatı": 0.819369,
+      "Günlük Değişim (%)": -0.35
     },
     {
       "Fon Kodu": "YLC",
       "Fon Adı": "ATA PORTFÖY TARIM VE GIDA DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.653024,
-      "Günlük Değişim (%)": 0.52
+      "Fon Fiyatı": 3.656915,
+      "Günlük Değişim (%)": 0.11
     },
     {
       "Fon Kodu": "YLE",
       "Fon Adı": "YAPI KREDİ PORTFÖY BIST SÜRDÜRÜLEBİLİRLİK ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 8.351883,
-      "Günlük Değişim (%)": 0.36
+      "Fon Fiyatı": 8.343261,
+      "Günlük Değişim (%)": -0.1
     },
     {
       "Fon Kodu": "YLO",
       "Fon Adı": "YAPI KREDİ PORTFÖY ELEKTRİKLİ ARAÇLAR DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.157248,
-      "Günlük Değişim (%)": 1.16
+      "Fon Fiyatı": 5.005517,
+      "Günlük Değişim (%)": -2.94
     },
     {
       "Fon Kodu": "YLY",
       "Fon Adı": "YAPI KREDİ PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 2.124012,
-      "Günlük Değişim (%)": 0.38
+      "Fon Fiyatı": 2.115593,
+      "Günlük Değişim (%)": -0.4
     },
     {
       "Fon Kodu": "YOT",
       "Fon Adı": "YAPI KREDİ PORTFÖY BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 43.031029,
-      "Günlük Değişim (%)": -0.04
+      "Fon Fiyatı": 42.999761,
+      "Günlük Değişim (%)": -0.07
     },
     {
       "Fon Kodu": "YPC",
       "Fon Adı": "YAPI KREDİ PORTFÖY SÜRDÜRÜLEBİLİRLİK DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.689828,
-      "Günlük Değişim (%)": 0.63
+      "Fon Fiyatı": 5.614624,
+      "Günlük Değişim (%)": -1.32
     },
     {
       "Fon Kodu": "YPR",
       "Fon Adı": "AZİMUT PORTFÖY YILDIZ PAZAR ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.602991,
-      "Günlük Değişim (%)": 0.84
+      "Fon Fiyatı": 1.606962,
+      "Günlük Değişim (%)": 0.25
     },
     {
       "Fon Kodu": "YPV",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 7.482299,
-      "Günlük Değişim (%)": 0.26
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YSU",
       "Fon Adı": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.18025,
-      "Günlük Değişim (%)": 0.15
+      "Fon Fiyatı": 0.180186,
+      "Günlük Değişim (%)": -0.04
     },
     {
       "Fon Kodu": "YTD",
       "Fon Adı": "YAPI KREDİ PORTFÖY YABANCI FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 0.820307,
-      "Günlük Değişim (%)": 0.96
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YTV",
       "Fon Adı": "YAPI KREDİ PORTFÖY TARIM DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 3.056652,
-      "Günlük Değişim (%)": -0.31
+      "Fon Fiyatı": 3.05305,
+      "Günlük Değişim (%)": -0.12
     },
     {
       "Fon Kodu": "YVB",
       "Fon Adı": "YAPI KREDİ PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "Fon Türü": "Borçlanma Araçları Şemsiye Fonu",
-      "Fon Fiyatı": 1.436846,
-      "Günlük Değişim (%)": -0.51
+      "Fon Fiyatı": 1.434282,
+      "Günlük Değişim (%)": -0.18
     },
     {
       "Fon Kodu": "YZC",
       "Fon Adı": "YAPI KREDİ PORTFÖY FİNTECH VE BLOCKCHAİN TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 4.771422,
-      "Günlük Değişim (%)": 0.51
+      "Fon Fiyatı": 4.677175,
+      "Günlük Değişim (%)": -1.98
     },
     {
       "Fon Kodu": "YZG",
       "Fon Adı": "YAPI KREDİ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 10.447845,
-      "Günlük Değişim (%)": -1.4
+      "Fon Fiyatı": 0.0,
+      "Günlük Değişim (%)": -100.0
     },
     {
       "Fon Kodu": "YZH",
       "Fon Adı": "TEB PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 11.147226,
-      "Günlük Değişim (%)": -0.67
+      "Fon Fiyatı": 11.079216,
+      "Günlük Değişim (%)": -0.61
     },
     {
       "Fon Kodu": "YZT",
       "Fon Adı": "AK PORTFÖY YAPAY ZEKA TEKNOLOJİLERİ ŞİRKETLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 0.902861,
-      "Günlük Değişim (%)": 0.91
+      "Fon Fiyatı": 0.871539,
+      "Günlük Değişim (%)": -3.47
     },
     {
       "Fon Kodu": "ZBD",
       "Fon Adı": "ZİRAAT PORTFÖY DENGELİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 666.019113,
-      "Günlük Değişim (%)": 0.03
+      "Fon Fiyatı": 665.861442,
+      "Günlük Değişim (%)": -0.02
     },
     {
       "Fon Kodu": "ZBI",
       "Fon Adı": "ZİRAAT PORTFÖY TEMKİNLİ KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 2.397054,
-      "Günlük Değişim (%)": 0.35
+      "Fon Fiyatı": 2.399985,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "ZBJ",
       "Fon Adı": "ZİRAAT PORTFÖY BAŞAK PARA PİYASASI (TL) FONU",
       "Fon Türü": "Para Piyasası Şemsiye Fonu",
-      "Fon Fiyatı": 5.646168,
-      "Günlük Değişim (%)": 0.29
+      "Fon Fiyatı": 5.651953,
+      "Günlük Değişim (%)": 0.1
     },
     {
       "Fon Kodu": "ZCK",
       "Fon Adı": "ZİRAAT PORTFÖY AGRESİF KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 1.586373,
-      "Günlük Değişim (%)": 0.94
+      "Fon Fiyatı": 1.592331,
+      "Günlük Değişim (%)": 0.38
     },
     {
       "Fon Kodu": "ZCN",
       "Fon Adı": "ZİRAAT PORTFÖY EMTİA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 3.818378,
-      "Günlük Değişim (%)": -0.06
+      "Fon Fiyatı": 3.77491,
+      "Günlük Değişim (%)": -1.14
     },
     {
       "Fon Kodu": "ZDD",
       "Fon Adı": "ZİRAAT PORTFÖY TEMKİNLİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 7.816723,
-      "Günlük Değişim (%)": 0.07
+      "Fon Fiyatı": 7.818741,
+      "Günlük Değişim (%)": 0.03
     },
     {
       "Fon Kodu": "ZDZ",
       "Fon Adı": "ZİRAAT PORTFÖY AGRESİF DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 8.873884,
-      "Günlük Değişim (%)": 0.89
+      "Fon Fiyatı": 9.036163,
+      "Günlük Değişim (%)": 1.83
     },
     {
       "Fon Kodu": "ZFB",
       "Fon Adı": "AK PORTFÖY FİNTEK VE BLOKZİNCİRİ TEKNOLOJİLERİ DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 6.260723,
-      "Günlük Değişim (%)": 0.49
+      "Fon Fiyatı": 6.146559,
+      "Günlük Değişim (%)": -1.82
     },
     {
       "Fon Kodu": "ZHH",
       "Fon Adı": "ZİRAAT PORTFÖY HALKBANK SÜRDÜRÜLEBİLİRLİK 30 ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 1.41526,
-      "Günlük Değişim (%)": 0.31
+      "Fon Fiyatı": 1.412537,
+      "Günlük Değişim (%)": -0.19
     },
     {
       "Fon Kodu": "ZJL",
       "Fon Adı": "ZİRAAT PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 12.02189,
-      "Günlük Değişim (%)": 0.09
+      "Fon Fiyatı": 12.059711,
+      "Günlük Değişim (%)": 0.31
     },
     {
       "Fon Kodu": "ZJV",
       "Fon Adı": "ZİRAAT PORTFÖY BIST 30 DIŞI YILDIZ PAZAR ŞİRKETLERİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 9.263414,
-      "Günlük Değişim (%)": 0.62
+      "Fon Fiyatı": 9.267796,
+      "Günlük Değişim (%)": 0.05
     },
     {
       "Fon Kodu": "ZLH",
       "Fon Adı": "ZİRAAT PORTFÖY BIST 100-30 ŞİRKETLERİ HİSSE SENEDİ FONU ( HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 9.78073,
-      "Günlük Değişim (%)": 1.11
+      "Fon Fiyatı": 9.797925,
+      "Günlük Değişim (%)": 0.18
     },
     {
       "Fon Kodu": "ZMY",
       "Fon Adı": "ZİRAAT PORTFÖY METAVERSE VE YENİ TEKNOLOJİLER DEĞİŞKEN FON",
       "Fon Türü": "Değişken Şemsiye Fonu",
-      "Fon Fiyatı": 5.79924,
-      "Günlük Değişim (%)": 1.36
+      "Fon Fiyatı": 5.586885,
+      "Günlük Değişim (%)": -3.66
     },
     {
       "Fon Kodu": "ZPC",
       "Fon Adı": "ZİRAAT PORTFÖY FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 17.680848,
-      "Günlük Değişim (%)": -0.04
+      "Fon Fiyatı": 17.701254,
+      "Günlük Değişim (%)": 0.12
     },
     {
       "Fon Kodu": "ZPE",
       "Fon Adı": "ZİRAAT PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 29.758322,
-      "Günlük Değişim (%)": 1.32
+      "Fon Fiyatı": 29.902256,
+      "Günlük Değişim (%)": 0.48
     },
     {
       "Fon Kodu": "ZPF",
       "Fon Adı": "ZİRAAT PORTFÖY KATILIM FONU (DÖVİZ)",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 24.572368,
-      "Günlük Değişim (%)": 0.12
+      "Fon Fiyatı": 24.636927,
+      "Günlük Değişim (%)": 0.26
     },
     {
       "Fon Kodu": "ZPG",
       "Fon Adı": "ZİRAAT PORTFÖY KİRA SERTİFİKALARI (SUKUK) KATILIM FONU",
       "Fon Türü": "Katılım Şemsiye Fonu",
-      "Fon Fiyatı": 11.557037,
-      "Günlük Değişim (%)": 0.12
+      "Fon Fiyatı": 11.567634,
+      "Günlük Değişim (%)": 0.09
     },
     {
       "Fon Kodu": "ZSF",
       "Fon Adı": "ZİRAAT PORTFÖY S&P/OIC COMCEC (İSEDAK) 50 SHARİAH ŞİRKETLERİ YABANCI HİSSE SENEDİ FONU",
       "Fon Türü": "Hisse Senedi Şemsiye Fonu",
-      "Fon Fiyatı": 54.527848,
-      "Günlük Değişim (%)": -0.54
+      "Fon Fiyatı": 54.617575,
+      "Günlük Değişim (%)": 0.16
     },
     {
       "Fon Kodu": "ZSG",
       "Fon Adı": "ZİRAAT PORTFÖY ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 4.24133,
-      "Günlük Değişim (%)": 0.11
+      "Fon Fiyatı": 4.19565,
+      "Günlük Değişim (%)": -1.08
     },
     {
       "Fon Kodu": "ZTG",
       "Fon Adı": "ZİRAAT PORTFÖY TARIM VE GIDA FON SEPETİ FONU",
       "Fon Türü": "Fon Sepeti Şemsiye Fonu",
-      "Fon Fiyatı": 1.284823,
-      "Günlük Değişim (%)": 0.28
+      "Fon Fiyatı": 1.283441,
+      "Günlük Değişim (%)": -0.11
     },
     {
       "Fon Kodu": "NPTLR.F",
       "Fon Adı": "BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU",
       "Fon Türü": "Bist TLref Endeksi",
       "Fon Fiyatı": 55.8,
-      "Günlük Değişim (%)": 0.07
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Fon Kodu": "OPTLR.F",
       "Fon Adı": "BIST TLREF ENDEKSİ (TL) BORSA YATIRIM FONU",
       "Fon Türü": "Bist TLref Endeksi",
       "Fon Fiyatı": 68.94,
-      "Günlük Değişim (%)": 0.09
+      "Günlük Değişim (%)": 0.0
     }
   ],
   "hisseler": [
@@ -4992,6 +4992,12 @@
       "Günlük Değişim (%)": 1.18
     },
     {
+      "Hisse Kodu": "KRDMB",
+      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "Hisse Fiyatı": 52.95,
+      "Günlük Değişim (%)": -9.72
+    },
+    {
       "Hisse Kodu": "KRDMD",
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 38.5,
@@ -5002,12 +5008,6 @@
       "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "Hisse Fiyatı": 33.12,
       "Günlük Değişim (%)": -0.54
-    },
-    {
-      "Hisse Kodu": "KRDMB",
-      "Hisse Adı": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
-      "Hisse Fiyatı": 52.95,
-      "Günlük Değişim (%)": -9.72
     },
     {
       "Hisse Kodu": "PETKM",
@@ -8334,10 +8334,28 @@
       "Günlük Değişim (%)": 10.0
     },
     {
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 70.32,
+      "Günlük Değişim (%)": 0.17
+    },
+    {
       "Hisse Kodu": "ORZAX",
       "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
       "Hisse Fiyatı": 65.95,
       "Günlük Değişim (%)": -3.16
+    },
+    {
+      "Hisse Kodu": "AAGYO",
+      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "Hisse Fiyatı": 8.14,
+      "Günlük Değişim (%)": 5.44
+    },
+    {
+      "Hisse Kodu": "BETAE",
+      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
+      "Hisse Fiyatı": 48.42,
+      "Günlük Değişim (%)": -2.73
     },
     {
       "Hisse Kodu": "EKIM",
@@ -8350,46 +8368,28 @@
       "Hisse Adı": "Enpara Bank A.S.",
       "Hisse Fiyatı": 42.5,
       "Günlük Değişim (%)": 0.95
-    },
-    {
-      "Hisse Kodu": "AAGYO",
-      "Hisse Adı": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
-      "Hisse Fiyatı": 8.14,
-      "Günlük Değişim (%)": 5.44
-    },
-    {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 70.32,
-      "Günlük Değişim (%)": 0.17
-    },
-    {
-      "Hisse Kodu": "BETAE",
-      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
-      "Hisse Fiyatı": 48.42,
-      "Günlük Değişim (%)": -2.73
     }
   ],
   "doviz": [
     {
       "Sembol": "BIST 100",
       "Fiyat": "11.841,81",
-      "Günlük Değişim (%)": -0.01
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Sembol": "Dolar",
-      "Fiyat": "50,3924",
-      "Günlük Değişim (%)": 0.05
+      "Fiyat": "50,4175",
+      "Günlük Değişim (%)": 0.06
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,4991",
-      "Günlük Değişim (%)": -0.11
+      "Fiyat": "55,5478",
+      "Günlük Değişim (%)": 0.18
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "64,334",
-      "Günlük Değişim (%)": -0.45
+      "Fiyat": "64,541",
+      "Günlük Değişim (%)": -0.3
     },
     {
       "Sembol": "Tahvil",
@@ -8398,43 +8398,43 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "93,23",
-      "Günlük Değişim (%)": -2.72
+      "Fiyat": "91,65",
+      "Günlük Değişim (%)": -0.85
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "6.263,89",
-      "Günlük Değişim (%)": -0.27
+      "Fiyat": "6.286,85",
+      "Günlük Değişim (%)": 0.76
     },
     {
       "Sembol": "Çey.Altın",
-      "Fiyat": "10.343,00",
-      "Günlük Değişim (%)": 0.24
+      "Fiyat": "10.370,00",
+      "Günlük Değişim (%)": 0.64
     },
     {
       "Sembol": "Tam Altın",
-      "Fiyat": "41.208,00",
-      "Günlük Değişim (%)": 0.24
+      "Fiyat": "41.315,00",
+      "Günlük Değişim (%)": 0.64
     },
     {
       "Sembol": "14 Ayar Bilezik",
-      "Fiyat": "4.612,29",
-      "Günlük Değişim (%)": 0.21
+      "Fiyat": "4.623,11",
+      "Günlük Değişim (%)": 0.57
     },
     {
       "Sembol": "18 Ayar Bilezik",
-      "Fiyat": "5.075,00",
-      "Günlük Değişim (%)": 0.2
+      "Fiyat": "5.080,00",
+      "Günlük Değişim (%)": 0.49
     },
     {
       "Sembol": "22 Ayar Bilezik",
-      "Fiyat": "5.927,01",
-      "Günlük Değişim (%)": 0.23
+      "Fiyat": "5.942,65",
+      "Günlük Değişim (%)": 0.64
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "3.866,22",
-      "Günlük Değişim (%)": -0.32
+      "Fiyat": "3.878,47",
+      "Günlük Değişim (%)": 0.69
     }
   ]
 }
