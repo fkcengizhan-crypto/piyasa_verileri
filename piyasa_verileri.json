@@ -1,5 +1,5 @@
 {
-  "guncelleme_zamani": "2026-11-23T09:56:23.541026+03:00",
+  "guncelleme_zamani": "2026-11-23T10:02:05.519559+03:00",
   "fonlar": [
     {
       "Fon Kodu": "AAL",
@@ -4871,16 +4871,16 @@
       "Günlük Değişim (%)": -0.53
     },
     {
-      "Hisse Kodu": "DMLKT",
-      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
-      "Hisse Fiyatı": 6.89,
-      "Günlük Değişim (%)": -0.43
-    },
-    {
       "Hisse Kodu": "EKGYO",
       "Hisse Adı": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
       "Hisse Fiyatı": 17.42,
       "Günlük Değişim (%)": -1.86
+    },
+    {
+      "Hisse Kodu": "DMLKT",
+      "Hisse Adı": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "Hisse Fiyatı": 6.89,
+      "Günlük Değişim (%)": -0.43
     },
     {
       "Hisse Kodu": "AGHOL",
@@ -8327,10 +8327,16 @@
       "Günlük Değişim (%)": 0.34
     },
     {
-      "Hisse Kodu": "ALTIN",
-      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
-      "Hisse Fiyatı": 68.43,
-      "Günlük Değişim (%)": -0.98
+      "Hisse Kodu": "ENPRA",
+      "Hisse Adı": "Enpara Bank A.S.",
+      "Hisse Fiyatı": 37.54,
+      "Günlük Değişim (%)": -1.98
+    },
+    {
+      "Hisse Kodu": "BETAE",
+      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
+      "Hisse Fiyatı": 44.3,
+      "Günlük Değişim (%)": -6.22
     },
     {
       "Hisse Kodu": "AAGYO",
@@ -8345,29 +8351,23 @@
       "Günlük Değişim (%)": -4.11
     },
     {
-      "Hisse Kodu": "BETAE",
-      "Hisse Adı": "Beta Enerji ve Teknoloji AS",
-      "Hisse Fiyatı": 44.3,
-      "Günlük Değişim (%)": -6.22
-    },
-    {
       "Hisse Kodu": "ORZAX",
       "Hisse Adı": "Orzaks Ilac ve Kimya Sanayi Ticaret A.S.",
       "Hisse Fiyatı": 67.6,
       "Günlük Değişim (%)": 2.42
     },
     {
-      "Hisse Kodu": "ENPRA",
-      "Hisse Adı": "Enpara Bank A.S.",
-      "Hisse Fiyatı": 37.54,
-      "Günlük Değişim (%)": -1.98
+      "Hisse Kodu": "ALTIN",
+      "Hisse Adı": "DARPHANE ALTIN SERTİFİKASI",
+      "Hisse Fiyatı": 68.43,
+      "Günlük Değişim (%)": -0.98
     }
   ],
   "doviz": [
     {
       "Sembol": "BIST 100",
       "Fiyat": "11.131,32",
-      "Günlük Değişim (%)": -2.36
+      "Günlük Değişim (%)": 0.0
     },
     {
       "Sembol": "Dolar",
@@ -8376,13 +8376,13 @@
     },
     {
       "Sembol": "Euro",
-      "Fiyat": "55,7168",
+      "Fiyat": "55,7191",
       "Günlük Değişim (%)": 0.37
     },
     {
       "Sembol": "BTCUSD",
-      "Fiyat": "61,527",
-      "Günlük Değişim (%)": 4.04
+      "Fiyat": "61,503",
+      "Günlük Değişim (%)": 3.99
     },
     {
       "Sembol": "Tahvil",
@@ -8391,43 +8391,43 @@
     },
     {
       "Sembol": "Brent Petrol",
-      "Fiyat": "89,81",
-      "Günlük Değişim (%)": -0.16
+      "Fiyat": "89,54",
+      "Günlük Değişim (%)": -0.46
     },
     {
       "Sembol": "Gr Altın",
-      "Fiyat": "5.894,41",
-      "Günlük Değişim (%)": 2.83
+      "Fiyat": "5.900,77",
+      "Günlük Değişim (%)": 2.95
     },
     {
       "Sembol": "Çey.Altın",
-      "Fiyat": "10.168,00",
-      "Günlük Değişim (%)": 1.92
+      "Fiyat": "10.179,00",
+      "Günlük Değişim (%)": 2.03
     },
     {
       "Sembol": "Tam Altın",
-      "Fiyat": "40.513,00",
-      "Günlük Değişim (%)": 1.95
+      "Fiyat": "40.554,00",
+      "Günlük Değişim (%)": 2.05
     },
     {
       "Sembol": "14 Ayar Bilezik",
-      "Fiyat": "4.506,17",
-      "Günlük Değişim (%)": 1.11
+      "Fiyat": "4.510,23",
+      "Günlük Değişim (%)": 1.2
     },
     {
       "Sembol": "18 Ayar Bilezik",
-      "Fiyat": "4.940,00",
-      "Günlük Değişim (%)": 1.33
+      "Fiyat": "4.950,00",
+      "Günlük Değişim (%)": 1.54
     },
     {
       "Sembol": "22 Ayar Bilezik",
-      "Fiyat": "5.773,54",
-      "Günlük Değişim (%)": 1.25
+      "Fiyat": "5.779,41",
+      "Günlük Değişim (%)": 1.36
     },
     {
       "Sembol": "Ons Altın",
-      "Fiyat": "3.623,09",
-      "Günlük Değişim (%)": 2.76
+      "Fiyat": "3.627,01",
+      "Günlük Değişim (%)": 2.88
     }
   ]
 }
